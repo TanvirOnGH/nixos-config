@@ -101,6 +101,10 @@ in {
       */
       # End-of Development
 
+      # Python Development
+      python3Full # cli: Python 3 interpreter (full version)
+      # End-of Python Development
+
       # JavaScript Development
       #- <https://nixos.wiki/wiki/Node.js>
       /*
