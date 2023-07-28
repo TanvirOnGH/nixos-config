@@ -818,6 +818,8 @@ in {
       nvtop # cli: A (h)top like task monitor for AMD, Intel and NVIDIA GPUs
       tree # cli: Command to produce a depth indented directory listing
       gallery-dl # cli: Command-line program to download image-galleries and -collections from several image hosting sites
+      smartmontools # cli: Tools for monitoring the health of hard drives
+      nvme-cli # cli: NVM-Express user space tooling for Linux
       #- jq
       jq # cli: A lightweight and flexible command-line JSON processor
       /*
@@ -826,7 +828,6 @@ in {
       */
       #- End-of jq
       /*
-      nvme-cli # cli: NVM-Express user space tooling for Linux
       ffmpeg_6-full # cli: A complete, cross-platform solution to record, convert and stream audio and video
       filezilla # gui: Graphical FTP, FTPS and SFTP client
       gnome-usage # gui: A nice way to view information about use of system resources, like memory and disk space
