@@ -6,7 +6,7 @@
     home = "/home/user";
     isNormalUser = true;
     initialPassword = "user";
-    shell = pkgs.nushell;
+    shell = pkgs.fish;
 
     #- Groups that the user belongs: `groups`
     #- Check member of a particular group `getent group <group>`
@@ -32,5 +32,5 @@
     docker.members = ["user"];
   };
 
-  environment.shells = [pkgs.nushell];
+  environment.shells = [pkgs.fish];
 }
