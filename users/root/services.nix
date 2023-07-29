@@ -65,7 +65,7 @@
       enable = true;
       package = pkgs.zeronet-conservancy; # maintained community fork of zeronet
       port = 7110; # default: 43110
-      fileserverPort = 7111; # default: 12261
+      # fileserverPort = 7111; # default: 12261
       tor = false;
       torAlways = false;
     };
