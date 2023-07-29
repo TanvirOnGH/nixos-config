@@ -2,11 +2,11 @@
 #- <https://nixos.wiki/wiki/Fonts>
 {pkgs, ...}: {
   fonts = {
-    enableDefaultFonts = true;
+    enableDefaultPackages = true;
     # Issue: <https://nixos.wiki/wiki/Fonts#Flatpak_applications_can.27t_find_system_fonts>
     fontDir.enable = true;
     fontconfig.enable = true;
-    fonts = with pkgs; [
+    packages = with pkgs; [
       # Noto Fonts Family
       noto-fonts
       noto-fonts-cjk
