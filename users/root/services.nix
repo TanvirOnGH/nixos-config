@@ -61,6 +61,15 @@
       # guiAddress = "127.0.0.1:9999";
     };
 
+    zeronet = {
+      enable = true;
+      package = pkgs.zeronet-conservancy; # maintained community fork of zeronet
+      port = 7110; # default: 43110
+      fileserverPort = 7111; # default: 12261
+      tor = false;
+      torAlways = false;
+    };
+
     # https://nixos.wiki/wiki/SSH_public_key_authentication
     openssh = {
       enable = false;
