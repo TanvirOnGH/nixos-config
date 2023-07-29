@@ -23,7 +23,7 @@
       "docker"
       "kvm"
       "libvirtd"
-      "boinc"
+      # "boinc"
     ];
   };
 
