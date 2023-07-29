@@ -61,13 +61,27 @@
       # guiAddress = "127.0.0.1:9999";
     };
 
+    # IPFS
+    #- <https://nixos.wiki/wiki/IPFS>
+    kubo = {
+      enable = true;
+      defaultMode = "online";
+      startWhenNeeded = false;
+      autoMount = true; # /ipfs and /ipns
+      autoMigrate = true;
+      enableGC = false; # Garbage collection
+      # Default data dir: /var/lib/ipfs/
+    };
+
     zeronet = {
       enable = true;
+      #- <https://github.com/NixOS/nixpkgs/pull/173900>
       package = pkgs.zeronet-conservancy; # maintained community fork of zeronet
       port = 7110; # default: 43110
       # fileserverPort = 7111; # default: 12261
       tor = false;
       torAlways = false;
+      # Default data dir: /var/lib/zeronet/
     };
 
     # https://nixos.wiki/wiki/SSH_public_key_authentication
