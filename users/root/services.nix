@@ -77,7 +77,7 @@
 
     #- <https://nixos.wiki/wiki/Tor>
     tor = {
-      enable = true;
+      enable = false;
       client.enable = true;
       openFirewall = true;
 
