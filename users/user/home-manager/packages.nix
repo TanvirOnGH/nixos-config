@@ -71,7 +71,7 @@ in {
       # End of Code editors
 
       # Shell
-      oh-my-posh # cli: A prompt theme engine for any shell
+      # oh-my-posh # cli: A prompt theme engine for any shell
       # starship # cli: A minimal, blazing fast, and extremely customizable prompt for any shell
       # End-of Shell
 
@@ -79,8 +79,9 @@ in {
       shellcheck # cli: Shell script analysis tool
       shfmt # cli: A shell parser and formatter
       wakatime # cli: wakatime cli, used for tracking time spent on projects
-      sqlite # cli: A self-contained, serverless, zero-configuration, transactional SQL database engine
-      sqliteman # gui: A simple but powerful Sqlite3 GUI database manager
+      # processing # cli: A language and IDE for electronic arts
+      # sqlite # cli: A self-contained, serverless, zero-configuration, transactional SQL database engine
+      # sqliteman # gui: A simple but powerful Sqlite3 GUI database manager
       /*
       polypane # gui: Browser with unified devtools targeting responsability and acessibility
       spyder # gui: Scientific python development environment
@@ -102,7 +103,7 @@ in {
       # End-of Development
 
       # Python Development
-      python3Full # cli: Python 3 interpreter (full version)
+      # python3Full # cli: Python 3 interpreter (full version)
       # End-of Python Development
 
       # JavaScript Development
@@ -804,7 +805,7 @@ in {
       xsettingsd # cli: Provides settings to X11 applications via the XSETTINGS specification
       nvtop # cli: A (h)top like task monitor for AMD, Intel and NVIDIA GPUs
       tree # cli: Command to produce a depth indented directory listing
-      gallery-dl # cli: Command-line program to download image-galleries and -collections from several image hosting sites
+      # gallery-dl # cli: Command-line program to download image-galleries and -collections from several image hosting sites
       smartmontools # cli: Tools for monitoring the health of hard drives
       nvme-cli # cli: NVM-Express user space tooling for Linux
       lm_sensors # cli: Tools for reading hardware sensors
@@ -905,7 +906,7 @@ in {
       # End-of Firewall
 
       # Networking
-      ooniprobe-cli # cli: The Open Observatory of Network Interference command line network probe
+      # ooniprobe-cli # cli: The Open Observatory of Network Interference command line network probe
       # End-of Networking
 
       # Gaming/Windows
