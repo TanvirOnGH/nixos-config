@@ -251,8 +251,8 @@ in {
       # Download managers
       wget # cli: Tool for retrieving files using http, https and ftp
       curl # cli: A command line tool for transferring files with URL syntax
-      /*
       aria # cli: lightweight, multi-protocol, multi-source, command-line download utility
+      /*
       motrix # gui: full featured download manager
       uget # gui: download manager using GTK and libcurl
       */
@@ -297,11 +297,11 @@ in {
       # End-of Discord clients
 
       # Matrix clients
+      schildichat-desktop # gui: matrix client based on element
       /*
       element-desktop # gui: popular matrix client
       element-desktop-wayland # gui: popular matrix client with wayland support
       fluffychat # gui: Chat with your friends (matrix client)
-      schildichat-desktop # gui: matrix client based on element
       fractal # gui: Matrix group messaging app
       cinny-desktop # gui: Yet another matrix client for desktop
       */
@@ -323,12 +323,12 @@ in {
 
       # Messengers
       session-desktop # gui: Onion routing based messenger
+      whatsapp-for-linux # gui: Whatsapp desktop messaging app
       /*
       tdesktop # gui: Telegram Desktop messaging app
       wire-desktop # gui: A modern, secure messenger for everyone
       signal-desktop # gui: Private, simple, and secure messenger
       threema-desktop # gui: Desktop client for Threema, a privacy-focused end-to-end encrypted mobile messenger
-      whatsapp-for-linux # gui: Whatsapp desktop messaging app
       keybase # cli: The Keybase official command-line utility and service
       keybase-gui # gui: The Keybase official GUI
       zulip # gui: Desktop client for Zulip Chat
