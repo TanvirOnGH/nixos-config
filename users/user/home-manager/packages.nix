@@ -443,7 +443,7 @@ in {
 
       # Terminals
       kitty # gui: gpu accelerated terminal emulator
-      alacritty # gui: gpu accelerated terminal emulator
+      # alacritty # gui: gpu accelerated terminal emulator
       # End-of Terminals
 
       # Menus
