@@ -261,6 +261,7 @@ in {
       # Torrent
       qbittorrent # gui: featureful bittorrent client. For plugin: <https://github.com/qbittorrent/search-plugins>
       /*
+      tribler # gui: Decentralised P2P filesharing client based on the Bittorrent protocol
       flood # web: A modern Web UI for various torrent clients with multi-user and multi-client support
       jesec-rtorrent # cli: An ncurses client for libtorrent, ideal for use with screen, tmux, or dtach (jesec's fork)
       # transmission # cli: A fast, easy and free BitTorrent client
