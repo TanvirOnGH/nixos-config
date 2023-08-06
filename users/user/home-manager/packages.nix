@@ -103,7 +103,7 @@ in {
       # End-of Development
 
       # Python Development
-      # python3Full # cli: Python 3 interpreter (full version)
+      python3Full # cli: Python 3 interpreter (full version)
       # End-of Python Development
 
       # JavaScript Development
@@ -164,11 +164,11 @@ in {
 
       # Browsers
       tor-browser-bundle-bin # gui: Tor Browser Bundle built by torproject.org
+      librewolf # gui: A fork of Firefox, focused on privacy, security and freedom
+      mullvad-browser # gui: Privacy-focused browser made in a collaboration between The Tor Project and Mullvad
       /*
       chromium # gui: An open source web browser from Google
       ungoogled-chromium # gui: An open source web browser from Google, with dependencies on Google web services removed
-      librewolf # gui: A fork of Firefox, focused on privacy, security and freedom
-      mullvad-browser # gui: Privacy-focused browser made in a collaboration between The Tor Project and Mullvad
       shadowfox # cli: Universal dark theme for Firefox while adhering to the modern design principles set by Mozilla
       */
       # End-of Browsers
