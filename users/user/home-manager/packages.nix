@@ -26,6 +26,9 @@
   #- <https://github.com/fufexan/nix-gaming>
   nix-gaming = import (builtins.fetchTarball "https://github.com/fufexan/nix-gaming/archive/master.tar.gz");
 
+  # jc141x torrent/games
+  <https://github.com/jc141x/jc141-bash/blob/master/setup/en/nixos.md>
+
   #- AI Stuff
   #- <https://github.com/nixified-ai/flake>
   #- <https://github.com/polygon/gpt4all-nix>
@@ -398,7 +401,6 @@ in {
       gnome.file-roller # gui: archive manager from gnome desktop
       archiver # gui: rasily create & extract archives, and compress & decompress files of various formats
       zip # cli: Compressor/archiver for creating and modifying zipfiles
-      /*
       pigz # cli: A parallel implementation of gzip for multi-core machines
       bzip2 # cli: High-quality data compression program
       bzip3 # cli: A better and stronger spiritual successor to BZip2
@@ -413,7 +415,6 @@ in {
       xar # cli: Extensible Archiver
       mate.engrampa # gui: archive manager from mate desktop
       lxqt.lxqt-archiver # gui: archive manager from lxqt desktop
-      */
       # End-of Archivers
 
       # Readers (pdf, ebook, ...)
