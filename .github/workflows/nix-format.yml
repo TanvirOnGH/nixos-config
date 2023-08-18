@@ -1,0 +1,30 @@
+name: Lint With Alejandra
+on:
+  push:
+    paths:
+      - "**.nix"
+  workflow_dispatch:
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Check Out Repository
+        uses: actions/checkout@v3
+      - name: Set Up Nix
+        uses: cachix/install-nix-action@master
+        with:
+          nix_path: nixpkgs=channel:nixos-unstable
+      - name: Format code with alejandra
+        uses: workflow/nix-shell-action@v3
+        with:
+          packages: alejandra
+          script: |
+            alejandra .
+      - name: Push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "chore: linting with Alejandra"
