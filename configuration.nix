@@ -16,9 +16,6 @@
   # Permission
   nix.settings.trusted-users = ["root" "user"];
 
-  # Required for hblock
-  # environment.etc.hosts.mode = "0644";
-
   # Do not change
   system.stateVersion = "22.11";
 }
