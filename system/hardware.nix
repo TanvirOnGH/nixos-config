@@ -13,7 +13,7 @@
     # For Gaomon S620
     #- Supported Tablets: <https://opentabletdriver.net/Tablets>
     opentabletdriver = {
-      enable = true;
+      enable = false;
       daemon.enable = true;
     };
   };
