@@ -83,6 +83,14 @@
       options = ["compress=zstd:4"];
     };
 
+    # <https://nixos.wiki/wiki/NTFS>
+    "/mnt/games" = {
+      device = "/dev/disk/by-uuid/03A302D94C53C907";
+      fsType = "ntfs-3g";
+      options = ["rw" "uid=1001"];
+    };
+  };
+
     # Windows Partition
     # <https://nixos.wiki/wiki/NTFS>
     "/mnt/SSD" = {
