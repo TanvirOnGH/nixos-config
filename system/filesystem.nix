@@ -37,7 +37,12 @@
     tmpfsSize = "80%";
   };
 
-  boot.initrd.luks.devices."root".device = "/dev/disk/by-uuid/f3a68ed2-3797-4f89-98fb-b0aafa68d10e";
+  boot.initrd.luks.devices = {
+    root = {
+      device = "/dev/disk/by-uuid/f3a68ed2-3797-4f89-98fb-b0aafa68d10e";
+      preLVM = true;
+    };
+  };
 
   /*
   The zstd compression level used in Btrfs is 3, which provides a good balance between compression ratio and compression speed.
