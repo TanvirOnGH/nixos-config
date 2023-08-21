@@ -92,7 +92,7 @@
 
     # Windows Partition
     # <https://nixos.wiki/wiki/NTFS>
-    "/mnt/SSD" = {
+    "/mnt/windows" = {
       device = "/dev/disk/by-uuid/42E00DD7E00DD1D9";
       fsType = "ntfs-3g";
       options = ["rw" "uid=1001"];
