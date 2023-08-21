@@ -50,7 +50,7 @@ in {
         bookmarks = [
           "file:///home/user/downloads"
           "file:///home/user/media/pictures/screenshots"
-          "file:///mnt/MISC"
+          "file:///mnt/misc"
           "file:///mnt/games"
           "file:///mnt/SSD"
         ];
