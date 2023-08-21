@@ -78,7 +78,7 @@
     };
 
     "/mnt/HDD" = {
-      device = "/dev/disk/by-uuid/e55cdfed-5ef8-4660-a092-389c38d0f2cf";
+      device = "/dev/disk/by-uuid/d79864d5-c286-4f5c-9005-14de43821fa7";
       fsType = "btrfs";
       options = ["compress=zstd:4"];
     };
