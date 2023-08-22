@@ -61,6 +61,13 @@
       # guiAddress = "127.0.0.1:9999";
     };
 
+    # K3s
+    #- <https://nixos.wiki/wiki/K3s>
+    k3s = {
+      enable = true;
+      role = "server";
+    };
+
     # TODO: tor, i2p, lokinet, freenet, gnunet
 
     # IPFS
