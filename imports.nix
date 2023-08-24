@@ -35,7 +35,7 @@
     ./desktop/gui/wm/awesome.nix
 
     # desktop/customization
-    # ./desktop/customization/plymouth.nix
+    ./desktop/customization/plymouth.nix
     ./desktop/customization/font.nix
     ./desktop/customization/xdg.nix
     ./desktop/customization/gtk.nix
