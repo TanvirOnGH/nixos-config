@@ -105,6 +105,10 @@ in {
       */
       # End-of Development
 
+      # Compositor
+      weston # gui: A lightweight and functional Wayland compositor
+      # End-of Compositor
+
       # Python Development
       python3Full # cli: Python 3 interpreter (full version)
       # End-of Python Development
