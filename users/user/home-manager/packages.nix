@@ -136,9 +136,10 @@ in {
       */
       # End-of File Sharing
 
-      # Useful cli tools
+      # Cli tools
       bat # cli: A cat(1) clone with syntax highlighting and Git integration
       exa # cli: Replacement for 'ls' written in Rust
+      grc # cli: A generic text colouriser
       /*
       delta # cli: A syntax-highlighting pager for git
       fd # cli: A simple, fast and user-friendly alternative to find
@@ -147,7 +148,11 @@ in {
       zoxide # cli: A fast cd command that learns your habits
       glow # cli: Render markdown on the CLI, with pizzazz!
       */
-      # End-of Useful cli tools
+      # End-of Cli tools
+
+      # Plugins
+      # oh-my-fish # cli: The Fish Shell Framework
+      # End-of Plugins
 
       # Nix Tools
       nixd # daemon: Nix language server
