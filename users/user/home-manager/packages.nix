@@ -163,6 +163,8 @@ in {
       cowsay # cli: A program which generates ASCII pictures of a cow with a message
       ponysay # cli: Cowsay reimplemention for ponies
       pokemonsay # cli: Print pokemon in the CLI! An adaptation of the classic cowsay
+      cbonsai # cli: Grow bonsai trees in your terminal
+      genact # cli: A nonsense activity generator
       # End-of-Show-off tools
 
       # Plugins
@@ -272,9 +274,11 @@ in {
       # End-of Games
 
       # Fetchers
+      onefetch # cli: Git repository summary on your terminal
       neofetch # cli: fast, highly customizable system info script
-      /*
       cpufetch # cli: fancy cpu architecture fetching tool
+      ramfetch # cli: A tool which displays memory information
+      /*
       nur.repos.vanilla.fastfetch # cli: fork of neofetch, but much faster because written in C
       */
       # End of Fetchers
