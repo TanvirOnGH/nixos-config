@@ -148,6 +148,7 @@ in {
       cointop # cli: The fastest and most interactive terminal based UI application for tracking cryptocurrencies
       imgcat # cli: It's like cat, but for images
       glow # cli: Render markdown on the CLI, with pizzazz!
+      noti # cli: Monitor a process and trigger a notification
       /*
       delta # cli: A syntax-highlighting pager for git
       fd # cli: A simple, fast and user-friendly alternative to find
