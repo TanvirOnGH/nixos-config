@@ -143,6 +143,8 @@ in {
       exa # cli: Replacement for 'ls' written in Rust
       grc # cli: A generic text colouriser
       tealdeer # cli: A very fast implementation of tldr in Rust
+      cheat # cli: Create and view interactive cheatsheets on the command-line
+      broot # cli: An interactive tree view, a fuzzy search, a balanced BFS descent and customizable commands
       ddgr # cli: Search DuckDuckGo from the terminal
       cod # daemon: Tool for generating Bash/Fish/Zsh autocompletions based on `--help` output
       progress # cli: Tool that shows the progress of coreutils programs
