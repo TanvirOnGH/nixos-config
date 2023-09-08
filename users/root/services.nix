@@ -169,6 +169,7 @@
       time = 8; # in minutes
       notify = 10; # in seconds
       killtime = 120; # in minutes
+      # TODO: Use a better lockscreen tool
       locker = "${pkgs.betterlockscreen}/bin/betterlockscreen --lock blur";
       notifier = "${pkgs.libnotify}/bin/notify-send 'Locking in 10 seconds'";
       # killer = "/run/current-system/systemd/bin/systemctl suspend";

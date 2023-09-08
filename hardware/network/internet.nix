@@ -3,7 +3,7 @@
 {...}: {
   networking = {
     useDHCP = false;
-    hostName = "nsa";
+    hostName = "Hadamard";
     # Available: enp42s0 (ethernet) and wlp41s0 (wifi)
     interfaces.enp42s0.useDHCP = true;
     # Issue with DNS resolution (/etc/resolv.conf)
