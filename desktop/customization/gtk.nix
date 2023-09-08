@@ -1,4 +1,4 @@
 # GTK Configuration
 {...}: {
-  # gtk.iconCache.enable = true;
+  gtk.iconCache.enable = true;
 }
