@@ -4,6 +4,7 @@
 {...}: {
   services = {
     cachix-agent.enable = true;
+
     cachix-watch-store = {
       enable = true;
       cacheName = "experimental";
