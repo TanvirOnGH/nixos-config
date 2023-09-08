@@ -1,6 +1,6 @@
 # PulseAudio Configuration
 #- <https://nixos.wiki/wiki/PulseAudio>
-{...}: {
+{pkgs, ...}: {
   hardware.pulseaudio = {
     enable = true;
     support32Bit = true;
