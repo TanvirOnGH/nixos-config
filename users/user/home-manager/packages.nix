@@ -453,6 +453,7 @@ in {
       #- End-of Controllers
       #- Tools
       ffmpeg_6-full # cli: A complete, cross-platform solution to record, convert and stream audio and video
+      mediainfo # cli: Supplies technical and tag information about a video or audio file
       exiftool # cli: A tool to read, write and edit EXIF meta information
       sox # cli: Sample Rate Converter for audio
       #- End-of Tools
