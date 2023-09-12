@@ -451,6 +451,11 @@ in {
       */
       pavucontrol # gui: pulseaudio volume control
       #- End-of Controllers
+      #- Tools
+      ffmpeg_6-full # cli: A complete, cross-platform solution to record, convert and stream audio and video
+      exiftool # cli: A tool to read, write and edit EXIF meta information
+      sox # cli: Sample Rate Converter for audio
+      #- End-of Tools
       # End-of Media
 
       # Entertainment
@@ -902,7 +907,6 @@ in {
       */
       #- End-of jq
       /*
-      ffmpeg_6-full # cli: A complete, cross-platform solution to record, convert and stream audio and video
       filezilla # gui: Graphical FTP, FTPS and SFTP client
       gnome-usage # gui: A nice way to view information about use of system resources, like memory and disk space
       gnome.gnome-disk-utility # gui: A udisks graphical front-end
