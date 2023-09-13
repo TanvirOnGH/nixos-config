@@ -399,8 +399,8 @@ in {
 
       # Messengers
       session-desktop # gui: Onion routing based messenger
-      /*
       tdesktop # gui: Telegram Desktop messaging app
+      /*
       wire-desktop # gui: A modern, secure messenger for everyone
       signal-desktop # gui: Private, simple, and secure messenger
       threema-desktop # gui: Desktop client for Threema, a privacy-focused end-to-end encrypted mobile messenger
