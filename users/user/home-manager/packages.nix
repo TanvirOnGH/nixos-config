@@ -85,8 +85,8 @@ in {
       shfmt # cli: A shell parser and formatter
       wakatime # cli: wakatime cli, used for tracking time spent on projects
       jq # cli: A lightweight and flexible command-line JSON processor
-      /*
       processing # cli: A language and IDE for electronic arts
+      /*
       sqlite # cli: A self-contained, serverless, zero-configuration, transactional SQL database engine
       sqliteman # gui: A simple but powerful Sqlite3 GUI database manager
       just # cli: A handy way to save and run project-specific commands
