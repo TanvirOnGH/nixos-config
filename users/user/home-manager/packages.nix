@@ -286,7 +286,7 @@ in {
       # End-of Virtualization
 
       # Crypto
-      monero-gui # gui: Private, secure, untraceable currency
+      # monero-gui # gui: Private, secure, untraceable currency
       # End-of Crypto
 
       # Cleaners
