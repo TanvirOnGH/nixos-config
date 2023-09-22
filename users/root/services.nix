@@ -55,6 +55,18 @@
     cpupower-gui.enable = false; # GUI for CPU power management
     packagekit.enable = false; # Required for KDE Discover
 
+    xmr-stak = {
+      enable = false;
+      #openclSupport = false;
+      cudaSupport = true;
+    };
+
+    xmrig = {
+      enable = true;
+      package = pkgs.xmrig-mo;
+      settings = builtins.fromJSON (builtins.readFile ./config/monero.json);
+    };
+
     syncthing = {
       enable = false; # WebUI (Default): <http://localhost:8384>
       # user = "user";

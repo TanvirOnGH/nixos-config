@@ -1,0 +1,31 @@
+{
+  "autosave": true,
+  "cpu": {
+    "enabled": true,
+    "huge-pages": true,
+    "huge-pages-jit": true,
+    "priority": 2,
+    "memory-pool": true,
+    "max-threads-hint": 100,
+    "asm": "ryzen"
+  },
+  "opencl": false,
+  "cuda": true,
+  "randomx": {
+    "1gb-pages": true,
+    "init": 16,
+    "mode": "fast",
+    "rdmsr": true,
+    "wrmsr": true
+  },
+  "pools": [
+    {
+      "enabled": true,
+      "keepalive": true,
+      "coin": "monero",
+      "url": "xmr-asia1.nanopool.org:14433",
+      "user": "",
+      "tls": true
+    }
+  ]
+}
