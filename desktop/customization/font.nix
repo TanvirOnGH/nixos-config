@@ -29,6 +29,9 @@
       fantasque-sans-mono
       */
 
+      # Experimental
+      b612 # Highly legible font family for use on aircraft cockpit screens
+
       # Icon/Symbol support
       fira-code-symbols
       material-icons
