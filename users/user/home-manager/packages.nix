@@ -398,9 +398,9 @@ in {
       # End-of XMPP/Jabber clients
 
       # Messengers
-      tdesktop # gui: Telegram Desktop messaging app
       /*
       wire-desktop # gui: A modern, secure messenger for everyone
+      tdesktop # gui: Telegram Desktop messaging app
       signal-desktop # gui: Private, simple, and secure messenger
       threema-desktop # gui: Desktop client for Threema, a privacy-focused end-to-end encrypted mobile messenger
       keybase # cli: The Keybase official command-line utility and service
