@@ -176,12 +176,11 @@
 
     # Automatically lock the screen after a period of inactivity
     xserver.xautolock = {
-      enable = false;
+      enable = true;
       enableNotifier = true;
       time = 10; # in minutes
       notify = 10; # in seconds
       killtime = 120; # in minutes
-      # TODO: Use a better lockscreen tool
       locker = "${pkgs.i3lock-fancy-rapid}/bin/i3lock-fancy-rapid 5 5";
       notifier = "${pkgs.libnotify}/bin/notify-send 'Locking in 10 seconds'";
       # killer = "/run/current-system/systemd/bin/systemctl suspend";
