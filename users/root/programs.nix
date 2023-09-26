@@ -63,15 +63,13 @@
     dconf.enable = true;
 
     #- <https://nixos.wiki/wiki/Node.js>
-    /*
     npm = {
       enable = true;
       npmrc = ''
-      prefix = ''${HOME}/.npm
-      color=true
-    ''
+        prefix = ''${HOME}/.npm
+        color = true
+      '';
     };
-    */
 
     # kdeconnect.enable = true;
     htop.enable = true;

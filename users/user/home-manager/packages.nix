@@ -123,12 +123,12 @@ in {
 
       # JavaScript Development
       #- <https://nixos.wiki/wiki/Node.js>
-      /*
       nodejs # cli: Event-driven I/O framework for the V8 JavaScript engine
+      yarn # cli: Fast, reliable, and secure dependency management for javascript
+      /*
       nodePackages.npm # cli: A package manager for JavaScript
       nodenv # cli: Manage multiple NodeJS versions
       node2nix # cli: Generate Nix expressions to build NPM packages
-      yarn # cli: Fast, reliable, and secure dependency management for javascript
       yarn2nix # cli: Convert packages.json and yarn.lock into a Nix expression that downloads all the dependencies
       */
       # End-of JavaScript Development
