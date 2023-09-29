@@ -92,7 +92,7 @@
     "/mnt/games" = {
       device = "/dev/disk/by-uuid/03A302D94C53C907";
       fsType = "ntfs-3g";
-      options = ["rw" "uid=1001"];
+      options = ["rw" "uid=1001"]; # Requires fast boot to be disabled in Windows for write support
     };
 
     # Windows Partition
@@ -100,7 +100,7 @@
     "/mnt/windows" = {
       device = "/dev/disk/by-uuid/42E00DD7E00DD1D9";
       fsType = "ntfs-3g";
-      options = ["rw" "uid=1001"];
+      options = ["rw" "uid=1001"]; # Requires fast boot to be disabled in Windows for write support
     };
   };
 }
