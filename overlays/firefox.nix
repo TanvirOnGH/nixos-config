@@ -1,5 +1,5 @@
 # Firefox Overlay Configuration
-{...}: {
+{pkgs, ...}: {
   # Firefox Nightly
   nixpkgs.overlays = let
     moz-rev = "master"; # Change this to a rev sha to pin

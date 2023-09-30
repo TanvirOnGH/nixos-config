@@ -20,6 +20,8 @@ in {
 
       aria2.enable = true;
 
+      # TODO: Setup NixVim <https://github.com/nix-community/nixvim>
+
       vscode = {
         enable = true;
         # needed for rust lang server and rust-analyzer extension
