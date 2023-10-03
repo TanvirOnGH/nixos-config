@@ -109,6 +109,10 @@ in {
       */
       # End-of Development
 
+      # Tex
+      # lyx # gui: WYSIWYM frontend for LaTeX, DocBook
+      # End-of Tex
+
       # Compositor
       # weston # gui: A lightweight and functional Wayland compositor
       # End-of Compositor
