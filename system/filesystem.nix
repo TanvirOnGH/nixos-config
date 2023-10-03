@@ -11,18 +11,20 @@
 
   boot = {
     initrd.availableKernelModules = [
-      "aesni_intel"
-      "cryptd" # Make encrypted boot quick. Ref: <https://nixos.wiki/wiki/Full_Disk_Encryption#Perf_test>
+      # "aesni_intel"
+      # "cryptd" # Make encrypted boot quick. Ref: <https://nixos.wiki/wiki/Full_Disk_Encryption#Perf_test>
       "xhci_pci"
       "ahci"
       "nvme"
-      "usb_storage"
+      # "usb_storage"
       "usbhid"
       "sd_mod"
       "btrfs"
       "vfat"
       "zstd"
     ];
+
+    # kernelModules = [ "kvm-amd" ];
 
     supportedFilesystems = ["ntfs" "btrfs" "ext4" "exfat" "tmpfs"];
   };
@@ -37,12 +39,14 @@
     tmpfsSize = "80%";
   };
 
+  /*
   boot.initrd.luks.devices = {
     root = {
-      device = "/dev/disk/by-uuid/f3a68ed2-3797-4f89-98fb-b0aafa68d10e";
+      device = "/dev/disk/by-uuid/0d63094a-cff7-473d-bec7-6da624473feb";
       preLVM = true;
     };
   };
+  /*
 
   /*
   The zstd compression level used in Btrfs is 3, which provides a good balance between compression ratio and compression speed.
@@ -50,19 +54,19 @@
   fileSystems = {
     #- List btfs subvolumes: `<su> btrfs subvolume list /`
     "/" = {
-      device = "/dev/disk/by-uuid/81116cb4-fa53-4257-ab91-bba86517e162";
+      device = "/dev/disk/by-uuid/2d9be16a-ddf3-43fc-8fd6-85d53984c447";
       fsType = "btrfs";
-      options = ["subvol=root" "compress=zstd:6"];
+      options = ["subvol=root" "compress=zstd:5"];
     };
 
     "/home" = {
-      device = "/dev/disk/by-uuid/81116cb4-fa53-4257-ab91-bba86517e162";
+      device = "/dev/disk/by-uuid/2d9be16a-ddf3-43fc-8fd6-85d53984c447";
       fsType = "btrfs";
-      options = ["subvol=home" "compress=zstd:6"];
+      options = ["subvol=home" "compress=zstd:5"];
     };
 
     "/nix" = {
-      device = "/dev/disk/by-uuid/81116cb4-fa53-4257-ab91-bba86517e162";
+      device = "/dev/disk/by-uuid/2d9be16a-ddf3-43fc-8fd6-85d53984c447";
       fsType = "btrfs";
       /*
       Since the /nix mount point is used for the Nix package manager and stores the installed packages,
@@ -74,11 +78,11 @@
       Therefore, setting noatime for this mount point can help reduce unnecessary
       disk writes and improve performance.
       */
-      options = ["subvol=nix" "compress=zstd:6" "noatime"];
+      options = ["subvol=nix" "compress=zstd:5" "noatime"];
     };
 
     "/boot" = {
-      device = "/dev/disk/by-uuid/22F4-8F3F";
+      device = "/dev/disk/by-uuid/FEB0-B2ED";
       fsType = "vfat";
     };
 
@@ -92,15 +96,17 @@
     "/mnt/games" = {
       device = "/dev/disk/by-uuid/03A302D94C53C907";
       fsType = "ntfs-3g";
-      options = ["rw" "uid=1001"]; # Requires fast boot to be disabled in Windows for write support
+      options = ["rw" "uid=1000"]; # Requires fast boot to be disabled in Windows for write support
     };
-
+    
+    /*
     # Windows Partition
     # <https://nixos.wiki/wiki/NTFS>
     "/mnt/windows" = {
-      device = "/dev/disk/by-uuid/42E00DD7E00DD1D9";
+      device = "/dev/disk/by-uuid/";
       fsType = "ntfs-3g";
-      options = ["rw" "uid=1001"]; # Requires fast boot to be disabled in Windows for write support
+      options = ["rw" "uid=1000"]; # Requires fast boot to be disabled in Windows for write support
     };
+    */
   };
 }
