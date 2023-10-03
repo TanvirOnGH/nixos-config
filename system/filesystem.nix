@@ -98,7 +98,7 @@
       fsType = "ntfs-3g";
       options = ["rw" "uid=1000"]; # Requires fast boot to be disabled in Windows for write support
     };
-    
+
     /*
     # Windows Partition
     # <https://nixos.wiki/wiki/NTFS>

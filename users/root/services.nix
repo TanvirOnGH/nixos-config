@@ -59,7 +59,7 @@
     btrfs.autoScrub = {
       enable = true;
       interval = "monthly";
-      fileSystems = [ "/" ];
+      fileSystems = ["/"];
     };
 
     xmr-stak = {
