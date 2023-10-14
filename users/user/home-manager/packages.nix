@@ -403,9 +403,10 @@ in {
       # End-of XMPP/Jabber clients
 
       # Messengers
+      tdesktop # gui: Telegram Desktop messaging app
+      session-desktop # gui: Onion routing based messenger
       /*
       wire-desktop # gui: A modern, secure messenger for everyone
-      tdesktop # gui: Telegram Desktop messaging app
       signal-desktop # gui: Private, simple, and secure messenger
       threema-desktop # gui: Desktop client for Threema, a privacy-focused end-to-end encrypted mobile messenger
       keybase # cli: The Keybase official command-line utility and service
@@ -416,7 +417,6 @@ in {
       slack # gui: Desktop client for Slack
       zulip # gui: Desktop client for Zulip Chat
       gitter # gui: Where developers come to talk
-      session-desktop # gui: Onion routing based messenger
       */
       # End-of Messengers
 
