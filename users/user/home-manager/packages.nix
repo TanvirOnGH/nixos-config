@@ -150,7 +150,7 @@ in {
       # End-of Gui tools
 
       # Shells
-      nushell # cli: A modern shell written in Rust
+      nushellFull # cli: A modern shell written in Rust
       # End-of Shells
 
       # Cli tools
