@@ -695,7 +695,8 @@ in {
       # End-of Status bars
 
       # Compositor
-      picom-jonaburg # gui: A fork of picom featuring animations and improved rounded corners
+      # picom-allusive # daemon: A fork of picom featuring improved animations and other features
+      picom-jonaburg # daemon: A fork of picom featuring animations and improved rounded corners
       # End-of Compositor
 
       # Notification daemon
@@ -895,7 +896,7 @@ in {
       # Essential tools
       #- https://github.com/swaywm/sway/wiki/GTK-3-settings-on-Wayland#xsettings
       #- https://wiki.hyprland.org/FAQ/#gtk-settings-no-work--whatever
-      xsettingsd # cli: Provides settings to X11 applications via the XSETTINGS specification
+      # xsettingsd # cli: Provides settings to X11 applications via the XSETTINGS specification
       nvtop # cli: A (h)top like task monitor for AMD, Intel and NVIDIA GPUs
       nvitop # cli: An interactive NVIDIA-GPU process viewer, the one-stop solution for GPU process management
       i3lock-fancy-rapid # gui: A faster implementation of i3lock-fancy
