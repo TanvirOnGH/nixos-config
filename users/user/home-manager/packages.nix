@@ -372,11 +372,11 @@ in {
       # End-of Email
 
       # Discord clients
-      /*
       discord # gui: official discord client
       ripcord # gui: proprietary client for discord and slack
       armcord # gui: lightweight free discord client
       betterdiscordctl # cli: utility for managing betterdiscord
+      /*
       cordless # tui: Discord terminal client
       */
       # End-of Discord clients
