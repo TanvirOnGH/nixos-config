@@ -29,9 +29,11 @@
   # jc141x torrent/games
   <https://github.com/jc141x/jc141-bash/blob/master/setup/en/nixos.md>
 
-  #- AI Stuff
-  #- <https://github.com/nixified-ai/flake>
-  #- <https://github.com/polygon/gpt4all-nix>
+  #- App Data Locations
+  /*
+  Data: /var/lib/<pkg>/
+  NixOS Applications (.desktops): /run/current-system/sw/share/applications/
+  Home-manager Applications (.desktops): ~/.local/state/home-manager/gcroots/current-home/home-path/share/applications/
   */
 in {
   imports = [
