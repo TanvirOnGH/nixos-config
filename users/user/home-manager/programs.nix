@@ -18,6 +18,8 @@ in {
         #package = pkgs.firefox-beta;
       };
 
+      chromium.enable = true;
+
       aria2.enable = true;
 
       # TODO: Setup NixVim <https://github.com/nix-community/nixvim>
