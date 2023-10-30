@@ -87,8 +87,8 @@ in {
       shfmt # cli: A shell parser and formatter
       wakatime # cli: wakatime cli, used for tracking time spent on projects
       jq # cli: A lightweight and flexible command-line JSON processor
-      processing # cli: A language and IDE for electronic arts
       /*
+      processing # cli: A language and IDE for electronic arts
       sqlite # cli: A self-contained, serverless, zero-configuration, transactional SQL database engine
       sqliteman # gui: A simple but powerful Sqlite3 GUI database manager
       just # cli: A handy way to save and run project-specific commands
@@ -385,12 +385,12 @@ in {
 
       # Matrix clients
       schildichat-desktop # gui: matrix client based on element
-      /*
       element-desktop # gui: popular matrix client
-      element-desktop-wayland # gui: popular matrix client with wayland support
       fluffychat # gui: Chat with your friends (matrix client)
       fractal # gui: Matrix group messaging app
       cinny-desktop # gui: Yet another matrix client for desktop
+      /*
+      element-desktop-wayland # gui: popular matrix client with wayland support
       */
       # End-of Matrix clients
 
