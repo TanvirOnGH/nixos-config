@@ -17,7 +17,7 @@ in {
       gnome-keyring.enable = true;
 
       udiskie = {
-        enable = false; # requires services.udisks2.enable = true
+        enable = true; # requires services.udisks2.enable = true
         automount = true;
         notify = true;
         tray = "never";
