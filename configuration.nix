@@ -16,10 +16,6 @@
   # Permission
   nix.settings.trusted-users = ["root" "user"];
 
-  nixpkgs.config.permittedInsecurePackages = [
-    "electron-24.8.6"
-  ];
-
   # Do not change
   system.stateVersion = "23.05";
 }
