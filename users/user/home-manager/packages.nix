@@ -244,9 +244,9 @@ in {
 
       # Browsers
       tor-browser-bundle-bin # gui: Tor Browser Bundle built by torproject.org
+      /*
       librewolf # gui: A fork of Firefox, focused on privacy, security and freedom
       mullvad-browser # gui: Privacy-focused browser made in a collaboration between The Tor Project and Mullvad
-      /*
       chromium # gui: An open source web browser from Google
       ungoogled-chromium # gui: An open source web browser from Google, with dependencies on Google web services removed
       shadowfox # cli: Universal dark theme for Firefox while adhering to the modern design principles set by Mozilla
@@ -592,7 +592,7 @@ in {
       # End-of IRC clients
 
       # RSS clients
-      liferea # gui: A GTK-based news feed aggregator
+      # liferea # gui: A GTK-based news feed aggregator
       # End-of RSS clients
 
       # Fractal Engines
@@ -905,7 +905,6 @@ in {
       #- https://wiki.hyprland.org/FAQ/#gtk-settings-no-work--whatever
       # xsettingsd # cli: Provides settings to X11 applications via the XSETTINGS specification
       nvtop # cli: A (h)top like task monitor for AMD, Intel and NVIDIA GPUs
-      zenith-nvidia # cli: Sort of like top or htop but with zoom-able charts, network, and disk usage, and NVIDIA GPU usage
       nvitop # cli: An interactive NVIDIA-GPU process viewer, the one-stop solution for GPU process management
       i3lock-fancy-rapid # gui: A faster implementation of i3lock-fancy
       # tree # cli: Command to produce a depth indented directory listing
@@ -924,6 +923,7 @@ in {
       */
       #- End-of jq
       /*
+      zenith-nvidia # cli: Sort of like top or htop but with zoom-able charts, network, and disk usage, and NVIDIA GPU usage
       filezilla # gui: Graphical FTP, FTPS and SFTP client
       gnome-usage # gui: A nice way to view information about use of system resources, like memory and disk space
       gnome.gnome-disk-utility # gui: A udisks graphical front-end

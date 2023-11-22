@@ -15,7 +15,6 @@ in {
     programs = {
       firefox = {
         enable = true;
-        #package = pkgs.firefox-beta;
       };
 
       chromium.enable = true;
