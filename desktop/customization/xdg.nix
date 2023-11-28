@@ -6,6 +6,12 @@
     #- NOTE: Not needed on gnome
     # extraPortals = [pkgs.xdg-desktop-portal-gtk];
 
+    xdgOpenUsePortal = true;
+
+    # Keep the behaviour in < 1.17, which uses the first
+    # portal implementation found in lexicographical order
+    config.common.default = "*";
+
     # Needed to run Hyperland on NixOS properly
     #- <https://wiki.hyprland.org/Nix/Hyprland-on-NixOS>
     extraPortals = with pkgs; [
