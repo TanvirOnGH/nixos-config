@@ -62,6 +62,8 @@
     # WM/i3: <https://nixos.wiki/wiki/I3#DConf>
     dconf.enable = true;
 
+    virt-manager.enable = true;
+
     #- <https://nixos.wiki/wiki/Node.js>
     npm = {
       enable = true;
