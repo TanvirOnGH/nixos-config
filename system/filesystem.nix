@@ -100,12 +100,10 @@
     */
 
     # <https://nixos.wiki/wiki/NTFS>
-    /*
-    "/mnt/games" = {
-      device = "/dev/disk/by-uuid/XXXXXXX";
+    "/mnt/windows" = {
+      device = "/dev/disk/by-uuid/26E490C5E490991F";
       fsType = "ntfs-3g";
       options = ["rw" "uid=1000"]; # Requires fast boot to be disabled in Windows for write support
     };
-    */
   };
 }
