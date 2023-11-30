@@ -6,7 +6,7 @@
     #- NOTE: Not needed on gnome
     # extraPortals = [pkgs.xdg-desktop-portal-gtk];
 
-    xdgOpenUsePortal = true;
+    xdgOpenUsePortal = false;
 
     # Keep the behaviour in < 1.17, which uses the first
     # portal implementation found in lexicographical order
