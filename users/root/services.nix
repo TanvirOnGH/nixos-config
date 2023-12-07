@@ -126,7 +126,8 @@
       */
     };
 
-    freenet.enable = true; # WebUI: <http://localhost:8888>
+    # Downloads dir: /var/lib/freenet/.local/share/freenet/./downloads
+    freenet.enable = false; # WebUI: <http://localhost:8888>
 
     zeronet = {
       enable = false;
