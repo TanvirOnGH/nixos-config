@@ -414,8 +414,8 @@ in {
       # End-of XMPP/Jabber clients
 
       # Messengers
-      tdesktop # gui: Telegram Desktop messaging app
       /*
+      tdesktop # gui: Telegram Desktop messaging app
       session-desktop # gui: Onion routing based messenger
       wire-desktop # gui: A modern, secure messenger for everyone
       signal-desktop # gui: Private, simple, and secure messenger
