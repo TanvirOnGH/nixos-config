@@ -1,0 +1,33 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+
+  "settings": {
+    "editor.renderWhitespace": "all",
+    "nix.enableLanguageServer": true,
+    "nix.serverPath": "nil",
+    "nix.serverSettings": {
+      // settings for 'nil' LSP
+      "nil": {
+        "formatting": {
+          "command": ["alejandra"]
+        }
+      }
+    },
+    "bracket-pair-colorizer-2.excludedLanguages": ["nix"]
+  },
+  "extensions": {
+    "recommendations": [
+      "jnoortheen.nix-ide",
+      "oderwat.indent-rainbow",
+      "arrterian.nix-env-selector",
+      "medo64.render-crlf",
+      "aaron-bond.better-comments",
+      "mkhl.direnv",
+      "editorconfig.editorconfig"
+    ]
+  }
+}
