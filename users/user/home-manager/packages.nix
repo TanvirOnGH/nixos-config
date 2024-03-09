@@ -88,10 +88,10 @@ in {
 
       # Development
       shellcheck # cli: Shell script analysis tool
-      shellharden # cli: The corrective bash syntax highlighter
       shfmt # cli: A shell parser and formatter
       wakatime # cli: wakatime cli, used for tracking time spent on projects
       /*
+      shellharden # cli: The corrective bash syntax highlighter
       processing # cli: A language and IDE for electronic arts
       sqlite # cli: A self-contained, serverless, zero-configuration, transactional SQL database engine
       sqliteman # gui: A simple but powerful Sqlite3 GUI database manager
@@ -133,9 +133,9 @@ in {
 
       # JavaScript Development
       #- <https://nixos.wiki/wiki/Node.js>
+      /*
       nodejs # cli: Event-driven I/O framework for the V8 JavaScript engine
       yarn # cli: Fast, reliable, and secure dependency management for javascript
-      /*
       nodePackages.npm # cli: A package manager for JavaScript
       nodenv # cli: Manage multiple NodeJS versions
       node2nix # cli: Generate Nix expressions to build NPM packages
@@ -160,6 +160,7 @@ in {
       # End-of Shells
 
       # Cli tools
+      argc # cli: A command-line options, arguments and sub-commands parser for bash
       bat # cli: A cat(1) clone with syntax highlighting and Git integration
       # exa # cli: Replacement for 'ls' written in Rust
       eza # cli: A modern, maintained replacement for ls
@@ -170,7 +171,6 @@ in {
       ddgr # cli: Search DuckDuckGo from the terminal
       cod # daemon: Tool for generating Bash/Fish/Zsh autocompletions based on `--help` output
       progress # cli: Tool that shows the progress of coreutils programs
-      cointop # cli: The fastest and most interactive terminal based UI application for tracking cryptocurrencies
       imgcat # cli: It's like cat, but for images
       glow # cli: Render markdown on the CLI, with pizzazz!
       noti # cli: Monitor a process and trigger a notification
@@ -200,12 +200,14 @@ in {
       zoxide # cli: A fast cd command that learns your habits
       xplr # cli: A hackable, minimal, fast TUI file explorer
       /*
+      cointop # cli: The fastest and most interactive terminal based UI application for tracking cryptocurrencies
       fd # cli: A simple, fast and user-friendly alternative to find
       ripgrep-all # cli: Ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, and more
       */
       # End-of Cli tools
 
       # Show-off tools
+      /*
       cmatrix # cli: Simulates the falling characters theme from The Matrix movie
       figlet # cli: Program for making large letters out of ordinary text
       lolcat # cli: A rainbow version of cat
@@ -215,6 +217,7 @@ in {
       pokemonsay # cli: Print pokemon in the CLI! An adaptation of the classic cowsay
       cbonsai # cli: Grow bonsai trees in your terminal
       genact # cli: A nonsense activity generator
+      */
       # End-of-Show-off tools
 
       # Plugins
@@ -329,11 +332,11 @@ in {
       # End-of Eye-candy
 
       # Fetchers
+      /*
       onefetch # cli: Git repository summary on your terminal
       neofetch # cli: fast, highly customizable system info script
       cpufetch # cli: fancy cpu architecture fetching tool
       ramfetch # cli: A tool which displays memory information
-      /*
       nur.repos.vanilla.fastfetch # cli: fork of neofetch, but much faster because written in C
       */
       # End of Fetchers
@@ -379,22 +382,22 @@ in {
       # End-of Email
 
       # Discord clients
+      /*
       discord # gui: official discord client
       ripcord # gui: proprietary client for discord and slack
       armcord # gui: lightweight free discord client
       betterdiscordctl # cli: utility for managing betterdiscord
-      /*
       cordless # tui: Discord terminal client
       */
       # End-of Discord clients
 
       # Matrix clients
-      schildichat-desktop # gui: matrix client based on element
-      #element-desktop # gui: popular matrix client
+      /*
+      element-desktop # gui: popular matrix client
       fluffychat # gui: Chat with your friends (matrix client)
       fractal # gui: Matrix group messaging app
       cinny-desktop # gui: Yet another matrix client for desktop
-      /*
+      schildichat-desktop # gui: matrix client based on element
       element-desktop-wayland # gui: popular matrix client with wayland support
       */
       # End-of Matrix clients
@@ -470,9 +473,11 @@ in {
       #- End-of Controllers
       #- Tools
       ffmpeg_6-full # cli: A complete, cross-platform solution to record, convert and stream audio and video
+      /*
       mediainfo # cli: Supplies technical and tag information about a video or audio file
       exiftool # cli: A tool to read, write and edit EXIF meta information
       sox # cli: Sample Rate Converter for audio
+      */
       #- End-of Tools
       # End-of Media
 
@@ -867,7 +872,7 @@ in {
       #- Wayland
       # hyprpicker # cli: A wlroots-compatible Wayland color picker that does not suck
       #- X
-      gcolor2 # gui: Simple GTK 2 color selector
+      # gcolor2 # gui: Simple GTK 2 color selector
       /*
       gcolor3 # gui: color selector
       gpick # gui: Advanced color picker written in C++ using GTK+ toolkit
