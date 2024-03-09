@@ -60,6 +60,7 @@ in {
       nano # cli: small, user-friendly console text editor
       kibi # cli: text editor in ≤1024 lines of code, written in rust
       lite-xl # gui: lightweight text editor written in Lua
+      vim # cli: The most popular clone of the VI editor
       neovim # cli: vim text editor fork focused on extensibility and agility
       neovide # gui: gui for neovim with additional features (animations, ligatures)
       emacs # cli: the extensible, customizable gnu text editor
@@ -178,8 +179,12 @@ in {
       ruplacer # cli: Find and replace text in source files
       eva # cli: A calculator REPL, similar to bc
       fclones # cli: Efficient Duplicate File Finder and Remover
-
+      fzf # cli: A command-line fuzzy finder written in Go
+      navi # cli: An interactive cheatsheet tool for the command-line and application launchers
+      atuin # cli: Replacement for a shell history which records additional commands context with optional encrypted synchronization between machines
+      zoxide # cli: A fast cd command that learns your habits
       /*
+      fd # cli: A simple, fast and user-friendly alternative to find
       ripgrep-all # cli: Ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, and more
       */
       # End-of Cli tools
