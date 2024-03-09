@@ -82,7 +82,7 @@
     gpaste.enable = false; # Clipboard manager
 
     atop = {
-      enable = true;
+      enable = false;
       atopgpu.enable = true;
     };
 
