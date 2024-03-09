@@ -358,6 +358,7 @@ in {
       curl # cli: A command line tool for transferring files with URL syntax
       motrix # gui: full featured download manager
       uget # gui: download manager using GTK and libcurl
+      uget-integrator # plugin: Native messaging host to integrate uGet Download Manager with web browsers
       /*
       aria # cli: lightweight, multi-protocol, multi-source, command-line download utility
       */
@@ -921,7 +922,8 @@ in {
       # Essential tools
       #- https://github.com/swaywm/sway/wiki/GTK-3-settings-on-Wayland#xsettings
       #- https://wiki.hyprland.org/FAQ/#gtk-settings-no-work--whatever
-      # xsettingsd # cli: Provides settings to X11 applications via the XSETTINGS specification
+      xsettingsd # cli: Provides settings to X11 applications via the XSETTINGS specification
+      xfce.xfce4-taskmanager # Task manager application by XFCE
       nvtop # cli: A (h)top like task monitor for AMD, Intel and NVIDIA GPUs
       nvitop # cli: An interactive NVIDIA-GPU process viewer, the one-stop solution for GPU process management
       i3lock-fancy-rapid # gui: A faster implementation of i3lock-fancy
