@@ -71,7 +71,8 @@
       startWhenNeeded = false;
       autoMount = true; # /ipfs and /ipns
       autoMigrate = true;
-      enableGC = false; # Garbage collection
+      enableGC = true; # Garbage collection
+      settings.Addresses.API = "/ip4/127.0.0.1/tcp/5001"; # WebUI: <http://127.0.0.1:5001/webui>
       # Default data dir: /var/lib/ipfs/
     };
 
