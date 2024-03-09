@@ -149,6 +149,10 @@ in {
       # sniffnet # gui: Cross-platform application to monitor your network traffic with ease
       # End-of Gui tools
 
+      # Shells
+      nushell # cli: A modern shell written in Rust
+      # End-of Shells
+
       # Cli tools
       bat # cli: A cat(1) clone with syntax highlighting and Git integration
       # exa # cli: Replacement for 'ls' written in Rust
