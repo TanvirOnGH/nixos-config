@@ -25,7 +25,6 @@
       "network"
       "networkmanager"
       "flatpak"
-      "docker"
       "kvm"
       "libvirtd"
       # "boinc"
