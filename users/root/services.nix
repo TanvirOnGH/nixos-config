@@ -65,7 +65,7 @@
     xmr-stak = {
       enable = false;
       openclSupport = false;
-      # cudaSupport = true;
+      cudaSupport = true;
     };
 
     xmrig = {
@@ -83,7 +83,7 @@
     # K3s
     #- <https://nixos.wiki/wiki/K3s>
     k3s = {
-      enable = true;
+      enable = false;
       role = "server";
     };
 
