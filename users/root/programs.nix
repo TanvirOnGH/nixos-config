@@ -81,7 +81,6 @@
     iftop.enable = true;
     mtr.enable = true;
     seahorse.enable = true;
-    gpaste.enable = false; # Clipboard manager
 
     openvpn3.enable = false;
 
