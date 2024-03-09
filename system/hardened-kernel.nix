@@ -6,7 +6,11 @@
 #- <https://wiki.archlinux.org/title/Kernel_parameters>
 #- <https://github.com/Kicksecure/security-misc/tree/master/etc/sysctl.d>
 #- <https://systemd.io/RANDOM_SEEDS>
-{pkgs, ...}: {
+{
+  pkgs,
+  lib,
+  ...
+}: {
   boot.kernelPackages = lib.mkDefault pkgs.linuxKernel.packages.linux_hardened;
   boot.kernelModules = ["tcp_bbr"];
   boot.kernel.sysctl = {
