@@ -99,14 +99,12 @@
       options = ["rw" "uid=1000"]; # Requires fast boot to be disabled in Windows for write support
     };
 
-    /*
     # Windows Partition
     # <https://nixos.wiki/wiki/NTFS>
     "/mnt/windows" = {
-      device = "/dev/disk/by-uuid/";
+      device = "/dev/disk/by-uuid/14E46B71E46B5450";
       fsType = "ntfs-3g";
       options = ["rw" "uid=1000"]; # Requires fast boot to be disabled in Windows for write support
     };
-    */
   };
 }
