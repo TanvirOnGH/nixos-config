@@ -325,6 +325,7 @@ in {
 
       # Download managers
       wget # cli: Tool for retrieving files using http, https and ftp
+      wget2 # cli: Successor of GNU Wget, a file and recursive website downloader.
       curl # cli: A command line tool for transferring files with URL syntax
       aria # cli: lightweight, multi-protocol, multi-source, command-line download utility
       /*
