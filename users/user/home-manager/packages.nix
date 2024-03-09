@@ -423,8 +423,8 @@ in {
       # Messengers
       revolt-desktop # gui: An open source user-first chat platform
       tdesktop # gui: Telegram Desktop messaging app
-      /*
       session-desktop # gui: Onion routing based messenger
+      /*
       wire-desktop # gui: A modern, secure messenger for everyone
       signal-desktop # gui: Private, simple, and secure messenger
       threema-desktop # gui: Desktop client for Threema, a privacy-focused end-to-end encrypted mobile messenger
@@ -446,12 +446,12 @@ in {
       # TODO: mpvScripts.X
       #- End-of Video Players
       #- Image viewers
-      nsxiv # cli: New Suckless X Image Viewer
       feh # cli: lightweight image viewer
       gthumb # gui: Image browser and viewer for GNOME
       gnome.eog # gui: image viewer app by GNOME
       oculante # gui: A minimalistic crossplatform image viewer written in Rust
       /*
+      nsxiv # cli: New Suckless X Image Viewer
       libsForQt5.gwenview # gui: image viewer app by KDE
       napari # gui: A fast, interactive, multi-dimensional image viewer
       digikam # gui: Photo Management Program
