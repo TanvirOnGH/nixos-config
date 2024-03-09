@@ -428,9 +428,9 @@ in {
       # Messengers
       zapzap # gui: WhatsApp desktop application for Linux
       revolt-desktop # gui: An open source user-first chat platform
+      /*
       tdesktop # gui: Telegram Desktop messaging app
       session-desktop # gui: Onion routing based messenger
-      /*
       wire-desktop # gui: A modern, secure messenger for everyone
       signal-desktop # gui: Private, simple, and secure messenger
       threema-desktop # gui: Desktop client for Threema, a privacy-focused end-to-end encrypted mobile messenger
