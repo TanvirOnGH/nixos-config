@@ -81,6 +81,8 @@
     seahorse.enable = true;
     gpaste.enable = false; # Clipboard manager
 
+    openvpn3.enable = false;
+
     atop = {
       enable = false;
       atopgpu.enable = true;

@@ -20,5 +20,8 @@
       "1.1.1.1"
       "8.8.8.8"
     ];
+
+    # <https://nixos.wiki/wiki/WireGuard>
+    wireguard.enable = false;
   };
 }
