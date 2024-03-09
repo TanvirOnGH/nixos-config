@@ -56,6 +56,7 @@
 
     # Overlays
     ./overlays/discord.nix
+    ./overlays/mpv.nix
     # ./overlays/electron.nix
   ];
 }

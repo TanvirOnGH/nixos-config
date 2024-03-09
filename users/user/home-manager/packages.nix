@@ -449,7 +449,6 @@ in {
       #- Video Players
       vlc # gui: media player
       mpv # cli: media player
-      # TODO: mpvScripts.X
       #- End-of Video Players
       #- Image viewers
       feh # cli: lightweight image viewer

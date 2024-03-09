@@ -1,4 +1,4 @@
-# Firefox Overlay Configuration
+# <https://nixos.wiki/wiki/Firefox>
 {pkgs, ...}: {
   # Firefox Nightly
   nixpkgs.overlays = let
