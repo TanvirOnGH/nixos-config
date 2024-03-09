@@ -8,7 +8,7 @@
   services.xserver = with pkgs; {
     enable = true;
     autorun = true;
-    layout = "us";
+    xkb.layout = "us";
     desktopManager.xterm.enable = false;
     excludePackages = [xterm];
 
