@@ -377,19 +377,19 @@ in {
 
       # Youtube/Spotify Downloader
       yt-dlp # cli: fork of youtube-dl with additional features
+      tartube-yt-dlp # gui: gui frontend for youtube-dl and yt-dlp
       /*
       youtube-dl # cli: tool to download videos from youtube and other sites
       ytmdl # cli: cli tool to download music from youtube
-      tartube-yt-dlp # gui: gui frontend for youtube-dl and yt-dlp
       spotdl # cli: spotify downloader
       */
       # End-of Youtube/Spotify Downloader
 
       # Discord clients
       armcord # gui: lightweight free discord client
-      /*
       discord # gui: official discord client
       ripcord # gui: proprietary client for discord and slack
+      /*
       betterdiscordctl # cli: utility for managing betterdiscord
       cordless # tui: Discord terminal client
       */
