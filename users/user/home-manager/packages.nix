@@ -502,6 +502,10 @@ in {
       */
       # End-of IRC clients
 
+      # RSS clients
+      liferea # gui: A GTK-based news feed aggregator
+      # End-of RSS clients
+
       # Fractal Engines
       /*
       mandelbulber # gui: A 3D fractal rendering engine
