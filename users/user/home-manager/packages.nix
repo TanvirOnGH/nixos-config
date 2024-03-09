@@ -385,7 +385,7 @@ in {
 
       # Matrix clients
       schildichat-desktop # gui: matrix client based on element
-      element-desktop # gui: popular matrix client
+      #element-desktop # gui: popular matrix client
       fluffychat # gui: Chat with your friends (matrix client)
       fractal # gui: Matrix group messaging app
       cinny-desktop # gui: Yet another matrix client for desktop
