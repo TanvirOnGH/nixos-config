@@ -14,6 +14,7 @@
 
       # For programming
       fira-code
+      #monaspace
       /*
       inconsolata
       mononoki

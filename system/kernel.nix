@@ -16,8 +16,9 @@
           KERNEL_ZSTD y
           MODULE_COMPRESS_XZ n
           MODULE_COMPRESS_ZSTD y
-          HZ 1000
           HZ_500 n
+          HZ_250 n
+          HZ 1000
           HZ_1000 y
           PREEMPT_VOLUNTARY n
           PREEMPT y
