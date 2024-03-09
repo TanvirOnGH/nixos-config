@@ -347,14 +347,14 @@ in {
       # TODO: mpvScripts.X
       #- End-of Video Players
       #- Image viewers
-      gthumb # gui: Image browser and viewer for GNOME
-      gnome.eog # gui: image viewer app by GNOME
-      /*
       nsxiv # cli: New Suckless X Image Viewer
       feh # cli: lightweight image viewer
+      gthumb # gui: Image browser and viewer for GNOME
+      gnome.eog # gui: image viewer app by GNOME
+      oculante # gui: A minimalistic crossplatform image viewer written in Rust
+      /*
       libsForQt5.gwenview # gui: image viewer app by KDE
       napari # gui: A fast, interactive, multi-dimensional image viewer
-      oculante # gui: A minimalistic crossplatform image viewer written in Rust
       digikam # gui: Photo Management Program
       shotwell # gui: Popular photo organizer for the GNOME desktop
       darktable # gui: Virtual lighttable and darkroom for photographers
@@ -416,18 +416,18 @@ in {
       # End-of Archivers
 
       # Readers (pdf, ebook, ...)
+      libsForQt5.okular # gui: KDE document viewer
+      zathura # gui: A highly customizable and functional PDF viewer
+      evince # gui: GNOME's document viewer
+      foliate # gui: A simple and modern GTK eBook reader
+      calibre # gui: Comprehensive e-book software
       /*
       koreader # gui: An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices
-      libsForQt5.okular # gui: KDE document viewer
       mupdf # gui: Lightweight PDF, XPS, and E-book viewer and toolkit written in portable C
-      zathura # gui: A highly customizable and functional PDF viewer
       cinnamon.xreader # gui: A document viewer capable of displaying multiple and single page document formats like PDF and Postscript
       qpdfview # gui: A tabbed document viewer
       llpp # gui: A MuPDF based PDF pager written in OCaml
-      evince # gui: GNOME's document viewer
       mate.atril # gui: A simple multi-page document viewer for the MATE desktop
-      foliate # gui: A simple and modern GTK eBook reader
-      calibre # gui: Comprehensive e-book software
       */
       # End-of Readers
 
@@ -442,7 +442,7 @@ in {
       # End-of File managers
 
       # Terminals
-      # kitty # gui: gpu accelerated terminal emulator
+      kitty # gui: gpu accelerated terminal emulator
       alacritty # gui: gpu accelerated terminal emulator
       # End-of Terminals
 
