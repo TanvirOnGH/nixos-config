@@ -48,6 +48,7 @@ in {
 
       gtk3 = {
         bookmarks = [
+          "file:///home/user"
           "file:///home/user/downloads"
           "file:///home/user/media/pictures/screenshots"
           # "file:///mnt/ssd"
