@@ -25,7 +25,7 @@
 
     kernelModules = ["kvm-amd"];
 
-    supportedFilesystems = ["btrfs" "ext4" "exfat" "tmpfs"];
+    supportedFilesystems = ["btrfs" "ext4" "exfat" "tmpfs" "ntfs"];
   };
 
   # Swap
@@ -91,19 +91,19 @@
       options = ["compress=zstd:3"];
     };
 
+    /*
     "/mnt/ssd" = {
       device = "/dev/disk/by-uuid/7c88decb-6888-4cd4-984f-452ad5dc4abe";
       fsType = "btrfs";
       options = ["compress=zstd:4"];
     };
+    */
 
-    /*
     # <https://nixos.wiki/wiki/NTFS>
     "/mnt/windows" = {
-      device = "/dev/disk/by-uuid/26E490C5E490991F";
+      device = "/dev/disk/by-uuid/58CC8F20CC8EF790";
       fsType = "ntfs-3g";
       options = ["rw" "uid=1000"]; # Requires fast boot to be disabled in Windows for write support
     };
-    */
   };
 }
