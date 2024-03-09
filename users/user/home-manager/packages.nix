@@ -398,7 +398,6 @@ in {
       # End-of XMPP/Jabber clients
 
       # Messengers
-      session-desktop # gui: Onion routing based messenger
       tdesktop # gui: Telegram Desktop messaging app
       /*
       wire-desktop # gui: A modern, secure messenger for everyone
@@ -412,6 +411,7 @@ in {
       slack # gui: Desktop client for Slack
       zulip # gui: Desktop client for Zulip Chat
       gitter # gui: Where developers come to talk
+      session-desktop # gui: Onion routing based messenger
       */
       # End-of Messengers
 
