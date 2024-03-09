@@ -15,7 +15,6 @@ in {
     services = {
       kdeconnect.enable = true;
       gnome-keyring.enable = true;
-      trayer.enable = false;
 
       udiskie = {
         enable = true; # requires services.udisks2.enable = true
