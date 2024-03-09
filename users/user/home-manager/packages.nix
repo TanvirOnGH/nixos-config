@@ -253,12 +253,16 @@ in {
 
       # Browsers
       tor-browser-bundle-bin # gui: Tor Browser Bundle built by torproject.org
-      /*
       librewolf # gui: A fork of Firefox, focused on privacy, security and freedom
       mullvad-browser # gui: Privacy-focused browser made in a collaboration between The Tor Project and Mullvad
-      chromium # gui: An open source web browser from Google
+      floorp # gui: A fork of Firefox, focused on keeping the Open, Private and Sustainable Web alive, built in Japan
+      brave # gui: Privacy-oriented browser for Desktop and Laptop computers
+      vivaldi # gui: A Browser for our Friends, powerful and personal
+      microsoft-edge # gui: The web browser from Microsoft
+      opera # gui: Faster, safer and smarter web browser
+      /*
       ungoogled-chromium # gui: An open source web browser from Google, with dependencies on Google web services removed
-      shadowfox # cli: Universal dark theme for Firefox while adhering to the modern design principles set by Mozilla
+      chromium # gui: An open source web browser from Google
       */
       # End-of Browsers
 
@@ -971,6 +975,7 @@ in {
       terminal-parrot # cli: Shows colorful, animated party parrot in your terminial
       kmon # cli: Linux Kernel Manager and Activity Monitor
       trashy # cli: A simple, fast, and featureful alternative to rm and trash-cli
+      shadowfox # cli: Universal dark theme for Firefox while adhering to the modern design principles set by Mozilla
       baobab # gui: Graphical application to analyse disk usage in any GNOME environment
       wmname # cli: print/set window manager name property of the root window
       ocs-url # cli: open collaboration system for use with the store websites
