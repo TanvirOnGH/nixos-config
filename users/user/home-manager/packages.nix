@@ -109,6 +109,10 @@ in {
       python3Full # cli: Python 3 interpreter (full version)
       # End-of Python Development
 
+      # Kubernetes
+      kubernetes-helm # cli: A package manager for kubernetes
+      # End-of Kubernetes
+
       # JavaScript Development
       #- <https://nixos.wiki/wiki/Node.js>
       /*
