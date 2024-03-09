@@ -264,6 +264,10 @@ in {
       # Email
       betterbird # gui: Betterbird is a fine-tuned version of Mozilla Thunderbird, Thunderbird on steroids, if you will
       thunderbird # gui: A full-featured e-mail client from Mozilla
+      electron-mail # gui: electron based protonmail client
+      tutanota-desktop # gui: electron based tutanota client
+      # claws-mail # gui: The user-friendly, lightweight, and fast email client
+      # gnome.geary # gui: Mail client for GNOME 3
       # End-of Email
 
       # Reverse Engineering
@@ -377,31 +381,24 @@ in {
       ytmdl # cli: cli tool to download music from youtube
       tartube-yt-dlp # gui: gui frontend for youtube-dl and yt-dlp
       spotdl # cli: spotify downloader
-      # End-of Youtube/Spotify Downloader
-      # Email
-      thunderbird # gui: full featured email client
-      electron-mail # gui: electron based protonmail client
-      tutanota-desktop # gui: electron based tutanota client
-      claws-mail # gui: The user-friendly, lightweight, and fast email client
-      gnome.geary # gui: Mail client for GNOME 3
       */
-      # End-of Email
+      # End-of Youtube/Spotify Downloader
 
       # Discord clients
+      armcord # gui: lightweight free discord client
       /*
       discord # gui: official discord client
       ripcord # gui: proprietary client for discord and slack
-      armcord # gui: lightweight free discord client
       betterdiscordctl # cli: utility for managing betterdiscord
       cordless # tui: Discord terminal client
       */
       # End-of Discord clients
 
       # Matrix clients
-      /*
       element-desktop # gui: popular matrix client
-      fluffychat # gui: Chat with your friends (matrix client)
       fractal # gui: Matrix group messaging app
+      /*
+      fluffychat # gui: Chat with your friends (matrix client)
       cinny-desktop # gui: Yet another matrix client for desktop
       schildichat-desktop # gui: matrix client based on element
       element-desktop-wayland # gui: popular matrix client with wayland support
