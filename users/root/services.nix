@@ -57,12 +57,12 @@
 
     xmr-stak = {
       enable = false;
-      #openclSupport = false;
+      openclSupport = false;
       cudaSupport = true;
     };
 
     xmrig = {
-      enable = true;
+      enable = false;
       package = pkgs.xmrig-mo;
       settings = builtins.fromJSON (builtins.readFile ./config/monero.json);
     };
