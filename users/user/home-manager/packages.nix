@@ -76,7 +76,7 @@ in {
 
       # Shell
       # oh-my-posh # cli: A prompt theme engine for any shell
-      # starship # cli: A minimal, blazing fast, and extremely customizable prompt for any shell
+      starship # cli: A minimal, blazing fast, and extremely customizable prompt for any shell
       # End-of Shell
 
       # Development
@@ -183,6 +183,7 @@ in {
       navi # cli: An interactive cheatsheet tool for the command-line and application launchers
       atuin # cli: Replacement for a shell history which records additional commands context with optional encrypted synchronization between machines
       zoxide # cli: A fast cd command that learns your habits
+      xplr # cli: A hackable, minimal, fast TUI file explorer
       /*
       fd # cli: A simple, fast and user-friendly alternative to find
       ripgrep-all # cli: Ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, and more
