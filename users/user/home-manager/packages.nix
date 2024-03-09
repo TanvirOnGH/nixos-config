@@ -605,7 +605,7 @@ in {
       # End-of Status bars
 
       # Compositor
-      picom-next # gui: fork of XCompMgr, a sample compositing manager for X servers (arbitrary revision)
+      picom-jonaburg # gui: A fork of picom featuring animations and improved rounded corners
       # End-of Compositor
 
       # Notification daemon
