@@ -475,11 +475,11 @@ in {
       # End-of Menus
 
       # Clipboard
+      xclip # cli: Tool to access the X clipboard from a console application
       #- <https://wiki.hyprland.org/Useful-Utilities/Clipboard-Managers>
       /*
       copyq # gui: Clipboard Manager with Advanced Features
       parcellite # gui: lightweight GTK clipboard manager
-      xclip # cli: Tool to access the X clipboard from a console application
       xsel # cli: Command-line program for getting and setting the contents of the X selection
       */
       # End-of Clipboard
