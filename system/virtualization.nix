@@ -12,6 +12,11 @@
     virtualbox.host.enableExtensionPack = true;
     */
 
+    # <https://nixos.wiki/wiki/WayDroid>
+    # Wayland Only
+    # Running on X11 (use weston package in X11 session): <https://github.com/waydroid/waydroid/issues/195#issuecomment-953926526>
+    waydroid.enable = true;
+
     # <https://nixos.wiki/wiki/Docker>
     docker = {
       enable = true;
