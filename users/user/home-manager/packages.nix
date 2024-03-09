@@ -58,15 +58,15 @@ in {
       # Code editors
       micro # cli: modern and intuitive terminal text editor
       nano # cli: small, user-friendly console text editor
+      kibi # cli: text editor in ≤1024 lines of code, written in rust
       lite-xl # gui: lightweight text editor written in Lua
       neovim # cli: vim text editor fork focused on extensibility and agility
       neovide # gui: gui for neovim with additional features (animations, ligatures)
+      emacs # cli: the extensible, customizable gnu text editor
 
       /*
       mate.pluma # gui: Powerful text editor for the MATE desktop
-      emacs # cli: the extensible, customizable gnu text editor
       ox # cli: independent rust text editor
-      kibi # cli: text editor in ≤1024 lines of code, written in rust
       lapce # gui: lightning-fast and Powerful Code Editor written in rust
       helix # cli: post-modern text editor
       amp # cli: modern text editor inspired by vim
