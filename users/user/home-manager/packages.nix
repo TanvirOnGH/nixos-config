@@ -548,8 +548,10 @@ in {
       pitivi # gui: Non-Linear video editor utilizing the power of GStreamer
       video-trimmer # gui: Trim videos quickly
       #- End-of Video editors
+      */
       #- Image editors
       krita # gui: A free and open source painting application
+      /*
       gimp-with-plugins # gui: The GNU Image Manipulation Program (with plugins support)
       gimpPlugins.gap # plugin: The GIMP Animation Package
       gimpPlugins.bimp # plugin: Batch Image Manipulation Plugin for GIMP
@@ -763,8 +765,8 @@ in {
       #- Wayland
       # hyprpicker # cli: A wlroots-compatible Wayland color picker that does not suck
       #- X
-      /*
       gcolor2 # gui: Simple GTK 2 color selector
+      /*
       gcolor3 # gui: color selector
       gpick # gui: Advanced color picker written in C++ using GTK+ toolkit
       libsForQt5.kcolorchooser # gui: Color chooser for KDE
