@@ -60,7 +60,7 @@ in {
       # Code editors
       micro # cli: modern and intuitive terminal text editor
       nano # cli: small, user-friendly console text editor
-      kibi # cli: text editor in ≤1024 lines of code, written in rust
+      # kibi # cli: text editor in ≤1024 lines of code, written in rust
       lite-xl # gui: lightweight text editor written in Lua
       vim # cli: The most popular clone of the VI editor
       neovim # cli: vim text editor fork focused on extensibility and agility
@@ -83,7 +83,7 @@ in {
       # Shell
       # oh-my-posh # cli: A prompt theme engine for any shell
       starship # cli: A minimal, blazing fast, and extremely customizable prompt for any shell
-      inshellisense # cli: IDE style command line auto complete
+      # inshellisense # cli: IDE style command line auto complete
       # End-of Shell
 
       # Development
@@ -91,7 +91,7 @@ in {
       shellharden # cli: The corrective bash syntax highlighter
       shfmt # cli: A shell parser and formatter
       wakatime # cli: wakatime cli, used for tracking time spent on projects
-      jq # cli: A lightweight and flexible command-line JSON processor
+      # jq # cli: A lightweight and flexible command-line JSON processor
       /*
       processing # cli: A language and IDE for electronic arts
       sqlite # cli: A self-contained, serverless, zero-configuration, transactional SQL database engine
@@ -125,11 +125,11 @@ in {
       # End-of Compositor
 
       # Python Development
-      python3Full # cli: Python 3 interpreter (full version)
+      # python3Full # cli: Python 3 interpreter (full version)
       # End-of Python Development
 
       # Kubernetes
-      kubernetes-helm # cli: A package manager for kubernetes
+      # kubernetes-helm # cli: A package manager for kubernetes
       # End-of Kubernetes
 
       # JavaScript Development
@@ -157,7 +157,7 @@ in {
       # End-of Gui tools
 
       # Shells
-      nushellFull # cli: A modern shell written in Rust
+      # nushellFull # cli: A modern shell written in Rust
       # End-of Shells
 
       # Cli tools
