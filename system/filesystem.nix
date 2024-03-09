@@ -98,19 +98,19 @@
       options = ["compress=zstd:3"];
     };
 
-    /*
     "/mnt/ssd" = {
-      device = "/dev/disk/by-uuid/7c88decb-6888-4cd4-984f-452ad5dc4abe";
+      device = "/dev/disk/by-uuid/b335a65f-1c9d-4a15-a577-d0863c829ff0";
       fsType = "btrfs";
       options = ["compress=zstd:4"];
     };
-    */
 
     # <https://nixos.wiki/wiki/NTFS>
+    /*
     "/mnt/windows" = {
       device = "/dev/disk/by-uuid/58CC8F20CC8EF790";
       fsType = "ntfs-3g";
       options = ["rw" "uid=1000"]; # Requires fast boot to be disabled in Windows for write support
     };
+    */
   };
 }
