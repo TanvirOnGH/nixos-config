@@ -55,10 +55,17 @@
     cpupower-gui.enable = false; # GUI for CPU power management
     packagekit.enable = false; # Required for KDE Discover
 
+    # <https://nixos.wiki/wiki/Btrfs#Scrubbing>
+    btrfs.autoScrub = {
+      enable = true;
+      interval = "monthly";
+      fileSystems = [ "/" ];
+    };
+
     xmr-stak = {
       enable = false;
       openclSupport = false;
-      cudaSupport = true;
+      # cudaSupport = true;
     };
 
     xmrig = {
