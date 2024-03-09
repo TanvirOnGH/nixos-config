@@ -18,16 +18,10 @@
     nvidiaSettings = true;
   };
 
-  /*
-  environment.variables = {
-    GBM_BACKEND = "nvidia-drm"; # Remove if Firefox crashes
-  };
-  */
-
   environment.sessionVariables = {
     LIBVA_DRIVER_NAME = "nvidia";
     VDPAU_DRIVER = "va_gl";
-    __GLX_VENDOR_LIBRARY_NAME = "nvidia"; # Remove if Discord windows not displaying or screen sharing not working in Zoom
+    __GLX_VENDOR_LIBRARY_NAME = "nvidia";
   };
 
   hardware.opengl.extraPackages = with pkgs; [

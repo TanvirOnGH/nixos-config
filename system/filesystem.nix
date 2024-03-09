@@ -16,7 +16,6 @@
       "xhci_pci"
       "ahci"
       "nvme"
-      # "usb_storage"
       "usbhid"
       "sd_mod"
       "btrfs"
@@ -26,7 +25,7 @@
 
     # kernelModules = [ "kvm-amd" ];
 
-    supportedFilesystems = ["ntfs" "btrfs" "ext4" "exfat" "tmpfs"];
+    supportedFilesystems = ["btrfs" "ext4" "exfat" "tmpfs"];
   };
 
   # Swap
@@ -93,18 +92,12 @@
     };
 
     # <https://nixos.wiki/wiki/NTFS>
+    /*
     "/mnt/games" = {
-      device = "/dev/disk/by-uuid/03A302D94C53C907";
+      device = "/dev/disk/by-uuid/XXXXXXX";
       fsType = "ntfs-3g";
       options = ["rw" "uid=1000"]; # Requires fast boot to be disabled in Windows for write support
     };
-
-    # Windows Partition
-    # <https://nixos.wiki/wiki/NTFS>
-    "/mnt/windows" = {
-      device = "/dev/disk/by-uuid/14E46B71E46B5450";
-      fsType = "ntfs-3g";
-      options = ["rw" "uid=1000"]; # Requires fast boot to be disabled in Windows for write support
-    };
+    */
   };
 }
