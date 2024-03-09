@@ -16,8 +16,9 @@ in {
       firefox = {
         enable = true;
       };
-
-      chromium.enable = true;
+      chromium = {
+        enable = false;
+      };
 
       aria2.enable = true;
 
