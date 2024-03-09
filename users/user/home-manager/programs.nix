@@ -17,7 +17,7 @@ in {
         enable = true;
       };
       chromium = {
-        enable = false;
+        enable = true;
       };
 
       aria2.enable = true;
