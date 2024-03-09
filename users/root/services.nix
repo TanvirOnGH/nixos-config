@@ -61,6 +61,8 @@
       # guiAddress = "127.0.0.1:9999";
     };
 
+    # TODO: tor, i2p, lokinet, freenet, gnunet
+
     # IPFS
     #- <https://nixos.wiki/wiki/IPFS>
     kubo = {
