@@ -138,6 +138,7 @@ in {
       # End-of File Sharing
 
       # Cli tools
+      # More alternatives at: <https://github.com/ibraheemdev/modern-unix>
       bat # cli: A cat(1) clone with syntax highlighting and Git integration
       exa # cli: Replacement for 'ls' written in Rust
       grc # cli: A generic text colouriser
@@ -149,6 +150,13 @@ in {
       imgcat # cli: It's like cat, but for images
       glow # cli: Render markdown on the CLI, with pizzazz!
       noti # cli: Monitor a process and trigger a notification
+      du-dust # cli: du + rust = dust. Like du but more intuitive
+      duf # cli: Disk Usage/Free Utility
+      sd # cli: Intuitive find & replace CLI (sed alternative)
+      mcfly # cli: An upgraded ctrl-r where history results make sense for what you're working on right now
+      choose # cli: A human-friendly and fast alternative to cut and (sometimes) awk
+      gping # cli: Ping, but with a graph
+      procs # cli: A modern replacement for ps written in Rust
       /*
       delta # cli: A syntax-highlighting pager for git
       fd # cli: A simple, fast and user-friendly alternative to find
