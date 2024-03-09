@@ -590,10 +590,6 @@ in {
       */
       # End-of Tor
 
-      # Alternative Network
-      #- TODO: i2p, zeronet, lokinet, freenet, gnunet, nyx
-      # End-of Alternative Network
-
       # Password managers
       keepassxc # gui: Offline password manager with many features
       # End-of Password managers
