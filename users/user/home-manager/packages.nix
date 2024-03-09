@@ -140,6 +140,7 @@ in {
 
       # Gui tools
       # czkawka # gui: A simple, fast and easy to use app to remove unnecessary files from your computer
+      # sniffnet # gui: Cross-platform application to monitor your network traffic with ease
       # End-of Gui tools
 
       # Cli tools
@@ -168,6 +169,10 @@ in {
       skim # cli: Command-line fuzzy finder written in Rust
       ripgrep # cli: A utility that combines the usability of The Silver Searcher with the raw speed of grep
       watchexec # cli: Executes commands in response to file modifications
+      bandwhich # cli: A CLI utility for displaying current network utilization
+      kmon # cli: Linux Kernel Manager and Activity Monitor
+      grex # cli: A command-line tool for generating regular expressions from user-provided test cases
+      ouch # cli: A command-line utility for easily compressing and decompressing files and directories
       /*
       ripgrep-all # cli: Ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, and more
       */
