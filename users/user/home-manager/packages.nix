@@ -426,6 +426,7 @@ in {
       # End-of XMPP/Jabber clients
 
       # Messengers
+      zapzap # gui: WhatsApp desktop application for Linux
       revolt-desktop # gui: An open source user-first chat platform
       tdesktop # gui: Telegram Desktop messaging app
       session-desktop # gui: Onion routing based messenger
