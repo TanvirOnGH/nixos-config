@@ -10,7 +10,6 @@
     ./system/virtualization.nix
     ./system/bootloader.nix
     ./system/localization.nix
-    ./system/admin.nix
     ./system/udev-rules.nix
     ./system/power-management.nix
     ./system/nix/garbage-collection.nix
@@ -43,6 +42,7 @@
 
     # Packages/Programs/Services
     ./users/root/settings.nix
+    ./users/root/admin.nix
     ./users/root/packages.nix
     ./users/root/programs.nix
     ./users/root/services.nix
