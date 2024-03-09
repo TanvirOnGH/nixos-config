@@ -91,11 +91,13 @@
       options = ["compress=zstd:4"];
     };
 
+    /*
     "/mnt/ssd" = {
       device = "/dev/disk/by-uuid/941d4937-ade1-4ff8-a3c9-b13983f66624";
       fsType = "btrfs";
       options = ["compress=zstd:4"];
     };
+    */
 
     # <https://nixos.wiki/wiki/NTFS>
     /*
