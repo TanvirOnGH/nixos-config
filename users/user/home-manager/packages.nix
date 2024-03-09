@@ -226,14 +226,15 @@ in {
       # End-of Plugins
 
       # Nix Tools
-      nixpkgs-review # cli: Review pull-requests on https://github.com/NixOS/nixpkgs
       nixd # daemon: Nix language server
       alejandra # cli: .nix formatter
+      /*
       nixfmt # cli: An opinionated formatter for Nix
       appimage-run # cli: run appimages on nixos
       # <https://github.com/NixOS/nixpkgs/issues/232640>
       steam-run # cli: Run commands in the same FHS environment that is used for Steam
-      /*
+      niv # cli: Easy dependency management for Nix projects
+      nixpkgs-review # cli: Review pull-requests on https://github.com/NixOS/nixpkgs
       nix-prefetch # cli: Prefetch any fetcher function call, e.g. package sources
       nix-prefetch-github # cli: Prefetch sources from github
       nix-universal-prefetch # cli: Uses nixpkgs fetchers to figure out hashes
@@ -355,8 +356,8 @@ in {
       wget # cli: Tool for retrieving files using http, https and ftp
       wget2 # cli: Successor of GNU Wget, a file and recursive website downloader.
       curl # cli: A command line tool for transferring files with URL syntax
-      aria # cli: lightweight, multi-protocol, multi-source, command-line download utility
       /*
+      aria # cli: lightweight, multi-protocol, multi-source, command-line download utility
       motrix # gui: full featured download manager
       uget # gui: download manager using GTK and libcurl
       */
@@ -615,7 +616,6 @@ in {
       # End-of Fractal Engines
 
       # Recorders
-      obs-studio # gui: Free and open source software for video recording and live streaming
       #- OBS Studio
       /*
       obs-studio # gui: Free and open source software for video recording and live streaming
@@ -660,8 +660,8 @@ in {
       #- End-of Video editors
       */
       #- Image editors
-      krita # gui: A free and open source painting application
       /*
+      krita # gui: A free and open source painting application
       gimp-with-plugins # gui: The GNU Image Manipulation Program (with plugins support)
       gimpPlugins.gap # plugin: The GIMP Animation Package
       gimpPlugins.bimp # plugin: Batch Image Manipulation Plugin for GIMP

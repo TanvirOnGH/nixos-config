@@ -20,8 +20,6 @@ in {
         enable = true;
       };
 
-      aria2.enable = true;
-
       # TODO: Setup NixVim <https://github.com/nix-community/nixvim>
 
       /*
