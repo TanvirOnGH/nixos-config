@@ -9,9 +9,12 @@ My [nix](https://nixos.org/learn.html) configuration for [NixOS](https://nixos.o
 ## Channels
 
 ```nix
-home-manager https://github.com/nix-community/home-manager/archive/master.tar.gz
 nixos https://nixos.org/channels/nixos-unstable
 nur https://github.com/nix-community/NUR/archive/master.tar.gz
+home-manager https://github.com/nix-community/home-manager/archive/master.tar.gz
+emacs https://github.com/nix-community/emacs-overlay/archive/master.tar.gz
+haskell https://github.com/input-output-hk/haskell.nix/archive/master.tar.gz
+mozilla https://github.com/mozilla/nixpkgs-mozilla/archive/master.tar.gz
 ```
 
 ## Note
