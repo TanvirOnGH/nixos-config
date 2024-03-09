@@ -126,6 +126,8 @@
       */
     };
 
+    freenet.enable = true; # WebUI: <http://localhost:8888>
+
     zeronet = {
       enable = false;
       #- <https://github.com/NixOS/nixpkgs/pull/173900>

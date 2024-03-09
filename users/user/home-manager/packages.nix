@@ -886,6 +886,11 @@ in {
       */
       # End-of Electronics/Electrical
 
+      # VPN
+      # protonvpn-gui # gui: Official ProtonVPN Linux app
+      # protonvpn-cli # cli: Linux command-line client for ProtonVPN
+      # End-of VPN
+
       # Misc
       /*
       hydrus # gui: Danbooru-like image tagging and searching system for the desktop
