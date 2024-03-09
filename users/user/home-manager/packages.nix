@@ -1,7 +1,6 @@
 # Home Manager User's Packages Configuration
 {pkgs, ...}: let
   home-manager = builtins.fetchTarball "https://github.com/nix-community/home-manager/archive/master.tar.gz";
-  # TODO: Check out experimental nix tools
   /*
   nix-software-center = import (pkgs.fetchFromGitHub {
     owner = "vlinkz";

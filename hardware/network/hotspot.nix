@@ -9,6 +9,7 @@
       INTERNET_IFACE = "enp42s0";
       WIFI_IFACE = "wlp41s0";
       SSID = "NixOS";
+      # TODO: Setup Ragenix (https://github.com/yaxitech/ragenix)
       PASSPHRASE = "mysecret";
     };
   };

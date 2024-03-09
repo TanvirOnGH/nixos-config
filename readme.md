@@ -10,11 +10,12 @@ My [nix](https://nixos.org/learn.html) configuration for [NixOS](https://nixos.o
 
 ```nix
 nixos https://nixos.org/channels/nixos-unstable
-nur https://github.com/nix-community/NUR/archive/master.tar.gz
 home-manager https://github.com/nix-community/home-manager/archive/master.tar.gz
+nur https://github.com/nix-community/NUR/archive/master.tar.gz
 emacs https://github.com/nix-community/emacs-overlay/archive/master.tar.gz
 haskell https://github.com/input-output-hk/haskell.nix/archive/master.tar.gz
 mozilla https://github.com/mozilla/nixpkgs-mozilla/archive/master.tar.gz
+ragenix https://github.com/yaxitech/ragenix/archive/main.tar.gz
 ```
 
 ## Note
@@ -24,4 +25,5 @@ This repository is not meant to be used as a whole, but rather as a reference fo
 I'll eventually switch to [flakes](https://nixos.wiki/wiki/Flakes) configuration.
 
 ### Abandon Hope, All Ye Who Enter Here
+
 ![NixOS Learning Curve Graph](imgs/nixos-learning-curve.png)
