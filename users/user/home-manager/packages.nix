@@ -261,6 +261,11 @@ in {
       */
       # End-of Browsers
 
+      # Email
+      betterbird # gui: Betterbird is a fine-tuned version of Mozilla Thunderbird, Thunderbird on steroids, if you will
+      thunderbird # gui: A full-featured e-mail client from Mozilla
+      # End-of Email
+
       # Reverse Engineering
       /*
       ghidra # gui: A software reverse engineering (SRE) suite of tools developed by NSA's Research Directorate in support of the Cybersecurity mission
