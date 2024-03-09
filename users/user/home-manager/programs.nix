@@ -15,7 +15,7 @@ in {
     programs = {
       firefox = {
         enable = true;
-        package = pkgs.firefox-beta;
+        #package = pkgs.firefox-beta;
       };
 
       aria2.enable = true;
