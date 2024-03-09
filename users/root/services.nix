@@ -47,7 +47,7 @@
 
     teamviewer.enable = false;
     vnstat.enable = true;
-    aria2.enable = true; # WebUI: <http://localhost:6800>
+    aria2.enable = false; # WebUI: <http://localhost:6800>
     fstrim.enable = true;
     udisks2.enable = true;
     gnome.gnome-keyring.enable = true; # Keyring for SSH
