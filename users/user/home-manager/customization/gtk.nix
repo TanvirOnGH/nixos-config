@@ -50,9 +50,9 @@ in {
         bookmarks = [
           "file:///home/user/downloads"
           "file:///home/user/media/pictures/screenshots"
-          "file:///mnt/ssd"
+          # "file:///mnt/ssd"
           "file:///mnt/hdd"
-          # "file:///mnt/windows"
+          "file:///mnt/windows"
         ];
         extraConfig = {
           gtk-cursor-blink = false;
