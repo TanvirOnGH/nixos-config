@@ -79,7 +79,7 @@
     iftop.enable = true;
     mtr.enable = true;
     seahorse.enable = true;
-    gpaste.enable = true; # Clipboard manager
+    gpaste.enable = false; # Clipboard manager
 
     atop = {
       enable = true;
