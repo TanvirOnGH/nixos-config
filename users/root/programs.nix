@@ -73,7 +73,7 @@
       '';
     };
 
-    adb.enable = true;
+    adb.enable = false;
 
     # kdeconnect.enable = true;
     htop.enable = true;
