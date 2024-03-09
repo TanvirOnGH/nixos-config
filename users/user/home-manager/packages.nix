@@ -139,7 +139,7 @@ in {
       # End-of File Sharing
 
       # Gui tools
-      czkawka # gui: A simple, fast and easy to use app to remove unnecessary files from your computer
+      # czkawka # gui: A simple, fast and easy to use app to remove unnecessary files from your computer
       # End-of Gui tools
 
       # Cli tools
