@@ -51,7 +51,7 @@
     ./users/user/home-manager.nix
 
     # Overlays
-    # ./overlays/discord.nix
+    ./overlays/discord.nix
     # ./overlays/electron.nix
   ];
 }
