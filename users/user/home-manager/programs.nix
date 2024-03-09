@@ -37,8 +37,8 @@ in {
         lfs.enable = true;
         delta.enable = true;
 
-        userEmail = "user@tuta.io";
-        userName = "user";
+        userEmail = "tanvir.ahmed.tonoy@skiff.com";
+        userName = "Tanvir";
 
         signing = {
           signByDefault = true;
