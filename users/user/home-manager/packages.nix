@@ -822,6 +822,7 @@ in {
       ijq # cli: Interactive wrapper for jq
       */
       #- End-of jq
+      cava # cli: console-based audio visualizer for alsa
       /*
       ffmpeg_6-full # cli: A complete, cross-platform solution to record, convert and stream audio and video
       filezilla # gui: Graphical FTP, FTPS and SFTP client
@@ -865,7 +866,6 @@ in {
       dua # cli: A tool to conveniently learn about the disk usage of directories
       vnstat # cli: network statistics utility
       nload # cli: Monitors network traffic and bandwidth usage with ncurses graphs
-      cava # cli: console-based audio visualizer for alsa
       ponymix # cli: pulseaudio volume control
       cmatrix # cli: Simulates the falling characters theme from The Matrix movie
       figlet # cli: Program for making large letters out of ordinary text
