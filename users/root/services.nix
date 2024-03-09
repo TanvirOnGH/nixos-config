@@ -65,7 +65,7 @@
     xmr-stak = {
       enable = false;
       openclSupport = false;
-      cudaSupport = true;
+      # cudaSupport = true;
     };
 
     xmrig = {
