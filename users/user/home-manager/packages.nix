@@ -371,6 +371,9 @@ in {
       darktable # gui: Virtual lighttable and darkroom for photographers
       */
       #- End-of Image viewers
+      #- Image tools
+      imagemagickBig # cli: A software suite to create, edit, compose, or convert bitmap images
+      #- End-of Image Tools
       #- Audio Players
       lollypop # gui: modern music player for GNOME
       rhythmbox # gui: A music playing application for GNOME
