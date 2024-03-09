@@ -327,7 +327,6 @@ in {
 
       # Messengers
       session-desktop # gui: Onion routing based messenger
-      whatsapp-for-linux # gui: Whatsapp desktop messaging app
       /*
       tdesktop # gui: Telegram Desktop messaging app
       wire-desktop # gui: A modern, secure messenger for everyone
