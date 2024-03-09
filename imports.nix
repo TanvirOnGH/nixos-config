@@ -40,6 +40,9 @@
     ./desktop/customization/gtk.nix
     ./desktop/customization/qt.nix
 
+    # Hardware Misc
+    ./hardware/peripherals/argb.nix
+
     # Packages/Programs/Services
     ./users/root/settings.nix
     ./users/root/admin.nix
