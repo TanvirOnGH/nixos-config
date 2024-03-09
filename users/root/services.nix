@@ -45,7 +45,7 @@
     };
     */
 
-    teamviewer.enable = true;
+    teamviewer.enable = false;
     vnstat.enable = true;
     aria2.enable = true; # WebUI: <http://localhost:6800>
     fstrim.enable = true;
@@ -53,7 +53,7 @@
     gnome.gnome-keyring.enable = true; # Keyring for SSH
     blueman.enable = true; # GUI Bluetooth Manager
     cpupower-gui.enable = false; # GUI for CPU power management
-    packagekit.enable = true; # Required for KDE Discover
+    packagekit.enable = false; # Required for KDE Discover
 
     syncthing = {
       enable = false; # WebUI (Default): <http://localhost:8384>
