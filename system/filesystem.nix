@@ -23,7 +23,7 @@
       "vfat"
       "zstd"
     ];
-    # <https://nixos.wiki/wiki/NTFS>
+
     supportedFilesystems = ["ntfs" "btrfs" "ext4" "exfat" "tmpfs"];
   };
 
@@ -84,6 +84,7 @@
     };
 
     # Windows Partition
+    # <https://nixos.wiki/wiki/NTFS>
     "/mnt/SSD" = {
       device = "/dev/disk/by-uuid/42E00DD7E00DD1D9";
       fsType = "ntfs-3g";

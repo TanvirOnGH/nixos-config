@@ -130,8 +130,8 @@ in {
 
       # Useful cli tools
       bat # cli: A cat(1) clone with syntax highlighting and Git integration
-      /*
       exa # cli: Replacement for 'ls' written in Rust
+      /*
       delta # cli: A syntax-highlighting pager for git
       fd # cli: A simple, fast and user-friendly alternative to find
       ripgrep # cli: A utility that combines the usability of The Silver Searcher with the raw speed of grep
