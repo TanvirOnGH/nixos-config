@@ -20,6 +20,7 @@
     # <https://nixos.wiki/wiki/Docker>
     docker = {
       enable = true;
+      enableNvidia = true;
       storageDriver = "btrfs";
     };
   };
