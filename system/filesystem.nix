@@ -25,7 +25,14 @@
 
     kernelModules = ["kvm-amd"];
 
-    supportedFilesystems = ["btrfs" "ext4" "exfat" "tmpfs" "ntfs"];
+    supportedFilesystems = [
+      "btrfs" #- <https://nixos.wiki/wiki/Btrfs>
+      "ext4"
+      "exfat"
+      "tmpfs"
+      "ntfs" #- <https://nixos.wiki/wiki/NTFS>
+      # "bcachefs" #- <https://nixos.wiki/wiki/Bcachefs>
+    ];
   };
 
   # Swap

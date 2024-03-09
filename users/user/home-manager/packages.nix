@@ -526,9 +526,9 @@ in {
       libsForQt5.okular # gui: KDE document viewer
       zathura # gui: A highly customizable and functional PDF viewer
       evince # gui: GNOME's document viewer
-      foliate # gui: A simple and modern GTK eBook reader
       calibre # gui: Comprehensive e-book software
       /*
+      foliate # gui: A simple and modern GTK eBook reader
       koreader # gui: An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices
       mupdf # gui: Lightweight PDF, XPS, and E-book viewer and toolkit written in portable C
       cinnamon.xreader # gui: A document viewer capable of displaying multiple and single page document formats like PDF and Postscript
