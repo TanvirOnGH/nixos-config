@@ -492,10 +492,10 @@ in {
       # End-of Media
 
       # Entertainment
+      spotify # gui: spotify web music player
       /*
       mov-cli # A cli tool to browse and watch movies
       lrby # gui: A browser and wallet for LBRY, the decentralized, user-controlled content marketplace
-      spotify # gui: spotify web music player
       nuclear # gui: music streaming app similar to spotify
       popcorntime # gui: An application that streams movies and TV shows from torrents
       */
