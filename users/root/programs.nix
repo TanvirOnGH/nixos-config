@@ -102,7 +102,7 @@
     gnupg.agent = {
       enable = true;
       enableSSHSupport = true;
-      pinentryFlavor = "gtk2";
+      pinentryFlavor = "gnome3";
     };
 
     # <https://nixos.wiki/wiki/Git>
