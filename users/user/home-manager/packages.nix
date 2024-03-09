@@ -721,8 +721,7 @@ in {
       # End-of Status bars
 
       # Compositor
-      # picom-allusive # daemon: A fork of picom featuring improved animations and other features
-      picom-jonaburg # daemon: A fork of picom featuring animations and improved rounded corners
+      picom # daemon: A fork of XCompMgr, a sample compositing manager for X servers
       # End-of Compositor
 
       # Notification daemon
