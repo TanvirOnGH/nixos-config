@@ -4,7 +4,7 @@
   hardware.opentabletdriver = {
     # For Gaomon S620
     #- Supported Tablets: <https://opentabletdriver.net/Tablets>
-    enable = false;
+    enable = true;
     daemon.enable = true;
     package = pkgs.opentabletdriver;
   };
