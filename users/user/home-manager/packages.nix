@@ -91,7 +91,6 @@ in {
       shellharden # cli: The corrective bash syntax highlighter
       shfmt # cli: A shell parser and formatter
       wakatime # cli: wakatime cli, used for tracking time spent on projects
-      # jq # cli: A lightweight and flexible command-line JSON processor
       /*
       processing # cli: A language and IDE for electronic arts
       sqlite # cli: A self-contained, serverless, zero-configuration, transactional SQL database engine
@@ -290,8 +289,8 @@ in {
       # End-of 3D
 
       # Virtualization
-      virt-manager # gui: graphical tool for managing virtual machines
       /*
+      virt-manager # gui: graphical tool for managing virtual machines
       gnome.gnome-boxes # gui: GNOME application to access remote or virtual systems
       distrobox # cli: Wrapper around podman or docker to create and start containers
       lazydocker # tui: A simple terminal UI for both docker and docker-compose
@@ -921,7 +920,7 @@ in {
       #- <https://discourse.nixos.org/t/how-to-install-openssl-to-compile-against/1249>
       # openssl # lib+cli: A cryptographic library that implements the SSL and TLS protocols
       #- jq
-      jq # cli: A lightweight and flexible command-line JSON processor
+      # jq # cli: A lightweight and flexible command-line JSON processor
       /*
       jqp # cli: A TUI playground to experiment with jq
       ijq # cli: Interactive wrapper for jq
