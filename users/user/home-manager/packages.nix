@@ -568,13 +568,13 @@ in {
       # End-of Editors
 
       # Ricing tools
+      flashfocus # daemon: simple focus animations for tiling window managers
       /*
       #- Wallpaper
       nitrogen # gui: wallpaper browser and setter for X11
       # hyprpaper # gui: A blazing fast wayland wallpaper utility
       # swww # cli: Efficient animated wallpaper daemon for wayland, controlled at runtime
       #- End-of Wallpaper
-      flashfocus # daemon: simple focus animations for tiling window managers
       lxappearance # gui: program for configuring the theme and fonts of gtk applications
       themechanger # gui: theme changing utility
       wpgtk # gui: template based wallpaper/colorscheme generator and manager
