@@ -244,8 +244,8 @@ in {
       # End-of Games
 
       # Fetchers
-      /*
       neofetch # cli: fast, highly customizable system info script
+      /*
       cpufetch # cli: fancy cpu architecture fetching tool
       nur.repos.vanilla.fastfetch # cli: fork of neofetch, but much faster because written in C
       */

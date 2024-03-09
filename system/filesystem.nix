@@ -77,18 +77,17 @@
       fsType = "vfat";
     };
 
-    /*
-    "/mnt/SSD" = {
-      device = "/dev/disk/by-uuid/2947ff84-ae0e-419b-be82-32fc2a51774f";
-      fsType = "btrfs";
-      options = ["compress=zstd:5"];
-    };
-    */
-
     "/mnt/HDD" = {
       device = "/dev/disk/by-uuid/e55cdfed-5ef8-4660-a092-389c38d0f2cf";
       fsType = "btrfs";
       options = ["compress=zstd:4"];
+    };
+
+    # Windows Partition
+    "/mnt/SSD" = {
+      device = "/dev/disk/by-uuid/42E00DD7E00DD1D9";
+      fsType = "ntfs-3g";
+      options = ["rw" "uid=1001"];
     };
   };
 }
