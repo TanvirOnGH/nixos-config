@@ -80,6 +80,7 @@ in {
 
       # Development
       shellcheck # cli: Shell script analysis tool
+      shellharden # cli: The corrective bash syntax highlighter
       shfmt # cli: A shell parser and formatter
       wakatime # cli: wakatime cli, used for tracking time spent on projects
       jq # cli: A lightweight and flexible command-line JSON processor
@@ -137,8 +138,11 @@ in {
       */
       # End-of File Sharing
 
+      # Gui tools
+      czkawka # gui: A simple, fast and easy to use app to remove unnecessary files from your computer
+      # End-of Gui tools
+
       # Cli tools
-      # More alternatives at: <https://github.com/ibraheemdev/modern-unix>
       bat # cli: A cat(1) clone with syntax highlighting and Git integration
       exa # cli: Replacement for 'ls' written in Rust
       grc # cli: A generic text colouriser
@@ -159,13 +163,13 @@ in {
       choose # cli: A human-friendly and fast alternative to cut and (sometimes) awk
       gping # cli: Ping, but with a graph
       procs # cli: A modern replacement for ps written in Rust
-      /*
-      delta # cli: A syntax-highlighting pager for git
-      fd # cli: A simple, fast and user-friendly alternative to find
+      tokei # cli: A program that allows you to count your code, quickly
+      runiq # cli: An efficient way to filter duplicate lines from input, à la uniq
+      skim # cli: Command-line fuzzy finder written in Rust
       ripgrep # cli: A utility that combines the usability of The Silver Searcher with the raw speed of grep
+      watchexec # cli: Executes commands in response to file modifications
+      /*
       ripgrep-all # cli: Ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, and more
-      zoxide # cli: A fast cd command that learns your habits
-      glow # cli: Render markdown on the CLI, with pizzazz!
       */
       # End-of Cli tools
 
