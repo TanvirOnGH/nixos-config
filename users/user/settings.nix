@@ -38,5 +38,9 @@
     docker.members = ["user"];
   };
 
+  users = {
+    motd = "Today is your canvas, paint it with enthusiasm and purpose!";
+  };
+
   environment.shells = [pkgs.fish];
 }
