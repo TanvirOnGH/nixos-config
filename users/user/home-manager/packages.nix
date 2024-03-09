@@ -307,10 +307,10 @@ in {
       # End-of 3D
 
       # Virtualization
+      distrobox # cli: Wrapper around podman or docker to create and start containers
       /*
       virt-manager # gui: graphical tool for managing virtual machines
       gnome.gnome-boxes # gui: GNOME application to access remote or virtual systems
-      distrobox # cli: Wrapper around podman or docker to create and start containers
       lazydocker # tui: A simple terminal UI for both docker and docker-compose
       docker-ls # cli: Tools for browsing and manipulating docker registries
       docker-gc # cli: Docker garbage collection of containers and images
