@@ -92,7 +92,7 @@
     # IPFS
     #- <https://nixos.wiki/wiki/IPFS>
     kubo = {
-      enable = true;
+      enable = false;
       defaultMode = "online";
       startWhenNeeded = false;
       autoMount = true; # /ipfs and /ipns
@@ -127,7 +127,7 @@
     };
 
     zeronet = {
-      enable = true;
+      enable = false;
       #- <https://github.com/NixOS/nixpkgs/pull/173900>
       package = pkgs.zeronet-conservancy; # maintained community fork of zeronet
       port = 7110; # default: 43110
@@ -183,7 +183,7 @@
 
     # Automatically lock the screen after a period of inactivity
     xserver.xautolock = {
-      enable = true;
+      enable = false;
       enableNotifier = true;
       time = 10; # in minutes
       notify = 10; # in seconds
