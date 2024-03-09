@@ -23,6 +23,15 @@ in {
 
       # TODO: Setup NixVim <https://github.com/nix-community/nixvim>
 
+      /*
+      dconf.settings = {
+        "org/virt-manager/virt-manager/connections" = {
+          autoconnect = ["qemu:///system"];
+          uris = ["qemu:///system"];
+        };
+      };
+      */
+
       vscode = {
         enable = true;
         # needed for rust lang server and rust-analyzer extension
