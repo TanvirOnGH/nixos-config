@@ -7,7 +7,7 @@
     # Plotinus GTK 3 plugin
     plotinus.enable = true;
 
-    # Conflicts with `programs.command-not-found.enable`
+    # Conflicts `programs.command-not-found.enable` | `programs.nix-index`. Only one among those.
     command-not-found.enable = false;
     nix-index = {
       enable = true;
@@ -66,7 +66,7 @@
 
     #- <https://nixos.wiki/wiki/Node.js>
     npm = {
-      enable = true;
+      enable = false;
       npmrc = ''
         prefix = ''${HOME}/.npm
         color = true
@@ -96,6 +96,7 @@
         thunar-volman # plugin: providing automatic management of removable drives and media
         thunar-archive-plugin # plugin: providing file context menus for archives
         thunar-media-tags-plugin # plugin: providing tagging and renaming features for media files
+        thunar-dropbox-plugin # plugin: adds context-menu items for Dropbox to Thunar
         tumbler # plugin: providing thumbnailing and metadata extraction for various file types
         catfish # gui: Handy file search tool
       ];
