@@ -6,7 +6,7 @@
     systemd-boot = {
       enable = true;
       # https://nixos.wiki/wiki/Bootloader#Limiting_amount_of_entries_with_grub
-      configurationLimit = 10;
+      configurationLimit = 20;
     };
     efi.canTouchEfiVariables = true;
   };
