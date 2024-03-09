@@ -30,7 +30,7 @@
       "libvirtd"
       # "adbusers"
       # "boinc"
-      config.services.kubo.group
+      # config.services.kubo.group
     ];
   };
 
