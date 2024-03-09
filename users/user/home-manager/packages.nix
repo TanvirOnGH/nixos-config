@@ -109,7 +109,7 @@ in {
       # End-of Development
 
       # Compositor
-      weston # gui: A lightweight and functional Wayland compositor
+      # weston # gui: A lightweight and functional Wayland compositor
       # End-of Compositor
 
       # Python Development
@@ -301,6 +301,10 @@ in {
       # libsForQt5.knights # gui: Chess game for KDE
       */
       # End-of Games
+
+      # Eye-candy
+      cava # cli: console-based audio visualizer for alsa
+      # End-of Eye-candy
 
       # Fetchers
       onefetch # cli: Git repository summary on your terminal
@@ -891,7 +895,6 @@ in {
       ijq # cli: Interactive wrapper for jq
       */
       #- End-of jq
-      cava # cli: console-based audio visualizer for alsa
       /*
       ffmpeg_6-full # cli: A complete, cross-platform solution to record, convert and stream audio and video
       filezilla # gui: Graphical FTP, FTPS and SFTP client
