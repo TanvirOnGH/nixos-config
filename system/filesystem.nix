@@ -88,7 +88,7 @@
     "/mnt/hdd" = {
       device = "/dev/disk/by-uuid/e34ed687-5ee1-47cd-83cb-c56c8ec38780";
       fsType = "btrfs";
-      options = ["compress=zstd:4"];
+      options = ["compress=zstd:3"];
     };
 
     "/mnt/ssd" = {
