@@ -42,6 +42,7 @@
 
     # Hardware Misc
     ./hardware/peripherals/argb.nix
+    ./hardware/peripherals/tablet.nix
 
     # Packages/Programs/Services
     ./users/root/settings.nix

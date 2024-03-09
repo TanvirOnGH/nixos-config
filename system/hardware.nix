@@ -9,12 +9,5 @@
   hardware = {
     enableAllFirmware = true;
     cpu.amd.updateMicrocode = true;
-
-    # For Gaomon S620
-    #- Supported Tablets: <https://opentabletdriver.net/Tablets>
-    opentabletdriver = {
-      enable = false;
-      daemon.enable = true;
-    };
   };
 }
