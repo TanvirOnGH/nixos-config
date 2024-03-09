@@ -199,6 +199,7 @@ in {
       atuin # cli: Replacement for a shell history which records additional commands context with optional encrypted synchronization between machines
       zoxide # cli: A fast cd command that learns your habits
       xplr # cli: A hackable, minimal, fast TUI file explorer
+      yq # cli: Command-line YAML/XML/TOML processor - jq wrapper for YAML, XML, TOML documents
       /*
       cointop # cli: The fastest and most interactive terminal based UI application for tracking cryptocurrencies
       fd # cli: A simple, fast and user-friendly alternative to find
@@ -991,7 +992,6 @@ in {
       eaglemode # gui: a zoomable ui
       mat2 # cli: A handy tool to trash your metadata
       metadata-cleaner # gui: Python GTK application to view and clean metadata in files, using mat2
-      yq # cli: Command-line YAML/XML/TOML processor - jq wrapper for YAML, XML, TOML documents
       # wayland-utils # cli: Wayland utilities (wayland-info)
       # wdisplays # gui: A graphical application for configuring displays in Wayland compositors
       */
