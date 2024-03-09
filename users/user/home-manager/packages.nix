@@ -84,10 +84,11 @@ in {
       shfmt # cli: A shell parser and formatter
       wakatime # cli: wakatime cli, used for tracking time spent on projects
       jq # cli: A lightweight and flexible command-line JSON processor
-      # processing # cli: A language and IDE for electronic arts
-      # sqlite # cli: A self-contained, serverless, zero-configuration, transactional SQL database engine
-      # sqliteman # gui: A simple but powerful Sqlite3 GUI database manager
       /*
+      processing # cli: A language and IDE for electronic arts
+      sqlite # cli: A self-contained, serverless, zero-configuration, transactional SQL database engine
+      sqliteman # gui: A simple but powerful Sqlite3 GUI database manager
+      just # cli: A handy way to save and run project-specific commands
       polypane # gui: Browser with unified devtools targeting responsability and acessibility
       spyder # gui: Scientific python development environment
       racket # gui: A general-purpose multi-paradigm programming language (with Dr. Racket IDE)
@@ -173,6 +174,11 @@ in {
       kmon # cli: Linux Kernel Manager and Activity Monitor
       grex # cli: A command-line tool for generating regular expressions from user-provided test cases
       ouch # cli: A command-line utility for easily compressing and decompressing files and directories
+      rm-improved # cli: Replacement for rm with focus on safety, ergonomics and performance
+      ruplacer # cli: Find and replace text in source files
+      eva # cli: A calculator REPL, similar to bc
+      fclones # cli: Efficient Duplicate File Finder and Remover
+
       /*
       ripgrep-all # cli: Ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, and more
       */
