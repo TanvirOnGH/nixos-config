@@ -85,8 +85,14 @@
       fsType = "vfat";
     };
 
-    "/mnt/misc" = {
-      device = "/dev/disk/by-uuid/d79864d5-c286-4f5c-9005-14de43821fa7";
+    "/mnt/hdd" = {
+      device = "/dev/disk/by-uuid/e34ed687-5ee1-47cd-83cb-c56c8ec38780";
+      fsType = "btrfs";
+      options = ["compress=zstd:4"];
+    };
+
+    "/mnt/ssd" = {
+      device = "/dev/disk/by-uuid/941d4937-ade1-4ff8-a3c9-b13983f66624";
       fsType = "btrfs";
       options = ["compress=zstd:4"];
     };
