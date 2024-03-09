@@ -48,7 +48,6 @@ in {
         templates = null;
 
         extraConfig = {
-          XDG_APPIMAGE_DIR = "${config.home.homeDirectory}/appimages";
           XDG_MEDIA_DIR = "${config.home.homeDirectory}/media";
           XDG_SCREENSHOT_DIR = "${config.home.homeDirectory}/media/pictures/screenshots";
           XDG_WALLPAPER_DIR = "${config.home.homeDirectory}/media/pictures/wallpapers";
