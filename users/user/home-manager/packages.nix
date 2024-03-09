@@ -396,8 +396,8 @@ in {
 
       # Matrix clients
       element-desktop # gui: popular matrix client
-      fractal # gui: Matrix group messaging app
       /*
+      fractal # gui: Matrix group messaging app
       fluffychat # gui: Chat with your friends (matrix client)
       cinny-desktop # gui: Yet another matrix client for desktop
       schildichat-desktop # gui: matrix client based on element
@@ -420,6 +420,7 @@ in {
       # End-of XMPP/Jabber clients
 
       # Messengers
+      revolt-desktop # gui: An open source user-first chat platform
       /*
       tdesktop # gui: Telegram Desktop messaging app
       session-desktop # gui: Onion routing based messenger
