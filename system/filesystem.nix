@@ -23,7 +23,7 @@
       "zstd"
     ];
 
-    kernelModules = [ "kvm-amd" ];
+    kernelModules = ["kvm-amd"];
 
     supportedFilesystems = ["btrfs" "ext4" "exfat" "tmpfs"];
   };
