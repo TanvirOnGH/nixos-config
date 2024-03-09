@@ -67,6 +67,10 @@ in {
       neovide # gui: gui for neovim with additional features (animations, ligatures)
       emacs # cli: the extensible, customizable gnu text editor
 
+      # AI
+      # nur.repos.some-pkgs.llama-cpp # cli: Port of Facebook's LLaMA model in C/C++ (master branch)
+      # llama-cpp # cli: Port of Facebook's LLaMA model in C/C++
+
       /*
       mate.pluma # gui: Powerful text editor for the MATE desktop
       ox # cli: independent rust text editor
@@ -79,6 +83,7 @@ in {
       # Shell
       # oh-my-posh # cli: A prompt theme engine for any shell
       starship # cli: A minimal, blazing fast, and extremely customizable prompt for any shell
+      inshellisense # cli: IDE style command line auto complete
       # End-of Shell
 
       # Development
