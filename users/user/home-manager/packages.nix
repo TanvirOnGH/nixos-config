@@ -580,15 +580,6 @@ in {
       */
       # End-of Ricing tools
 
-      # Web3
-      /*
-      kubo # cli: An IPFS implementation in Go
-      ipfs-cluster # cli: Allocate, replicate, and track Pins across a cluster of IPFS daemons
-      ipfs-upload-client # cli: A minimal CLI tool to upload files and directories to IPFS via Infura's IPFS or another API endpoint
-      ipget # cli: Retrieve files over IPFS and save them locally
-      */
-      #- End-of Web3
-
       # Tor
       /*
       tor # cli: Anonymizing overlay network
