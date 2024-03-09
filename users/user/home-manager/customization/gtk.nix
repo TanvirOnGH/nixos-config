@@ -51,6 +51,7 @@ in {
           "file:///home/user/downloads"
           "file:///home/user/media/pictures/screenshots"
           "file:///mnt/MISC"
+          "file:///mnt/games"
           "file:///mnt/SSD"
         ];
         extraConfig = {
