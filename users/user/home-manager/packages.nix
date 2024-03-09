@@ -821,7 +821,9 @@ in {
       smartmontools # cli: Tools for monitoring the health of hard drives
       nvme-cli # cli: NVM-Express user space tooling for Linux
       lm_sensors # cli: Tools for reading hardware sensors
-      openssl # lib+cli: A cryptographic library that implements the SSL and TLS protocols
+      #- <https://nixos.wiki/wiki/FAQ/I_installed_a_library_but_my_compiler_is_not_finding_it._Why%3F>
+      #- <https://discourse.nixos.org/t/how-to-install-openssl-to-compile-against/1249>
+      # openssl # lib+cli: A cryptographic library that implements the SSL and TLS protocols
       #- jq
       jq # cli: A lightweight and flexible command-line JSON processor
       /*
