@@ -90,6 +90,7 @@ in {
       shellcheck # cli: Shell script analysis tool
       shfmt # cli: A shell parser and formatter
       wakatime # cli: wakatime cli, used for tracking time spent on projects
+      direnv # cli: A shell extension that manages your environment
       /*
       shellharden # cli: The corrective bash syntax highlighter
       processing # cli: A language and IDE for electronic arts
