@@ -6,7 +6,7 @@
     cachix-agent.enable = true;
 
     cachix-watch-store = {
-      enable = true;
+      enable = false;
       cacheName = "experimental";
       cachixTokenFile = "/home/user/.config/cachix/cachix.dhall";
     };
