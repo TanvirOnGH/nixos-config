@@ -144,7 +144,6 @@ in {
       ddgr # cli: Search DuckDuckGo from the terminal
       cod # daemon: Tool for generating Bash/Fish/Zsh autocompletions based on `--help` output
       progress # cli: Tool that shows the progress of coreutils programs
-      tiptop # cli: Performance monitoring tool for Linux
       cointop # cli: The fastest and most interactive terminal based UI application for tracking cryptocurrencies
       /*
       delta # cli: A syntax-highlighting pager for git
@@ -155,6 +154,16 @@ in {
       glow # cli: Render markdown on the CLI, with pizzazz!
       */
       # End-of Cli tools
+
+      # Show-off tools
+      cmatrix # cli: Simulates the falling characters theme from The Matrix movie
+      figlet # cli: Program for making large letters out of ordinary text
+      lolcat # cli: A rainbow version of cat
+      gay # cli: Colour your text / terminal to be more gay
+      cowsay # cli: A program which generates ASCII pictures of a cow with a message
+      ponysay # cli: Cowsay reimplemention for ponies
+      pokemonsay # cli: Print pokemon in the CLI! An adaptation of the classic cowsay
+      # End-of-Show-off tools
 
       # Plugins
       # oh-my-fish # cli: The Fish Shell Framework
@@ -833,6 +842,7 @@ in {
       #- https://wiki.hyprland.org/FAQ/#gtk-settings-no-work--whatever
       xsettingsd # cli: Provides settings to X11 applications via the XSETTINGS specification
       nvtop # cli: A (h)top like task monitor for AMD, Intel and NVIDIA GPUs
+      nvitop # cli: An interactive NVIDIA-GPU process viewer, the one-stop solution for GPU process management
       # tree # cli: Command to produce a depth indented directory listing
       # gallery-dl # cli: Command-line program to download image-galleries and -collections from several image hosting sites
       smartmontools # cli: Tools for monitoring the health of hard drives
@@ -892,15 +902,6 @@ in {
       dua # cli: A tool to conveniently learn about the disk usage of directories
       vnstat # cli: network statistics utility
       nload # cli: Monitors network traffic and bandwidth usage with ncurses graphs
-      ponymix # cli: pulseaudio volume control
-      cmatrix # cli: Simulates the falling characters theme from The Matrix movie
-      figlet # cli: Program for making large letters out of ordinary text
-      lolcat # cli: A rainbow version of cat
-      gay # cli: Colour your text / terminal to be more gay
-      cowsay # cli: A program which generates ASCII pictures of a cow with a message
-      ponysay # cli: Cowsay reimplemention for ponies
-      pokemonsay # cli: Print pokemon in the CLI! An adaptation of the classic cowsay
-      xcowsay # gui: Tool to display a cute cow and messages
       alsa-utils # cli: alsa utilities
       hwinfo # cli: Hardware detection tool from openSUSE
       cpuid # cli: Linux tool to dump x86 CPUID information about the CPU
