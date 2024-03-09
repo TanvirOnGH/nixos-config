@@ -140,6 +140,12 @@ in {
       bat # cli: A cat(1) clone with syntax highlighting and Git integration
       exa # cli: Replacement for 'ls' written in Rust
       grc # cli: A generic text colouriser
+      tealdeer # cli: A very fast implementation of tldr in Rust
+      ddgr # cli: Search DuckDuckGo from the terminal
+      cod # daemon: Tool for generating Bash/Fish/Zsh autocompletions based on `--help` output
+      progress # cli: Tool that shows the progress of coreutils programs
+      tiptop # cli: Performance monitoring tool for Linux
+      cointop # cli: The fastest and most interactive terminal based UI application for tracking cryptocurrencies
       /*
       delta # cli: A syntax-highlighting pager for git
       fd # cli: A simple, fast and user-friendly alternative to find
