@@ -89,7 +89,6 @@
       fsType = "ntfs-3g";
       options = ["rw" "uid=1001"];
     };
-  };
 
     # Windows Partition
     # <https://nixos.wiki/wiki/NTFS>
