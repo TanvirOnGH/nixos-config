@@ -285,9 +285,9 @@ in {
       */
       # End-of Virtualization
 
-      # Cryptocurrency
-      # TODO: setup xmrig and xmr-stak
-      # End-of Cryptocurrency
+      # Crypto
+      monero-gui # gui: Private, secure, untraceable currency
+      # End-of Crypto
 
       # Cleaners
       /*
