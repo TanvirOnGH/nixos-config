@@ -3,7 +3,7 @@
 #- https://docs.cachix.org/deploy/running-an-agent/nixos
 {...}: {
   services = {
-    cachix-agent.enable = true;
+    cachix-agent.enable = false;
 
     cachix-watch-store = {
       enable = false;
