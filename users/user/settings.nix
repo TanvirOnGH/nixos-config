@@ -12,6 +12,7 @@
     isNormalUser = true;
     initialPassword = "user";
     shell = pkgs.fish;
+    uid = 1001;
 
     #- Groups that the user belongs: `groups`
     #- Check member of a particular group `getent group <group>`
