@@ -82,6 +82,7 @@ in {
       shellcheck # cli: Shell script analysis tool
       shfmt # cli: A shell parser and formatter
       wakatime # cli: wakatime cli, used for tracking time spent on projects
+      jq # cli: A lightweight and flexible command-line JSON processor
       # processing # cli: A language and IDE for electronic arts
       # sqlite # cli: A self-contained, serverless, zero-configuration, transactional SQL database engine
       # sqliteman # gui: A simple but powerful Sqlite3 GUI database manager
@@ -145,6 +146,8 @@ in {
       cod # daemon: Tool for generating Bash/Fish/Zsh autocompletions based on `--help` output
       progress # cli: Tool that shows the progress of coreutils programs
       cointop # cli: The fastest and most interactive terminal based UI application for tracking cryptocurrencies
+      imgcat # cli: It's like cat, but for images
+      glow # cli: Render markdown on the CLI, with pizzazz!
       /*
       delta # cli: A syntax-highlighting pager for git
       fd # cli: A simple, fast and user-friendly alternative to find
