@@ -1,5 +1,9 @@
 # User's Settings Configuration
-{pkgs, ...}: {
+{
+  pkgs,
+  config,
+  ...
+}: {
   # Note: Don't forget to set a password with ‘passwd’
   users.users.user = {
     description = "user";
@@ -24,6 +28,7 @@
       "kvm"
       "libvirtd"
       # "boinc"
+      config.services.kubo.group
     ];
   };
 
