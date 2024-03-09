@@ -363,6 +363,7 @@ in {
       motrix # gui: full featured download manager
       uget # gui: download manager using GTK and libcurl
       uget-integrator # plugin: Native messaging host to integrate uGet Download Manager with web browsers
+      gallery-dl # cli: Command-line program to download image-galleries and -collections from several image hosting sites
       /*
       aria # cli: lightweight, multi-protocol, multi-source, command-line download utility
       */
