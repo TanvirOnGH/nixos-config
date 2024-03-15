@@ -530,6 +530,7 @@ in {
       # End-of Archivers
 
       # Readers (pdf, ebook, ...)
+      librum # gui: An application designed to make reading enjoyable and straightforward for everyone
       libsForQt5.okular # gui: KDE document viewer
       zathura # gui: A highly customizable and functional PDF viewer
       evince # gui: GNOME's document viewer
