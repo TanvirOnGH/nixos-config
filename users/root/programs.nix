@@ -104,7 +104,7 @@
     gnupg.agent = {
       enable = true;
       enableSSHSupport = true;
-      pinentryPackage = "gnome3";
+      pinentryPackage = pkgs.pinentry-gnome3;
     };
 
     # <https://nixos.wiki/wiki/Git>
