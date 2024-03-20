@@ -4,7 +4,7 @@
 {pkgs, ...}: {
   boot = {
     kernelPackages = pkgs.linuxPackages_xanmod_latest;
-    kernelParams = ["quiet" "mitigations=off"];
+    kernelParams = ["quiet" "mitigations=off" "iommu=pt"];
     kernelPatches = [
       {
         name = "crashdump-config";
