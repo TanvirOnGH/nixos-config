@@ -23,7 +23,7 @@
     };
 
     please = {
-      enable = true;
+      enable = false;
       wheelNeedsPassword = true;
     };
   };
