@@ -17,7 +17,7 @@ in {
         enable = true;
       };
       chromium = {
-        enable = true;
+        enable = false;
       };
 
       # TODO: Setup NixVim <https://github.com/nix-community/nixvim>
