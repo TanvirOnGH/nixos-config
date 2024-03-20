@@ -58,7 +58,7 @@ in {
     home.packages = with pkgs; [
       # Code editors
       micro # cli: modern and intuitive terminal text editor
-      nano # cli: small, user-friendly console text editor
+      # nano # cli: small, user-friendly console text editor
       # kibi # cli: text editor in ≤1024 lines of code, written in rust
       lite-xl # gui: lightweight text editor written in Lua
       vim # cli: The most popular clone of the VI editor
@@ -89,7 +89,7 @@ in {
       shellcheck # cli: Shell script analysis tool
       shfmt # cli: A shell parser and formatter
       wakatime # cli: wakatime cli, used for tracking time spent on projects
-      direnv # cli: A shell extension that manages your environment
+      # direnv # cli: A shell extension that manages your environment
       /*
       shellharden # cli: The corrective bash syntax highlighter
       processing # cli: A language and IDE for electronic arts
@@ -168,39 +168,39 @@ in {
       tealdeer # cli: A very fast implementation of tldr in Rust
       cheat # cli: Create and view interactive cheatsheets on the command-line
       broot # cli: An interactive tree view, a fuzzy search, a balanced BFS descent and customizable commands
-      ddgr # cli: Search DuckDuckGo from the terminal
       cod # daemon: Tool for generating Bash/Fish/Zsh autocompletions based on `--help` output
       progress # cli: Tool that shows the progress of coreutils programs
+      mcfly # cli: An upgraded ctrl-r where history results make sense for what you're working on right now
+      gping # cli: Ping, but with a graph
+      skim # cli: Command-line fuzzy finder written in Rust
+      ripgrep # cli: A utility that combines the usability of The Silver Searcher with the raw speed of grep
+      rm-improved # cli: Replacement for rm with focus on safety, ergonomics and performance
+      fzf # cli: A command-line fuzzy finder written in Go
+      navi # cli: An interactive cheatsheet tool for the command-line and application launchers
+      atuin # cli: Replacement for a shell history which records additional commands context with optional encrypted synchronization between machines
+      zoxide # cli: A fast cd command that learns your habits
+      /*
       imgcat # cli: It's like cat, but for images
       glow # cli: Render markdown on the CLI, with pizzazz!
       noti # cli: Monitor a process and trigger a notification
       du-dust # cli: du + rust = dust. Like du but more intuitive
       duf # cli: Disk Usage/Free Utility
       sd # cli: Intuitive find & replace CLI (sed alternative)
-      mcfly # cli: An upgraded ctrl-r where history results make sense for what you're working on right now
-      choose # cli: A human-friendly and fast alternative to cut and (sometimes) awk
-      gping # cli: Ping, but with a graph
       procs # cli: A modern replacement for ps written in Rust
       tokei # cli: A program that allows you to count your code, quickly
       runiq # cli: An efficient way to filter duplicate lines from input, à la uniq
-      skim # cli: Command-line fuzzy finder written in Rust
-      ripgrep # cli: A utility that combines the usability of The Silver Searcher with the raw speed of grep
+      choose # cli: A human-friendly and fast alternative to cut and (sometimes) awk
       watchexec # cli: Executes commands in response to file modifications
       bandwhich # cli: A CLI utility for displaying current network utilization
       kmon # cli: Linux Kernel Manager and Activity Monitor
       grex # cli: A command-line tool for generating regular expressions from user-provided test cases
       ouch # cli: A command-line utility for easily compressing and decompressing files and directories
-      rm-improved # cli: Replacement for rm with focus on safety, ergonomics and performance
+      fclones # cli: Efficient Duplicate File Finder and Remover
       ruplacer # cli: Find and replace text in source files
       eva # cli: A calculator REPL, similar to bc
-      fclones # cli: Efficient Duplicate File Finder and Remover
-      fzf # cli: A command-line fuzzy finder written in Go
-      navi # cli: An interactive cheatsheet tool for the command-line and application launchers
-      atuin # cli: Replacement for a shell history which records additional commands context with optional encrypted synchronization between machines
-      zoxide # cli: A fast cd command that learns your habits
+      ddgr # cli: Search DuckDuckGo from the terminal
       xplr # cli: A hackable, minimal, fast TUI file explorer
       yq # cli: Command-line YAML/XML/TOML processor - jq wrapper for YAML, XML, TOML documents
-      /*
       cointop # cli: The fastest and most interactive terminal based UI application for tracking cryptocurrencies
       fd # cli: A simple, fast and user-friendly alternative to find
       ripgrep-all # cli: Ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, and more
@@ -253,13 +253,13 @@ in {
 
       # Browsers
       tor-browser-bundle-bin # gui: Tor Browser Bundle built by torproject.org
-      librewolf # gui: A fork of Firefox, focused on privacy, security and freedom
-      mullvad-browser # gui: Privacy-focused browser made in a collaboration between The Tor Project and Mullvad
+      # librewolf # gui: A fork of Firefox, focused on privacy, security and freedom
+      # mullvad-browser # gui: Privacy-focused browser made in a collaboration between The Tor Project and Mullvad
       floorp # gui: A fork of Firefox, focused on keeping the Open, Private and Sustainable Web alive, built in Japan
-      brave # gui: Privacy-oriented browser for Desktop and Laptop computers
-      vivaldi # gui: A Browser for our Friends, powerful and personal
-      microsoft-edge # gui: The web browser from Microsoft
-      opera # gui: Faster, safer and smarter web browser
+      # brave # gui: Privacy-oriented browser for Desktop and Laptop computers
+      # vivaldi # gui: A Browser for our Friends, powerful and personal
+      # microsoft-edge # gui: The web browser from Microsoft
+      # opera # gui: Faster, safer and smarter web browser
       /*
       ungoogled-chromium # gui: An open source web browser from Google, with dependencies on Google web services removed
       chromium # gui: An open source web browser from Google
@@ -267,12 +267,14 @@ in {
       # End-of Browsers
 
       # Email
+      /*
       betterbird # gui: Betterbird is a fine-tuned version of Mozilla Thunderbird, Thunderbird on steroids, if you will
       thunderbird # gui: A full-featured e-mail client from Mozilla
       electron-mail # gui: electron based protonmail client
       tutanota-desktop # gui: electron based tutanota client
-      # claws-mail # gui: The user-friendly, lightweight, and fast email client
-      # gnome.geary # gui: Mail client for GNOME 3
+      claws-mail # gui: The user-friendly, lightweight, and fast email client
+      gnome.geary # gui: Mail client for GNOME 3
+      */
       # End-of Email
 
       # Reverse Engineering
@@ -307,8 +309,8 @@ in {
       # End-of 3D
 
       # Virtualization
-      distrobox # cli: Wrapper around podman or docker to create and start containers
       /*
+      distrobox # cli: Wrapper around podman or docker to create and start containers
       virt-manager # gui: graphical tool for managing virtual machines
       gnome.gnome-boxes # gui: GNOME application to access remote or virtual systems
       lazydocker # tui: A simple terminal UI for both docker and docker-compose
@@ -343,7 +345,9 @@ in {
       # End-of Games
 
       # Eye-candy
+      /*
       cava # cli: console-based audio visualizer for alsa
+      */
       # End-of Eye-candy
 
       # Fetchers
@@ -357,14 +361,14 @@ in {
       # End of Fetchers
 
       # Download managers
-      wget # cli: Tool for retrieving files using http, https and ftp
-      wget2 # cli: Successor of GNU Wget, a file and recursive website downloader.
-      curl # cli: A command line tool for transferring files with URL syntax
+      # wget # cli: Tool for retrieving files using http, https and ftp
+      # wget2 # cli: Successor of GNU Wget, a file and recursive website downloader.
+      # curl # cli: A command line tool for transferring files with URL syntax
       motrix # gui: full featured download manager
       uget # gui: download manager using GTK and libcurl
+      /*
       uget-integrator # plugin: Native messaging host to integrate uGet Download Manager with web browsers
       gallery-dl # cli: Command-line program to download image-galleries and -collections from several image hosting sites
-      /*
       aria # cli: lightweight, multi-protocol, multi-source, command-line download utility
       */
       # End-of Download managers
@@ -382,9 +386,9 @@ in {
       # End-of Torrent
 
       # Youtube/Spotify Downloader
+      /*
       yt-dlp # cli: fork of youtube-dl with additional features
       tartube-yt-dlp # gui: gui frontend for youtube-dl and yt-dlp
-      /*
       youtube-dl # cli: tool to download videos from youtube and other sites
       ytmdl # cli: cli tool to download music from youtube
       spotdl # cli: spotify downloader
@@ -393,17 +397,17 @@ in {
 
       # Discord clients
       armcord # gui: lightweight free discord client
+      /*
       discord # gui: official discord client
       ripcord # gui: proprietary client for discord and slack
-      /*
       betterdiscordctl # cli: utility for managing betterdiscord
       cordless # tui: Discord terminal client
       */
       # End-of Discord clients
 
       # Matrix clients
-      element-desktop # gui: popular matrix client
       /*
+      element-desktop # gui: popular matrix client
       fractal # gui: Matrix group messaging app
       fluffychat # gui: Chat with your friends (matrix client)
       cinny-desktop # gui: Yet another matrix client for desktop
@@ -427,9 +431,9 @@ in {
       # End-of XMPP/Jabber clients
 
       # Messengers
+      /*
       zapzap # gui: WhatsApp desktop application for Linux
       revolt-desktop # gui: An open source user-first chat platform
-      /*
       tdesktop # gui: Telegram Desktop messaging app
       session-desktop # gui: Onion routing based messenger
       wire-desktop # gui: A modern, secure messenger for everyone
@@ -452,11 +456,11 @@ in {
       mpv # cli: media player
       #- End-of Video Players
       #- Image viewers
-      feh # cli: lightweight image viewer
       gthumb # gui: Image browser and viewer for GNOME
       gnome.eog # gui: image viewer app by GNOME
-      oculante # gui: A minimalistic crossplatform image viewer written in Rust
       /*
+      feh # cli: lightweight image viewer
+      oculante # gui: A minimalistic crossplatform image viewer written in Rust
       nsxiv # cli: New Suckless X Image Viewer
       libsForQt5.gwenview # gui: image viewer app by KDE
       napari # gui: A fast, interactive, multi-dimensional image viewer
@@ -466,7 +470,9 @@ in {
       */
       #- End-of Image viewers
       #- Image tools
+      /*
       imagemagickBig # cli: A software suite to create, edit, compose, or convert bitmap images
+      */
       #- End-of Image Tools
       #- Audio Players
       lollypop # gui: modern music player for GNOME
@@ -483,8 +489,8 @@ in {
       pavucontrol # gui: pulseaudio volume control
       #- End-of Controllers
       #- Tools
-      ffmpeg_6-full # cli: A complete, cross-platform solution to record, convert and stream audio and video
       /*
+      ffmpeg_6-full # cli: A complete, cross-platform solution to record, convert and stream audio and video
       mediainfo # cli: Supplies technical and tag information about a video or audio file
       exiftool # cli: A tool to read, write and edit EXIF meta information
       sox # cli: Sample Rate Converter for audio
@@ -493,8 +499,8 @@ in {
       # End-of Media
 
       # Entertainment
-      spotify # gui: spotify web music player
       /*
+      spotify # gui: spotify web music player
       mov-cli # A cli tool to browse and watch movies
       lrby # gui: A browser and wallet for LBRY, the decentralized, user-controlled content marketplace
       nuclear # gui: music streaming app similar to spotify
@@ -511,11 +517,11 @@ in {
 
       # Archivers
       gnome.file-roller # gui: archive manager from gnome desktop
-      archiver # gui: rasily create & extract archives, and compress & decompress files of various formats
+      # archiver # gui: rasily create & extract archives, and compress & decompress files of various formats
       zip # cli: Compressor/archiver for creating and modifying zipfiles
-      pigz # cli: A parallel implementation of gzip for multi-core machines
-      bzip2 # cli: High-quality data compression program
-      bzip3 # cli: A better and stronger spiritual successor to BZip2
+      # pigz # cli: A parallel implementation of gzip for multi-core machines
+      # bzip2 # cli: High-quality data compression program
+      # bzip3 # cli: A better and stronger spiritual successor to BZip2
       xz # cli: A general-purpose data compression software, successor of LZMA
       unzip # cli: An extraction utility for archives compressed in .zip format
       p7zip # cli: 7z archiver (A new p7zip fork with additional codecs and improvements)
@@ -524,7 +530,7 @@ in {
       mate.engrampa # gui: Archive Manager for MATE
       lxqt.lxqt-archiver # gui: Archive tool for the LXQt desktop environment
       xarchiver # gui: GTK frontend to 7z,zip,rar,tar,bzip2, gzip,arj, lha, rpm and deb (open and extract only)
-      xar # cli: Extensible Archiver
+      # xar # cli: Extensible Archiver
       mate.engrampa # gui: archive manager from mate desktop
       lxqt.lxqt-archiver # gui: archive manager from lxqt desktop
       # End-of Archivers
@@ -532,10 +538,10 @@ in {
       # Readers (pdf, ebook, ...)
       librum # gui: An application designed to make reading enjoyable and straightforward for everyone
       libsForQt5.okular # gui: KDE document viewer
-      zathura # gui: A highly customizable and functional PDF viewer
       evince # gui: GNOME's document viewer
-      calibre # gui: Comprehensive e-book software
       /*
+      zathura # gui: A highly customizable and functional PDF viewer
+      calibre # gui: Comprehensive e-book software
       foliate # gui: A simple and modern GTK eBook reader
       koreader # gui: An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices
       mupdf # gui: Lightweight PDF, XPS, and E-book viewer and toolkit written in portable C
@@ -927,16 +933,16 @@ in {
       # Essential tools
       #- https://github.com/swaywm/sway/wiki/GTK-3-settings-on-Wayland#xsettings
       #- https://wiki.hyprland.org/FAQ/#gtk-settings-no-work--whatever
-      xsettingsd # cli: Provides settings to X11 applications via the XSETTINGS specification
-      xfce.xfce4-taskmanager # Task manager application by XFCE
+      # xsettingsd # cli: Provides settings to X11 applications via the XSETTINGS specification
+      # xfce.xfce4-taskmanager # Task manager application by XFCE
       nvtop # cli: A (h)top like task monitor for AMD, Intel and NVIDIA GPUs
       nvitop # cli: An interactive NVIDIA-GPU process viewer, the one-stop solution for GPU process management
       i3lock-fancy-rapid # gui: A faster implementation of i3lock-fancy
       # tree # cli: Command to produce a depth indented directory listing
       # gallery-dl # cli: Command-line program to download image-galleries and -collections from several image hosting sites
-      smartmontools # cli: Tools for monitoring the health of hard drives
-      nvme-cli # cli: NVM-Express user space tooling for Linux
-      lm_sensors # cli: Tools for reading hardware sensors
+      # smartmontools # cli: Tools for monitoring the health of hard drives
+      # nvme-cli # cli: NVM-Express user space tooling for Linux
+      # lm_sensors # cli: Tools for reading hardware sensors
       linux-wifi-hotspot # gui: Feature-rich wifi hotspot creator for Linux which provides both GUI and command-line interface
       #- <https://nixos.wiki/wiki/FAQ/I_installed_a_library_but_my_compiler_is_not_finding_it._Why%3F>
       #- <https://discourse.nixos.org/t/how-to-install-openssl-to-compile-against/1249>
