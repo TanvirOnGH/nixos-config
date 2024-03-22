@@ -17,6 +17,10 @@
     ./system/nix/cache.nix
     ./system/nix/flox.nix
 
+    # Security
+    # ./security/selinux.nix
+    # ./security/auditd.nix
+
     # Graphics
     ./hardware/gpu/nvidia.nix
     ./desktop/gui/opengl.nix
@@ -42,7 +46,7 @@
     ./desktop/customization/qt.nix
 
     # Hardware Misc
-    ./hardware/peripherals/argb.nix
+    # ./hardware/peripherals/argb.nix
     # ./hardware/peripherals/tablet.nix
 
     # Packages/Programs/Services
