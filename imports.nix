@@ -3,6 +3,7 @@
   # N.B. : Paths in nix expressions are always relative the file which defines them
   imports = [
     # System
+    ./system/no-defaults.nix
     ./system/nix/tweaks.nix
     ./system/hardware.nix
     ./system/filesystem.nix
