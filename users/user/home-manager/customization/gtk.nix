@@ -52,7 +52,8 @@ in {
           "file:///home/user/downloads"
           "file:///home/user/media/pictures/screenshots"
           "file:///mnt/hdd"
-          "file:///mnt/ssd"
+          # "file:///mnt/ssd"
+          "file:///mnt/windows"
         ];
         extraConfig = {
           gtk-cursor-blink = false;

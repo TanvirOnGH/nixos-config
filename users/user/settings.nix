@@ -28,6 +28,7 @@
       "flatpak"
       "kvm"
       "libvirtd"
+      # "dialout"
       # "adbusers"
       # "boinc"
       # config.services.kubo.group
