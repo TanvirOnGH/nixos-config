@@ -21,6 +21,9 @@
     # ./security/selinux.nix
     # ./security/auditd.nix
 
+    # Containers
+    ./containers/flaresolverr.nix
+
     # Graphics
     ./hardware/gpu/nvidia.nix
     ./desktop/gui/opengl.nix
