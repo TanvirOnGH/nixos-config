@@ -935,7 +935,7 @@ in {
       #- https://wiki.hyprland.org/FAQ/#gtk-settings-no-work--whatever
       # xsettingsd # cli: Provides settings to X11 applications via the XSETTINGS specification
       # xfce.xfce4-taskmanager # Task manager application by XFCE
-      nvtop # cli: A (h)top like task monitor for AMD, Intel and NVIDIA GPUs
+      nvtopPackages.full # cli: A (h)top like task monitor for AMD, Intel and NVIDIA GPUs
       nvitop # cli: An interactive NVIDIA-GPU process viewer, the one-stop solution for GPU process management
       i3lock-fancy-rapid # gui: A faster implementation of i3lock-fancy
       # tree # cli: Command to produce a depth indented directory listing
