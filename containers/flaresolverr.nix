@@ -1,3 +1,4 @@
+# <https://github.com/FlareSolverr/FlareSolverr>
 {
   lib,
   config,
@@ -5,6 +6,13 @@
   ...
 }: {
   virtualisation = {
+    /*
+    docker = {
+      enable = true;
+      enableNvidia = true;
+    };
+    */
+
     podman = {
       enable = false;
 
@@ -24,6 +32,7 @@
           image = "ghcr.io/flaresolverr/flaresolverr:latest";
           autoStart = true;
           ports = ["127.0.0.1:8191:8191"];
+
           environment = {
             LOG_LEVEL = "info";
             LOG_HTML = "false";
