@@ -1,11 +1,17 @@
 # Udev Rules Configuration
 {...}: {
+  # To check: grep "" /sys/block/*/queue/scheduler
   services.udev = {
     # I/O Schedulers
     extraRules = ''
-      ACTION=="add|change", KERNEL=="nvme0n1", ATTR{queue/scheduler}="kyber"
-      ACTION=="add|change", KERNEL=="sda", ATTR{queue/scheduler}="bfq"
-      ACTION=="add|change", KERNEL=="sdb", ATTR{queue/scheduler}="mq-deadline"
+      # HDD
+      ACTION=="add|change", KERNEL=="sd[a-z]*", ATTR{queue/rotational}=="1", ATTR{queue/scheduler}="bfq"
+
+      # SSD
+      ACTION=="add|change", KERNEL=="sd[a-z]*|mmcblk[0-9]*", ATTR{queue/rotational}=="0", ATTR{queue/scheduler}="bfq"
+
+      # NVMe SSD
+      ACTION=="add|change", KERNEL=="nvme[0-9]*", ATTR{queue/rotational}=="0", ATTR{queue/scheduler}="none"
     '';
   };
 }
