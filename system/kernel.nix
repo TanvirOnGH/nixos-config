@@ -3,13 +3,23 @@
 # Kernel Configuration
 {pkgs, ...}: {
   boot = {
-    kernelPackages = pkgs.linuxPackages_xanmod_latest;
-    kernelParams = ["quiet" "mitigations=off" "iommu=pt"];
+    # kernelPackages = pkgs.linuxPackages_xanmod_latest;
+    # kernelPackages = pkgs.linuxPackages_latest;
+    kernelParams = [
+      # "quiet"
+      "mitigations=off"
+      "iommu=pt"
+      # "splash"
+    ];
+
+    # To check kernel config: zcat /proc/config.gz
+    /*
     kernelPatches = [
       {
-        name = "crashdump-config";
+        name = "performance";
         patch = null;
-        # check via: zcat /proc/config.gz
+        # Drop the CONFIG_ prefix from the kernel configuration names
+        # For Xanmod kernel
         extraConfig = ''
           MNATIVE_AMD y
           CC_OPTIMIZE_FOR_PERFORMANCE y
@@ -29,5 +39,6 @@
         '';
       }
     ];
+    */
   };
 }
