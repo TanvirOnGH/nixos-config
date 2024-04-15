@@ -98,6 +98,18 @@
       options = ["compress=zstd:3"];
     };
 
+    "/mnt/hdd2" = {
+      device = "/dev/disk/by-uuid/93c845a5-2abd-4c56-b8d1-7f37271e827b";
+      fsType = "btrfs";
+      options = ["compress=zstd:3"];
+    };
+
+    "/mnt/hdd3" = {
+      device = "/dev/disk/by-uuid/c1cf9ba8-18b8-49c2-89fe-8aacabfad79f";
+      fsType = "btrfs";
+      options = ["compress=zstd:3"];
+    };
+
     /*
     "/mnt/ssd" = {
       device = "/dev/disk/by-uuid/b335a65f-1c9d-4a15-a577-d0863c829ff0";
