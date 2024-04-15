@@ -396,8 +396,8 @@ in {
       # End-of Youtube/Spotify Downloader
 
       # Discord clients
-      armcord # gui: lightweight free discord client
       /*
+      armcord # gui: lightweight free discord client
       discord # gui: official discord client
       ripcord # gui: proprietary client for discord and slack
       betterdiscordctl # cli: utility for managing betterdiscord
