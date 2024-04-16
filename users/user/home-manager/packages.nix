@@ -458,6 +458,7 @@ in {
       #- Image viewers
       gthumb # gui: Image browser and viewer for GNOME
       gnome.eog # gui: image viewer app by GNOME
+      loupe # gui: A simple image viewer application written with GTK4 and Rust
       /*
       feh # cli: lightweight image viewer
       oculante # gui: A minimalistic crossplatform image viewer written in Rust
