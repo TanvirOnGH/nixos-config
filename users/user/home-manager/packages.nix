@@ -255,7 +255,7 @@ in {
       tor-browser-bundle-bin # gui: Tor Browser Bundle built by torproject.org
       # librewolf # gui: A fork of Firefox, focused on privacy, security and freedom
       # mullvad-browser # gui: Privacy-focused browser made in a collaboration between The Tor Project and Mullvad
-      floorp # gui: A fork of Firefox, focused on keeping the Open, Private and Sustainable Web alive, built in Japan
+      # floorp # gui: A fork of Firefox, focused on keeping the Open, Private and Sustainable Web alive, built in Japan
       # brave # gui: Privacy-oriented browser for Desktop and Laptop computers
       # vivaldi # gui: A Browser for our Friends, powerful and personal
       # microsoft-edge # gui: The web browser from Microsoft
