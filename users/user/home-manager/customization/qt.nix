@@ -14,7 +14,7 @@ in {
   }: {
     qt = {
       enable = true;
-      platformTheme = "gtk";
+      platformTheme.name = "gtk";
       style.name = "gtk2";
       # style.package = pkgs.p; # Auto-detected from qt.style.name if possible.
     };

@@ -6,21 +6,21 @@
   ...
 }: {
   services = {
+    libinput = {
+      enable = true;
+      mouse = {
+        disableWhileTyping = true;
+        accelProfile = "adaptive";
+        naturalScrolling = false;
+      };
+    };
+
     xserver = with pkgs; {
       enable = true;
       autorun = true;
       xkb.layout = "us";
       desktopManager.xterm.enable = false;
       excludePackages = [xterm];
-
-      libinput = {
-        enable = true;
-        mouse = {
-          disableWhileTyping = true;
-          accelProfile = "adaptive";
-          naturalScrolling = false;
-        };
-      };
     };
 
     displayManager = {
