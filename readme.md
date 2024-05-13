@@ -38,4 +38,4 @@ I'll eventually switch to [flakes](https://nixos.wiki/wiki/Flakes) configuration
 
 ### Abandon Hope, All Ye Who Enter Here
 
-![NixOS Learning Curve Graph](imgs/nixos-learning-curve.png)
+![NixOS Learning Curve Graph](imgs/nixos-learning-curve.jpeg)
