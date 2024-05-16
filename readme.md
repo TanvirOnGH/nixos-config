@@ -6,6 +6,8 @@
 
 My [nix](https://nixos.org/learn.html) configuration for [NixOS](https://nixos.org) based systems.
 
+[![built with nix](https://builtwithnix.org/badge.svg)](https://builtwithnix.org)
+
 ## Channels
 
 ```nix
