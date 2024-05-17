@@ -26,7 +26,6 @@
     };
 
     displayManager = {
-
       defaultSession = "none+awesome";
       autoLogin = {
         enable = true;
