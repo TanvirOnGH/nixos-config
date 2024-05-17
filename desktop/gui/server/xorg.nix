@@ -21,9 +21,12 @@
       xkb.layout = "us";
       desktopManager.xterm.enable = false;
       excludePackages = [xterm];
+
+      displayManager.startx.enable = false;
     };
 
     displayManager = {
+
       defaultSession = "none+awesome";
       autoLogin = {
         enable = true;
