@@ -85,6 +85,17 @@
       # guiAddress = "127.0.0.1:9999";
     };
 
+    # Keybase
+    keybase.enable = true;
+    kbfs = {
+      enable = true;
+      enableRedirector = false;
+      mountPoint = "%h/keybase";
+      extraFlags = [
+        "-label kbfs"
+      ];
+    };
+
     # K3s
     #- <https://nixos.wiki/wiki/K3s>
     k3s = {

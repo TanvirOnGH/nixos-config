@@ -427,6 +427,7 @@ in {
       rocketchat-desktop # gui: Official Desktop client for Rocket.Chat
       wire-desktop # gui: A modern, secure messenger for everyone
       zulip # gui: Desktop client for Zulip Chat
+      keybase-gui # gui: The Keybase official GUI
       #- XMPP/Jabber clients
       /*
       dino # gui: Modern Jabber/XMPP Client using GTK/Vala
@@ -437,7 +438,6 @@ in {
       gitter # gui: Where developers come to talk (abandoned by upstream)
       zapzap # gui: WhatsApp desktop application for Linux
       signal-desktop # gui: Private, simple, and secure messenger
-      keybase-gui # gui: The Keybase official GUI
       keybase # cli: The Keybase official command-line utility and service
       qtox # gui: Qt Tox client
       */
