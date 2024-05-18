@@ -1,10 +1,6 @@
 # Xorg/X11 Configuration
 #- <https://nixos.wiki/wiki/Xorg>
-{
-  config,
-  pkgs,
-  ...
-}: {
+{pkgs, ...}: {
   services = {
     libinput = {
       enable = true;
@@ -15,12 +11,12 @@
       };
     };
 
-    xserver = with pkgs; {
+    xserver = {
       enable = true;
       autorun = true;
       xkb.layout = "us";
       desktopManager.xterm.enable = false;
-      excludePackages = [xterm];
+      excludePackages = [pkgs.xterm];
 
       displayManager.startx.enable = false;
     };

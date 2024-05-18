@@ -15,12 +15,7 @@ in {
     useUserPackages = true;
   };
 
-  home-manager.users.user = {
-    pkgs,
-    lib,
-    config,
-    ...
-  }: {
+  home-manager.users.user = {...}: {
     home = {
       username = "user";
       homeDirectory = "/home/user";

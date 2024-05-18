@@ -6,12 +6,7 @@ in {
     (import "${home-manager}/nixos")
   ];
 
-  home-manager.users.user = {
-    pkgs,
-    lib,
-    config,
-    ...
-  }: {
+  home-manager.users.user = {...}: {
     services = {
       kdeconnect.enable = true;
       gnome-keyring.enable = true;

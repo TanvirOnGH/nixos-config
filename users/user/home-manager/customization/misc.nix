@@ -8,7 +8,6 @@ in {
 
   home-manager.users.user = {
     pkgs,
-    lib,
     config,
     ...
   }: {

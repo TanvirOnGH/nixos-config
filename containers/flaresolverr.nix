@@ -1,10 +1,5 @@
 # <https://github.com/FlareSolverr/FlareSolverr>
-{
-  lib,
-  config,
-  pkgs,
-  ...
-}: {
+{...}: {
   virtualisation = {
     /*
     docker = {

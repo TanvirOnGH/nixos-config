@@ -1,7 +1,7 @@
 # Kernel Configuration
 #- <https://nixos.wiki/wiki/Linux_kernel>
 # Kernel Configuration
-{pkgs, ...}: {
+{...}: {
   boot = {
     # kernelPackages = pkgs.linuxPackages_xanmod_latest;
     # kernelPackages = pkgs.linuxPackages_latest;

@@ -1,10 +1,5 @@
 # <https://github.com/open-webui/open-webui>
-{
-  lib,
-  config,
-  pkgs,
-  ...
-}: {
+{...}: {
   virtualisation = {
     /*
     docker = {

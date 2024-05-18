@@ -1,11 +1,6 @@
 # <https://github.com/jmorganca/ollama>
 # <https://hub.docker.com/r/ollama/ollama>
-{
-  lib,
-  config,
-  pkgs,
-  ...
-}: {
+{...}: {
   virtualisation = {
     /*
     docker = {

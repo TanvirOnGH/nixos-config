@@ -1,9 +1,5 @@
 # User's Settings Configuration
-{
-  pkgs,
-  config,
-  ...
-}: {
+{pkgs, ...}: {
   # Note: Removing a user does not remove its profile: <https://github.com/NixOS/nix/issues/4419>
   # Note: Don't forget to set a password with ‘passwd’
   users.users.user = {

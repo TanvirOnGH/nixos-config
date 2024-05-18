@@ -1,10 +1,5 @@
 # <https://github.com/element-hq/element-web>
-{
-  lib,
-  config,
-  pkgs,
-  ...
-}: {
+{...}: {
   virtualisation = {
     /*
     docker = {
