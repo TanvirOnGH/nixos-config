@@ -519,11 +519,11 @@ in {
 
       # Archivers
       gnome.file-roller # gui: archive manager from gnome desktop
-      # archiver # gui: rasily create & extract archives, and compress & decompress files of various formats
+      archiver # gui: rasily create & extract archives, and compress & decompress files of various formats
       zip # cli: Compressor/archiver for creating and modifying zipfiles
-      # pigz # cli: A parallel implementation of gzip for multi-core machines
-      # bzip2 # cli: High-quality data compression program
-      # bzip3 # cli: A better and stronger spiritual successor to BZip2
+      pigz # cli: A parallel implementation of gzip for multi-core machines
+      bzip2 # cli: High-quality data compression program
+      bzip3 # cli: A better and stronger spiritual successor to BZip2
       xz # cli: A general-purpose data compression software, successor of LZMA
       unzip # cli: An extraction utility for archives compressed in .zip format
       p7zip # cli: 7z archiver (A new p7zip fork with additional codecs and improvements)
@@ -532,7 +532,7 @@ in {
       mate.engrampa # gui: Archive Manager for MATE
       lxqt.lxqt-archiver # gui: Archive tool for the LXQt desktop environment
       xarchiver # gui: GTK frontend to 7z,zip,rar,tar,bzip2, gzip,arj, lha, rpm and deb (open and extract only)
-      # xar # cli: Extensible Archiver
+      xar # cli: Extensible Archiver
       mate.engrampa # gui: archive manager from mate desktop
       lxqt.lxqt-archiver # gui: archive manager from lxqt desktop
       # End-of Archivers
