@@ -402,13 +402,14 @@ in {
       # End-of Discord clients
 
       # Matrix clients
-      /*
       element-desktop # gui: popular matrix client
-      fractal # gui: Matrix group messaging app
       fluffychat # gui: Chat with your friends (matrix client)
+      nheko # gui: Desktop client for the Matrix protocol
+      /*
       cinny-desktop # gui: Yet another matrix client for desktop
-      schildichat-desktop # gui: matrix client based on element
+      fractal # gui: Matrix group messaging app
       element-desktop-wayland # gui: popular matrix client with wayland support
+      schildichat-desktop # gui: matrix client based on element (removed from Nixpkgs due to security issues)
       */
       # End-of Matrix clients
 
