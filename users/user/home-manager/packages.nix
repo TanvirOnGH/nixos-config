@@ -338,9 +338,7 @@ in {
       # End-of Games
 
       # Eye-candy
-      /*
       cava # cli: console-based audio visualizer for alsa
-      */
       # End-of Eye-candy
 
       # Fetchers
@@ -389,28 +387,6 @@ in {
       */
       # End-of Youtube/Spotify Downloader
 
-      # Discord clients
-      /*
-      armcord # gui: lightweight free discord client
-      discord # gui: official discord client
-      ripcord # gui: proprietary client for discord and slack
-      betterdiscordctl # cli: utility for managing betterdiscord
-      cordless # tui: Discord terminal client
-      */
-      # End-of Discord clients
-
-      # Matrix clients
-      element-desktop # gui: popular matrix client
-      fluffychat # gui: Chat with your friends (matrix client)
-      nheko # gui: Desktop client for the Matrix protocol
-      /*
-      cinny-desktop # gui: Yet another matrix client for desktop
-      fractal # gui: Matrix group messaging app
-      element-desktop-wayland # gui: popular matrix client with wayland support
-      schildichat-desktop # gui: matrix client based on element (removed from Nixpkgs due to security issues)
-      */
-      # End-of Matrix clients
-
       # Networking
       /*
       httrack # cli: Easy-to-use offline browser / website mirroring utility
@@ -428,6 +404,26 @@ in {
       wire-desktop # gui: A modern, secure messenger for everyone
       zulip # gui: Desktop client for Zulip Chat
       keybase-gui # gui: The Keybase official GUI
+      #- Discord clients
+      armcord # gui: lightweight free discord client
+      discord # gui: official discord client
+      ripcord # gui: proprietary client for discord and slack
+      /*
+      betterdiscordctl # cli: utility for managing betterdiscord
+      cordless # tui: Discord terminal client
+      */
+      #- End-of Discord clients
+      #- Matrix clients
+      element-desktop # gui: popular matrix client
+      fluffychat # gui: Chat with your friends (matrix client)
+      nheko # gui: Desktop client for the Matrix protocol
+      /*
+      cinny-desktop # gui: Yet another matrix client for desktop
+      fractal # gui: Matrix group messaging app
+      element-desktop-wayland # gui: popular matrix client with wayland support
+      schildichat-desktop # gui: matrix client based on element (removed from Nixpkgs due to security issues)
+      */
+      #- End-of Matrix clients
       #- XMPP/Jabber clients
       /*
       dino # gui: Modern Jabber/XMPP Client using GTK/Vala
@@ -780,15 +776,6 @@ in {
       */
       # End-of Organizers
 
-      # Kernel
-      /*
-      linuxKernel.packages.linux_xanmod_latest.turbostat # cli: Report processor frequency and idle statistics
-      linuxKernel.packages.linux_xanmod_latest.zenpower # driver: Linux kernel driver for reading temperature, voltage(SVI2), current(SVI2) and power(SVI2) for AMD Zen family CPUs
-      linuxKernel.packages.linux_xanmod_latest.perf # cli: Linux tools to profile with performance counters
-      linuxKernel.packages.linux_xanmod_latest.cpupower # cli: Tool to examine and tune power saving features
-      */
-      # End-of Kernel
-
       # Educational
       /*
       anki-bin # gui: Spaced repetition flashcard program (Binary version)
@@ -796,7 +783,6 @@ in {
       celestia # gui: Real-time 3D simulation of space
       # kstars # gui: Virtual planetarium astronomy software
       libsForQt5.kalzium # gui: Program that shows you the Periodic Table of Elements
-
       */
       # End-of Educational
 
@@ -970,14 +956,14 @@ in {
       exfatprogs # cli: exFAT filesystem userspace utilities
       e2fsprogs # cli: Tools for creating and checking ext2/ext3/ext4 filesystems
       util-linux # cli: A set of system utilities for Linux
-      # etcher # gui: Flash OS images to SD cards and USB drives, safely and easily
+      etcher # gui: Flash OS images to SD cards and USB drives, safely and easily
       glances # cli: Cross-platform curses-based monitoring tool
       gpu-viewer # gui: A front-end to glxinfo, vulkaninfo, clinfo and es2_info
       libva-utils # cli: A collection of utilities and examples for VA-API
       curtail # gui: Simple & useful image compressor
       hamster # gui: Time tracking application
       arandr # gui: A simple visual front end for XRandR
-      # ngrok # cli: Allows you to expose a web server running on your local machine to the internet
+      ngrok # cli: Allows you to expose a web server running on your local machine to the internet
       glxinfo # cli: Test utilities for OpenGL
       inxi # cli: A full featured CLI system information tool
       treefmt # cli: One CLI to format the code tree
@@ -1014,8 +1000,8 @@ in {
       eaglemode # gui: a zoomable ui
       mat2 # cli: A handy tool to trash your metadata
       metadata-cleaner # gui: Python GTK application to view and clean metadata in files, using mat2
-      # wayland-utils # cli: Wayland utilities (wayland-info)
-      # wdisplays # gui: A graphical application for configuring displays in Wayland compositors
+      wayland-utils # cli: Wayland utilities (wayland-info)
+      wdisplays # gui: A graphical application for configuring displays in Wayland compositors
       */
       # End-of Uncategorized
 
