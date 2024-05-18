@@ -49,7 +49,12 @@
     vnstat.enable = true;
     aria2.enable = false; # WebUI: <http://localhost:6800>
     fstrim.enable = true;
+
+    # USB Automounting
+    # <https://nixos.wiki/wiki/PCManFM#USB_Automounting>
     udisks2.enable = true;
+    devmon.enable = true;
+
     gnome.gnome-keyring.enable = true; # Keyring for SSH
     blueman.enable = true; # GUI Bluetooth Manager
     cpupower-gui.enable = false; # GUI for CPU power management
@@ -154,7 +159,10 @@
     };
 
     ympd.enable = false; # WebUI for MPD. <http://localhost:6600>
-    gvfs.enable = true; # Trash folder support (e.g. in Thunar)
+
+    # For thunar
+    gvfs.enable = true; # Mount, trash, and other functionalities (e.g. in Thunar)
+    tumbler.enable = true; # Thumbnail support for images
 
     /*
     deluge = {
