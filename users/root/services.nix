@@ -76,7 +76,7 @@
     xmrig = {
       enable = false;
       package = pkgs.xmrig-mo;
-      settings = builtins.fromJSON (builtins.readFile ./config/monero.json);
+      settings = builtins.fromJSON (builtins.readFile ../../config/monero.json);
     };
 
     syncthing = {
