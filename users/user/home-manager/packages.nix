@@ -260,14 +260,12 @@ in {
       # End-of Browsers
 
       # Email
-      /*
       betterbird # gui: Betterbird is a fine-tuned version of Mozilla Thunderbird, Thunderbird on steroids, if you will
       thunderbird # gui: A full-featured e-mail client from Mozilla
       electron-mail # gui: electron based protonmail client
       tutanota-desktop # gui: electron based tutanota client
       claws-mail # gui: The user-friendly, lightweight, and fast email client
       gnome.geary # gui: Mail client for GNOME 3
-      */
       # End-of Email
 
       # Reverse Engineering
@@ -297,8 +295,8 @@ in {
       # 3D
       /*
       blender # gui: 3D Creation/Animation/Publishing System
+      blender-hip # gui: Blender with the hip support (amd gpus)
       */
-      # blender-hip # gui: Blender with the hip support (amd gpus)
       # End-of 3D
 
       # Virtualization
