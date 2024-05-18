@@ -120,7 +120,7 @@ in {
       # End-of Python Development
 
       # Kubernetes
-      kubernetes-helm # cli: A package manager for kubernetes
+      # kubernetes-helm # cli: A package manager for kubernetes
       # End-of Kubernetes
 
       # JavaScript Development
@@ -904,7 +904,7 @@ in {
       # End-of Tumbler additons
 
       # VPN
-      protonvpn-gui # gui: Official ProtonVPN Linux app
+      # protonvpn-gui # gui: Official ProtonVPN Linux app
       protonvpn-cli_2 # cli: Linux command-line client for ProtonVPN using Openvpn
       # protonvpn-cli # cli: Linux command-line client for ProtonVPN
       # End-of VPN
