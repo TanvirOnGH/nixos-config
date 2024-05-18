@@ -120,7 +120,7 @@ in {
       # End-of Python Development
 
       # Kubernetes
-      # kubernetes-helm # cli: A package manager for kubernetes
+      kubernetes-helm # cli: A package manager for kubernetes
       # End-of Kubernetes
 
       # JavaScript Development
