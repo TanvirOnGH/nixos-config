@@ -61,10 +61,6 @@ in {
       neovide # gui: gui for neovim with additional features (animations, ligatures)
       emacs # cli: the extensible, customizable gnu text editor
 
-      # AI
-      # nur.repos.some-pkgs.llama-cpp # cli: Port of Facebook's LLaMA model in C/C++ (master branch)
-      # llama-cpp # cli: Port of Facebook's LLaMA model in C/C++
-
       /*
       mate.pluma # gui: Powerful text editor for the MATE desktop
       ox # cli: independent rust text editor
@@ -73,6 +69,12 @@ in {
       amp # cli: modern text editor inspired by vim
       */
       # End of Code editors
+
+      # AI
+      /*
+      nur.repos.some-pkgs.llama-cpp # cli: Port of Facebook's LLaMA model in C/C++ (master branch)
+      llama-cpp # cli: Port of Facebook's LLaMA model in C/C++
+      */
 
       # Shell
       # oh-my-posh # cli: A prompt theme engine for any shell
@@ -84,7 +86,7 @@ in {
       shellcheck # cli: Shell script analysis tool
       shfmt # cli: A shell parser and formatter
       wakatime # cli: wakatime cli, used for tracking time spent on projects
-      # direnv # cli: A shell extension that manages your environment
+      direnv # cli: A shell extension that manages your environment
       /*
       shellharden # cli: The corrective bash syntax highlighter
       processing # cli: A language and IDE for electronic arts
@@ -113,10 +115,6 @@ in {
       # Tex
       # lyx # gui: WYSIWYM frontend for LaTeX, DocBook
       # End-of Tex
-
-      # Compositor
-      # weston # gui: A lightweight and functional Wayland compositor
-      # End-of Compositor
 
       # Python Development
       # python3Full # cli: Python 3 interpreter (full version)
