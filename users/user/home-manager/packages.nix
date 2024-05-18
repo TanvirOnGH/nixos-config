@@ -1,5 +1,5 @@
 # Home Manager User's Packages Configuration
-{pkgs, ...}: let
+{...}: let
   home-manager = builtins.fetchTarball "https://github.com/nix-community/home-manager/archive/master.tar.gz";
   /*
   nix-software-center = import (pkgs.fetchFromGitHub {
@@ -48,12 +48,7 @@ in {
   };
   */
 
-  home-manager.users.user = {
-    pkgs,
-    lib,
-    config,
-    ...
-  }: {
+  home-manager.users.user = {pkgs, ...}: {
     # TODO: Improve descriptions and categorization of packages
     home.packages = with pkgs; [
       # Code editors

@@ -42,9 +42,7 @@
   ];
 
   # Excluding unwanted packages
-  environment.gnome.excludePackages = with pkgs;
-  with gnome;
-  with pkgs.gnome; [
+  environment.gnome.excludePackages = with pkgs.gnome; [
     gnome-system-monitor
     gnome-text-editor
     gnome-tour
