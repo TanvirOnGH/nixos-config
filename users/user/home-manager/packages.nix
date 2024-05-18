@@ -60,9 +60,8 @@ in {
       neovim # cli: vim text editor fork focused on extensibility and agility
       neovide # gui: gui for neovim with additional features (animations, ligatures)
       emacs # cli: the extensible, customizable gnu text editor
-
-      /*
       mate.pluma # gui: Powerful text editor for the MATE desktop
+      /*
       ox # cli: independent rust text editor
       lapce # gui: lightning-fast and Powerful Code Editor written in rust
       helix # cli: post-modern text editor
@@ -142,11 +141,6 @@ in {
       libsForQt5.kdeconnect-kde # gui: KDE Connect provides several features to integrate phone and computer
       */
       # End-of File Sharing
-
-      # Gui tools
-      # czkawka # gui: A simple, fast and easy to use app to remove unnecessary files from your computer
-      # sniffnet # gui: Cross-platform application to monitor your network traffic with ease
-      # End-of Gui tools
 
       # Shells
       # nushellFull # cli: A modern shell written in Rust
@@ -390,6 +384,7 @@ in {
       httrack # cli: Easy-to-use offline browser / website mirroring utility
       dnsrecon # cli: DNS Enumeration script
       dig # cli: A DNS lookup utility
+      sniffnet # gui: Cross-platform application to monitor your network traffic with ease
       */
       # End-of Networking
 
