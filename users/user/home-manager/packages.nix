@@ -440,11 +440,19 @@ in {
       #- Image viewers
       gthumb # gui: Image browser and viewer for GNOME
       gnome.eog # gui: image viewer app by GNOME
+      cinnamon.pix # gui: A generic image viewer from Linux Mint
+      cinnamon.xviewer # gui: A generic image viewer from Linux Mint
       loupe # gui: A simple image viewer application written with GTK4 and Rust
-      /*
-      feh # cli: lightweight image viewer
+      feh # gui: lightweight image viewer
+      meh # gui: A minimal image viewer using raw XLib
       oculante # gui: A minimalistic crossplatform image viewer written in Rust
-      nsxiv # cli: New Suckless X Image Viewer
+      nsxiv # gui: New Suckless X Image Viewer
+      nomacs # gui: Qt-based image viewer
+      fim # gui: A lightweight, highly customizable and scriptable image viewer
+      emulsion # gui: A fast and minimalistic image viewer
+      pineapple-pictures # gui: Homebrew lightweight image viewer
+      /*
+      image-roll # gui: Simple and fast GTK image viewer with basic image manipulation tools
       libsForQt5.gwenview # gui: image viewer app by KDE
       napari # gui: A fast, interactive, multi-dimensional image viewer
       digikam # gui: Photo Management Program
