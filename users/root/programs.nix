@@ -101,6 +101,11 @@
       ];
     };
 
+    # Required if xfce is not used as desktop environment
+    # preference changes are discarded otherwise
+    # <https://nixos.wiki/wiki/Thunar#Configuration>
+    xfconf.enable = true;
+
     gnupg.agent = {
       enable = true;
       enableSSHSupport = true;
