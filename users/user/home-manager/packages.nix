@@ -356,15 +356,14 @@ in {
       # End of Fetchers
 
       # Download managers
-      # wget # cli: Tool for retrieving files using http, https and ftp
-      # wget2 # cli: Successor of GNU Wget, a file and recursive website downloader.
-      # curl # cli: A command line tool for transferring files with URL syntax
+      wget # cli: Tool for retrieving files using http, https and ftp
+      wget2 # cli: Successor of GNU Wget, a file and recursive website downloader.
+      curl # cli: A command line tool for transferring files with URL syntax
+      aria2 # cli: A lightweight multi-protocol & multi-source command-line download utility v2
       motrix # gui: full featured download manager
       uget # gui: download manager using GTK and libcurl
       /*
       uget-integrator # plugin: Native messaging host to integrate uGet Download Manager with web browsers
-      gallery-dl # cli: Command-line program to download image-galleries and -collections from several image hosting sites
-      aria # cli: lightweight, multi-protocol, multi-source, command-line download utility
       */
       # End-of Download managers
 
