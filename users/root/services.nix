@@ -99,7 +99,7 @@
     # K3s
     #- <https://nixos.wiki/wiki/K3s>
     k3s = {
-      enable = false;
+      enable = true;
       role = "server";
     };
 
@@ -184,7 +184,18 @@
 
     # TODO: setup USBGuard
     #- <https://usbguard.github.io>
-    # services.usbguard.enable = true;
+    /*
+    usbguard = {
+      enable = true;
+      dbus.enable = true;
+      implicitPolicyTarget = "block";
+      # change {id} to trusted USB device, (find ids using lsusb)
+      rules = ''
+        allow id {id} # device 1
+        allow id {id} # device 2
+      '';
+    };
+    */
 
     # TODO: setup Jellyfin
     #- <https://nixos.wiki/wiki/Jellyfin>
