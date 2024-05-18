@@ -361,6 +361,7 @@ in {
       motrix # gui: full featured download manager
       uget # gui: download manager using GTK and libcurl
       /*
+      ariang # web: a modern web frontend making aria2 easier to use
       uget-integrator # plugin: Native messaging host to integrate uGet Download Manager with web browsers
       */
       # End-of Download managers
@@ -418,29 +419,27 @@ in {
       */
       # End-of Networking
 
-      # XMPP/Jabber clients
+      # Messengers
+      telegram-desktop # gui: Official Telegram Desktop messaging app
+      session-desktop # gui: Onion routing based messenger
+      revolt-desktop # gui: An open source user-first chat platform
+      slack # gui: Desktop client for Slack
+      rocketchat-desktop # gui: Official Desktop client for Rocket.Chat
+      wire-desktop # gui: A modern, secure messenger for everyone
+      zulip # gui: Desktop client for Zulip Chat
+      #- XMPP/Jabber clients
       /*
       dino # gui: Modern Jabber/XMPP Client using GTK/Vala
       */
-      # End-of XMPP/Jabber clients
-
-      # Messengers
+      #- End-of XMPP/Jabber clients
       /*
-      zapzap # gui: WhatsApp desktop application for Linux
-      revolt-desktop # gui: An open source user-first chat platform
-      tdesktop # gui: Telegram Desktop messaging app
-      session-desktop # gui: Onion routing based messenger
-      wire-desktop # gui: A modern, secure messenger for everyone
-      signal-desktop # gui: Private, simple, and secure messenger
       threema-desktop # gui: Desktop client for Threema, a privacy-focused end-to-end encrypted mobile messenger
-      keybase # cli: The Keybase official command-line utility and service
+      gitter # gui: Where developers come to talk (abandoned by upstream)
+      zapzap # gui: WhatsApp desktop application for Linux
+      signal-desktop # gui: Private, simple, and secure messenger
       keybase-gui # gui: The Keybase official GUI
-      zulip # gui: Desktop client for Zulip Chat
-      rocketchat-desktop # gui: Official Desktop client for Rocket.Chat
+      keybase # cli: The Keybase official command-line utility and service
       qtox # gui: Qt Tox client
-      slack # gui: Desktop client for Slack
-      zulip # gui: Desktop client for Zulip Chat
-      gitter # gui: Where developers come to talk
       */
       # End-of Messengers
 
