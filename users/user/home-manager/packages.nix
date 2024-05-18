@@ -460,6 +460,10 @@ in {
       #- Audio Players
       lollypop # gui: modern music player for GNOME
       rhythmbox # gui: A music playing application for GNOME
+      exaile # gui: A music player with a simple interface and powerful music management capabilities
+      tauon # gui: The Linux desktop music player from the future
+      audacious # gui: A lightweight and versatile audio player
+      audacious-plugins # plugin: Plugins for Audacious music player
       /*
       libsForQt5.vvave # gui: Multi-platform media player
       */
@@ -483,10 +487,10 @@ in {
 
       # Entertainment
       spotify # gui: spotify web music player
+      nuclear # gui: music streaming app similar to spotify
       /*
       mov-cli # A cli tool to browse and watch movies
       lrby # gui: A browser and wallet for LBRY, the decentralized, user-controlled content marketplace
-      nuclear # gui: music streaming app similar to spotify
       popcorntime # gui: An application that streams movies and TV shows from torrents
       */
       # End-of Entertainment
