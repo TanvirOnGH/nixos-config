@@ -386,10 +386,11 @@ in {
       # End-of Torrent
 
       # Youtube/Spotify Downloader
-      /*
+      yt-dlg # gui: A cross platform front-end GUI of the popular youtube-dl written in wxPython
       yt-dlp # cli: fork of youtube-dl with additional features
       tartube-yt-dlp # gui: gui frontend for youtube-dl and yt-dlp
       youtube-dl # cli: tool to download videos from youtube and other sites
+      /*
       ytmdl # cli: cli tool to download music from youtube
       spotdl # cli: spotify downloader
       */
@@ -500,8 +501,8 @@ in {
       # End-of Media
 
       # Entertainment
-      /*
       spotify # gui: spotify web music player
+      /*
       mov-cli # A cli tool to browse and watch movies
       lrby # gui: A browser and wallet for LBRY, the decentralized, user-controlled content marketplace
       nuclear # gui: music streaming app similar to spotify
@@ -908,14 +909,27 @@ in {
       */
       # End-of Electronics/Electrical
 
+      # Tumbler additons
+      # Extend Tumbler's support to other file formats
+      # <https://nixos.wiki/wiki/Thunar#Other_functionalities>
+      webp-pixbuf-loader # lib: WebP GDK Pixbuf Loader library
+      poppler # lib: A PDF rendering library
+      ffmpegthumbnailer # lib: A lightweight video thumbnailer
+      libgsf # lib: GNOME's Structured File Library
+      gnome-epub-thumbnailer # lib: Thumbnailer for EPub and MOBI books
+      # f3d # lib: Fast and minimalist 3D viewer using VTK
+      # End-of Tumbler additons
+
       # VPN
-      # protonvpn-gui # gui: Official ProtonVPN Linux app
+      protonvpn-gui # gui: Official ProtonVPN Linux app
+      protonvpn-cli_2 # cli: Linux command-line client for ProtonVPN using Openvpn
       # protonvpn-cli # cli: Linux command-line client for ProtonVPN
       # End-of VPN
 
       # Misc
-      /*
       hydrus # gui: Danbooru-like image tagging and searching system for the desktop
+      gallery-dl # cli: Command-line program to download image-galleries and -collections from several image hosting sites
+      /*
       sonic-visualiser # gui: View and analyse contents of music audio files
       qtchan # gui: 4chan browser in qt5
       gnome-podcasts # gui: Listen to your favorite podcasts
@@ -925,7 +939,6 @@ in {
       wike # gui: Wikipedia Reader for the GNOME Desktop
       gnome.gnome-dictionary # gui: Dictionary is the GNOME application to look up definitions
       notion-app-enhanced # gui: Notion Desktop builds with Notion Enhancer
-      gallery-dl # cli: Command-line program to download image-galleries and -collections from several image hosting sites
       typst # cli: A new markup-based typesetting system that is powerful and easy to learn
       jitsi # gui: Open Source Video Calls and Chat
       */
@@ -940,7 +953,6 @@ in {
       nvitop # cli: An interactive NVIDIA-GPU process viewer, the one-stop solution for GPU process management
       i3lock-fancy-rapid # gui: A faster implementation of i3lock-fancy
       # tree # cli: Command to produce a depth indented directory listing
-      # gallery-dl # cli: Command-line program to download image-galleries and -collections from several image hosting sites
       # smartmontools # cli: Tools for monitoring the health of hard drives
       # nvme-cli # cli: NVM-Express user space tooling for Linux
       # lm_sensors # cli: Tools for reading hardware sensors
