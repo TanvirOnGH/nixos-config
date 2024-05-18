@@ -378,11 +378,11 @@ in {
       # End-of Torrent
 
       # Youtube/Spotify Downloader
-      yt-dlg # gui: A cross platform front-end GUI of the popular youtube-dl written in wxPython
       yt-dlp # cli: fork of youtube-dl with additional features
       tartube-yt-dlp # gui: gui frontend for youtube-dl and yt-dlp
       youtube-dl # cli: tool to download videos from youtube and other sites
       /*
+      yt-dlg # gui: A cross platform front-end GUI of the popular youtube-dl written in wxPython
       ytmdl # cli: cli tool to download music from youtube
       spotdl # cli: spotify downloader
       */
