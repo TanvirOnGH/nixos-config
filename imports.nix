@@ -23,7 +23,7 @@
 
     # Containers
     ./containers/flaresolverr.nix
-    ./containers/element-web.nix
+    # ./containers/element-web.nix
 
     # Graphics
     ./hardware/gpu/nvidia.nix
