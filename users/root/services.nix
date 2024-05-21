@@ -48,7 +48,7 @@
     teamviewer.enable = false;
     vnstat.enable = true;
     aria2.enable = false; # WebUI: <http://localhost:6800>
-    fstrim.enable = true;
+    fstrim.enable = false;
 
     # USB Automounting
     # <https://nixos.wiki/wiki/PCManFM#USB_Automounting>
