@@ -15,12 +15,8 @@
       # "cryptd" # Make encrypted boot quick. Ref: <https://nixos.wiki/wiki/Full_Disk_Encryption#Perf_test>
       "xhci_pci"
       "ahci"
-      "nvme"
       "usbhid"
       "sd_mod"
-      "btrfs"
-      "vfat"
-      "zstd"
     ];
 
     kernelModules = ["kvm-amd"];
@@ -62,13 +58,13 @@
     "/" = {
       device = "/dev/disk/by-uuid/2d9be16a-ddf3-43fc-8fd6-85d53984c447";
       fsType = "btrfs";
-      options = ["subvol=root" "compress=zstd:5"];
+      options = ["subvol=root" "compress=zstd:5" "noatime" "nodiratime" "ssd_spread" "discard=async" "space_cache=v2"];
+      neededForBoot = true;
     };
 
-    "/home" = {
-      device = "/dev/disk/by-uuid/2d9be16a-ddf3-43fc-8fd6-85d53984c447";
-      fsType = "btrfs";
-      options = ["subvol=home" "compress=zstd:5"];
+    "/boot" = {
+      device = "/dev/disk/by-uuid/FEB0-B2ED";
+      fsType = "vfat";
     };
 
     "/nix" = {
@@ -84,45 +80,51 @@
       Therefore, setting noatime for this mount point can help reduce unnecessary
       disk writes and improve performance.
       */
-      options = ["subvol=nix" "compress=zstd:5" "noatime"];
+      options = ["subvol=nix" "compress=zstd:5" "noatime" "nodiratime" "ssd_spread" "discard=async" "space_cache=v2"];
+      neededForBoot = true;
     };
 
-    "/boot" = {
-      device = "/dev/disk/by-uuid/FEB0-B2ED";
-      fsType = "vfat";
+    "/home" = {
+      device = "/dev/disk/by-uuid/2d9be16a-ddf3-43fc-8fd6-85d53984c447";
+      fsType = "btrfs";
+      options = ["subvol=home" "compress=zstd:5" "noatime" "nodiratime" "ssd_spread" "discard=async" "space_cache=v2"];
     };
 
+    /*
     "/mnt/hdd" = {
       device = "/dev/disk/by-uuid/e34ed687-5ee1-47cd-83cb-c56c8ec38780";
       fsType = "btrfs";
-      options = ["compress=zstd:3"];
+      options = ["compress=zstd:3" "noatime" "nodiratime" "autodefrag" "space_cache=v2"];
     };
 
     "/mnt/hdd2" = {
       device = "/dev/disk/by-uuid/93c845a5-2abd-4c56-b8d1-7f37271e827b";
       fsType = "btrfs";
-      options = ["compress=zstd:3"];
+      options = ["compress=zstd:3" "noatime" "nodiratime" "autodefrag" "autodefrag" "space_cache=v2"];
     };
 
     "/mnt/hdd3" = {
       device = "/dev/disk/by-uuid/c1cf9ba8-18b8-49c2-89fe-8aacabfad79f";
       fsType = "btrfs";
-      options = ["compress=zstd:3"];
+      options = ["compress=zstd:3" "noatime" "nodiratime" "autodefrag" "space_cache=v2"];
     };
+    */
 
     /*
     "/mnt/ssd" = {
       device = "/dev/disk/by-uuid/b335a65f-1c9d-4a15-a577-d0863c829ff0";
       fsType = "btrfs";
-      options = ["compress=zstd:4"];
+      options = ["compress=zstd:4" "noatime" "nodiratime" "ssd_spread" "discard=async" "space_cache=v2"];
     };
     */
 
+    /*
     # <https://nixos.wiki/wiki/NTFS>
     "/mnt/windows" = {
       device = "/dev/disk/by-uuid/409096C99096C4B6";
       fsType = "ntfs-3g";
       options = ["rw" "uid=1000"]; # Requires fast boot to be disabled in Windows for write support
     };
+    */
   };
 }
