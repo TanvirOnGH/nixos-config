@@ -48,11 +48,8 @@
       preLVM = true;
     };
   };
-  /*
-
-  /*
-  The zstd compression level used in Btrfs is 3, which provides a good balance between compression ratio and compression speed.
   */
+
   fileSystems = {
     #- List btfs subvolumes: `<su> btrfs subvolume list /`
     "/" = {
@@ -90,6 +87,7 @@
       options = ["subvol=home" "compress=zstd:5" "noatime" "nodiratime" "ssd_spread" "discard=async" "space_cache=v2"];
     };
 
+    # HDDs
     /*
     "/mnt/hdd" = {
       device = "/dev/disk/by-uuid/e34ed687-5ee1-47cd-83cb-c56c8ec38780";
@@ -118,8 +116,29 @@
     };
     */
 
+    # Game Drives
+    # ntfs drives - Requires fast boot to be disabled in Windows for write support
+    "/mnt/gamedrive1" = {
+      device = "/dev/disk/by-uuid/04D776A71DBD8FFB";
+      fsType = "ntfs-3g";
+      options = ["rw" "uid=1000"];
+    };
+
+    "/mnt/gamedrive2" = {
+      device = "/dev/disk/by-uuid/600C58C806C9E3C7";
+      fsType = "ntfs-3g";
+      options = ["rw" "uid=1000"];
+    };
+
+    "/mnt/gamedrive3" = {
+      device = "/dev/disk/by-uuid/0E048B027BECE584";
+      fsType = "ntfs-3g";
+      options = ["rw" "uid=1000"];
+    };
+
     /*
     # <https://nixos.wiki/wiki/NTFS>
+    # Windows Partition
     "/mnt/windows" = {
       device = "/dev/disk/by-uuid/409096C99096C4B6";
       fsType = "ntfs-3g";
