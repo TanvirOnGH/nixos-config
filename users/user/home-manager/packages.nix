@@ -651,6 +651,7 @@ in {
       # End-of Recorders
 
       # Editors
+      losslesscut-bin # gui: The swiss army knife of lossless video/audio editing
       /*
       #- Audio editors
       audacity # gui: Sound editor with graphical UI
