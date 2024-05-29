@@ -392,6 +392,7 @@ in {
       # Messengers
       telegram-desktop # gui: Official Telegram Desktop messaging app
       session-desktop # gui: Onion routing based messenger
+      simplex-chat-desktop # gui: Desktop application for SimpleX Chat
       revolt-desktop # gui: An open source user-first chat platform
       slack # gui: Desktop client for Slack
       zulip # gui: Desktop client for Zulip Chat
@@ -697,6 +698,7 @@ in {
       # hyprpaper # gui: A blazing fast wayland wallpaper utility
       # swww # cli: Efficient animated wallpaper daemon for wayland, controlled at runtime
       #- End-of Wallpaper
+      themix-gui # gui: Graphical application for designing themes and exporting them using plugins
       lxappearance # gui: program for configuring the theme and fonts of gtk applications
       themechanger # gui: theme changing utility
       wpgtk # gui: template based wallpaper/colorscheme generator and manager
