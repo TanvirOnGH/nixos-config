@@ -397,6 +397,7 @@ in {
       slack # gui: Desktop client for Slack
       zulip # gui: Desktop client for Zulip Chat
       keybase-gui # gui: The Keybase official GUI
+      qtox # gui: Qt Tox client
       /*
       rocketchat-desktop # gui: Official Desktop client for Rocket.Chat
       wire-desktop # gui: A modern, secure messenger for everyone
@@ -432,7 +433,6 @@ in {
       zapzap # gui: WhatsApp desktop application for Linux
       signal-desktop # gui: Private, simple, and secure messenger
       keybase # cli: The Keybase official command-line utility and service
-      qtox # gui: Qt Tox client
       */
       # End-of Messengers
 
