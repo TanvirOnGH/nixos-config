@@ -297,6 +297,7 @@ in {
       lazydocker # tui: A simple terminal UI for both docker and docker-compose
       distrobox # cli: Wrapper around podman or docker to create and start containers
       gnome.gnome-boxes # gui: GNOME application to access remote or virtual systems
+      # junest # cli: Arch distro that runs on top of another without root
       /*
       virt-manager # gui: graphical tool for managing virtual machines
       docker-ls # cli: Tools for browsing and manipulating docker registries
@@ -400,8 +401,8 @@ in {
       #- Discord clients
       armcord # gui: lightweight free discord client
       discord # gui: official discord client
-      ripcord # gui: proprietary client for discord and slack
       /*
+      ripcord # gui: proprietary client for discord and slack
       betterdiscordctl # cli: utility for managing betterdiscord
       cordless # tui: Discord terminal client
       */
@@ -409,8 +410,8 @@ in {
       #- Matrix clients
       element-desktop # gui: popular matrix client
       fluffychat # gui: Chat with your friends (matrix client)
-      nheko # gui: Desktop client for the Matrix protocol
       /*
+      nheko # gui: Desktop client for the Matrix protocol
       cinny-desktop # gui: Yet another matrix client for desktop
       fractal # gui: Matrix group messaging app
       element-desktop-wayland # gui: popular matrix client with wayland support
