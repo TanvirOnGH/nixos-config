@@ -394,10 +394,12 @@ in {
       session-desktop # gui: Onion routing based messenger
       revolt-desktop # gui: An open source user-first chat platform
       slack # gui: Desktop client for Slack
-      rocketchat-desktop # gui: Official Desktop client for Rocket.Chat
-      wire-desktop # gui: A modern, secure messenger for everyone
       zulip # gui: Desktop client for Zulip Chat
       keybase-gui # gui: The Keybase official GUI
+      /*
+      rocketchat-desktop # gui: Official Desktop client for Rocket.Chat
+      wire-desktop # gui: A modern, secure messenger for everyone
+      */
       #- Discord clients
       armcord # gui: lightweight free discord client
       discord # gui: official discord client
