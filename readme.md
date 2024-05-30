@@ -2,11 +2,16 @@
   <img src="imgs/nix.png" alt="Nix icon" widdth="200" height="200">
 </div>
 
-## About
+# About
 
 My [nix](https://nixos.org/learn.html) configuration for [NixOS](https://nixos.org) based systems.
 
 [![built with nix](https://builtwithnix.org/badge.svg)](https://builtwithnix.org)
+
+> [!NOTE]  
+> This repository is not meant to be used as a whole, but rather as a reference for my own configuration. I do not recommend using it as is, as it is not meant to be used by anyone else. I do not provide any support for this repository. If you want to use it, you are on your own.
+>
+> I'll eventually switch to [flakes](https://nixos.wiki/wiki/Flakes) configuration.
 
 ## Channels
 
@@ -31,12 +36,6 @@ ragenix https://github.com/yaxitech/ragenix/archive/main.tar.gz
 
 1. [Nix](https://search.nixos.org/options)
 2. [Home-Manager](https://mipmip.github.io/home-manager-option-search/)
-
-## Note
-
-This repository is not meant to be used as a whole, but rather as a reference for my own configuration. I do not recommend using it as is, as it is not meant to be used by anyone else. I do not provide any support for this repository. If you want to use it, you are on your own.
-
-I'll eventually switch to [flakes](https://nixos.wiki/wiki/Flakes) configuration.
 
 ### Abandon Hope, All Ye Who Enter Here
 
