@@ -13,7 +13,7 @@
   boot.kernelModules = ["nvidia" "nvidia_modeset" "nvidia_uvm" "nvidia_drm" "i2c-nvidia_gpu"];
 
   hardware.nvidia = {
-    package = config.boot.kernelPackages.nvidiaPackages.stable;
+    package = config.boot.kernelPackages.nvidiaPackages.latest;
 
     # Required
     modesetting.enable = true;
