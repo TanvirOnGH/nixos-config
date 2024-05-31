@@ -10,7 +10,10 @@
   # Load nvidia driver for Xorg and Wayland
   services.xserver.videoDrivers = ["nvidia"];
 
-  boot.kernelModules = ["nvidia" "nvidia_modeset" "nvidia_uvm" "nvidia_drm" "i2c-nvidia_gpu"];
+  boot = {
+    kernelModules = ["nvidia" "nvidia_modeset" "nvidia_uvm" "nvidia_drm" "i2c-nvidia_gpu"];
+    blacklistedKernelModules = ["nouveau"];
+  };
 
   hardware.nvidia = {
     package = config.boot.kernelPackages.nvidiaPackages.latest;
