@@ -7,7 +7,6 @@
     xwayland = {
       enable = true;
       # <https://wiki.archlinux.org/title/HiDPI>
-      hidpi = false;
     };
   };
 }

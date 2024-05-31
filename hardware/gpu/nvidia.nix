@@ -28,7 +28,10 @@
     powerManagement.finegrained = false;
     nvidiaSettings = true; # accessible via `nvidia-settings`
 
+    # NVidia open source kernel module (not to be confused with the
+    # independent third-party "nouveau" open source driver)https://github.com/NVIDIA/open-gpu-kernel-modules#compatible-gpus
     # Currently alpha-quality/buggy, so false is currently the recommended setting
+    # <https://github.com/NVIDIA/open-gpu-kernel-modules#compatible-gpus>
     open = false;
 
     # Ensure all GPUs stay awake even during headless mode
