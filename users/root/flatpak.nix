@@ -9,6 +9,12 @@
     flatpak --user override --filesystem=host
   */
 
+  # Repositories
+  #- flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo
+  #- flathub https://flathub.org/repo/flathub.flatpakrepo
+  #- gnome-nightly https://nightly.gnome.org/gnome-nightly.flatpakrepo
+  #- freedesktop-sdk https://flathub.org/repo/flathub.flatpakrepo
+
   # Flatpak
   services.flatpak.enable = true;
 }

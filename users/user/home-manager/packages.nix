@@ -1,33 +1,6 @@
 # Home Manager User's Packages Configuration
 {...}: let
   home-manager = builtins.fetchTarball "https://github.com/nix-community/home-manager/archive/master.tar.gz";
-  /*
-  nix-software-center = import (pkgs.fetchFromGitHub {
-    owner = "vlinkz";
-    repo = "nix-software-center";
-    rev = "0.1.1";
-    sha256 = "0frigabszyfkphfbsniaa1d546zm8a2gx0cqvk2fr2qfa71kd41n";
-  }) {};
-
-  nixos-conf-editor = import (pkgs.fetchFromGitHub {
-    owner = "vlinkz";
-    repo = "nixos-conf-editor";
-    rev = "0.1.1";
-    sha256 = "sha256-TeDpfaIRoDg01FIP8JZIS7RsGok/Z24Y3Kf+PuKt6K4=";
-  }) {};
-
-  #- Experimental Nix Stuff
-  #- <https://github.com/vlinkz/nix-editor>
-  #- <https://github.com/snowflakelinux/snow>
-  #- <https://github.com/nix-community/nurl>
-
-  #- Gaming Stuff
-  #- <https://github.com/fufexan/nix-gaming>
-  nix-gaming = import (builtins.fetchTarball "https://github.com/fufexan/nix-gaming/archive/master.tar.gz");
-
-  # jc141x torrent/games
-  <https://github.com/jc141x/jc141-bash/blob/master/setup/en/nixos.md>
-
   #- App Data Locations
   /*
   Data: /var/lib/<pkg>/
@@ -38,15 +11,6 @@ in {
   imports = [
     (import "${home-manager}/nixos")
   ];
-
-  # NUR: <https://nur.nix-community.org>
-  /*
-  nixpkgs.config.packageOverrides = pkgs: {
-    nur = import (builtins.fetchTarball "https://github.com/nix-community/NUR/archive/master.tar.gz") {
-      inherit pkgs;
-    };
-  };
-  */
 
   home-manager.users.user = {pkgs, ...}: {
     # TODO: Improve descriptions and categorization of packages
