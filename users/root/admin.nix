@@ -2,7 +2,7 @@
 {...}: {
   security = {
     sudo = {
-      enable = true;
+      enable = false;
       wheelNeedsPassword = true;
       execWheelOnly = true;
       extraConfig = ''
