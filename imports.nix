@@ -13,6 +13,7 @@
     ./system/localization.nix
     ./system/udev-rules.nix
     ./system/power-management.nix
+    ./system/systemd.nix
     ./system/nix/garbage-collection.nix
     ./system/nix/cache.nix
     # ./system/nix/flox.nix
