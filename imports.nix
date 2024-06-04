@@ -20,6 +20,7 @@
     # Security
     # ./security/selinux.nix
     # ./security/auditd.nix
+    ./security/antivirus.nix
 
     # Containers
     ./containers/flaresolverr.nix
