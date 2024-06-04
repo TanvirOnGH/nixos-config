@@ -15,7 +15,7 @@
     ./system/power-management.nix
     ./system/nix/garbage-collection.nix
     ./system/nix/cache.nix
-    ./system/nix/flox.nix
+    # ./system/nix/flox.nix
 
     # Security
     # ./security/selinux.nix
