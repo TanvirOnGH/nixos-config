@@ -34,6 +34,7 @@
 
     # Networking
     ./hardware/network/internet.nix
+    ./hardware/network/wifi.nix
     ./hardware/network/bluetooth.nix
     ./hardware/network/hotspot.nix
 
