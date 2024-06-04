@@ -20,6 +20,7 @@
     # Security
     # ./security/selinux.nix
     # ./security/auditd.nix
+    ./security/firewall.nix
     ./security/antivirus.nix
 
     # Containers
@@ -34,7 +35,6 @@
     ./hardware/network/internet.nix
     ./hardware/network/bluetooth.nix
     ./hardware/network/hotspot.nix
-    ./hardware/network/firewall.nix
 
     # Sound
     ./desktop/media/pipewire.nix
