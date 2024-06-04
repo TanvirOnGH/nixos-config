@@ -673,6 +673,10 @@ in {
       */
       # End-of Ricing tools
 
+      # Networking
+      nm-tray # gui/tray: Simple Network Manager frontend written in Qt
+      # End-of Networking
+
       # Tor
       /*
       tor # cli: Anonymizing overlay network
