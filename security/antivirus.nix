@@ -1,7 +1,5 @@
 # Antivirus Configuration
 {pkgs, ...}: {
-  # enable antivirus clamav and
-  # keep the signatures' database updated
   services.clamav = {
     daemon.enable = true;
     # keep the signatures' database updated

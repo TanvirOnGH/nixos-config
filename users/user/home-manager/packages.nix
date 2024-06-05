@@ -620,13 +620,13 @@ in {
       # End-of Recorders
 
       # Editors
-      losslesscut-bin # gui: The swiss army knife of lossless video/audio editing
       /*
       #- Audio editors
       audacity # gui: Sound editor with graphical UI
       ardour # gui: Multi-track hard disk recording software
       #- End-of Audio editors
       #- Video editors
+      losslesscut-bin # gui: The swiss army knife of lossless video/audio editing
       openshot-qt # gui: Free, open-source video editor
       libsForQt5.kdenlive # gui: Video editor for KDE
       lightworks # gui: Professional Non-Linear Video Editor
