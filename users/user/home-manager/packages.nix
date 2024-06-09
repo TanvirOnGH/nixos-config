@@ -207,6 +207,7 @@ in {
       brave # gui: Privacy-oriented browser for Desktop and Laptop computers
       librewolf # gui: A fork of Firefox, focused on privacy, security and freedom
       mullvad-browser # gui: Privacy-focused browser made in a collaboration between The Tor Project and Mullvad
+      # yandex-browser # gui: Yandex Web Browser
       # floorp # gui: A fork of Firefox, focused on keeping the Open, Private and Sustainable Web alive, built in Japan
       # vivaldi # gui: A Browser for our Friends, powerful and personal
       # microsoft-edge # gui: The web browser from Microsoft
@@ -460,6 +461,9 @@ in {
       sox # cli: Sample Rate Converter for audio
       */
       #- End-of Tools
+      #- Plugins
+      vlc-bittorrent # plugin: A bittorrent plugin for VLC
+      #- End-of Plugins
       # End-of Media
 
       # Entertainment
