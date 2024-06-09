@@ -11,7 +11,5 @@
     fishPlugins.autopair # plugin: Auto-complete matching pairs in the Fish command line
     # fishPlugins.plugin-git # plugin: Git plugin for fish (similar to oh-my-zsh git)
     fishPlugins.puffer # plugin: Text Expansions for Fish
-
-    
   ];
 }
