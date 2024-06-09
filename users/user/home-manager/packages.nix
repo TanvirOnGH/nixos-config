@@ -50,6 +50,11 @@ in {
       shfmt # cli: A shell parser and formatter
       wakatime # cli: wakatime cli, used for tracking time spent on projects
       direnv # cli: A shell extension that manages your environment
+      gitkraken # gui: The downright luxurious and most popular Git client
+      github-desktop # gui: GUI for managing Git and GitHub
+      github-copilot-cli # cli: A CLI experience for letting GitHub Copilot help you on the command line
+      act # cli: Run your GitHub Actions locally
+      meld # gui: Visual diff and merge tool
       /*
       shellharden # cli: The corrective bash syntax highlighter
       processing # cli: A language and IDE for electronic arts
@@ -59,15 +64,12 @@ in {
       polypane # gui: Browser with unified devtools targeting responsability and acessibility
       spyder # gui: Scientific python development environment
       racket # gui: A general-purpose multi-paradigm programming language (with Dr. Racket IDE)
-      meld # gui: Visual diff and merge tool
       libsForQt5.kompare # gui: diff/patch frontend
       diffuse # gui: Graphical tool for merging and comparing text files
       linkchecker # cli: Check websites for broken links
       shc # cli: Shell Script Compiler
-      gitkraken # gui: The downright luxurious and most popular Git client
       git-cola # gui: A sleek and powerful Git GUI
       gitg # gui: GNOME GUI client to view git repositories
-      github-desktop # gui: GUI for managing Git and GitHub
       gitoxide # cli: A command-line application for interacting with git repositories
       mercurialFull # cli: A fast, lightweight SCM system for very large distributed projects (full version)
       sqlite-web # web: Web-based SQLite database browser
