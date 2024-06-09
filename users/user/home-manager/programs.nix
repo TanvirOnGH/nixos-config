@@ -83,6 +83,8 @@ in {
           gh-markdown-preview
         ];
       };
+
+      gh-dash.enable = true;
     };
   };
 }
