@@ -203,7 +203,7 @@ in {
       # End-of Documentation
 
       # Browsers
-      tor-browser-bundle-bin # gui: Tor Browser Bundle built by torproject.org
+      tor-browser # gui: Privacy-focused browser routing traffic through the Tor network
       brave # gui: Privacy-oriented browser for Desktop and Laptop computers
       librewolf # gui: A fork of Firefox, focused on privacy, security and freedom
       mullvad-browser # gui: Privacy-focused browser made in a collaboration between The Tor Project and Mullvad
