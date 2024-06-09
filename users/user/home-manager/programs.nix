@@ -77,11 +77,18 @@ in {
         };
 
         extensions = with pkgs; [
-          gh-eco # extention: Explore the ecosystem
-          gh-cal # extention: GitHub contributions calender terminal viewer
-          gh-dash # extention: Display a dashboard with pull requests and issues
-          gh-markdown-preview # extention: Preview Markdown looking like on GitHub
-          gh-copilot # extention: GitHub Copilot
+          gh-eco # extension: Explore the ecosystem
+          gh-cal # extension: GitHub contributions calender terminal viewer
+          gh-dash # extension: Display a dashboard with pull requests and issues
+          gh-markdown-preview # extension: Preview Markdown looking like on GitHub
+          gh-copilot # extension: GitHub Copilot
+          gh-actions-cache # extension: Manage GitHub Actions caches
+          gh-screensaver # extension: Animated terminal screensavers
+          gh-notify # extension: Display GitHub notifications
+          gh-poi # extension: Safely clean up your local branches
+          gh-s # extension: Search github repositories interactively
+          gh-f # extension: GitHub CLI ultimate FZF extension
+          # gh-ost : extension: Triggerless online schema migration solution for MySQL
         ];
       };
 
