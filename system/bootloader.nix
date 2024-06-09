@@ -17,6 +17,13 @@
 
       # Set the highest resolution available
       consoleMode = "max";
+
+      # <https://nixos.wiki/wiki/Netboot#netboot.xyz>
+      # A menu system that allows you to boot OS installers and utilities over the network
+      # iPXE must be recent enough to support https:// links
+      netbootxyz.enable = true;
+
+      memtest86.enable = false;
     };
     efi.canTouchEfiVariables = true;
   };
