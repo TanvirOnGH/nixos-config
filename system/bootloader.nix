@@ -14,6 +14,9 @@
       # as it allows gaining root access by passing
       # init=/bin/sh as a kernel parameter
       editor = false;
+
+      # Set the highest resolution available
+      consoleMode = "max";
     };
     efi.canTouchEfiVariables = true;
   };
