@@ -77,10 +77,11 @@ in {
         };
 
         extensions = with pkgs; [
-          gh-eco
-          gh-cal
-          gh-dash
-          gh-markdown-preview
+          gh-eco # extention: Explore the ecosystem
+          gh-cal # extention: GitHub contributions calender terminal viewer
+          gh-dash # extention: Display a dashboard with pull requests and issues
+          gh-markdown-preview # extention: Preview Markdown looking like on GitHub
+          gh-copilot # extention: GitHub Copilot
         ];
       };
 

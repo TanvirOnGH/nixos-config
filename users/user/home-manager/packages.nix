@@ -52,10 +52,10 @@ in {
       direnv # cli: A shell extension that manages your environment
       gitkraken # gui: The downright luxurious and most popular Git client
       github-desktop # gui: GUI for managing Git and GitHub
-      github-copilot-cli # cli: A CLI experience for letting GitHub Copilot help you on the command line
       act # cli: Run your GitHub Actions locally
       meld # gui: Visual diff and merge tool
       /*
+      github-copilot-cli # cli: A CLI experience for letting GitHub Copilot help you on the command line
       shellharden # cli: The corrective bash syntax highlighter
       processing # cli: A language and IDE for electronic arts
       sqlite # cli: A self-contained, serverless, zero-configuration, transactional SQL database engine
