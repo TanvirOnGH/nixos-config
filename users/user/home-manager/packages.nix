@@ -25,6 +25,7 @@ in {
       neovide # gui: gui for neovim with additional features (animations, ligatures)
       emacs # cli: the extensible, customizable gnu text editor
       mate.pluma # gui: Powerful text editor for the MATE desktop
+      zed-editor # gui: High-performance, multiplayer code editor from the creators of Atom and Tree-sitter
       /*
       ox # cli: independent rust text editor
       lapce # gui: lightning-fast and Powerful Code Editor written in rust
