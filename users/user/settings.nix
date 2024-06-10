@@ -28,6 +28,11 @@
       # "adbusers"
       # "boinc"
       # config.services.kubo.group
+      # "libvirt"
+      # "libvirtd"
+      # "vboxusers"
+      # "docker"
+      # "wireshark"
     ];
   };
 

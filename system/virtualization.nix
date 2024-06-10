@@ -3,16 +3,24 @@
   # <https://nixos.wiki/wiki/Virt-manager>
   # <https://nixos.wiki/wiki/Libvirt>
   virtualisation = {
-    libvirtd.enable = true;
+    libvirtd = {
+      enable = true;
+      qemu.ovmf.enable = true;
+    };
 
     #- Xen currently does not support EFI boot
     # xen.enable = true;
 
     # <https://nixos.wiki/wiki/VirtualBox>
-    /*
-    virtualbox.host.enable = true;
-    virtualbox.host.enableExtensionPack = true;
-    */
+    virtualbox = {
+      guest.clipboard = true;
+
+      host = {
+        enable = false;
+        # Note: Needs a lot of compilation
+        enableExtensionPack = true;
+      };
+    };
 
     # <https://nixos.wiki/wiki/WayDroid>
     # Wayland Only
