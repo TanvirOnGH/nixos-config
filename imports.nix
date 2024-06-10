@@ -43,7 +43,7 @@
 
     # GUI
     ./desktop/gui/server/xorg.nix
-    ./desktop/gui/wm/awesome.nix
+    ./desktop/gui/window-manager/awesome.nix
 
     # desktop/customization
     ./desktop/customization/plymouth.nix
