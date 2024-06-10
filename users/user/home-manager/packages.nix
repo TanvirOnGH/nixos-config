@@ -300,13 +300,11 @@ in {
       # End-of Eye-candy
 
       # Fetchers
-      /*
       onefetch # cli: Git repository summary on your terminal
       neofetch # cli: fast, highly customizable system info script
       cpufetch # cli: fancy cpu architecture fetching tool
       ramfetch # cli: A tool which displays memory information
-      nur.repos.vanilla.fastfetch # cli: fork of neofetch, but much faster because written in C
-      */
+      # nur.repos.vanilla.fastfetch # cli: fork of neofetch, but much faster because written in C
       # End of Fetchers
 
       # Download managers

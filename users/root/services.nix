@@ -34,6 +34,28 @@
       };
     };
     */
+
+    # <https://github.com/nix-community/nur-combined/blob/master/repos/xddxdd/pkgs/uncategorized/flaresolverr/default.nix>
+    /*
+    flaresolverr = {
+      after = ["network.target"];
+      environment = {
+        LOG_LEVEL = "info";
+        LOG_HTML = "false";
+        CAPTCHA_SOLVER = "hcaptcha-solver";
+        TZ = "Asia/Dhaka";
+      };
+      serviceConfig = {
+        User = config.services.jackett.user;
+        Group = config.services.jackett.group;
+        Restart = "always";
+        RestartSec = 5;
+        TimeoutStopSec = 30;
+        ExecStart = "${pkgs.nur.repos.xddxdd.flaresolverr}/bin/flaresolverr";
+      };
+      wantedBy = ["multi-user.target"];
+    };
+    */
   };
 
   services = {
