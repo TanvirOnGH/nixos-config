@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="imgs/nix.png" alt="Nix icon" widdth="200" height="200">
+  <img src="images/nix.png" alt="Nix icon" widdth="200" height="200">
 </div>
 
 # About
@@ -86,4 +86,4 @@ ragenix https://github.com/yaxitech/ragenix/archive/main.tar.gz
 
 ## Abandon Hope, All Ye Who Enter Here
 
-![NixOS Learning Curve Graph](imgs/nixos-learning-curve.jpeg)
+![NixOS Learning Curve Graph](images/nixos-learning-curve.jpeg)
