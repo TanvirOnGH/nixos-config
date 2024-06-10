@@ -1,5 +1,5 @@
 # Virtualization Configuration
-{...}: {
+{pkgs, ...}: {
   # <https://nixos.wiki/wiki/Virt-manager>
   # <https://nixos.wiki/wiki/Libvirt>
   virtualisation = {
@@ -24,6 +24,35 @@
       enable = true;
       enableNvidia = true;
       storageDriver = "btrfs";
+
+      # Extra packages to add to PATH for the docker daemon process
+      extraPackages = with pkgs; [
+        docker-compose # plugin: Docker CLI plugin to define and run multi-container applications with Docker
+      ];
+
+      autoPrune = {
+        enable = false;
+        dates = "weekly";
+      };
+    };
+
+    podman = {
+      enable = false;
+      enableNvidia = true;
+
+      # Extra packages to be installed in the Podman wrapper
+      extraPackages = with pkgs; [
+        podman-compose
+        gvisor
+      ];
+
+      autoPrune = {
+        enable = false;
+        dates = "weekly";
+      };
+
+      dockerSocket.enable = false;
+      dockerCompat = false;
     };
   };
 
