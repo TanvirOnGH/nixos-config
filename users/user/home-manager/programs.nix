@@ -11,6 +11,7 @@ in {
       firefox = {
         enable = true;
       };
+
       chromium = {
         enable = true;
       };
@@ -31,6 +32,16 @@ in {
         # needed for rust lang server and rust-analyzer extension
         #- <https://nixos.wiki/wiki/Visual_Studio_Code#Use_VS_Code_extensions_without_additional_configuration>
         package = pkgs.vscode.fhs; # gui: vscode with fhs-3.0 environment (chroot)
+      };
+
+      direnv = {
+        enable = true;
+        nix-direnv.enable = true;
+
+        enableBashIntegration = true;
+        enableZshIntegration = true;
+        enableNushellIntegration = true;
+        enableFishIntegration = true;
       };
 
       gpg.enable = true;

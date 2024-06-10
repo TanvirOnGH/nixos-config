@@ -50,7 +50,6 @@ in {
       shellcheck # cli: Shell script analysis tool
       shfmt # cli: A shell parser and formatter
       wakatime # cli: wakatime cli, used for tracking time spent on projects
-      direnv # cli: A shell extension that manages your environment
       gitkraken # gui: The downright luxurious and most popular Git client
       github-desktop # gui: GUI for managing Git and GitHub
       act # cli: Run your GitHub Actions locally
