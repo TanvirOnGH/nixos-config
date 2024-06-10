@@ -25,8 +25,8 @@
     ./security/antivirus.nix
 
     # Containers
-    ./containers/flaresolverr.nix
-    # ./containers/element-web.nix
+    ./containers/docker/flaresolverr.nix
+    # ./containers/docker/element-web.nix
 
     # Graphics
     ./hardware/gpu/nvidia.nix
