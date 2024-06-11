@@ -1,13 +1,13 @@
 # QT Configuration
 #- <https://nixos.wiki/wiki/Qt>
 {...}: {
-  # Make qt themes look similar to gtk ones
+  # Configure QT themes to resemble GTK themes
   qt = {
     enable = true;
     platformTheme = "gtk2";
     style = "gtk2";
   };
 
-  # Enable HiDPI scaling in QT applications
+  # Disable QT scaling in Plasma 5 to avoid conflicts with system-wide HiDPI settings
   services.xserver.desktopManager.plasma5.useQtScaling = false;
 }

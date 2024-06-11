@@ -33,9 +33,10 @@
 
   # Swap
   #- <https://nixos.wiki/wiki/Btrfs#Swap_file>
-  swapDevices = lib.mkForce [];
+  swapDevices = lib.mkForce []; # Disable swap devices
 
   # TMPFS
+  # for /tmp
   boot.tmp = {
     useTmpfs = false;
     tmpfsSize = "80%";

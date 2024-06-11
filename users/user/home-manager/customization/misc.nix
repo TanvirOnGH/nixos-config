@@ -29,7 +29,6 @@ in {
       enable = true;
       mimeApps.enable = false;
 
-      #- ~/ls.config/user-dirs.dirs
       userDirs = {
         enable = true;
         createDirectories = true;

@@ -7,13 +7,14 @@
     fontDir.enable = true;
     fontconfig.enable = true;
     packages = with pkgs; [
-      # Noto Fonts Family
+      # Noto Fonts Family for wide language support
       noto-fonts
       noto-fonts-cjk
       noto-fonts-emoji
 
-      # For programming
+      # Fira Code for programming with ligatures
       fira-code
+
       #monaspace
       /*
       inconsolata
@@ -30,8 +31,8 @@
       fantasque-sans-mono
       */
 
-      # Experimental
-      b612 # Highly legible font family for use on aircraft cockpit screens
+      # B612 font for experimental use, optimized for cockpit screens
+      # b612
 
       # Icon/Symbol support
       fira-code-symbols
