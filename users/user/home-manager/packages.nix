@@ -178,7 +178,8 @@ in {
 
       # Nix Tools
       nixd # daemon: Nix language server
-      alejandra # cli: .nix formatter
+      alejandra # cli: Uncompromising Nix Code Formatter
+      statix # cli: Lints and suggestions for the nix programming language
       /*
       nixfmt # cli: An opinionated formatter for Nix
       appimage-run # cli: run appimages on nixos
