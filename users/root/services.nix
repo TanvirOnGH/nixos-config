@@ -181,9 +181,11 @@
     # https://nixos.wiki/wiki/SSH_public_key_authentication
     openssh = {
       enable = false;
-      settings.passwordAuthentication = true; # setting it to false requires public key authentication for better security
-      settings.kbdInteractiveAuthentication = false;
-      settings.PermitRootLogin = "yes";
+      settings = {
+        passwordAuthentication = true; # setting it to false requires public key authentication for better security
+        kbdInteractiveAuthentication = false;
+        PermitRootLogin = "yes";
+      };
     };
 
     mpd = {
