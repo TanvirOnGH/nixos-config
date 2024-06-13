@@ -3,3 +3,8 @@ repos:
     rev: v0.1.6
     hooks:
       - id: ripsecrets
+
+  - repo: https://github.com/kamadorueda/alejandra
+    rev: 3.0.0
+    hooks:
+      - id: alejandra
