@@ -1,6 +1,6 @@
 # Firewall Configuration
 #- <https://nixos.wiki/wiki/Firewall>
-{...}: {
+_: {
   # The default firewall uses iptables
   # To use the newer nftables instead it needs to be enabled
   # Causes problem with Docker

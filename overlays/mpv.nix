@@ -1,5 +1,5 @@
 # <https://nixos.wiki/wiki/MPV>
-{...}: {
+_: {
   nixpkgs.overlays = [
     (self: super: {
       mpv = super.mpv.override {

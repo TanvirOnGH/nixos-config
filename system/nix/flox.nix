@@ -1,6 +1,6 @@
 # Flox Configuration
 #- https://floxdev.com
-{...}: {
+_: {
   # <https://floxdev.com/docs/#install-flox>
   nix.settings = {
     extra-trusted-substituters = ["https://cache.floxdev.com"];

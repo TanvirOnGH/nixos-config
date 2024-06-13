@@ -1,5 +1,5 @@
 # Home Manager User's Packages Configuration
-{...}: let
+_: let
   home-manager = builtins.fetchTarball "https://github.com/nix-community/home-manager/archive/master.tar.gz";
   #- App Data Locations
   /*

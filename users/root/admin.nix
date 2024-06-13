@@ -1,5 +1,5 @@
 # Administration Configuration
-{...}: {
+_: {
   security = {
     sudo = {
       enable = false;

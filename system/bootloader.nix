@@ -1,7 +1,7 @@
 # Bootloader Configuration
 #- https://nixos.wiki/wiki/Bootloader
 # NOTE: Setup <https://github.com/nix-community/lanzaboote>
-{...}: {
+_: {
   boot.loader = {
     systemd-boot = {
       enable = true;

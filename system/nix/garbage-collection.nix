@@ -1,6 +1,6 @@
 # Nix Garbage Collection Configuration
 #- https://nixos.wiki/wiki/Storage_optimization
-{...}: {
+_: {
   # <https://nixos.wiki/wiki/Storage_optimization#Automation>
   nix = {
     gc = {

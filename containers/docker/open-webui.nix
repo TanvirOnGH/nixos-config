@@ -1,5 +1,5 @@
 # <https://github.com/open-webui/open-webui>
-{...}: {
+_: {
   virtualisation = {
     /*
     docker = {

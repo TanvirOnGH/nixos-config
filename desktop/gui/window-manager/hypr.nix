@@ -1,5 +1,5 @@
 # Hypr (WM) Configuration
-{...}: {
+_: {
   services.xserver = {
     windowManager.hypr.enable = true;
 

@@ -1,6 +1,6 @@
 # Flatpak Configuration
 #- <https://nixos.wiki/wiki/Flatpak>
-{...}: {
+_: {
   /*
   REF: <https://nixos.wiki/wiki/Fonts#Flatpak_applications_can.27t_find_system_fonts>
   Flatpak applications can't find system fonts, themes (gtk, qt, icon, cursor, etc.)?

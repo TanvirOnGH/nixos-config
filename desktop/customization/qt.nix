@@ -1,6 +1,6 @@
 # QT Configuration
 #- <https://nixos.wiki/wiki/Qt>
-{...}: {
+_: {
   # Configure QT themes to resemble GTK themes
   qt = {
     enable = true;

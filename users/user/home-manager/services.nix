@@ -1,12 +1,12 @@
 # Home Manager User's Services Configuration
-{...}: let
+_: let
   home-manager = builtins.fetchTarball "https://github.com/nix-community/home-manager/archive/master.tar.gz";
 in {
   imports = [
     (import "${home-manager}/nixos")
   ];
 
-  home-manager.users.user = {...}: {
+  home-manager.users.user = _: {
     services = {
       kdeconnect.enable = true;
       gnome-keyring.enable = true;

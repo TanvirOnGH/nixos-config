@@ -2,7 +2,7 @@
 #- https://app.cachix.org/cache/nix-community
 #- https://app.cachix.org/cache/nix-gaming
 #- https://app.cachix.org/cache/hyprland
-{...}: {
+_: {
   nix.settings = {
     substituters = [
       "https://nix-community.cachix.org"

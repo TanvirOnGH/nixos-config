@@ -1,5 +1,5 @@
 # <https://github.com/FlareSolverr/FlareSolverr>
-{...}: {
+_: {
   virtualisation = {
     podman = {
       enable = true;

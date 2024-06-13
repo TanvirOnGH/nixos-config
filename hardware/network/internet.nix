@@ -1,6 +1,6 @@
 # Internet (Ethernet/WIFI) Configuration
 #- <https://nixos.wiki/wiki/Networking>
-{...}: {
+_: {
   networking = {
     useDHCP = false;
     hostName = "NixOS";

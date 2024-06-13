@@ -1,6 +1,6 @@
 # Audit Tracing Configuration
 # Monitor logs with: journalctl -f
-{...}: {
+_: {
   security = {
     auditd.enable = true;
     audit.enable = true;

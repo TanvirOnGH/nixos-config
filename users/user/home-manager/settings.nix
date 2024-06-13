@@ -1,5 +1,5 @@
 # Home Manager User's Settings Configuration
-{...}: let
+_: let
   home-manager = builtins.fetchTarball "https://github.com/nix-community/home-manager/archive/master.tar.gz";
 in {
   imports = [
@@ -15,7 +15,7 @@ in {
     useUserPackages = true;
   };
 
-  home-manager.users.user = {...}: {
+  home-manager.users.user = _: {
     home = {
       username = "user";
       homeDirectory = "/home/user";
