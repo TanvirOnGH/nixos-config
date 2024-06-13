@@ -15,9 +15,11 @@ My [nix](https://nixos.org/learn.html) configuration for [NixOS](https://nixos.o
 
 ## Linter/Formatter
 
-[alejandra](https://github.com/kamadorueda/alejandra) is used in this repository to lint and format all the nix files. nixfmt and nixpkgs-fmt both advertise ugly and confusing diffs.
+[alejandra](https://github.com/kamadorueda/alejandra) is used in this repository to format all the nix files. nixfmt and nixpkgs-fmt both advertise ugly and confusing diffs.
 
 Alejandra is based on the original style of Nixpkgs, and then they applied the feedback from developers with extensive experience using Nix at scale, producing a very well-grounded style guide.
+
+[statix](https://github.com/nerdypepper/statix) is used in this repository to capture and fix anti-patterns in all the nix files.
 
 ## Channels
 
