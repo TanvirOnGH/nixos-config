@@ -1,4 +1,4 @@
-name: Lint With Alejandra
+name: Formatting With Alejandra
 on:
   push:
     paths:
@@ -27,4 +27,4 @@ jobs:
       - name: Push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "chore: linting with Alejandra"
+          commit_message: "chore: formatting with Alejandra"
