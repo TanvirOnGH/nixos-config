@@ -64,6 +64,12 @@
 
     virt-manager.enable = true;
 
+    # <https://nixos.wiki/wiki/Appimage>
+    appimage = {
+      enable = true;
+      binfmt = true;
+    };
+
     #- <https://nixos.wiki/wiki/Node.js>
     npm = {
       enable = false;
