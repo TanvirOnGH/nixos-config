@@ -20,7 +20,7 @@
 
     # <https://nixos.wiki/wiki/Bash>
     bash = {
-      enableCompletion = true;
+      completion.enable = true;
       enableLsColors = true;
       blesh.enable = false;
     };
