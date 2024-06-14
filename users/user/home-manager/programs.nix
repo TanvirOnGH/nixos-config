@@ -48,6 +48,12 @@ in {
       lazygit.enable = true;
       gitui.enable = true;
 
+      # <https://nixos.wiki/wiki/Appimage>
+      appimage = {
+        enable = true;
+        binfmt = true;
+      };
+
       git = {
         enable = true;
         package = pkgs.gitFull;
