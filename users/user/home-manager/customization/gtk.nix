@@ -49,6 +49,7 @@ in {
           "file:///mnt/gamedrive1"
           "file:///mnt/gamedrive2"
           "file:///mnt/gamedrive3"
+          "file:///mnt/windows"
         ];
         extraConfig = {
           gtk-cursor-blink = false;
