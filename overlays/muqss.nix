@@ -6,7 +6,7 @@
 }: {
   nixpkgs = {
     overlays = [
-      (self: super: {
+      (_self: _super: {
         linuxZenWMuQSS = pkgs.linuxPackagesFor (pkgs.linux_zen.kernel.override {
           structuredExtraConfig = with lib.kernel; {
             SCHED_MUQSS = yes;
