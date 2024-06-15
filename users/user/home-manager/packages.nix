@@ -180,6 +180,7 @@ in {
       nixd # daemon: Nix language server
       alejandra # cli: Uncompromising Nix Code Formatter
       statix # cli: Lints and suggestions for the nix programming language
+      deadnix # cli: Find and remove unused code in .nix source files
       /*
       nixfmt # cli: An opinionated formatter for Nix
       appimage-run # cli: run appimages on nixos
