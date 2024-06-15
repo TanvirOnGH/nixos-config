@@ -14,6 +14,10 @@
       "split_lock_detect=off"
     ];
 
+    blacklistedKernelModules = [
+      "ucsi_ccg"
+    ];
+
     # To check kernel config: zcat /proc/config.gz
     /*
     kernelPatches = [
