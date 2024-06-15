@@ -6,7 +6,7 @@
     kernelPackages = pkgs.linuxPackages_xanmod_latest;
     # kernelPackages = pkgs.linuxPackages_latest;
     kernelParams = [
-      # "quiet"
+      "quiet"
       "mitigations=off"
       "iommu=pt"
       # "splash"
