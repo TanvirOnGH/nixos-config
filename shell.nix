@@ -1,3 +1,4 @@
+# deadnix: skip
 {pkgs ? import ./nixpkgs.nix {}}: let
   # It's generally recommended to pin your nixpkgs for reproducibility.
   # You can use `nix flake lock` to update it.

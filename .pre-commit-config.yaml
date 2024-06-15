@@ -8,3 +8,10 @@ repos:
     rev: 3.0.0
     hooks:
       - id: alejandra
+
+  - repo: https://github.com/astro/deadnix
+    rev: v1.2.1
+    hooks:
+      - id: deadnix
+        args: [--edit] # Automatically modify files
+        stages: [commit]
