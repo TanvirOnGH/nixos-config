@@ -7,9 +7,11 @@
     # kernelPackages = pkgs.linuxPackages_latest;
     kernelParams = [
       "quiet"
-      "mitigations=off"
       "iommu=pt"
+      "mitigations=off"
+      "nowatchdog"
       # "splash"
+      "split_lock_detect=off"
     ];
 
     # To check kernel config: zcat /proc/config.gz
