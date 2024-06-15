@@ -1,10 +1,10 @@
 # Kernel Configuration
 #- <https://nixos.wiki/wiki/Linux_kernel>
 # Kernel Configuration
-_: {
+{pkgs, ...}: {
   boot = {
     # kernelPackages = pkgs.linuxPackages_xanmod_latest;
-    # kernelPackages = pkgs.linuxPackages_latest;
+    kernelPackages = pkgs.linuxPackages_latest;
     kernelParams = [
       # "quiet"
       "mitigations=off"
