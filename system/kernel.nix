@@ -3,8 +3,8 @@
 # Kernel Configuration
 {pkgs, ...}: {
   boot = {
-    # kernelPackages = pkgs.linuxPackages_xanmod_latest;
-    kernelPackages = pkgs.linuxPackages_latest;
+    kernelPackages = pkgs.linuxPackages_xanmod_latest;
+    # kernelPackages = pkgs.linuxPackages_latest;
     kernelParams = [
       # "quiet"
       "mitigations=off"
