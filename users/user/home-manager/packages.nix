@@ -234,6 +234,7 @@ in {
       radare2 # cli: UNIX-like reverse engineering framework and command-line tools
       iaito # gui: An official graphical interface of radare2
       cutter # gui: Free and Open Source Reverse Engineering Platform powered by rizin
+      imhex # gui: Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM
       rizin # cli: UNIX-like reverse engineering framework and command-line toolset
       */
       # End-of Reverse Engineering
