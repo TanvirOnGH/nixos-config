@@ -77,6 +77,13 @@ in {
       */
       # End-of Development
 
+      # Cloud
+      megasync # Tray: Easy automated syncing between your computers and your MEGA Cloud Drive
+      onedrivegui # gui: A simple GUI for Linux OneDrive Client, with multi-account support
+      maestral-gui # gui: GUI front-end for maestral (an open-source Dropbox client) for Linux
+      cozy-drive # gui: Cozy Drive is a synchronization tool for your files and folders with Cozy Cloud
+      # End-of Cloud
+
       # Tex
       # lyx # gui: WYSIWYM frontend for LaTeX, DocBook
       # End-of Tex
