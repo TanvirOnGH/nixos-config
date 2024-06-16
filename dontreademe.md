@@ -21,3 +21,7 @@ loader.systemd-boot.enable = true
 enable = true
 lfs.enable = true
 ```
+
+## Misc
+
+Also with others e.g. JSON: `builtins.fromJSON (builtins.readFile ./config.json);`. See configs directory.
