@@ -3,6 +3,7 @@
 # Kernel Configuration
 {pkgs, ...}: {
   boot = {
+    # # Search for (in nixpkgs): linuxKernel.kernels
     kernelPackages = pkgs.linuxPackages_xanmod_latest;
     # kernelPackages = pkgs.linuxPackages_latest;
     kernelParams = [

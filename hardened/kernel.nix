@@ -12,6 +12,7 @@
   ...
 }: {
   boot = {
+    # Search for (in nixpkgs): linuxKernel.kernels hardened
     kernelPackages = lib.mkDefault pkgs.linuxKernel.packages.linux_hardened;
     kernelModules = ["tcp_bbr"];
     kernel.sysctl = {

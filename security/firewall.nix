@@ -11,7 +11,7 @@ _: {
   # nftables: nft list ruleset
   networking.firewall = {
     enable = true;
-    allowPing = true;
+    allowPing = false;
 
     # Warning: Firewall rules may be overwritten by Docker
     # <https://github.com/NixOS/nixpkgs/issues/111852>
