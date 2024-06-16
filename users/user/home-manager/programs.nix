@@ -16,8 +16,6 @@ in {
         enable = true;
       };
 
-      # TODO: Setup NixVim <https://github.com/nix-community/nixvim>
-
       /*
       dconf.settings = {
         "org/virt-manager/virt-manager/connections" = {

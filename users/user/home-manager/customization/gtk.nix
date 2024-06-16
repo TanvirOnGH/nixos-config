@@ -1,5 +1,4 @@
 # Home Manager User's GTK Configuration
-# TODO: https://github.com/danth/stylix
 _: let
   home-manager = builtins.fetchTarball "https://github.com/nix-community/home-manager/archive/master.tar.gz";
 in {

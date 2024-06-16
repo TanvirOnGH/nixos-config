@@ -206,7 +206,6 @@
     };
     */
 
-    # TODO: setup USBGuard
     #- <https://usbguard.github.io>
     /*
     usbguard = {
