@@ -31,6 +31,7 @@ emacs https://github.com/nix-community/emacs-overlay/archive/master.tar.gz
 haskell https://github.com/input-output-hk/haskell.nix/archive/master.tar.gz
 mozilla https://github.com/mozilla/nixpkgs-mozilla/archive/master.tar.gz
 ragenix https://github.com/yaxitech/ragenix/archive/main.tar.gz
+musnix https://github.com/musnix/musnix/archive/master.tar.gz
 ```
 
 ## Resources
