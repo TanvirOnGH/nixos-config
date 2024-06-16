@@ -86,6 +86,60 @@ ragenix https://github.com/yaxitech/ragenix/archive/main.tar.gz
 - [Nixpkgs Pull Request Tracker](https://nixpk.gs/pr-tracker.html) - A tracker for whether a PR has made it into a channel yet.
 - [Nix Review Tools Reports](https://malob.github.io/nix-review-tools-reports/) - Reports showing problematic dependencies (dependencies causing the most failed builds) for major Hydra jobsets.
 
+### Notable Mentions
+
+[home-manager](https://github.com/nix-community/home-manager) - A system for managing a user environment using the nix. It allows declarative configuration of user specific (non-global) packages and dotfiles.
+
+[NUR](https://github.com/nix-community/NUR) - User contributed nix packages. In contrast to Nixpkgs, packages are built from source and are not reviewed by any Nixpkgs member.
+
+[chaotic nyx](https://github.com/chaotic-cx/nyx) - Nix flake for too much bleeding-edge and unreleased packages. And experimental modules.
+
+[alejandra](https://github.com/kamadorueda/alejandra) - The Uncompromising Nix Code Formatter. It applies the feedback of developers who have used Nix at scale for several years, producing a very well-grounded style guide.
+
+[statix](https://github.com/nerdypepper/statix) - lints and suggestions for the nix. Able to highlight anti-patterns in Nix code and fix them.
+
+[deadnix](https://github.com/astro/deadnix) -  Scan Nix files for dead code. Able to automatically remove unused code.
+
+[trustix](https://github.com/nix-community/trustix) - Tool that compares build outputs for a given build input across a group of independent providers to establish trust in software binaries.
+
+[nix-gaming](https://github.com/fufexan/nix-gaming) - Gaming related stuff for Nix and NixOS.
+
+[schizofox](https://github.com/schizofox/schizofox) - Hardened Firefox flake for the delusional and the schizophrenics. Can be used as reference.
+
+[nixbsd](https://github.com/nixos-bsd/nixbsd) - An unofficial NixOS fork with a FreeBSD kernel.
+
+[RedNixOS](https://github.com/redcode-labs/RedNixOS) - NixOS-based distro for cybersecurity enthusiasts.
+
+[flox](https://github.com/flox/flox) - A virtual environment and package manager all in one. Installs packages from nixpkgs.
+
+[nix-topology](https://github.com/oddlama/nix-topology) - Automatically generate infrastructure and network diagrams as SVGs directly from your NixOS configurations.
+
+[agenix](https://github.com/ryantm/agenix) - A small and convenient nix library for securely managing and deploying secrets using common public-private SSH key pairs. Age-encrypted secrets for NixOS and Home manager.
+
+[ragenix](https://github.com/yaxitech/ragenix) - Provides age-encrypted secrets for NixOS systems which live in the Nix store and are decrypted on system activation. A drop-in replacement for agenix.
+
+[icicle](https://github.com/snowfallorg/icicle) -  A gtk4/libadwaita installer for NixOS based distributions.
+
+[nix-software-center](https://github.com/snowfallorg/nix-software-center) -  A simple gtk4/libadwaita software center to easily install and manage nix packages.
+
+[nixos-conf-editor](https://github.com/snowfallorg/nixos-conf-editor) -  A libadwaita/gtk4 app for editing NixOS configurations.
+
+[styx](https://github.com/dnr/styx) - An alternate binary substitution mechanism for nix.
+
+[vulnix](https://github.com/nix-community/vulnix) - A utility that validates a Nix store for any packages that are reachable from live paths and likely to be affected by vulnerabilities listed in the NVD.
+
+[nix-sandwich](https://github.com/dnr/nix-sandwich) - Implements differential compression for downloading from a nix binary cache.
+
+[lanzaboote](https://github.com/nix-community/lanzaboote) - Tooling for UEFI Secure Boot on NixOS.
+
+[sops-nix](https://github.com/Mic92/sops-nix) - Atomic, declarative, and reproducible secret provisioning for NixOS based on sops.
+
+[disko](https://github.com/nix-community/disko) - Declarative disk partitioning and formatting using nix.
+
+[nix-colors](https://github.com/Misterio77/nix-colors) - Modules and schemes to make theming with nix awesome.
+
+[stylix](https://github.com/danth/stylix) - System-wide colorscheming and typography for nixos.
+
 ## Abandon Hope, All Ye Who Enter Here
 
 ![NixOS Learning Curve Graph](images/nixos-learning-curve.jpeg)
