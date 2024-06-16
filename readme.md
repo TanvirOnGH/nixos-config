@@ -104,6 +104,8 @@ ragenix https://github.com/yaxitech/ragenix/archive/main.tar.gz
 
 [nix-gaming](https://github.com/fufexan/nix-gaming) - Gaming related stuff for Nix and NixOS.
 
+[musnix](https://github.com/musnix/musnix) - Real-time audio in NixOS.
+
 [schizofox](https://github.com/schizofox/schizofox) - Hardened Firefox flake for the delusional and the schizophrenics. Can be used as reference.
 
 [nixbsd](https://github.com/nixos-bsd/nixbsd) - An unofficial NixOS fork with a FreeBSD kernel.
