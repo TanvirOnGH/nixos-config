@@ -1,6 +1,6 @@
 _: {
   nixpkgs.overlays = [
-    (final: prev: {
+    (prev: {
       sudo = prev.sudo.override {withInsults = true;};
     })
   ];
