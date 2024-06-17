@@ -1,5 +1,5 @@
 # Administration Configuration
-_: {
+{pkgs, ...}: {
   security = {
     sudo = {
       enable = false;
@@ -8,6 +8,8 @@ _: {
       extraConfig = ''
         Defaults env_keep += "SSH_AUTH_SOCK"
       '';
+
+      package = pkgs.sudo.override {withInsults = true;};
     };
 
     doas = {
