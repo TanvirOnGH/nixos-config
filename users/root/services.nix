@@ -199,6 +199,10 @@
     gvfs.enable = true; # Mount, trash, and other functionalities (e.g. in Thunar)
     tumbler.enable = true; # Thumbnail support for images
 
+    # DBus service that allows applications to update firmware
+    # <https://nixos.wiki/wiki/Fwupd>
+    fwupd.enable = false;
+
     /*
     deluge = {
       enable = true;
