@@ -914,6 +914,10 @@ in {
       */
       #- End-of Misc
 
+      # Privacy
+      metadata-cleaner # gui: Python GTK application to view and clean metadata in files, using mat2
+      # End-of Privacy
+
       # Essential tools
       #- https://github.com/swaywm/sway/wiki/GTK-3-settings-on-Wayland#xsettings
       #- https://wiki.hyprland.org/FAQ/#gtk-settings-no-work--whatever
@@ -991,7 +995,6 @@ in {
       krename # gui: A powerful batch renamer for KDE
       eaglemode # gui: a zoomable ui
       mat2 # cli: A handy tool to trash your metadata
-      metadata-cleaner # gui: Python GTK application to view and clean metadata in files, using mat2
       wayland-utils # cli: Wayland utilities (wayland-info)
       wdisplays # gui: A graphical application for configuring displays in Wayland compositors
       */
