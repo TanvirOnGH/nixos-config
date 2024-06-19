@@ -1,4 +1,4 @@
-name: Dead nix code analysis
+name: Dead code analysis with Deadnix
 on:
   push:
     paths:
