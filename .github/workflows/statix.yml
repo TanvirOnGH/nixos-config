@@ -19,13 +19,13 @@ jobs:
         with:
           nix_path: nixpkgs=channel:nixos-unstable
       - name: Run statix check
-        uses: workflow/nix-shell-action@v3
+        uses: workflow/nix-shell-action@main
         with:
           packages: statix
           script: |
             statix check
       - name: Run statix fix
-        uses: workflow/nix-shell-action@v3
+        uses: workflow/nix-shell-action@main
         with:
           packages: statix
           script: |
