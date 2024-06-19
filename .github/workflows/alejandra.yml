@@ -1,4 +1,4 @@
-name: Formatting With Alejandra
+name: Format With Alejandra
 on:
   push:
     paths:
