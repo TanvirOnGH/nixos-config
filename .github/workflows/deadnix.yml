@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: Check Out Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Set Up Nix
         uses: cachix/install-nix-action@master
         with:
