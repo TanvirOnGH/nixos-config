@@ -18,6 +18,12 @@ jobs:
         uses: cachix/install-nix-action@master
         with:
           nix_path: nixpkgs=channel:nixos-unstable
+      - name: Check for formatting issues with alejandra
+        uses: workflow/nix-shell-action@main
+        with:
+          packages: alejandra
+          script: |
+            alejandra . -c
       - name: Format code with alejandra
         uses: workflow/nix-shell-action@main
         with:
