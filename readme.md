@@ -117,6 +117,8 @@ musnix https://github.com/musnix/musnix/archive/master.tar.gz
 
 [Athena-OS](https://github.com/Athena-OS) - NixOS-based distribution intended to build a new concept of pentesting operating system.
 
+[SnowflakeOS](https://snowflakeos.org)
+
 [flox](https://github.com/flox/flox) - A virtual environment and package manager all in one. Installs packages from nixpkgs.
 
 [nix-topology](https://github.com/oddlama/nix-topology) - Automatically generate infrastructure and network diagrams as SVGs directly from your NixOS configurations.
