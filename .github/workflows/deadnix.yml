@@ -18,13 +18,13 @@ jobs:
         uses: cachix/install-nix-action@master
         with:
           nix_path: nixpkgs=channel:nixos-unstable
-      - name: Run Deadnix Check
+      - name: Run deadnix check
         uses: workflow/nix-shell-action@v3
         with:
           packages: deadnix
           script: |
             deadnix
-      - name: Run Deadnix Fix
+      - name: Run deadnix fix
         uses: workflow/nix-shell-action@v3
         with:
           packages: deadnix
