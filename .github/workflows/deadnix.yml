@@ -1,4 +1,4 @@
-name: Dead code analysis with Deadnix
+name: Fix dead code with deadnix
 on:
   push:
     paths:
@@ -7,12 +7,30 @@ on:
 
 jobs:
   deadnix:
-    name: Deadnix
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: cachix/install-nix-action@v25
-      - uses: cachix/cachix-action@v14
+      - name: Check Out Repository
+        uses: actions/checkout@v3
+      - name: Set Up Nix
+        uses: cachix/install-nix-action@master
         with:
-          name: deadnix
-      - uses: astro/deadnix-action@main
+          nix_path: nixpkgs=channel:nixos-unstable
+      - name: Run Deadnix Check
+        uses: workflow/nix-shell-action@v3
+        with:
+          packages: deadnix
+          script: |
+            deadnix
+      - name: Run Deadnix Fix
+        uses: workflow/nix-shell-action@v3
+        with:
+          packages: deadnix
+          script: |
+            deadnix -e
+      - name: Push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "chore: fix dead code with deadnix"
