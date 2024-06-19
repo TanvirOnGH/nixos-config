@@ -27,4 +27,4 @@ jobs:
       - name: Push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "chore: formatting with Alejandra"
+          commit_message: "chore: formatting with alejandra"
