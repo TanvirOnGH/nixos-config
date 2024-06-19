@@ -13,7 +13,7 @@ My [nix](https://nixos.org/learn.html) configuration for [NixOS](https://nixos.o
 >
 > I'll eventually switch to [flakes](https://nixos.wiki/wiki/Flakes) configuration.
 
-## Formatter/Linter
+## Formatter and Linter
 
 [alejandra](https://github.com/kamadorueda/alejandra) is used to format all the nix files. nixfmt and nixpkgs-fmt both advertise ugly and confusing diffs.
 
