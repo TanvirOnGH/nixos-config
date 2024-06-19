@@ -54,13 +54,13 @@ in {
       github-desktop # gui: GUI for managing Git and GitHub
       act # cli: Run your GitHub Actions locally
       meld # gui: Visual diff and merge tool
+      just # cli: A handy way to save and run project-specific commands
       /*
       github-copilot-cli # cli: A CLI experience for letting GitHub Copilot help you on the command line
       shellharden # cli: The corrective bash syntax highlighter
       processing # cli: A language and IDE for electronic arts
       sqlite # cli: A self-contained, serverless, zero-configuration, transactional SQL database engine
       sqliteman # gui: A simple but powerful Sqlite3 GUI database manager
-      just # cli: A handy way to save and run project-specific commands
       polypane # gui: Browser with unified devtools targeting responsability and acessibility
       spyder # gui: Scientific python development environment
       racket # gui: A general-purpose multi-paradigm programming language (with Dr. Racket IDE)
