@@ -12,8 +12,12 @@ _: {
     networkmanager = {
       enable = true;
       # <https://nixos.wiki/wiki/Wpa_supplicant>
-      wifi.backend = "wpa_supplicant";
-      wifi.macAddress = "random";
+      wifi = {
+        backend = "wpa_supplicant";
+        macAddress = "random"; # Generate a randomized value upon each connection
+        powersave = false;
+        scanRandMacAddress = true;
+      };
     };
 
     nameservers = [
