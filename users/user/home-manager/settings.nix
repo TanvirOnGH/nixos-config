@@ -13,13 +13,13 @@ in {
     # Installs packages to /etc/profiles instead of $HOME/.nix-profile
     # necessary to use nixos-rebuild build-vm
     useUserPackages = true;
-  };
 
-  home-manager.users.user = _: {
-    home = {
-      username = "user";
-      homeDirectory = "/home/user";
-      stateVersion = "23.05";
+    users.user = _: {
+      home = {
+        username = "user";
+        homeDirectory = "/home/user";
+        stateVersion = "23.05";
+      };
     };
   };
 }

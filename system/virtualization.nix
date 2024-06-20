@@ -18,6 +18,8 @@
       host = {
         enable = false;
         # Note: Needs a lot of compilation
+        # Oracle Extension Pack can be manually downloaded:
+        # nix-prefetch-url https://download.virtualbox.org/virtualbox/7.0.18/Oracle_VM_VirtualBox_Extension_Pack-7.0.18-162988.vbox-extpack
         enableExtensionPack = true;
       };
     };
