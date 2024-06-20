@@ -1,7 +1,6 @@
 # Programs Configuration
 {pkgs, ...}: {
   programs = {
-    thefuck.enable = true;
     partition-manager.enable = true;
 
     # Plotinus GTK 3 plugin

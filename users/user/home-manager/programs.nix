@@ -16,6 +16,16 @@ in {
         enable = true;
       };
 
+      thefuck = {
+        enable = true;
+        enableInstantMode = true; # Experimental as of 20/06/2024
+
+        enableBashIntegration = true;
+        enableZshIntegration = true;
+        enableFishIntegration = true;
+        enableNushellIntegration = true;
+      };
+
       /*
       dconf.settings = {
         "org/virt-manager/virt-manager/connections" = {
