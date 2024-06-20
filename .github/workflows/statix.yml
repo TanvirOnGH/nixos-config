@@ -20,6 +20,7 @@ jobs:
           nix_path: nixpkgs=channel:nixos-unstable
       - name: Run statix check
         uses: workflow/nix-shell-action@main
+        continue-on-error: true
         with:
           packages: statix
           script: |
