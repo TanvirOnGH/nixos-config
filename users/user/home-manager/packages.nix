@@ -445,6 +445,7 @@ in {
       */
       #- End-of Image Tools
       #- Audio Players
+      amberol # gui: Small and simple sound and music player
       lollypop # gui: modern music player for GNOME
       rhythmbox # gui: A music playing application for GNOME
       exaile # gui: A music player with a simple interface and powerful music management capabilities
@@ -688,7 +689,8 @@ in {
       # End-of Ricing tools
 
       # Networking
-      nm-tray # gui/tray: Simple Network Manager frontend written in Qt
+      networkmanagerapplet # gui/tray: NetworkManager control applet for GNOME
+      # nm-tray # gui/tray: Simple Network Manager frontend written in Qt
       # End-of Networking
 
       # Tor

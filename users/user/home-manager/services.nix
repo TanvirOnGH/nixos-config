@@ -20,6 +20,10 @@ in {
         lockCmd = "${pkgs.i3lock-fancy-rapid}/bin/i3lock-fancy-rapid 5 5";
       };
 
+      # TODO: Setup activitywatch
+      # <https://activitywatch.net/>
+      activitywatch.enable = false;
+
       # network-manager-applet.enable = true;
 
       # PulseAudio System Tray
