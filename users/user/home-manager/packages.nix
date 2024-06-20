@@ -461,6 +461,7 @@ in {
       easyeffects # gui: audio effects for pipewire applications
       */
       pavucontrol # gui: pulseaudio volume control
+      pasystray # tray: PulseAudio system tray
       #- End-of Controllers
       #- Tools
       /*

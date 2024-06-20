@@ -71,6 +71,9 @@
     vnstat.enable = true;
     fstrim.enable = false;
 
+    # Compositor for X11
+    # picom.enable = true;
+
     # Aria2 daemon can be controlled via the RPC interface using
     # one of many WebUI
     # WebUI (default): <http://localhost:6800>

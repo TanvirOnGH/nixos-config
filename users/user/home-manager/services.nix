@@ -11,9 +11,20 @@ in {
       kdeconnect.enable = false;
       gnome-keyring.enable = true;
 
+      # network-manager-applet.enable = true;
+
       # PulseAudio System Tray
       # Replacement for the deprecated padevchooser
-      pasystray.enable = true;
+      # pasystray.enable = true;
+
+      # Compositor (X11)
+      # home-manager fails
+      # keep it disabled temporarily
+      # TODO: investigate
+      # picom.enable = false;
+
+      # Clipboard Manager
+      # copyq.enable = true;
 
       udiskie = {
         enable = true; # requires services.udisks2.enable = true
