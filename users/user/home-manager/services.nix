@@ -1,5 +1,5 @@
 # Home Manager User's Services Configuration
-_: let
+{pkgs, ...}: let
   home-manager = builtins.fetchTarball "https://github.com/nix-community/home-manager/archive/master.tar.gz";
 in {
   imports = [
@@ -10,6 +10,15 @@ in {
     services = {
       kdeconnect.enable = false;
       gnome-keyring.enable = true;
+
+      xsettingsd.enable = true;
+
+      screen-locker = {
+        enable = true;
+        xautolock.enable = true;
+        inactiveInterval = 10;
+        lockCmd = "${pkgs.i3lock-fancy-rapid}/bin/i3lock-fancy-rapid 5 5";
+      };
 
       # network-manager-applet.enable = true;
 
