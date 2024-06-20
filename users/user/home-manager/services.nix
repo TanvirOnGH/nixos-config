@@ -8,7 +8,7 @@ in {
 
   home-manager.users.user = _: {
     services = {
-      kdeconnect.enable = true;
+      kdeconnect.enable = false;
       gnome-keyring.enable = true;
 
       udiskie = {
