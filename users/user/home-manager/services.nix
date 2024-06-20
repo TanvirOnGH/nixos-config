@@ -11,6 +11,10 @@ in {
       kdeconnect.enable = false;
       gnome-keyring.enable = true;
 
+      # PulseAudio System Tray
+      # Replacement for the deprecated padevchooser
+      pasystray.enable = true;
+
       udiskie = {
         enable = true; # requires services.udisks2.enable = true
         automount = true;

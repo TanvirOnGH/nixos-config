@@ -14,24 +14,28 @@ in {
       #            nordic, equilux-theme, materia-theme
       theme = {
         package = pkgs.equilux-theme;
+        # Easily find the exact names using lxappearance
         name = "Equilux";
       };
 
       # preferred: bibata-cursors, bibata-extra-cursors
       iconTheme = {
         package = pkgs.tela-icon-theme;
+        # Easily find the exact names using lxappearance
         name = "Tela-black-dark";
       };
 
       # preferred: bibata-cursors, bibata-extra-cursors
       cursorTheme = {
         package = pkgs.bibata-cursors;
+        # Easily find the exact names using lxappearance, fc-list
         name = "Bibata-Original-Classic";
         size = 30;
       };
 
       font = {
         package = pkgs.fira-code;
+        # Easily find the exact names using lxappearance
         name = "Fira Code";
         size = 12;
       };

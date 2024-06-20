@@ -241,13 +241,17 @@
 
     mullvad-vpn.enable = false;
 
+    # TODO: Setup sonarr, radarr, prowlarr, lidarr, readarr, bazarr, whisparr, exportarr, plex, kodi, ombi,
+    # stash (https://hub.docker.com/r/stashapp/stash)
+    # <https://wiki.servarr.com>
+    # <https://trash-guides.info/>
+    # <https://github.com/Ravencentric/awesome-arr>
+
     # TODO: setup Jellyfin
     #- <https://nixos.wiki/wiki/Jellyfin>
     #- <https://jellyfin.org>
     #- <https://github.com/jellyfin/jellyfin-media-player>
     # services.jellyfin.enable = true;
-
-    # TODO: setup kodi
 
     # TODO: setup PhotoPrism
     #- <https://nixos.wiki/wiki/PhotoPrism>

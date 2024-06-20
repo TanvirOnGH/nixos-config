@@ -15,11 +15,13 @@ in {
       pointerCursor = {
         gtk.enable = true;
         package = pkgs.bibata-cursors;
+        # Easily find the exact names using lxappearance
         name = "Bibata-Original-Classic";
         size = 30;
 
         x11 = {
           enable = true;
+          # Easily find the exact names using lxappearance
           defaultCursor = "Bibata-Original-Classic";
         };
       };
