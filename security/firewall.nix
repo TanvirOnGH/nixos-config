@@ -18,8 +18,12 @@ _: {
     interfaces = {
       "enp42s0" = {
         # Block all ports
-        allowedTCPPorts = [];
-        allowedUDPPorts = [];
+        allowedTCPPorts = [
+          # config.services.aria2.settings.rpc-listen-port
+        ];
+        allowedUDPPorts = [
+          # config.services.aria2.settings.listen-port
+        ];
 
         # Syncthing ports
         # 6433 is equired by k3s so that pod can reach the API server (running on port 6443 by default)

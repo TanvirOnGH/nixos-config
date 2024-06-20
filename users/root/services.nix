@@ -69,8 +69,23 @@
 
     teamviewer.enable = false;
     vnstat.enable = true;
-    aria2.enable = false; # WebUI: <http://localhost:6800>
     fstrim.enable = false;
+
+    # Aria2 daemon can be controlled via the RPC interface using
+    # one of many WebUI
+    # WebUI (default): <http://localhost:6800>
+    aria2 = {
+      enable = false;
+      openPorts = true;
+      rpcSecretFile = "/run/secrets/aria2-rpc-token.txt";
+
+      settings = {
+        # dir = "/aria2/downloads";
+        enable-rpc = true;
+        rpc-listen-port = 6800;
+        # listen-port (from = 6881; to = 6999;)
+      };
+    };
 
     # USB Automounting
     # <https://nixos.wiki/wiki/PCManFM#USB_Automounting>
@@ -224,6 +239,8 @@
     };
     */
 
+    mullvad-vpn.enable = false;
+
     # TODO: setup Jellyfin
     #- <https://nixos.wiki/wiki/Jellyfin>
     #- <https://jellyfin.org>
@@ -236,6 +253,8 @@
     #- <https://nixos.wiki/wiki/PhotoPrism>
 
     # <https://github.com/Jackett/Jackett>
+    # Use <https://github.com/FlareSolverr/FlareSolverr> in addition
+    # Tracking: <https://github.com/NixOS/nixpkgs/issues/294789>
     jackett.enable = true; # WebUI: http://127.0.0.1:9117
 
     # <https://nixos.wiki/wiki/GNOME#Running_ancient_applications>

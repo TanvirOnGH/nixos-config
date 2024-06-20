@@ -189,6 +189,7 @@ in {
       statix # cli: Lints and suggestions for the nix programming language
       deadnix # cli: Find and remove unused code in .nix source files
       /*
+      nix-web # web: Web interface for the Nix store
       nixfmt # cli: An opinionated formatter for Nix
       appimage-run # cli: run appimages on nixos
       # <https://github.com/NixOS/nixpkgs/issues/232640>
@@ -919,6 +920,7 @@ in {
       # End-of Privacy
 
       # Essential tools
+      wgetpaste # cli: Command-line interface to various pastebins
       #- https://github.com/swaywm/sway/wiki/GTK-3-settings-on-Wayland#xsettings
       #- https://wiki.hyprland.org/FAQ/#gtk-settings-no-work--whatever
       # xsettingsd # cli: Provides settings to X11 applications via the XSETTINGS specification
@@ -974,7 +976,6 @@ in {
       wmname # cli: print/set window manager name property of the root window
       ocs-url # cli: open collaboration system for use with the store websites
       traceroute # cli: Tracks the route taken by packets over an IP network
-      wgetpaste # cli: Command-line interface to various pastebins
       psensor # gui: hardware temperature monitoring tool
       stress # cli: Simple workload generator for POSIX systems. It imposes a configurable amount of CPU, memory, I/O, and disk stress on the system
       s-tui # cli: Stress-Terminal UI monitoring tool
