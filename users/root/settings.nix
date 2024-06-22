@@ -61,6 +61,13 @@
     # QT_QPA_PLATFORM = "qt5ct";
     # QT_STYLE_OVERRIDE = "kvantum";
 
+    # Prevents Qt5 from auto-scaling the UI depending on screen DPI
+    # Fixes Okular being rendered in a different size and totally broken
+    QT_AUTO_SCREEN_SCALE_FACTOR = "0";
+    # Sets the UI scaling factor for Qt5
+    # Helps fixing Okular
+    QT_SCALE_FACTOR = "1";
+
     # Fix misbehavior where the application starts with a blank screen
     #- <https://bugs.openjdk.org/browse/JDK-8058197>
     #- <https://github.com/xmonad/xmonad/issues/126>

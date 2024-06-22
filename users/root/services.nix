@@ -256,6 +256,8 @@
     #- <https://github.com/jellyfin/jellyfin-media-player>
     # services.jellyfin.enable = true;
 
+    # TODO: SABnzbd, Spacedrive (https://www.spacedrive.com)
+
     # TODO: setup PhotoPrism
     #- <https://nixos.wiki/wiki/PhotoPrism>
 
