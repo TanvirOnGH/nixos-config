@@ -3,11 +3,13 @@
   # <https://nixos.wiki/wiki/Virt-manager>
   # <https://nixos.wiki/wiki/Libvirt>
   virtualisation = {
+    spiceUSBRedirection.enable = true;
+
     libvirtd = {
       enable = true;
       qemu.ovmf = {
         enable = true;
-        packages = [ pkgs.OVMFFull.fd ];
+        packages = [pkgs.OVMFFull.fd];
       };
     };
 
