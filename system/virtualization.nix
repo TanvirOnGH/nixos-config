@@ -5,7 +5,10 @@
   virtualisation = {
     libvirtd = {
       enable = true;
-      qemu.ovmf.enable = true;
+      qemu.ovmf = {
+        enable = true;
+        packages = [ pkgs.OVMFFull.fd ];
+      };
     };
 
     #- Xen currently does not support EFI boot
