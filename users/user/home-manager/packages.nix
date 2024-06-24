@@ -334,12 +334,17 @@ in {
       # Torrent
       qbittorrent # gui: featureful bittorrent client. For plugin: <https://github.com/qbittorrent/search-plugins>
       /*
+      btfs # cli: A bittorrent filesystem based on FUSE
       tribler # gui: Decentralised P2P filesharing client based on the Bittorrent protocol
       flood # web: A modern Web UI for various torrent clients with multi-user and multi-client support
       jesec-rtorrent # cli: An ncurses client for libtorrent, ideal for use with screen, tmux, or dtach (jesec's fork)
       # transmission # cli: A fast, easy and free BitTorrent client
       transmission-gtk # gui: A fast, easy and free BitTorrent client
       deluge-gtk # gui: A lightweight, Free Software, cross-platform BitTorrent client
+      webtorrent_desktop # gui: Streaming torrent app for Mac, Windows, and Linux
+      popcorntime # gui: An application that streams movies and TV shows from torrents
+      miru # gui: Stream anime torrents, real-time with no waiting for downloads
+      flood # web: Modern web UI for various torrent clients with a Node.js backend and React frontend
       */
       # End-of Torrent
 
@@ -777,7 +782,7 @@ in {
       anki-bin # gui: Spaced repetition flashcard program (Binary version)
       stellarium # gui: Free open-source planetarium
       celestia # gui: Real-time 3D simulation of space
-      # kstars # gui: Virtual planetarium astronomy software
+      kstars # gui: Virtual planetarium astronomy software
       libsForQt5.kalzium # gui: Program that shows you the Periodic Table of Elements
       */
       # End-of Educational
@@ -786,7 +791,7 @@ in {
       /*
       gnumeric # gui: The GNOME Office Spreadsheet
       libreoffice-fresh # gui: Comprehensive, professional-quality productivity suite, a variant of openoffice.org
-      # calligra # gui: A suite of productivity applications
+      calligra # gui: A suite of productivity applications
       */
       # End-of Office
 
@@ -891,7 +896,7 @@ in {
       ffmpegthumbnailer # lib: A lightweight video thumbnailer
       libgsf # lib: GNOME's Structured File Library
       gnome-epub-thumbnailer # lib: Thumbnailer for EPub and MOBI books
-      # f3d # lib: Fast and minimalist 3D viewer using VTK
+      f3d # lib: Fast and minimalist 3D viewer using VTK
       # End-of Tumbler additons
 
       # VPN

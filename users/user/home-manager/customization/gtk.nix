@@ -10,8 +10,7 @@ in {
     gtk = {
       enable = true;
 
-      # preferred: flat-remix-gtk, venta, vimix-gtk-themes, plata-theme,
-      #            nordic, equilux-theme, materia-theme
+      # preferred: flat-remix-gtk, venta, vimix-gtk-themes, plata-theme, nordic, equilux-theme, materia-theme
       theme = {
         package = pkgs.equilux-theme;
         # Easily find the exact names using lxappearance

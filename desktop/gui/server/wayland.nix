@@ -7,7 +7,7 @@
     };
   };
 
-  #  Needed to run X11 applications on Wayland
+  # Needed to run X11 applications on Wayland
   #- Even though XWayland has a nearly identical performance to that of X11
   #- In some cases it may degrade performance, especially on NVIDIA cards
   programs.xwayland.enable = true;
