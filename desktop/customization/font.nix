@@ -31,8 +31,13 @@
       fantasque-sans-mono
       */
 
+      # <https://b612-font.com>
       # B612 font for experimental use, optimized for cockpit screens
       # b612
+
+      # monocraft # Programming font based on the typeface used in Minecraft
+      # miracode # Sharp, readable, vector-y version of Monocraft
+      # minecraftia # Cool Minecraft font
 
       # Icon/Symbol support
       fira-code-symbols

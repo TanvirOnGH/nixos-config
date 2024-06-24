@@ -923,6 +923,8 @@ in {
       # End-of Privacy
 
       # Essential tools
+      gnome-usage # gui: A nice way to view information about use of system resources, like memory and disk space
+      gnome.gnome-disk-utility # gui: A udisks graphical front-end
       wgetpaste # cli: Command-line interface to various pastebins
       #- https://github.com/swaywm/sway/wiki/GTK-3-settings-on-Wayland#xsettings
       #- https://wiki.hyprland.org/FAQ/#gtk-settings-no-work--whatever
@@ -949,8 +951,6 @@ in {
       /*
       zenith-nvidia # cli: Sort of like top or htop but with zoom-able charts, network, and disk usage, and NVIDIA GPU usage
       filezilla # gui: Graphical FTP, FTPS and SFTP client
-      gnome-usage # gui: A nice way to view information about use of system resources, like memory and disk space
-      gnome.gnome-disk-utility # gui: A udisks graphical front-end
       hdparm # cli: A tool to get/set ATA/SATA drive parameters under Linux
       btrfs-progs # cli: Utilities for the btrfs filesystem
       compsize # cli: btrfs: Find compression type/ratio on a file or set of files

@@ -28,6 +28,7 @@
       "tmpfs"
       "ntfs" #- <https://nixos.wiki/wiki/NTFS>
       # "bcachefs" #- <https://nixos.wiki/wiki/Bcachefs>
+      # "zfs" #- <https://nixos.wiki/wiki/ZFS>
     ];
   };
 
