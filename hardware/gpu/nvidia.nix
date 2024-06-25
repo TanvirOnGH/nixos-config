@@ -54,7 +54,7 @@
     __GLX_VENDOR_LIBRARY_NAME = "nvidia";
   };
 
-  hardware.opengl.extraPackages = with pkgs; [
+  hardware.graphics.extraPackages = with pkgs; [
     vaapiVdpau
     nvidia-vaapi-driver
   ];
