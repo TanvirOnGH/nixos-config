@@ -332,13 +332,12 @@ in {
       # End-of Download managers
 
       # Torrent
-      qbittorrent # gui: featureful bittorrent client. For plugin: <https://github.com/qbittorrent/search-plugins>
+      qbittorrent # gui: featureful bittorrent client. For plugins: <https://github.com/qbittorrent/search-plugins>
+      tribler # gui: Decentralised P2P filesharing client based on the Bittorrent protocol
       /*
       btfs # cli: A bittorrent filesystem based on FUSE
-      tribler # gui: Decentralised P2P filesharing client based on the Bittorrent protocol
-      flood # web: A modern Web UI for various torrent clients with multi-user and multi-client support
       jesec-rtorrent # cli: An ncurses client for libtorrent, ideal for use with screen, tmux, or dtach (jesec's fork)
-      # transmission # cli: A fast, easy and free BitTorrent client
+      transmission # cli: A fast, easy and free BitTorrent client
       transmission-gtk # gui: A fast, easy and free BitTorrent client
       deluge-gtk # gui: A lightweight, Free Software, cross-platform BitTorrent client
       webtorrent_desktop # gui: Streaming torrent app for Mac, Windows, and Linux
