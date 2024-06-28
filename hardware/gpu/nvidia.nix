@@ -51,7 +51,7 @@
       # "Nvidia's open-source kernel module, which is beta-quality and x11-only."
       # TODO: Investigate the current state of this driver and the practicality of using it
       # open = lib.mkForce true;
-      open = false;
+      open = true; # for testing
 
       # Ensure all GPUs stay awake even during headless mode
       # Fixes a glitch
