@@ -380,7 +380,8 @@ in {
       rocketchat-desktop # gui: Official Desktop client for Rocket.Chat
       wire-desktop # gui: A modern, secure messenger for everyone
       */
-      #- Discord clients
+      #- Discord
+      #-- Discord clients
       armcord # gui: lightweight free discord client
       discord # gui: official discord client
       vesktop # gui: An alternate client by Vencord for Discord with Vencord built-in
@@ -389,7 +390,10 @@ in {
       betterdiscordctl # cli: utility for managing betterdiscord
       cordless # tui: Discord terminal client
       */
-      #- End-of Discord clients
+      #-- End-of Discord clients
+      #-- Discord Misc
+      # premid # cli: A simple, configurable utility to show your web activity as playing status on Discord
+      #-- End-of Discord Misc
       #- Matrix clients
       element-desktop # gui: popular matrix client
       fluffychat # gui: Chat with your friends (matrix client)
