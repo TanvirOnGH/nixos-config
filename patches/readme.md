@@ -7,3 +7,5 @@
 - enable-optimization-level-3.patch - Enable level 3 optimization (CONFIG_CC_OPTIMIZE_FOR_PERFORMANCE_O3) for the linux kernel for various architectures.
 
 - remove-expert-dependency-on-processor-select.patch - Remove the expert dependency on processor select menu in the linux kernel. Required to disable other architectures to remove bloat.
+
+- gcc-fuse-ld-mold.patch - Enable support for the mold linker (--fuse-ld=mold) in GCC.
