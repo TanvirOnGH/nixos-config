@@ -157,4 +157,4 @@ musnix https://github.com/musnix/musnix/archive/master.tar.gz
 
 ## Abandon Hope, All Ye Who Enter Here
 
-![NixOS Learning Curve Graph](images/nixos-learning-curve.jpeg)
+![NixOS Learning Curve Graph](images/nixos-learning-curve.png)
