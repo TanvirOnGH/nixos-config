@@ -17,7 +17,14 @@
 
   hardware = {
     nvidia = {
-      package = config.boot.kernelPackages.nvidiaPackages.latest;
+      # As of 28/06/2024
+      # .latest -> stable
+      # .stable -> production
+      # .production -> (550)
+      # .beta -> (555)
+      # .vulkan_beta -> (550, but different)
+      # dc -> datacenter driver (520)
+      package = config.boot.kernelPackages.nvidiaPackages.beta;
 
       # Required
       modesetting.enable = true;
