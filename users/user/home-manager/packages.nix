@@ -55,6 +55,7 @@ in {
       act # cli: Run your GitHub Actions locally
       meld # gui: Visual diff and merge tool
       just # cli: A handy way to save and run project-specific commands
+      code2prompt # cli: Convert your codebase into a single LLM prompt with a source tree, prompt templating, and token counting
       /*
       github-copilot-cli # cli: A CLI experience for letting GitHub Copilot help you on the command line
       shellharden # cli: The corrective bash syntax highlighter

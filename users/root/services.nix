@@ -206,6 +206,8 @@
       };
     };
 
+    # TODO: portmaster <https://github.com/NixOS/nixpkgs/pull/264454>
+
     mpd = {
       enable = false; # Music Player Daemon
       startWhenNeeded = true;
