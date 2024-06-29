@@ -6,8 +6,8 @@
 #- Packages: <https://search.nixos.org/packages>
 #- Options: <https://search.nixos.org/options>
 #- Flakes: <https://search.nixos.org/flakes>
-#- Nix Language Overview: <https://nixos.wiki/wiki/Overview_of_the_Nix_Language>
-#- Overview of NixOS: <https://nixos.wiki/wiki/Overview_of_the_NixOS_Linux_distribution>
+#- Nix Language Overview: <https://wiki.nixos.org/wiki/Overview_of_the_Nix_Language>
+#- Overview of NixOS: <https://wiki.nixos.org/wiki/Overview_of_the_NixOS_Linux_distribution>
 {...}: {
   imports = [
     ./imports.nix

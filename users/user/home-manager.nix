@@ -1,6 +1,6 @@
 # Home Manager Configuration Imports
 # References:
-#- <https://nixos.wiki/wiki/Home_Manager>
+#- <https://wiki.nixos.org/wiki/Home_Manager>
 #- <https://nix-community.github.io/home-manager>
 #- <https://github.com/nix-community/home-manager>
 #- <https://mipmip.github.io/home-manager-option-search>

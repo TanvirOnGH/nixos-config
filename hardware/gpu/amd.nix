@@ -1,5 +1,5 @@
 # GPU (AMD) Configuration
-#- <https://nixos.wiki/wiki/AMD_GPU>
+#- <https://wiki.nixos.org/wiki/AMD_GPU>
 {pkgs, ...}: {
   # amdgpu is the open source driver for AMD GPUs
   services.xserver.videoDrivers = ["amdgpu"];

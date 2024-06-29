@@ -1,5 +1,5 @@
 # WiFi Configuration
-#- <https://nixos.wiki/wiki/Wpa_supplicant>
+#- <https://wiki.nixos.org/wiki/Wpa_supplicant>
 {pkgs, ...}: {
   # To be able to use wpa_gui or wpa_cli
   # Can not use networking.networkmanager with networking.wireless

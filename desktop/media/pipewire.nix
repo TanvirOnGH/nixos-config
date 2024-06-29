@@ -1,5 +1,5 @@
 # PipeWire Configuration
-#- <https://nixos.wiki/wiki/PipeWire>
+#- <https://wiki.nixos.org/wiki/PipeWire>
 _: let
   # Reference: <https://github.com/fufexan/nix-gaming>
   nix-gaming = import (builtins.fetchTarball "https://github.com/fufexan/nix-gaming/archive/master.tar.gz");

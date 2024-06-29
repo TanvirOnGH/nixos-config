@@ -1,7 +1,7 @@
 # Virtualization Configuration
 {pkgs, ...}: {
-  # <https://nixos.wiki/wiki/Virt-manager>
-  # <https://nixos.wiki/wiki/Libvirt>
+  # <https://wiki.nixos.org/wiki/Virt-manager>
+  # <https://wiki.nixos.org/wiki/Libvirt>
   virtualisation = {
     spiceUSBRedirection.enable = true;
 
@@ -53,7 +53,7 @@
     #- Xen currently does not support EFI boot
     # xen.enable = true;
 
-    # <https://nixos.wiki/wiki/VirtualBox>
+    # <https://wiki.nixos.org/wiki/VirtualBox>
     virtualbox = {
       guest.clipboard = true;
 
@@ -66,12 +66,12 @@
       };
     };
 
-    # <https://nixos.wiki/wiki/WayDroid>
+    # <https://wiki.nixos.org/wiki/WayDroid>
     # Wayland Only
     # Running on X11 (use weston package in X11 session): <https://github.com/waydroid/waydroid/issues/195#issuecomment-953926526>
     waydroid.enable = false;
 
-    # <https://nixos.wiki/wiki/Docker>
+    # <https://wiki.nixos.org/wiki/Docker>
     docker = {
       enable = true;
 

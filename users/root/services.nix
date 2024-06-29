@@ -1,7 +1,7 @@
 # Services Configuration
 {pkgs, ...}: {
   # For programs like gparted (that requires root permission) to work
-  # <https://nixos.wiki/wiki/Polkit>
+  # <https://wiki.nixos.org/wiki/Polkit>
   security.polkit.enable = true;
 
   systemd.user.services = {
@@ -59,7 +59,7 @@
   };
 
   services = {
-    #- <https://nixos.wiki/wiki/BOINC>
+    #- <https://wiki.nixos.org/wiki/BOINC>
     /*
     boinc = {
       enable = true;
@@ -91,7 +91,7 @@
     };
 
     # USB Automounting
-    # <https://nixos.wiki/wiki/PCManFM#USB_Automounting>
+    # <https://wiki.nixos.org/wiki/PCManFM#USB_Automounting>
     udisks2.enable = true;
     devmon.enable = true;
 
@@ -100,7 +100,7 @@
     cpupower-gui.enable = false; # GUI for CPU power management
     packagekit.enable = false; # Required for KDE Discover
 
-    # <https://nixos.wiki/wiki/Btrfs#Scrubbing>
+    # <https://wiki.nixos.org/wiki/Btrfs#Scrubbing>
     btrfs.autoScrub = {
       enable = true;
       interval = "monthly";
@@ -137,7 +137,7 @@
     };
 
     # K3s
-    #- <https://nixos.wiki/wiki/K3s>
+    #- <https://wiki.nixos.org/wiki/K3s>
     k3s = {
       enable = false;
       role = "server";
@@ -146,7 +146,7 @@
     # TODO: tor, i2p, lokinet, freenet, gnunet
 
     # IPFS
-    #- <https://nixos.wiki/wiki/IPFS>
+    #- <https://wiki.nixos.org/wiki/IPFS>
     kubo = {
       enable = false;
       defaultMode = "online";
@@ -158,7 +158,7 @@
       # Default data dir: /var/lib/ipfs/
     };
 
-    #- <https://nixos.wiki/wiki/Tor>
+    #- <https://wiki.nixos.org/wiki/Tor>
     tor = {
       enable = false;
       client.enable = true;
@@ -196,7 +196,7 @@
       # Default data dir: /var/lib/zeronet/
     };
 
-    # https://nixos.wiki/wiki/SSH_public_key_authentication
+    # https://wiki.nixos.org/wiki/SSH_public_key_authentication
     openssh = {
       enable = false;
       settings = {
@@ -220,7 +220,7 @@
     tumbler.enable = true; # Thumbnail support for images
 
     # DBus service that allows applications to update firmware
-    # <https://nixos.wiki/wiki/Fwupd>
+    # <https://wiki.nixos.org/wiki/Fwupd>
     fwupd.enable = false;
 
     /*
@@ -254,7 +254,7 @@
     # <https://github.com/Ravencentric/awesome-arr>
 
     # TODO: setup Jellyfin
-    #- <https://nixos.wiki/wiki/Jellyfin>
+    #- <https://wiki.nixos.org/wiki/Jellyfin>
     #- <https://jellyfin.org>
     #- <https://github.com/jellyfin/jellyfin-media-player>
     # services.jellyfin.enable = true;
@@ -262,14 +262,14 @@
     # TODO: SABnzbd, Spacedrive (https://www.spacedrive.com)
 
     # TODO: setup PhotoPrism
-    #- <https://nixos.wiki/wiki/PhotoPrism>
+    #- <https://wiki.nixos.org/wiki/PhotoPrism>
 
     # <https://github.com/Jackett/Jackett>
     # Use <https://github.com/FlareSolverr/FlareSolverr> in addition
     # Tracking: <https://github.com/NixOS/nixpkgs/issues/294789>
     jackett.enable = true; # WebUI: http://127.0.0.1:9117
 
-    # <https://nixos.wiki/wiki/GNOME#Running_ancient_applications>
+    # <https://wiki.nixos.org/wiki/GNOME#Running_ancient_applications>
     dbus.packages = with pkgs; [gnome2.GConf];
 
     # Automatically lock the screen after a period of inactivity

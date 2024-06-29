@@ -1,4 +1,4 @@
-# <https://nixos.wiki/wiki/Firefox>
+# <https://wiki.nixos.org/wiki/Firefox>
 {pkgs, ...}: {
   # Firefox Nightly
   nixpkgs.overlays = let

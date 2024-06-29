@@ -4,7 +4,7 @@
     # USER.hblock # cli: shell script for blocking ads, malware and tracking domains
     gparted # gui: partition manager for gnome
 
-    # <https://nixos.wiki/wiki/Fish#System_wide>
+    # <https://wiki.nixos.org/wiki/Fish#System_wide>
     # fishPlugins.wakatime-fish # plugin: wakatime fish plugin
     # fishPlugins.colored-man-pages # plugin: Fish shell plugin to colorize man pages
     # fishPlugins.forgit # plugin: A utility tool powered by fzf for using git interactively

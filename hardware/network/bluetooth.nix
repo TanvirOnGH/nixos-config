@@ -1,5 +1,5 @@
 # Bluetooth Configuration
-#- <https://nixos.wiki/wiki/Bluetooth>
+#- <https://wiki.nixos.org/wiki/Bluetooth>
 _: {
   hardware.bluetooth = {
     enable = true;

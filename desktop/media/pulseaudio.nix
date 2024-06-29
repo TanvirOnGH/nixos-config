@@ -1,5 +1,5 @@
 # PulseAudio Configuration
-#- <https://nixos.wiki/wiki/PulseAudio>
+#- <https://wiki.nixos.org/wiki/PulseAudio>
 {pkgs, ...}: {
   hardware.pulseaudio = {
     enable = true;

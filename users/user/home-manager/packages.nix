@@ -98,7 +98,7 @@ in {
       # End-of Kubernetes
 
       # JavaScript Development
-      #- <https://nixos.wiki/wiki/Node.js>
+      #- <https://wiki.nixos.org/wiki/Node.js>
       /*
       nodejs # cli: Event-driven I/O framework for the V8 JavaScript engine
       yarn # cli: Fast, reliable, and secure dependency management for javascript
@@ -894,7 +894,7 @@ in {
 
       # Tumbler additons
       # Extend Tumbler's support to other file formats
-      # <https://nixos.wiki/wiki/Thunar#Other_functionalities>
+      # <https://wiki.nixos.org/wiki/Thunar#Other_functionalities>
       webp-pixbuf-loader # lib: WebP GDK Pixbuf Loader library
       poppler # lib: A PDF rendering library
       ffmpegthumbnailer # lib: A lightweight video thumbnailer
@@ -947,7 +947,7 @@ in {
       # nvme-cli # cli: NVM-Express user space tooling for Linux
       # lm_sensors # cli: Tools for reading hardware sensors
       linux-wifi-hotspot # gui: Feature-rich wifi hotspot creator for Linux which provides both GUI and command-line interface
-      #- <https://nixos.wiki/wiki/FAQ/I_installed_a_library_but_my_compiler_is_not_finding_it._Why%3F>
+      #- <https://wiki.nixos.org/wiki/FAQ/I_installed_a_library_but_my_compiler_is_not_finding_it._Why%3F>
       #- <https://discourse.nixos.org/t/how-to-install-openssl-to-compile-against/1249>
       # openssl # lib+cli: A cryptographic library that implements the SSL and TLS protocols
       #- jq

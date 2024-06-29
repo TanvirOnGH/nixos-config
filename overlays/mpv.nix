@@ -1,4 +1,4 @@
-# <https://nixos.wiki/wiki/MPV>
+# <https://wiki.nixos.org/wiki/MPV>
 _: {
   nixpkgs.overlays = [
     (self: super: {

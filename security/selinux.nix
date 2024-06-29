@@ -1,5 +1,5 @@
 # SELinux Configuration
-# <https://nixos.wiki/wiki/Workgroup:SELinux>
+# <https://wiki.nixos.org/wiki/Workgroup:SELinux>
 {pkgs, ...}: {
   boot.kernelParams = ["security=selinux"];
 

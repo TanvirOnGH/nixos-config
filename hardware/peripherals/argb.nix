@@ -1,5 +1,5 @@
 # ARGB (OpenRGB) Configuration
-# <https://nixos.wiki/wiki/OpenRGB>
+# <https://wiki.nixos.org/wiki/OpenRGB>
 {pkgs, ...}: {
   services.hardware.openrgb = {
     enable = true;

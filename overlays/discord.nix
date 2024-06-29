@@ -1,7 +1,7 @@
-# <https://nixos.wiki/wiki/Discord>
+# <https://wiki.nixos.org/wiki/Discord>
 _: {
   nixpkgs.overlays = let
-    # <https://nixos.wiki/wiki/Discord#OpenAsar_.2F_Vencord>
+    # <https://wiki.nixos.org/wiki/Discord#OpenAsar_.2F_Vencord>
     discord_OpenASAR_Vencord = _self: super: {
       discord = super.discord.override {
         withOpenASAR = true;

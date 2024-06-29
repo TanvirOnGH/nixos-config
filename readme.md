@@ -12,10 +12,10 @@ My [nix](https://nixos.org/learn.html) configuration for [NixOS](https://nixos.o
 > This repository is not meant to be used as a whole, but rather as a reference for my own configuration. I do not recommend using it as is, as it is not meant to be used by anyone else. I do not provide any support for this repository. If you want to use it, you are on your own.
 
 > [!IMPORTANT]
-> I'll eventually switch to [flakes](https://nixos.wiki/wiki/Flakes) configuration.
+> I'll eventually switch to [flakes](https://wiki.nixos.org/wiki/Flakes) configuration.
 
 > [!WARNING]
-> Although [nixos.wiki](https://nixos.wiki) has been mentioned and referenced in many places in this repository, it is not an official documentation, it's user maintained. It's *not recommended* to use the unofficial wiki, instead use the official wiki. The unofficial wiki is not up-to-date, poorly maintained and may contain incorrect information.
+> ~~Although [nixos.wiki](https://nixos.wiki) has been mentioned and referenced in many places in this repository, it is not an official documentation, it's user maintained. It's *not recommended* to use the unofficial wiki, instead use the official wiki. The unofficial wiki is not up-to-date, poorly maintained and may contain incorrect information.~~ Replaced all references to the unofficial wiki with the official wiki.
 >
 > The **official** documentation is available at [wiki.nixos.org](https://wiki.nixos.org).
 
@@ -90,7 +90,7 @@ musnix https://github.com/musnix/musnix/archive/master.tar.gz
 
 ### Misc
 
-- [Nix/NixOS Configuration Collection](https://nixos.wiki/wiki/Configuration_Collection) - Alphabetically sorted lists of different configuration repositories, by the community members of NixOS
+- [Nix/NixOS Configuration Collection](https://wiki.nixos.org/wiki/Configuration_Collection) - Alphabetically sorted lists of different configuration repositories, by the community members of NixOS
 - [Jovian NixOS](https://jovian-experiments.github.io/Jovian-NixOS/index.html) - A set of packages and configurations for running NixOS on the Steam Deck.
 - [Nixpkgs Pull Request Tracker](https://nixpk.gs/pr-tracker.html) - A tracker for whether a PR has made it into a channel yet.
 - [Nix Review Tools Reports](https://malob.github.io/nix-review-tools-reports/) - Reports showing problematic dependencies (dependencies causing the most failed builds) for major Hydra jobsets.

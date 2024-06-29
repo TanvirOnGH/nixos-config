@@ -17,7 +17,7 @@
 
     xonsh.enable = false;
 
-    # <https://nixos.wiki/wiki/Bash>
+    # <https://wiki.nixos.org/wiki/Bash>
     bash = {
       completion.enable = true;
       enableLsColors = true;
@@ -35,7 +35,7 @@
       };
     };
 
-    # <https://nixos.wiki/wiki/Zsh>
+    # <https://wiki.nixos.org/wiki/Zsh>
     zsh = {
       enable = true;
       enableCompletion = true;
@@ -55,21 +55,21 @@
     };
 
     # Necessary
-    # Gnome: <https://nixos.wiki/wiki/GNOME#Running_GNOME_programs_outside_of_GNOME>
-    # KDE/Plasma: <https://nixos.wiki/wiki/KDE#GTK_themes_are_not_applied_in_Wayland_applications>
-    # PulseAudio: <https://nixos.wiki/wiki/PulseAudio#Paprefs_doesn.27t_work_on_KDE>
-    # WM/i3: <https://nixos.wiki/wiki/I3#DConf>
+    # Gnome: <https://wiki.nixos.org/wiki/GNOME#Running_GNOME_programs_outside_of_GNOME>
+    # KDE/Plasma: <https://wiki.nixos.org/wiki/KDE#GTK_themes_are_not_applied_in_Wayland_applications>
+    # PulseAudio: <https://wiki.nixos.org/wiki/PulseAudio#Paprefs_doesn.27t_work_on_KDE>
+    # WM/i3: <https://wiki.nixos.org/wiki/I3#DConf>
     dconf.enable = true;
 
     virt-manager.enable = true;
 
-    # <https://nixos.wiki/wiki/Appimage>
+    # <https://wiki.nixos.org/wiki/Appimage>
     appimage = {
       enable = true;
       binfmt = true;
     };
 
-    #- <https://nixos.wiki/wiki/Node.js>
+    #- <https://wiki.nixos.org/wiki/Node.js>
     npm = {
       enable = false;
       npmrc = ''
@@ -108,7 +108,7 @@
 
     # Required by thunar if xfce is not used as desktop environment
     # preference changes are discarded otherwise
-    # <https://nixos.wiki/wiki/Thunar#Configuration>
+    # <https://wiki.nixos.org/wiki/Thunar#Configuration>
     xfconf.enable = true;
 
     gnupg.agent = {
@@ -117,7 +117,7 @@
       pinentryPackage = pkgs.pinentry-gnome3;
     };
 
-    # <https://nixos.wiki/wiki/Git>
+    # <https://wiki.nixos.org/wiki/Git>
     git = {
       enable = true;
       lfs.enable = true;

@@ -1,11 +1,11 @@
 # Bootloader Configuration
-#- https://nixos.wiki/wiki/Bootloader
+#- https://wiki.nixos.org/wiki/Bootloader
 # NOTE: Setup <https://github.com/nix-community/lanzaboote>
 _: {
   boot.loader = {
     systemd-boot = {
       enable = true;
-      # https://nixos.wiki/wiki/Bootloader#Limiting_amount_of_entries_with_grub
+      # https://wiki.nixos.org/wiki/Bootloader#Limiting_amount_of_entries_with_grub
       configurationLimit = 6;
 
       # Allow editing the kernel command-line before boot
@@ -18,7 +18,7 @@ _: {
       # Set the highest resolution available
       consoleMode = "max";
 
-      # <https://nixos.wiki/wiki/Netboot#netboot.xyz>
+      # <https://wiki.nixos.org/wiki/Netboot#netboot.xyz>
       # A menu system that allows you to boot OS installers and utilities over the network
       # iPXE must be recent enough to support https:// links
       netbootxyz.enable = true;

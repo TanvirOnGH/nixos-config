@@ -1,5 +1,5 @@
 # Xorg/X11 Configuration
-#- <https://nixos.wiki/wiki/Xorg>
+#- <https://wiki.nixos.org/wiki/Xorg>
 {pkgs, ...}: {
   services = {
     libinput = {

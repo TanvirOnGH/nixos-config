@@ -1,4 +1,4 @@
-# <https://nixos.wiki/wiki/Linux_kernel#Custom_configuration>
+# <https://wiki.nixos.org/wiki/Linux_kernel#Custom_configuration>
 {
   pkgs,
   lib,

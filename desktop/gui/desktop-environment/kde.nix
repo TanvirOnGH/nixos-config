@@ -1,5 +1,5 @@
 # KDE/Plasma Configuration
-#- <https://nixos.wiki/wiki/KDE>
+#- <https://wiki.nixos.org/wiki/KDE>
 {pkgs, ...}: {
   services.xserver = {
     enable = true;

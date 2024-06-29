@@ -1,5 +1,5 @@
 # Graphics Configuration
-#- <https://nixos.wiki/wiki/OpenGL>
+#- <https://wiki.nixos.org/wiki/OpenGL>
 # As of 25/06/2024, hardware.opengl has been renamed to hardware.graphics
 _: {
   hardware.graphics = {

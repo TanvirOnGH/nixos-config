@@ -1,7 +1,7 @@
 # Nix Garbage Collection Configuration
-#- https://nixos.wiki/wiki/Storage_optimization
+#- https://wiki.nixos.org/wiki/Storage_optimization
 _: {
-  # <https://nixos.wiki/wiki/Storage_optimization#Automation>
+  # <https://wiki.nixos.org/wiki/Storage_optimization#Automation>
   nix = {
     gc = {
       automatic = true;
@@ -9,7 +9,7 @@ _: {
       options = "--delete-older-than 7d";
     };
 
-    # <https://nixos.wiki/wiki/Storage_optimization#Optimising_the_store>
+    # <https://wiki.nixos.org/wiki/Storage_optimization#Optimising_the_store>
     settings.auto-optimise-store = true;
   };
 }

@@ -1,5 +1,5 @@
 # Hotspot Configuration
-#- <https://nixos.wiki/wiki/Internet_Connection_Sharing>
+#- <https://wiki.nixos.org/wiki/Internet_Connection_Sharing>
 #- <https://blog.project-insanity.org/2022/04/14/easily-configure-a-wifi-hotspot-on-nixos>
 _: {
   services.create_ap = {

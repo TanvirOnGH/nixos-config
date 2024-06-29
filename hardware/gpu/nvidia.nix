@@ -1,5 +1,5 @@
 # GPU (Nvidia) Configuration
-#- <https://nixos.wiki/wiki/Nvidia>
+#- <https://wiki.nixos.org/wiki/Nvidia>
 #- <https://wiki.hyprland.org/Nvidia>
 {
   pkgs,
@@ -38,7 +38,7 @@
 
       # NVidia open source kernel module (not to be confused with the
       # independent third-party "nouveau" open source driver)https://github.com/NVIDIA/open-gpu-kernel-modules#compatible-gpus
-      # According to the unofficial (oudated) wiki (<https://nixos.wiki/wiki/Nvidia>), this is
+      # According to the unofficial (oudated) wiki (<https://wiki.nixos.org/wiki/Nvidia>), this is
       # currently alpha-quality/buggy, so false is currently the recommended setting
       # <https://github.com/NVIDIA/open-gpu-kernel-modules#compatible-gpus>
       # A Look at their new releases

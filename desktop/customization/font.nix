@@ -1,9 +1,9 @@
 # Font Configuration
-#- <https://nixos.wiki/wiki/Fonts>
+#- <https://wiki.nixos.org/wiki/Fonts>
 {pkgs, ...}: {
   fonts = {
     enableDefaultPackages = true;
-    # Issue: <https://nixos.wiki/wiki/Fonts#Flatpak_applications_can.27t_find_system_fonts>
+    # Issue: <https://wiki.nixos.org/wiki/Fonts#Flatpak_applications_can.27t_find_system_fonts>
     fontDir.enable = true;
     fontconfig.enable = true;
     packages = with pkgs; [

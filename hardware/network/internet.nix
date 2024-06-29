@@ -1,5 +1,5 @@
 # Internet (Ethernet/WIFI) Configuration
-#- <https://nixos.wiki/wiki/Networking>
+#- <https://wiki.nixos.org/wiki/Networking>
 _: {
   networking = {
     useDHCP = false;
@@ -11,7 +11,7 @@ _: {
 
     networkmanager = {
       enable = true;
-      # <https://nixos.wiki/wiki/Wpa_supplicant>
+      # <https://wiki.nixos.org/wiki/Wpa_supplicant>
       wifi = {
         backend = "wpa_supplicant";
         macAddress = "random"; # Generate a randomized value upon each connection
@@ -36,7 +36,7 @@ _: {
       "94.140.15.15" # AdGuard Secondary
     ];
 
-    # <https://nixos.wiki/wiki/WireGuard>
+    # <https://wiki.nixos.org/wiki/WireGuard>
     wireguard.enable = false;
   };
 }

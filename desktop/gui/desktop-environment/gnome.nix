@@ -1,5 +1,5 @@
 # Gnome Configuration
-#- <https://nixos.wiki/wiki/GNOME>
+#- <https://wiki.nixos.org/wiki/GNOME>
 {pkgs, ...}: {
   services.xserver = {
     displayManager.gdm.enable = true;

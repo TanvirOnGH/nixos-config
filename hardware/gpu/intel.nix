@@ -1,5 +1,5 @@
 # GPU (Intel) Configuration
-#- <https://nixos.wiki/wiki/Intel_Graphics>
+#- <https://wiki.nixos.org/wiki/Intel_Graphics>
 {
   pkgs,
   lib,

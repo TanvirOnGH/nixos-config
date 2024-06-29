@@ -1,5 +1,5 @@
 # QT Configuration
-#- <https://nixos.wiki/wiki/Qt>
+#- <https://wiki.nixos.org/wiki/Qt>
 _: {
   # Configure QT themes to resemble GTK themes
   qt = {

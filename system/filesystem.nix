@@ -1,5 +1,5 @@
 # Filesystem Configuration
-#- <https://nixos.wiki/wiki/Btrfs>
+#- <https://wiki.nixos.org/wiki/Btrfs>
 {
   lib,
   modulesPath,
@@ -12,7 +12,7 @@
   boot = {
     initrd.availableKernelModules = [
       # "aesni_intel"
-      # "cryptd" # Make encrypted boot quick. Ref: <https://nixos.wiki/wiki/Full_Disk_Encryption#Perf_test>
+      # "cryptd" # Make encrypted boot quick. Ref: <https://wiki.nixos.org/wiki/Full_Disk_Encryption#Perf_test>
       "xhci_pci"
       "ahci"
       "usbhid"
@@ -22,18 +22,18 @@
     kernelModules = ["kvm-amd"];
 
     supportedFilesystems = [
-      "btrfs" #- <https://nixos.wiki/wiki/Btrfs>
+      "btrfs" #- <https://wiki.nixos.org/wiki/Btrfs>
       "ext4"
       "exfat"
       "tmpfs"
-      "ntfs" #- <https://nixos.wiki/wiki/NTFS>
-      # "bcachefs" #- <https://nixos.wiki/wiki/Bcachefs>
-      # "zfs" #- <https://nixos.wiki/wiki/ZFS>
+      "ntfs" #- <https://wiki.nixos.org/wiki/NTFS>
+      # "bcachefs" #- <https://wiki.nixos.org/wiki/Bcachefs>
+      # "zfs" #- <https://wiki.nixos.org/wiki/ZFS>
     ];
   };
 
   # Swap
-  #- <https://nixos.wiki/wiki/Btrfs#Swap_file>
+  #- <https://wiki.nixos.org/wiki/Btrfs#Swap_file>
   swapDevices = lib.mkForce []; # Disable swap devices
 
   # TMPFS
@@ -138,7 +138,7 @@
       options = ["rw" "uid=1000"];
     };
 
-    # <https://nixos.wiki/wiki/NTFS>
+    # <https://wiki.nixos.org/wiki/NTFS>
     # Windows Partition
     "/mnt/windows" = {
       device = "/dev/disk/by-uuid/824234F14234EB93";
