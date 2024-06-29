@@ -57,7 +57,7 @@
     "/" = {
       device = "/dev/disk/by-uuid/2d9be16a-ddf3-43fc-8fd6-85d53984c447";
       fsType = "btrfs";
-      options = ["subvol=root" "compress=zstd:5" "noatime" "nodiratime" "ssd_spread" "discard=async" "space_cache=v2"];
+      options = ["subvol=root" "compress=zstd:8" "noatime" "nodiratime" "ssd_spread" "discard=async" "space_cache=v2"];
       neededForBoot = true;
     };
 
@@ -79,14 +79,14 @@
       Therefore, setting noatime for this mount point can help reduce unnecessary
       disk writes and improve performance.
       */
-      options = ["subvol=nix" "compress=zstd:5" "noatime" "nodiratime" "ssd_spread" "discard=async" "space_cache=v2"];
+      options = ["subvol=nix" "compress=zstd:8" "noatime" "nodiratime" "ssd_spread" "discard=async" "space_cache=v2"];
       neededForBoot = true;
     };
 
     "/home" = {
       device = "/dev/disk/by-uuid/2d9be16a-ddf3-43fc-8fd6-85d53984c447";
       fsType = "btrfs";
-      options = ["subvol=home" "compress=zstd:5" "noatime" "nodiratime" "ssd_spread" "discard=async" "space_cache=v2"];
+      options = ["subvol=home" "compress=zstd:8" "noatime" "nodiratime" "ssd_spread" "discard=async" "space_cache=v2"];
     };
 
     # HDDs
