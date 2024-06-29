@@ -31,9 +31,6 @@ in {
       # pasystray.enable = true;
 
       # Compositor (X11)
-      # home-manager fails
-      # keep it disabled temporarily
-      # TODO: investigate
       # picom.enable = false;
 
       # Clipboard Manager
