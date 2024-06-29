@@ -511,6 +511,7 @@ in {
       # Compression/Archivers
       gnome.file-roller # gui: archive manager from gnome desktop
       archiver # gui: rasily create & extract archives, and compress & decompress files of various formats
+      brotli # cli: Generic-purpose lossless compression algorithm and tool
       lz4 # cli: Extremely fast compression algorithm
       zip # cli: Compressor/archiver for creating and modifying zipfiles
       pigz # cli: A parallel implementation of gzip for multi-core machines
@@ -525,6 +526,9 @@ in {
       zstd # cli: Zstandard real-time compression algorithm
       unzip # cli: An extraction utility for archives compressed in .zip format
       p7zip # cli: 7z archiver (A new p7zip fork with additional codecs and improvements)
+      plzip # cli: Massively parallel lossless data compressor based on the lzlib compression library
+      peazip # gui: Cross-platform file and archive manager
+      snzip # cli: Compression/decompression tool based on snappy
       rar # cli: Utility for RAR archives
       libsForQt5.ark # gui: archive manager for KDE
       mate.engrampa # gui: Archive Manager for MATE
