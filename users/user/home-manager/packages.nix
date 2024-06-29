@@ -529,6 +529,7 @@ in {
       plzip # cli: Massively parallel lossless data compressor based on the lzlib compression library
       peazip # gui: Cross-platform file and archive manager
       snzip # cli: Compression/decompression tool based on snappy
+      crabz # cli: Cross platform, fast, compression and decompression tool like pigz but rust
       rar # cli: Utility for RAR archives
       libsForQt5.ark # gui: archive manager for KDE
       mate.engrampa # gui: Archive Manager for MATE
@@ -973,14 +974,16 @@ in {
       ijq # cli: Interactive wrapper for jq
       */
       #- End-of jq
-      /*
-      zenith-nvidia # cli: Sort of like top or htop but with zoom-able charts, network, and disk usage, and NVIDIA GPU usage
-      filezilla # gui: Graphical FTP, FTPS and SFTP client
+      #- FS tools
       hdparm # cli: A tool to get/set ATA/SATA drive parameters under Linux
       btrfs-progs # cli: Utilities for the btrfs filesystem
       compsize # cli: btrfs: Find compression type/ratio on a file or set of files
       exfatprogs # cli: exFAT filesystem userspace utilities
       e2fsprogs # cli: Tools for creating and checking ext2/ext3/ext4 filesystems
+      #- End-of FS tools
+      /*
+      zenith-nvidia # cli: Sort of like top or htop but with zoom-able charts, network, and disk usage, and NVIDIA GPU usage
+      filezilla # gui: Graphical FTP, FTPS and SFTP client
       util-linux # cli: A set of system utilities for Linux
       etcher # gui: Flash OS images to SD cards and USB drives, safely and easily
       glances # cli: Cross-platform curses-based monitoring tool
