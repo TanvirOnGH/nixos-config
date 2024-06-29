@@ -527,7 +527,7 @@ in {
       unzip # cli: An extraction utility for archives compressed in .zip format
       p7zip # cli: 7z archiver (A new p7zip fork with additional codecs and improvements)
       plzip # cli: Massively parallel lossless data compressor based on the lzlib compression library
-      peazip # gui: Cross-platform file and archive manager
+      # peazip # gui: Cross-platform file and archive manager
       snzip # cli: Compression/decompression tool based on snappy
       crabz # cli: Cross platform, fast, compression and decompression tool like pigz but rust
       rar # cli: Utility for RAR archives
