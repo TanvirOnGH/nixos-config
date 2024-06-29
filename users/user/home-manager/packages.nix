@@ -168,6 +168,11 @@ in {
       */
       # End-of Cli tools
 
+      # Maintenance tools
+      bleachbit # gui: Program to clean your computer
+      czkawka # gui: Simple, fast and easy to use app to remove unnecessary files from your computer
+      # End-of Maintenance tools
+
       # Show-off tools
       cmatrix # cli: Simulates the falling characters theme from The Matrix movie
       figlet # cli: Program for making large letters out of ordinary text
