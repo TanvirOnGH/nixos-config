@@ -141,7 +141,7 @@
     # <https://wiki.nixos.org/wiki/NTFS>
     # Windows Partition
     "/mnt/windows" = {
-      device = "/dev/disk/by-uuid/824234F14234EB93";
+      device = "/dev/disk/by-uuid/C2CC65F0CC65DEE3";
       fsType = "ntfs-3g";
       options = ["rw" "uid=1000"]; # Requires fast boot to be disabled in Windows for write support
     };
