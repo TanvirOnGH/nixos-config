@@ -7,7 +7,7 @@ Things you can do but you shouldn't do on NixOS.
 
 ## Configuration with TOML
 
-NixOS Can be Configured with TOML.
+NixOS Can be Configured with TOML:
 
 ```nix
 # configuration.nix
@@ -28,7 +28,7 @@ lfs.enable = true
 
 ### Misc
 
-Also with others e.g. JSON: `builtins.fromJSON (builtins.readFile ./config.json);`. See configs directory.
+Possible to configure with others e.g. JSON: `builtins.fromJSON (builtins.readFile ./config.json);`. See configs directory.
 
 ## Compiling with LTO and PGO
 
