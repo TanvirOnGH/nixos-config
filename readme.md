@@ -123,6 +123,8 @@ musnix https://github.com/musnix/musnix/archive/master.tar.gz
 
 - [SnowflakeOS](https://snowflakeos.org)
 
+- [Lix](https://lix.systems) - Lix is an implementation of the Nix functional package management language.
+
 - [flox](https://github.com/flox/flox) - A virtual environment and package manager all in one. Installs packages from nixpkgs.
 
 - [nix-topology](https://github.com/oddlama/nix-topology) - Automatically generate infrastructure and network diagrams as SVGs directly from your NixOS configurations.
