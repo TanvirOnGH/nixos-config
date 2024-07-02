@@ -327,7 +327,7 @@ in {
       # Download managers
       wget # cli: Tool for retrieving files using http, https and ftp
       wget2 # cli: Successor of GNU Wget, a file and recursive website downloader.
-      curl # cli: A command line tool for transferring files with URL syntax
+      curlFull # cli: A command line tool for transferring files with URL syntax
       aria2 # cli: A lightweight multi-protocol & multi-source command-line download utility v2
       motrix # gui: full featured download manager
       uget # gui: download manager using GTK and libcurl
