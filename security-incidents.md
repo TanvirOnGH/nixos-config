@@ -142,3 +142,44 @@ in
 8. [NVD CVE-2024-0085](https://nvd.nist.gov/vuln/detail/CVE-2024-0085)
 9. [NVD CVE-2024-0094](https://nvd.nist.gov/vuln/detail/CVE-2024-0094)
 10. [NVD CVE-2024-0086](https://nvd.nist.gov/vuln/detail/CVE-2024-0086)
+
+## 4. Remote Unauthenticated Code Execution Vulnerability in OpenSSH Server ([#7](https://github.com/TanvirOnGH/nixos-config/issues/7))
+
+## 4. CVEs
+
+- CVE-2024-6387
+
+## 4. Description
+
+A critical vulnerability in sshd(8) was present in portable OpenSSH versions between 8.5p1 and 9.7p1 (inclusive) that may allow arbitrary code execution with root privileges.
+
+OpenBSD systems are unaffected by this bug, as OpenBSD developed a secure mechanism in 2001 that prevents this vulnerability.
+
+## 4. Info
+
+Name: regreSSHion
+Type: Remote Unauthenticated Code Execution Vulnerability
+Scope: OpenSSH’s server (sshd) in glibc-based linux systems
+Affects:
+
+- OpenSSH versions earlier than 4.4p1 are vulnerable to this signal handler race condition unless they are patched for CVE-2006-5051 and CVE-2008-4109.
+
+- Versions from 4.4p1 up to, but not including, 8.5p1 are not vulnerable due to a transformative patch for CVE-2006-5051, which made a previously unsafe function secure.
+
+- The vulnerability resurfaces in versions from 8.5p1 up to, but not including, 9.8p1 due to the accidental removal of a critical component in a function.
+
+## 4. Solution/Mitigation
+
+Check any exposed Linux glibc systems running OpenSSH and patch them if they are vulnerable.
+
+[Temporary solution on nixos based systems](https://github.com/nix-community/srvos/pull/449) - DDOS alert but probably the right trade-off temporarily.
+
+### 4. References
+
+1. [NixOS is affected by CVE-2024-6387](https://discourse.nixos.org/t/security-advisory-openssh-cve-2024-6387-regresshion-update-your-servers-asap/48220)
+2. [oss-security mailing list](https://www.openwall.com/lists/oss-security/2024/07/01/3)
+3. [Qualys Blog Post](https://blog.qualys.com/vulnerabilities-threat-research/2024/07/01/regresshion-remote-unauthenticated-code-execution-vulnerability-in-openssh-server)
+4. [Reddit MSP Discussion](https://www.reddit.com/r/msp/comments/1dsse9e/security_awareness_openssh_cve20246387_rce/)
+5. [CVE-2024-6387 Check](https://github.com/xaitax/CVE-2024-6387_Check)
+6. [Recorded Future CVE Database](https://www.recordedfuture.com/vulnerability-database/CVE-2024-6387)
+7. [Debian Security Tracker](https://security-tracker.debian.org/tracker/CVE-2024-6387)
