@@ -76,3 +76,77 @@ Using Ccache system-wide is not possible. However, it might be feasible to speci
 ## Sccache
 
 To enable sccache to use its cache, you need to disable the [Nix sandbox](https://nixos.org/nixos/options.html#sandbox). The sandbox restricts filesystem and network access, which interferes with sccache functionality.
+
+## Use different version of a package in NixOS
+
+Follow this example ([source](https://bobvanderlinden.me/customizing-packages-in-nix/#use-different-version-of-a-package-in-nixos)):
+
+```nix
+{
+  services.xserver.windowManager.i3.package = pkgs.i3.overrideAttrs (previousAttrs: {
+    name = "i3-next";
+    src = pkgs.fetchFromGitHub {
+      owner = "i3";
+      repo = "i3";
+      rev = "90432jkfdkjf92343290842343290dsfiu";
+      hash = pkgs.lib.fakeHash;
+    };
+  });
+}
+```
+
+## Use local source code for a package
+
+Follow this example ([source](https://bobvanderlinden.me/customizing-packages-in-nix/#use-local-source-code-for-a-package)):
+
+```nix
+{
+  environment.systemPackages = [pkgs.myfortune];
+
+  nixpkgs.overlays = [
+    (final: prev: {
+      myfortune = prev.fortune.overrideAttrs (previousAttrs: {
+        src = ./fortune-src;
+      });
+    })
+  ];
+}
+```
+
+## Use a different dependency for a single package
+
+Follow this example ([source](https://bobvanderlinden.me/customizing-packages-in-nix/#use-a-different-dependency-for-a-single-package)):
+
+```nix
+{
+  nixpkgs.overlays = [
+    (final: prev: {
+      maven-jdk8 = prev.maven.override {
+        jdk = final.jdk8;
+      };
+    })
+  ];
+}
+```
+
+## Apply a security patch system-wide
+
+Follow this example ([source](https://bobvanderlinden.me/customizing-packages-in-nix/#apply-a-security-patch-system-wide)):
+
+```nix
+{
+  nixpkgs.overlays = [
+    (final: prev: {
+      openssl = prev.openssl.overrideAttrs (previousAttrs: {
+        patches = previousAttrs.patches ++ [
+          (fetchpatch {
+            name = "CVE-2021-4044.patch";
+            url = "https://git.openssl.org/gitweb/?p=openssl.git;a=patch;h=758754966791c537ea95241438454aa86f91f256";
+            hash = pkgs.lib.fakeHash;
+          })
+        ];
+      });
+    })
+  ];
+}
+```
