@@ -172,7 +172,13 @@ Affects:
 
 Check any exposed Linux glibc systems running OpenSSH and patch them if they are vulnerable.
 
-[Temporary solution on nixos based systems](https://github.com/nix-community/srvos/pull/449) - DDOS alert but probably the right trade-off temporarily.
+[Temporary solution on nixos based systems as suggested by Qualys](https://github.com/nix-community/srvos/pull/449). Basically set this to your nixos config and redeploy & restart ssh service:
+
+```nix
+services.openssh.settings.LoginGraceTime = 0;
+```
+
+Note: It makes you vulnerable to a denial of service attack.
 
 ### 4. References
 
