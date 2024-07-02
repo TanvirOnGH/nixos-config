@@ -127,6 +127,8 @@ musnix https://github.com/musnix/musnix/archive/master.tar.gz
 
 - [flox](https://github.com/flox/flox) - A virtual environment and package manager all in one. Installs packages from nixpkgs.
 
+- [Tvix](https://tvix.dev) - Rust implementation of the purely-functional Nix package manager.
+
 - [nix-topology](https://github.com/oddlama/nix-topology) - Automatically generate infrastructure and network diagrams as SVGs directly from your NixOS configurations.
 
 - [agenix](https://github.com/ryantm/agenix) - A small and convenient nix library for securely managing and deploying secrets using common public-private SSH key pairs. Age-encrypted secrets for NixOS and Home manager.
