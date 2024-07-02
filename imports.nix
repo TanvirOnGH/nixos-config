@@ -16,7 +16,6 @@
     ./system/systemd.nix
     ./system/nix/garbage-collection.nix
     ./system/nix/cache.nix
-    # ./system/nix/flox.nix
 
     # Security
     # ./security/selinux.nix
@@ -55,6 +54,10 @@
     # Hardware Misc
     # ./hardware/peripherals/argb.nix
     # ./hardware/peripherals/tablet.nix
+
+    # Nix Experimental
+    # ./system/nix/flox.nix
+    # ./system/nix/lix.nix
 
     # Packages/Programs/Services
     ./users/root/settings.nix
