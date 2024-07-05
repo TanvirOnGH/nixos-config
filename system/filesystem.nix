@@ -1,9 +1,6 @@
 # Filesystem Configuration
 #- <https://wiki.nixos.org/wiki/Btrfs>
-{
-  modulesPath,
-  ...
-}: {
+{modulesPath, ...}: {
   imports = [
     (modulesPath + "/installer/scan/not-detected.nix")
   ];
