@@ -1,7 +1,6 @@
 # Filesystem Configuration
 #- <https://wiki.nixos.org/wiki/Btrfs>
 {
-  lib,
   modulesPath,
   ...
 }: {
