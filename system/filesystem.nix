@@ -32,9 +32,45 @@
     ];
   };
 
+  zramSwap = {
+    enable = false;
+    algorithm = "zstd";
+    memoryPercent = 80;
+    swapDevices = 1; # Recommended is 1
+    priority = 10;
+  };
+
   # Swap
+  #- <https://wiki.nixos.org/wiki/Swap>
   #- <https://wiki.nixos.org/wiki/Btrfs#Swap_file>
-  swapDevices = lib.mkForce []; # Disable swap devices
+  # swapDevices = lib.mkForce []; # Disable swap devices
+  swapDevices = [
+    {
+      device = "/var/lib/swapfile";
+      # label = "swap";
+      # Create new swap space of size 12 GB
+      size = 12 * 1024; # in megabytes
+
+      # Priority is a value between 0 and 32767. Higher numbers indicate higher priority.
+      # Default is null which lets the kernel choose a priority, which will show up as a negative value
+      # If you have only one swap device (partition or file), its priority does not matter much.
+      # You can use the default priority, which is typically 1.
+      priority = 1;
+
+      /*
+      Tip: run “cryptsetup benchmark” to test cipher performance on your machine.
+
+      WARNING #1: Don’t try to hibernate when you have at least one swap partition with this
+      option enabled! We have no way to set the partition into which hibernation image is saved,
+      so if your image ends up on an encrypted one you would lose it!
+
+      WARNING #2: Do not use /dev/disk/by-uuid/… or /dev/disk/by-label/… as your swap device
+      when using randomEncryption as the UUIDs and labels will get erased on every boot when
+      the partition is encrypted. Best to use /dev/disk/by-partuuid/…
+      */
+      randomEncryption.enable = false;
+    }
+  ];
 
   # TMPFS
   # for /tmp
