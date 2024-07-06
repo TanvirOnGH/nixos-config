@@ -9,10 +9,19 @@
 
         package = pkgs.awesome.override {
           lua = pkgs.luajit;
+
+          # Needed for beautiful.gtk to work
+          # <https://github.com/NixOS/nixpkgs/blob/master/pkgs/applications/window-managers/awesome/default.nix#L13>
+          gtk3Support = true;
         };
 
         luaModules = with pkgs.luajitPackages; [
           luarocks # A package manager for Lua
+          # Required for lgi library
+          # It has issues with nixos? (running `awesome -v`):
+          # "LGI version: module 'lgi.version' not found:..."
+          # But I'm able to require and use the lgi library in my configuration
+          # TODO: Investigate this issue
           lgi # Lua bindings to GObject-based libraries
         ];
       };
