@@ -13,9 +13,14 @@
 
           # Needed for beautiful.gtk to work
           # <https://github.com/NixOS/nixpkgs/blob/master/pkgs/applications/window-managers/awesome/default.nix#L13>
-          gtk3Support = true;
+          # Causes svg icons to appear extremely small on my configuration
+          # TODO: Investigate this issue
+          # gtk3Support = true;
         };
 
+        # Has no effect?
+        # TODO: Investigate this issue
+        /*
         luaModules = with pkgs.luajitPackages; [
           luarocks # A package manager for Lua
           # Required for lgi library
@@ -25,6 +30,7 @@
           # TODO: Investigate this issue
           lgi # Lua bindings to GObject-based libraries
         ];
+        */
       };
     };
   };
