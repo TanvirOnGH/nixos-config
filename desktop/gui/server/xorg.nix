@@ -18,7 +18,9 @@
       desktopManager.xterm.enable = false;
       excludePackages = [pkgs.xterm];
 
-      displayManager.startx.enable = false;
+      # Xorg system-wide without a Display Manager
+      # <https://wiki.nixos.org/wiki/Using_X_without_a_Display_Manager#Setting_up_Xorg_system-wide_but_without_a_Display_Manager>
+      displayManager.startx.enable = false; # Set it to true to disable Display Manager and enable TTY login prompt
     };
 
     displayManager = {
