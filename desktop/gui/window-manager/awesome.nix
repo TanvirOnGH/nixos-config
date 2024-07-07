@@ -9,6 +9,7 @@
 
         package = pkgs.awesome.override {
           lua = pkgs.luajit;
+          # lua = pkgs.luajit.withPackages (ps: with ps; [lgi])
 
           # Needed for beautiful.gtk to work
           # <https://github.com/NixOS/nixpkgs/blob/master/pkgs/applications/window-managers/awesome/default.nix#L13>

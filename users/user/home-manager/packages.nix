@@ -140,9 +140,9 @@ in {
       navi # cli: An interactive cheatsheet tool for the command-line and application launchers
       atuin # cli: Replacement for a shell history which records additional commands context with optional encrypted synchronization between machines
       zoxide # cli: A fast cd command that learns your habits
+      glow # cli: Render markdown on the CLI, with pizzazz!
       /*
       imgcat # cli: It's like cat, but for images
-      glow # cli: Render markdown on the CLI, with pizzazz!
       noti # cli: Monitor a process and trigger a notification
       du-dust # cli: du + rust = dust. Like du but more intuitive
       duf # cli: Disk Usage/Free Utility
