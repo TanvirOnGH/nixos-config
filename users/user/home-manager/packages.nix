@@ -214,7 +214,7 @@ in {
       /*
       zeal # gui: A simple offline API documentation browser
       devdocs-desktop # gui: A full-featured desktop app for DevDocs.io
-      gnome.devhelp # gui: API documentation browser for GNOME
+      devhelp # gui: API documentation browser for GNOME
       */
       # End-of Documentation
 
@@ -240,7 +240,7 @@ in {
       electron-mail # gui: electron based protonmail client
       tutanota-desktop # gui: electron based tutanota client
       claws-mail # gui: The user-friendly, lightweight, and fast email client
-      gnome.geary # gui: Mail client for GNOME 3
+      geary # gui: Mail client for GNOME 3
       # End-of Email
 
       # Reverse Engineering
@@ -432,7 +432,7 @@ in {
       #- End-of Video Players
       #- Image viewers
       gthumb # gui: Image browser and viewer for GNOME
-      gnome.eog # gui: image viewer app by GNOME
+      eog # gui: image viewer app by GNOME
       cinnamon.pix # gui: A generic image viewer from Linux Mint
       cinnamon.xviewer # gui: A generic image viewer from Linux Mint
       loupe # gui: A simple image viewer application written with GTK4 and Rust
@@ -509,7 +509,7 @@ in {
       # End of Pipewire
 
       # Compression/Archivers
-      gnome.file-roller # gui: archive manager from gnome desktop
+      file-roller # gui: archive manager from gnome desktop
       archiver # gui: rasily create & extract archives, and compress & decompress files of various formats
       brotli # cli: Generic-purpose lossless compression algorithm and tool
       lz4 # cli: Extremely fast compression algorithm
@@ -937,7 +937,7 @@ in {
       mousai # gui: Identify any songs in seconds
       d-spy # gui: D-Bus exploration tool
       wike # gui: Wikipedia Reader for the GNOME Desktop
-      gnome.gnome-dictionary # gui: Dictionary is the GNOME application to look up definitions
+      gnome-dictionary # gui: Dictionary is the GNOME application to look up definitions
       notion-app-enhanced # gui: Notion Desktop builds with Notion Enhancer
       typst # cli: A new markup-based typesetting system that is powerful and easy to learn
       jitsi # gui: Open Source Video Calls and Chat
@@ -950,7 +950,7 @@ in {
 
       # Essential tools
       gnome-usage # gui: A nice way to view information about use of system resources, like memory and disk space
-      gnome.gnome-disk-utility # gui: A udisks graphical front-end
+      gnome-disk-utility # gui: A udisks graphical front-end
       wgetpaste # cli: Command-line interface to various pastebins
       #- https://github.com/swaywm/sway/wiki/GTK-3-settings-on-Wayland#xsettings
       #- https://wiki.hyprland.org/FAQ/#gtk-settings-no-work--whatever

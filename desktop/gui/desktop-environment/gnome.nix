@@ -50,7 +50,6 @@
     gnome-screenshot
     cheese
     epiphany
-    geary
     yelp
     simple-scan
     gnome-weather
