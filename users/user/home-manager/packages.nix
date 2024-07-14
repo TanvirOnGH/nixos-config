@@ -977,6 +977,8 @@ in {
       exfatprogs # cli: exFAT filesystem userspace utilities
       e2fsprogs # cli: Tools for creating and checking ext2/ext3/ext4 filesystems
       #- End-of FS tools
+      duff # cli: Quickly find duplicate files
+      dua # cli: A tool to conveniently learn about the disk usage of directories
       /*
       zenith-nvidia # cli: Sort of like top or htop but with zoom-able charts, network, and disk usage, and NVIDIA GPU usage
       filezilla # gui: Graphical FTP, FTPS and SFTP client
