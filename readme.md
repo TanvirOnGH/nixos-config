@@ -157,6 +157,11 @@ musnix https://github.com/musnix/musnix/archive/master.tar.gz
 
 - [stylix](https://github.com/danth/stylix) - System-wide colorscheming and typography for nixos.
 
-## Abandon Hope, All Ye Who Enter Here
+<h2 align="center">
+  Abandon Hope, All Ye Who Enter Here
+</h2>
 
-![NixOS Learning Curve Graph](images/nixos-learning-curve.png)
+<div align="center">
+  <img src="images/nixos-learning-curve.png" alt="NixOS Learning Graph widdth="400" height="400">
+</div>
+
