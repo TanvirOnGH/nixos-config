@@ -14,8 +14,8 @@ My [Nix](https://nixos.org/learn.html) configuration for [NixOS](https://nixos.o
 > [!IMPORTANT]
 > I'll eventually switch to [flakes](https://wiki.nixos.org/wiki/Flakes) configuration.
 
-> [!WARNING]
-> ~~Although [nixos.wiki](https://nixos.wiki) has been mentioned and referenced in many places in this repository, it is not an official documentation, it's user maintained. It's *not recommended* to use the unofficial wiki, instead use the official wiki. The unofficial wiki is not up-to-date, poorly maintained and may contain incorrect information.~~ Replaced all references to the unofficial wiki with the official wiki.
+> [!CAUTION]
+> ~~Although [nixos.wiki](https://nixos.wiki) has been mentioned and referenced in many places in this repository, it is not an official documentation, it's user maintained. It's *not recommended* to use the unofficial wiki, instead use the official wiki. The unofficial wiki is not up-to-date, poorly maintained and may contain incorrect information.~~ Replaced all references to the unofficial wiki with the official wiki. However, some references might be dead, so you may still need to visit the unofficial wiki or other.
 >
 > The **official** documentation is available at [wiki.nixos.org](https://wiki.nixos.org).
 
