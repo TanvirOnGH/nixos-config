@@ -90,6 +90,13 @@
       };
     };
 
+    # FlareSolverr: <https://github.com/FlareSolverr/FlareSolverr>
+    flaresolverr = {
+      enable = true;
+      port = 8191;
+      openFirewall = true;
+    };
+
     # USB Automounting
     # <https://wiki.nixos.org/wiki/PCManFM#USB_Automounting>
     udisks2.enable = true;
@@ -107,11 +114,15 @@
       fileSystems = ["/"];
     };
 
+    # [2024-07-15] xmr-stak has been removed from nixpkgs because it was broken
+    # <https://github.com/NixOS/nixpkgs/pull/327288>
+    /*
     xmr-stak = {
       enable = false;
       openclSupport = false;
       # cudaSupport = true;
     };
+    */
 
     xmrig = {
       enable = false;
