@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="images/nixos.png" alt="Nix icon" widdth="200" height="200">
+  <img src="images/nix-bangladesh-logo.png" alt="Nix icon" widdth="200" height="200">
 </div>
 
 # About
