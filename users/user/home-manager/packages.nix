@@ -433,8 +433,8 @@ in {
       #- Image viewers
       gthumb # gui: Image browser and viewer for GNOME
       eog # gui: image viewer app by GNOME
-      cinnamon.pix # gui: A generic image viewer from Linux Mint
-      cinnamon.xviewer # gui: A generic image viewer from Linux Mint
+      pix # gui: A generic image viewer from Linux Mint
+      xviewer # gui: A generic image viewer from Linux Mint
       loupe # gui: A simple image viewer application written with GTK4 and Rust
       feh # gui: lightweight image viewer
       meh # gui: A minimal image viewer using raw XLib
@@ -553,7 +553,7 @@ in {
       calibre # gui: Comprehensive e-book software
       foliate # gui: A simple and modern GTK eBook reader
       koreader # gui: An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices
-      cinnamon.xreader # gui: A document viewer capable of displaying multiple and single page document formats like PDF and Postscript
+      xreader # gui: A document viewer capable of displaying multiple and single page document formats like PDF and Postscript
       */
       # End-of Readers
 

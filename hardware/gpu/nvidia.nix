@@ -47,6 +47,8 @@
       # "Currently "beta quality", so false is currently the recommended setting."
       # "Nvidia's open-source kernel module, which is beta-quality and x11-only."
       # <https://wiki.nixos.org/wiki/Nvidia#Modifying_NixOS_configuration>
+      # 23/7/2024: NVIDIA 560 (560.28.03) Linux Driver Beta Released - Defaults To Open GPU Kernel Modules
+      # <https://www.phoronix.com/news/NVIDIA-560.28.03-Beta-Linux>
       # TODO: Investigate the current state of this driver and the practicality of using it
       # open = lib.mkForce true;
       open = true; # for testing
