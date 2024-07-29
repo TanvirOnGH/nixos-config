@@ -345,6 +345,7 @@ in {
       qbittorrent # gui: featureful bittorrent client. For plugins: <https://github.com/qbittorrent/search-plugins>
       tribler # gui: Decentralised P2P filesharing client based on the Bittorrent protocol
       /*
+      multiplex # gui: Watch torrents with your friends
       btfs # cli: A bittorrent filesystem based on FUSE
       jesec-rtorrent # cli: An ncurses client for libtorrent, ideal for use with screen, tmux, or dtach (jesec's fork)
       transmission # cli: A fast, easy and free BitTorrent client
@@ -470,6 +471,7 @@ in {
       tauon # gui: The Linux desktop music player from the future
       audacious # gui: A lightweight and versatile audio player
       audacious-plugins # plugin: Plugins for Audacious music player
+      mpvc # cli: Mpc-like control interface for mpv
       /*
       libsForQt5.vvave # gui: Multi-platform media player
       */
