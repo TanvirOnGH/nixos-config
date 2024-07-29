@@ -168,6 +168,10 @@ in {
       */
       # End-of Cli tools
 
+      # Secrets scanning
+      trufflehog # cli: Find credentials all over the place (Find and verify secrets)
+      # End-of Secrets scanning
+
       # Maintenance tools
       bleachbit # gui: Program to clean your computer
       czkawka # gui: Simple, fast and easy to use app to remove unnecessary files from your computer
