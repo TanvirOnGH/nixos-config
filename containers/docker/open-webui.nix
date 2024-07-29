@@ -1,12 +1,6 @@
 # <https://github.com/open-webui/open-webui>
 _: {
   virtualisation = {
-    /*
-    docker = {
-      enable = true;
-    };
-    */
-
     oci-containers = {
       backend = "docker";
 

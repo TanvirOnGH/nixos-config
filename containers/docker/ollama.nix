@@ -2,15 +2,6 @@
 # <https://hub.docker.com/r/ollama/ollama>
 _: {
   virtualisation = {
-    /*
-    docker = {
-      enable = true;
-
-      # Deprecated, use hardware.nvidia-container-toolkit.enable instead
-      enableNvidia = true;
-    };
-    */
-
     oci-containers = {
       backend = "docker";
 
