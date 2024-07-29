@@ -19,7 +19,7 @@ _: {
           videoclip # Userscript: Easily create videoclips
           # cutter: Usercript: Cut videos and concat them automatically
           memo # Userscript: Recent files menu
-          simple-mpv-webui # Userscript: Simple Web based user interface with controls
+          # simple-mpv-webui # Userscript: Simple Web based user interface with controls
           mpv-playlistmanager # Userscript: Create and manage playlists
           # modernx-zydezu # Userscript: Zydezu fork of modernx - A Modern OSC UI replacement for MPV that retains the functionality of the default OSC
           # modernx # Userscript: Modern OSC UI replacement for MPV that retains the functionality of the default OSC
