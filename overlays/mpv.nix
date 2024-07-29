@@ -15,6 +15,8 @@ _: {
           autoload # Userscript: Automatically loads playlist entries before and after the currently played file
           autocrop # Userscript: Uses the lavfi cropdetect filter to automatically insert a crop filter with appropriate parameters for the currently playing video
           youtube-upnext # Userscript: Allows you to play 'up next'/recommended youtube videos
+          visualizer # Userscript: Various audio visualization
+          videoclip # Userscript: Easily create videoclips
         ];
       };
     })
