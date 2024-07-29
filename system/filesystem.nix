@@ -152,30 +152,34 @@
 
     # Game Drives
     # ntfs drives - Requires fast boot to be disabled in Windows for write support
+    /*
     "/mnt/gamedrive1" = {
-      device = "/dev/disk/by-uuid/04D776A71DBD8FFB";
+      device = "/dev/disk/by-uuid/";
       fsType = "ntfs-3g";
       options = ["rw" "uid=1000"];
     };
 
     "/mnt/gamedrive2" = {
-      device = "/dev/disk/by-uuid/600C58C806C9E3C7";
+      device = "/dev/disk/by-uuid/";
       fsType = "ntfs-3g";
       options = ["rw" "uid=1000"];
     };
 
     "/mnt/gamedrive3" = {
-      device = "/dev/disk/by-uuid/0E048B027BECE584";
+      device = "/dev/disk/by-uuid/";
       fsType = "ntfs-3g";
       options = ["rw" "uid=1000"];
     };
+    */
 
     # <https://wiki.nixos.org/wiki/NTFS>
     # Windows Partition
+    /*
     "/mnt/windows" = {
-      device = "/dev/disk/by-uuid/6A30BABE30BA9095";
+      device = "/dev/disk/by-uuid/";
       fsType = "ntfs-3g";
       options = ["rw" "uid=1000"]; # Requires fast boot to be disabled in Windows for write support
     };
+    */
   };
 }
