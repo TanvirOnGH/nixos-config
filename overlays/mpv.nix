@@ -17,12 +17,14 @@ _: {
           youtube-upnext # Userscript: Allows you to play 'up next'/recommended youtube videos
           visualizer # Userscript: Various audio visualization
           videoclip # Userscript: Easily create videoclips
+          # cutter: Usercript: Cut videos and concat them automatically
           memo # Userscript: Recent files menu
           simple-mpv-webui # Userscript: Simple Web based user interface with controls
           mpv-playlistmanager # Userscript: Create and manage playlists
           # modernx-zydezu # Userscript: Zydezu fork of modernx - A Modern OSC UI replacement for MPV that retains the functionality of the default OSC
           # modernx # Userscript: Modern OSC UI replacement for MPV that retains the functionality of the default OSC
           # inhibit-gnome # Userscript: Prevents screen blanking in GNOME
+          autosubsync-mpv # Userscript: Automatically sync subtitles using the `n` button
         ];
       };
     })
