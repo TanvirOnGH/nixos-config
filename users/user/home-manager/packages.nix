@@ -170,6 +170,7 @@ in {
 
       # Secrets scanning
       trufflehog # cli: Find credentials all over the place (Find and verify secrets)
+      gitleaks # cli: Scan git repos (or files) for secrets
       # End-of Secrets scanning
 
       # Maintenance tools
