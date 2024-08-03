@@ -6,7 +6,7 @@ _: {
       backend = "docker";
 
       containers = {
-        Element-Web = {
+        trufflehog = {
           image = "ghcr.io/trufflesecurity/trufflehog:latest";
           # image = "trufflesecurity/trufflehog:latest";
         };
