@@ -99,11 +99,15 @@ musnix https://github.com/musnix/musnix/archive/master.tar.gz
 
 - [NUR](https://github.com/nix-community/NUR) - User contributed nix packages. In contrast to Nixpkgs, packages are built from source and are not reviewed by any Nixpkgs member.
 
+- [nixos-facter](https://github.com/numtide/nixos-facter) - Declarative nixos-generate-config.
+
 - [chaotic nyx](https://github.com/chaotic-cx/nyx) - Nix flake for too much bleeding-edge and unreleased packages. And experimental modules.
 
 - [hive](https://github.com/divnix/hive) - A framework that aims to help with organizing personal Nix configuration. Read more about it [here](https://primamateria.github.io/blog/hive/).
 
 - [nixos-tidy](https://github.com/pipelight/nixos-tidy) - A set of Nix functions/modules to ease the creation of sharable, flexible and standardized Nixos configurations.
+
+- [nix-mineral](https://github.com/cynicsketch/nix-mineral) - NixOS module for convenient system hardening.
 
 - [alejandra](https://github.com/kamadorueda/alejandra) - The Uncompromising Nix Code Formatter. It applies the feedback of developers who have used Nix at scale for several years, producing a very well-grounded style guide.
 
