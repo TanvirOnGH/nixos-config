@@ -12,7 +12,7 @@ My [Nix](https://nixos.org/learn.html) and [Home-Manager](https://github.com/nix
 > This repository is not meant to be used as a whole, but rather as a reference for my own configuration. I do not recommend using it as is, as it is not meant to be used by anyone else. I do not provide any support for this repository. If you want to use it, you are on your own.
 
 > [!IMPORTANT]
-> I'll eventually switch to [flakes](https://wiki.nixos.org/wiki/Flakes) configuration.
+> I'll eventually switch to [flakes](https://wiki.nixos.org/wiki/Flakes) and [hive](https://github.com/divnix/hive) configuration.
 
 > [!CAUTION]
 > ~~Although [nixos.wiki](https://nixos.wiki) has been mentioned and referenced in many places in this repository, it is not an official documentation, it's user maintained. It's *not recommended* to use the unofficial wiki, instead use the official wiki. The unofficial wiki is not up-to-date, poorly maintained and may contain incorrect information.~~ Replaced all references to the unofficial wiki with the official wiki. However, some references might be dead, so you may still need to visit the unofficial wiki or other.
