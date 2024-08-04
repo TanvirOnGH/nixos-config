@@ -101,6 +101,8 @@ musnix https://github.com/musnix/musnix/archive/master.tar.gz
 
 - [chaotic nyx](https://github.com/chaotic-cx/nyx) - Nix flake for too much bleeding-edge and unreleased packages. And experimental modules.
 
+- [hive](https://github.com/divnix/hive) - A framework that aims to help with organizing personal Nix configuration. Read more about it [here](https://primamateria.github.io/blog/hive/).
+
 - [alejandra](https://github.com/kamadorueda/alejandra) - The Uncompromising Nix Code Formatter. It applies the feedback of developers who have used Nix at scale for several years, producing a very well-grounded style guide.
 
 - [statix](https://github.com/nerdypepper/statix) - lints and suggestions for the nix. Able to highlight anti-patterns in Nix code and fix them.
