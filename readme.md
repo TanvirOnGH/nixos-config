@@ -103,6 +103,8 @@ musnix https://github.com/musnix/musnix/archive/master.tar.gz
 
 - [hive](https://github.com/divnix/hive) - A framework that aims to help with organizing personal Nix configuration. Read more about it [here](https://primamateria.github.io/blog/hive/).
 
+- [nixos-tidy](https://github.com/pipelight/nixos-tidy) - A set of Nix functions/modules to ease the creation of sharable, flexible and standardized Nixos configurations.
+
 - [alejandra](https://github.com/kamadorueda/alejandra) - The Uncompromising Nix Code Formatter. It applies the feedback of developers who have used Nix at scale for several years, producing a very well-grounded style guide.
 
 - [statix](https://github.com/nerdypepper/statix) - lints and suggestions for the nix. Able to highlight anti-patterns in Nix code and fix them.
@@ -128,6 +130,8 @@ musnix https://github.com/musnix/musnix/archive/master.tar.gz
 - [Lix](https://lix.systems) - Lix is an implementation of the Nix functional package management language.
 
 - [flox](https://github.com/flox/flox) - A virtual environment and package manager all in one. Installs packages from nixpkgs.
+
+- [omnix](https://github.com/juspay/omnix) - A Nix wrapper providing various useful functionality.
 
 - [Tvix](https://tvix.dev) - Rust implementation of the purely-functional Nix package manager.
 
@@ -158,6 +162,8 @@ musnix https://github.com/musnix/musnix/archive/master.tar.gz
 - [nix-colors](https://github.com/Misterio77/nix-colors) - Modules and schemes to make theming with nix awesome.
 
 - [stylix](https://github.com/danth/stylix) - System-wide colorscheming and typography for nixos.
+
+- [NixOS-WSL](https://github.com/nix-community/NixOS-WSL) - Modules for running NixOS on the Windows Subsystem for Linux.
 
 <h2 align="center">
   Abandon Hope, All Ye Who Enter Here
