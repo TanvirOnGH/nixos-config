@@ -97,6 +97,8 @@ musnix https://github.com/musnix/musnix/archive/master.tar.gz
 
 - [home-manager](https://github.com/nix-community/home-manager) - A system for managing a user environment using the nix. It allows declarative configuration of user specific (non-global) packages and dotfiles.
 
+- [nix-dev-home](https://github.com/juspay/nix-dev-home) - A home-manager template providing useful tools & settings for Nix-based development.
+
 - [NUR](https://github.com/nix-community/NUR) - User contributed nix packages. In contrast to Nixpkgs, packages are built from source and are not reviewed by any Nixpkgs member.
 
 - [nixos-facter](https://github.com/numtide/nixos-facter) - Declarative nixos-generate-config.
