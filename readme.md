@@ -4,7 +4,7 @@
 
 # About
 
-My [Nix](https://nixos.org/learn.html) configuration for [NixOS](https://nixos.org) based systems.
+My [Nix](https://nixos.org/learn.html) and [Home-Manager](https://github.com/nix-community/home-manager) configuration for [NixOS](https://nixos.org) based systems.
 
 [![built with nix](https://builtwithnix.org/badge.svg)](https://builtwithnix.org)
 
@@ -164,4 +164,3 @@ musnix https://github.com/musnix/musnix/archive/master.tar.gz
 <div align="center">
   <img src="images/nixos-learning-curve.png" alt="NixOS Learning Graph widdth="400" height="400">
 </div>
-
