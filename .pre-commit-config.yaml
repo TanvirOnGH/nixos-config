@@ -4,6 +4,11 @@ repos:
     hooks:
       - id: ripsecrets
 
+  - repo: https://github.com/trufflesecurity/trufflehog
+    rev: v3.81.5
+    hooks:
+      - id: trufflehog
+
   - repo: https://github.com/kamadorueda/alejandra
     rev: 3.0.0
     hooks:
