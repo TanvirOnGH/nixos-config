@@ -548,7 +548,7 @@ in {
       # End-of Compression/Archivers
 
       # Readers (pdf, ebook, ...)
-      librum # gui: An application designed to make reading enjoyable and straightforward for everyone
+      # librum # gui: An application designed to make reading enjoyable and straightforward for everyone
       libsForQt5.okular # gui: KDE document viewer
       evince # gui: GNOME's document viewer
       qpdfview # gui: A tabbed document viewer
