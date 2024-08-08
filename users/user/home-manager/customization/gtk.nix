@@ -48,11 +48,12 @@ in {
           "file:///home/user"
           "file:///home/user/downloads"
           "file:///home/user/media/pictures/screenshots"
-          # "file:///mnt/gamedrive1"
-          # "file:///mnt/gamedrive2"
-          # "file:///mnt/gamedrive3"
-          # "file:///mnt/windows"
+          "file:///mnt/radare"
+          "file:///mnt/sonare"
+          "file:///mnt/whispare"
+          "file:///mnt/homare"
         ];
+
         extraConfig = {
           gtk-cursor-blink = false;
           gtk-recent-files-limit = 30;

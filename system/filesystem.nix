@@ -122,33 +122,30 @@
     };
 
     # HDDs
-    /*
-    "/mnt/hdd" = {
-      device = "/dev/disk/by-uuid/e34ed687-5ee1-47cd-83cb-c56c8ec38780";
+    "/mnt/radare" = {
+      device = "/dev/disk/by-uuid/15568b24-a732-48e4-a60b-b7be1541e49f";
       fsType = "btrfs";
-      options = ["compress=zstd:3" "noatime" "nodiratime" "autodefrag" "space_cache=v2"];
+      options = ["compress=zstd:6" "noatime" "nodiratime" "autodefrag" "space_cache=v2"];
     };
 
-    "/mnt/hdd2" = {
-      device = "/dev/disk/by-uuid/93c845a5-2abd-4c56-b8d1-7f37271e827b";
+    "/mnt/sonare" = {
+      device = "/dev/disk/by-uuid/bcf56a26-d815-4a02-ab4a-1615576c781e";
       fsType = "btrfs";
-      options = ["compress=zstd:3" "noatime" "nodiratime" "autodefrag" "autodefrag" "space_cache=v2"];
+      options = ["compress=zstd:6" "noatime" "nodiratime" "autodefrag" "autodefrag" "space_cache=v2"];
     };
 
-    "/mnt/hdd3" = {
-      device = "/dev/disk/by-uuid/c1cf9ba8-18b8-49c2-89fe-8aacabfad79f";
+    "/mnt/whispare" = {
+      device = "/dev/disk/by-uuid/dc805c9a-95fb-4179-b320-aba8af2153ce";
       fsType = "btrfs";
-      options = ["compress=zstd:3" "noatime" "nodiratime" "autodefrag" "space_cache=v2"];
+      options = ["compress=zstd:6" "noatime" "nodiratime" "autodefrag" "space_cache=v2"];
     };
-    */
 
-    /*
-    "/mnt/ssd" = {
-      device = "/dev/disk/by-uuid/b335a65f-1c9d-4a15-a577-d0863c829ff0";
+    # SSDs
+    "/mnt/homare" = {
+      device = "/dev/disk/by-uuid/4e78f898-27af-4f09-b806-700a7642ba9b";
       fsType = "btrfs";
-      options = ["compress=zstd:4" "noatime" "nodiratime" "ssd_spread" "discard=async" "space_cache=v2"];
+      options = ["compress=zstd:7" "noatime" "nodiratime" "ssd_spread" "discard=async" "space_cache=v2"];
     };
-    */
 
     # Game Drives
     # ntfs drives - Requires fast boot to be disabled in Windows for write support
