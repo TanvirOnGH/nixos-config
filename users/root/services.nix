@@ -227,7 +227,7 @@
     ympd.enable = false; # WebUI for MPD. <http://localhost:6600>
 
     # For thunar
-    gvfs.enable = true; # Mount, trash, and other functionalities (e.g. in Thunar)
+    gvfs.enable = true; # Mount, trash, and other functionalities
     tumbler.enable = true; # Thumbnail support for images
 
     # DBus service that allows applications to update firmware

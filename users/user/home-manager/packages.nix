@@ -919,13 +919,14 @@ in {
 
       # Tumbler additons
       # Extend Tumbler's support to other file formats
-      # <https://wiki.nixos.org/wiki/Thunar#Other_functionalities>
-      webp-pixbuf-loader # lib: WebP GDK Pixbuf Loader library
-      poppler # lib: A PDF rendering library
-      ffmpegthumbnailer # lib: A lightweight video thumbnailer
-      libgsf # lib: GNOME's Structured File Library
-      gnome-epub-thumbnailer # lib: Thumbnailer for EPub and MOBI books
-      f3d # lib: Fast and minimalist 3D viewer using VTK
+      # <https://wiki.archlinux.org/title/File_manager_functionality#Thumbnail_previews>
+      webp-pixbuf-loader # lib: WebP GDK Pixbuf Loader library (for WebP thumbnails)
+      poppler # lib: A PDF rendering library (for PDF thumbnails)
+      ffmpegthumbnailer # lib: A lightweight video thumbnailer (for video thumbnails)
+      libgsf # lib: GNOME's Structured File Library (for .odf thumbnails)
+      gnome-epub-thumbnailer # lib: Thumbnailer for EPub and MOBI books (for .epub and .mobi thumbnails)
+      f3d # lib: Fast and minimalist 3D viewer using VTK (for 3D files, including glTF, stl, step, ply, obj, fbx.)
+      # mcomix # lib: Comic book reader and image viewer (for .cbz and .cbr thumbnails)
       # End-of Tumbler additons
 
       # VPN
