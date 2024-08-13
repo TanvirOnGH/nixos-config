@@ -16,6 +16,15 @@ in {
         enable = true;
       };
 
+      atuin = {
+        enable = true;
+        enableFishIntegration = true;
+        enableZshIntegration = true;
+        enableBashIntegration = true;
+        enableNushellIntegration = true;
+        package = pkgs.atuin;
+      };
+
       thefuck = {
         enable = true;
         enableInstantMode = true; # Experimental as of 20/06/2024

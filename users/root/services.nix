@@ -71,6 +71,18 @@
     vnstat.enable = true;
     fstrim.enable = false;
 
+    /*
+    atuin = {
+      enable = false;
+      maxHistoryLength = 100000;
+      host = "127.0.0.1";
+      package = pkgs.atuin;
+      database.createLocally = true;
+      openRegistration = true;
+      openFirewall = true;
+    };
+    */
+
     # Compositor for X11
     # picom.enable = true;
 
