@@ -61,6 +61,10 @@ in {
         enableFishIntegration = true;
       };
 
+      nushell = {
+        enable = true;
+      };
+
       gpg.enable = true;
       lazygit.enable = true;
       gitui.enable = true;
