@@ -35,6 +35,17 @@ in {
         enableNushellIntegration = true;
       };
 
+      eza = {
+        enable = true;
+        icons = true;
+        git = true;
+        enableFishIntegration = true;
+        enableZshIntegration = true;
+        enableBashIntegration = true;
+        enableNushellIntegration = false;
+        enableIonIntegration = true;
+      };
+
       /*
       dconf.settings = {
         "org/virt-manager/virt-manager/connections" = {

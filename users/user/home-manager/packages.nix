@@ -125,7 +125,7 @@ in {
       argc # cli: A command-line options, arguments and sub-commands parser for bash
       bat # cli: A cat(1) clone with syntax highlighting and Git integration
       # exa # cli: Replacement for 'ls' written in Rust
-      eza # cli: A modern, maintained replacement for ls
+      # eza # cli: A modern, maintained replacement for ls
       grc # cli: A generic text colouriser
       tealdeer # cli: A very fast implementation of tldr in Rust
       cheat # cli: Create and view interactive cheatsheets on the command-line
