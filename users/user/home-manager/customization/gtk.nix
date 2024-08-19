@@ -61,7 +61,7 @@ in {
           gtk-application-prefer-dark-theme = 1;
 
           # Remove the app menu (Minimize / Maximize / Close buttons) from the title bar
-          gtk-decoration-layout = "appmenu:none";
+          gtk-decoration-layout = "menu:none";
 
           gtk-xft-antialias = 1;
           gtk-xft-hinting = 1;
@@ -75,8 +75,8 @@ in {
         extraConfig = {
           gtk-application-prefer-dark-theme = 1;
 
-          # Remove the app menu (Minimize / Maximize / Close) from the title bar
-          gtk-decoration-layout = "appmenu:none";
+          # Remove the app menu (Minimize / Maximize / Close buttons) from the title bar
+          gtk-decoration-layout = "menu:none";
 
           gtk-xft-antialias = 1;
           gtk-xft-hinting = 1;
