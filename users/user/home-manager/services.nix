@@ -11,7 +11,24 @@ in {
       kdeconnect.enable = false;
       gnome-keyring.enable = true;
 
-      xsettingsd.enable = true;
+      xsettingsd = {
+        enable = true;
+        settings = {
+          # Font
+          "Xft/Antialias" = 1;
+          "Xft/Hinting" = 1;
+          "Xft/HintStyle" = "hintmedium";
+          "Xft/RGBA" = "rgb";
+
+          # Theme
+          "Net/ThemeName" = "Equilux";
+          "Net/IconThemeName" = "Tela-black-dark";
+          "Gtk/CursorThemeName" = "Bibata-Original-Classic";
+
+          # Misc
+          "Net/CursorBlink" = 1;
+        };
+      };
 
       screen-locker = {
         enable = true;
