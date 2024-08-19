@@ -36,7 +36,7 @@ in {
         package = pkgs.fira-code;
         # Easily find the exact names using lxappearance
         name = "Fira Code";
-        size = 12;
+        size = 14;
       };
 
       /*
