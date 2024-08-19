@@ -18,7 +18,7 @@ in {
           "Xft/Antialias" = 1;
           "Xft/Hinting" = 1;
           "Xft/HintStyle" = "hintmedium";
-          "Xft/RGBA" = "rgb";
+          # "Xft/RGBA" = "rgb";
 
           # Theme
           "Net/ThemeName" = "Equilux";

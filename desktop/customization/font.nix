@@ -14,7 +14,7 @@
       allowType1 = false; # Poor rendering
 
       subpixel = {
-        rgba = "rgb";
+        # rgba = "rgb";
         lcdfilter = "default";
       };
 

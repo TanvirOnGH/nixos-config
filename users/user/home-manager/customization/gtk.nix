@@ -62,7 +62,7 @@ in {
           gtk-xft-antialias = 1;
           gtk-xft-hinting = 1;
           gtk-xft-hintstyle = "hintmedium";
-          gtk-xft-rgba = "rgb";
+          # gtk-xft-rgba = "rgb";
         };
       };
 
@@ -73,7 +73,7 @@ in {
           gtk-xft-antialias = 1;
           gtk-xft-hinting = 1;
           gtk-xft-hintstyle = "hintmedium";
-          gtk-xft-rgba = "rgb";
+          # gtk-xft-rgba = "rgb";
         };
       };
     };
