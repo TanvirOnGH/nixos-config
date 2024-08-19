@@ -13,17 +13,15 @@
       allowBitmaps = false;
       allowType1 = false; # Poor rendering
 
-      /*
       subpixel = {
-        # rgba = "none";
-        lcdfilter = "light";
+        rgba = "rgb";
+        lcdfilter = "default";
       };
-      */
 
       hinting = {
         enable = true;
         autohint = false;
-        style = "slight";
+        style = "medium";
       };
     };
 

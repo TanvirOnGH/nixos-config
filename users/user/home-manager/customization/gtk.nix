@@ -61,7 +61,7 @@ in {
           gtk-application-prefer-dark-theme = 1;
           gtk-xft-antialias = 1;
           gtk-xft-hinting = 1;
-          gtk-xft-hintstyle = "hintslight";
+          gtk-xft-hintstyle = "hintmedium";
           gtk-xft-rgba = "rgb";
         };
       };
@@ -72,7 +72,7 @@ in {
           gtk-application-prefer-dark-theme = 1;
           gtk-xft-antialias = 1;
           gtk-xft-hinting = 1;
-          gtk-xft-hintstyle = "hintslight";
+          gtk-xft-hintstyle = "hintmedium";
           gtk-xft-rgba = "rgb";
         };
       };
