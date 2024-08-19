@@ -55,5 +55,17 @@ in {
         };
       };
     };
+
+    # Some applications (e.g. Firefox) don't seem to use XSETTINGS to control text rendering
+    # Putting these settings in ~/.Xresources seems to work
+    xresources.properties = {
+      # Font
+      # "Xft.dpi" = 100;
+      "Xft.antialias" = 1;
+      "Xft.hinting" = 1;
+      "Xft.autohint" = 0;
+      "Xft.hintstyle" = "hintmedium";
+      # "Xft.rgba" = "rgb";
+    };
   };
 }
