@@ -174,11 +174,6 @@ in {
       gitleaks # cli: Scan git repos (or files) for secrets
       # End-of Secrets scanning
 
-      # Maintenance tools
-      bleachbit # gui: Program to clean your computer
-      czkawka # gui: Simple, fast and easy to use app to remove unnecessary files from your computer
-      # End-of Maintenance tools
-
       # Show-off tools
       cmatrix # cli: Simulates the falling characters theme from The Matrix movie
       figlet # cli: Program for making large letters out of ordinary text
@@ -470,7 +465,7 @@ in {
       lollypop # gui: modern music player for GNOME
       rhythmbox # gui: A music playing application for GNOME
       exaile # gui: A music player with a simple interface and powerful music management capabilities
-      tauon # gui: The Linux desktop music player from the future
+      # tauon # gui: The Linux desktop music player from the future
       audacious # gui: A lightweight and versatile audio player
       audacious-plugins # plugin: Plugins for Audacious music player
       mpvc # cli: Mpc-like control interface for mpv
