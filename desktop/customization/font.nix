@@ -13,10 +13,12 @@
       allowBitmaps = false;
       allowType1 = false; # Poor rendering
 
+      /*
       subpixel = {
-        rgba = "rgb";
+        # rgba = "none";
         lcdfilter = "light";
       };
+      */
 
       hinting = {
         enable = true;
