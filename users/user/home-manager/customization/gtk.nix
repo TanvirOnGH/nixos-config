@@ -39,9 +39,11 @@ in {
         size = 16;
       };
 
+      /*
       gtk2 = {
         extraConfig = "gtk-can-change-accels = 1";
       };
+      */
 
       gtk3 = {
         bookmarks = [
@@ -53,42 +55,6 @@ in {
           "file:///mnt/whispare"
           "file:///mnt/homare"
         ];
-
-        extraConfig = {
-          gtk-application-prefer-dark-theme = 1;
-          gtk-cursor-blink = false;
-          gtk-recent-files-limit = 30;
-          gtk-toolbar-style = "GTK_TOOLBAR_BOTH";
-          gtk-toolbar-icon-size = "GTK_ICON_SIZE_LARGE_TOOLBAR";
-          gtk-button-images = 0;
-          gtk-menu-images = 1;
-          # gtk-enable-event-sounds = 1;
-          # gtk-enable-input-feedback-sounds = 1;
-          # gtk-xft-antialias = 1;
-          # gtk-xft-hinting = 1;
-          # gtk-xft-hintstyle = "hintfull";
-          # gtk-xft-rgba = "rgb";
-          gtk-decoration-layout = "appmenu:none";
-        };
-      };
-
-      gtk4 = {
-        extraConfig = {
-          gtk-application-prefer-dark-theme = 1;
-          gtk-cursor-blink = false;
-          gtk-recent-files-limit = 30;
-          gtk-toolbar-style = "GTK_TOOLBAR_BOTH";
-          gtk-toolbar-icon-size = "GTK_ICON_SIZE_LARGE_TOOLBAR";
-          gtk-button-images = 0;
-          gtk-menu-images = 1;
-          # gtk-enable-event-sounds = 1;
-          # gtk-enable-input-feedback-sounds = 1;
-          # gtk-xft-antialias = 1;
-          # gtk-xft-hinting = 1;
-          # gtk-xft-hintstyle = "hintfull";
-          # gtk-xft-rgba = "rgb";
-          gtk-decoration-layout = "appmenu:none";
-        };
       };
     };
   };
