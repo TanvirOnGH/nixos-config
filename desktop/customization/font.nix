@@ -15,12 +15,12 @@
 
       subpixel = {
         rgba = "rgb";
-        lcdfilter = "default";
+        lcdfilter = "light";
       };
 
       hinting = {
         enable = true;
-        autohint = true;
+        autohint = false;
         style = "full";
       };
     };
