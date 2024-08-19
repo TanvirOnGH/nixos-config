@@ -55,6 +55,26 @@ in {
           "file:///mnt/whispare"
           "file:///mnt/homare"
         ];
+
+        # <https://docs.gtk.org/gtk3/class.Settings.html#properties>
+        extraConfig = {
+          gtk-application-prefer-dark-theme = 1;
+          gtk-xft-antialias = 1;
+          gtk-xft-hinting = 1;
+          gtk-xft-hintstyle = "hintslight";
+          gtk-xft-rgba = "rgb";
+        };
+      };
+
+      gtk4 = {
+        # <https://docs.gtk.org/gtk4/class.Settings.html#properties>
+        extraConfig = {
+          gtk-application-prefer-dark-theme = 1;
+          gtk-xft-antialias = 1;
+          gtk-xft-hinting = 1;
+          gtk-xft-hintstyle = "hintslight";
+          gtk-xft-rgba = "rgb";
+        };
       };
     };
   };
