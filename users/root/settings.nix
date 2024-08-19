@@ -52,11 +52,11 @@
   };
 
   environment.sessionVariables = {
-    EDITOR = "micro";
-    VISUAL = "micro";
+    # EDITOR = "micro";
+    # VISUAL = "micro";
 
-    XCURSOR_THEME = "Bibata-Original-Classic";
-    XCURSOR_SIZE = "30";
+    # XCURSOR_THEME = "Bibata-Original-Classic";
+    # XCURSOR_SIZE = "30";
 
     # QT_QPA_PLATFORM = "qt5ct";
     # QT_STYLE_OVERRIDE = "kvantum";
