@@ -358,8 +358,8 @@ in {
       # Youtube/Spotify Downloader
       yt-dlp # cli: fork of youtube-dl with additional features
       tartube-yt-dlp # gui: gui frontend for youtube-dl and yt-dlp
-      youtube-dl # cli: tool to download videos from youtube and other sites
       /*
+      youtube-dl # cli: tool to download videos from youtube and other sites (unmaintained)
       yt-dlg # gui: A cross platform front-end GUI of the popular youtube-dl written in wxPython
       ytmdl # cli: cli tool to download music from youtube
       spotdl # cli: spotify downloader
@@ -977,7 +977,7 @@ in {
       #- FS tools
       hdparm # cli: A tool to get/set ATA/SATA drive parameters under Linux
       btrfs-progs # cli: Utilities for the btrfs filesystem
-      compsize # cli: btrfs: Find compression type/ratio on a file or set of files
+      # compsize # cli: btrfs: Find compression type/ratio on a file or set of files
       exfatprogs # cli: exFAT filesystem userspace utilities
       e2fsprogs # cli: Tools for creating and checking ext2/ext3/ext4 filesystems
       #- End-of FS tools
