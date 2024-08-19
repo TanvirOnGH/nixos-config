@@ -13,7 +13,7 @@
 
     xserver = {
       enable = true;
-      # dpi = 81;
+      dpi = 100;
       autorun = true;
       xkb.layout = "us";
       desktopManager.xterm.enable = false;
