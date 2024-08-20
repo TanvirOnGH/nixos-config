@@ -1056,6 +1056,7 @@ in {
       # Gaming/Windows
       #- Controller
       antimicrox # gui: GUI for mapping keyboard and mouse controls to a gamepad
+      gamepad-tool # gui: Simple GUI tool to create/modify gamepad mappings for games that use SDL2 Game Controller API
       # xboxdrv # driver: Xbox/Xbox360 (and more) gamepad driver for Linux that works in userspace
       # End-of Controller
       #- Wine
