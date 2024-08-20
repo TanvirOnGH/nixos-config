@@ -1054,6 +1054,10 @@ in {
       # End-of Networking
 
       # Gaming/Windows
+      #- Controller
+      antimicrox # gui: GUI for mapping keyboard and mouse controls to a gamepad
+      # xboxdrv # driver: Xbox/Xbox360 (and more) gamepad driver for Linux that works in userspace
+      # End-of Controller
       #- Wine
       /*
       wine-wayland # cli: An Open Source implementation of the Windows API on top of OpenGL and Unix (with experimental Wayland support)
