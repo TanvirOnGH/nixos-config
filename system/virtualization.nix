@@ -37,6 +37,12 @@
 
     libvirtd = {
       enable = true;
+
+      nss = {
+        enable = true;
+        enableGuest = true;
+      };
+
       qemu = {
         ovmf = {
           enable = true;
