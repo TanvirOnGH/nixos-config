@@ -3,6 +3,7 @@
   # <https://wiki.nixos.org/wiki/Virt-manager>
   # <https://wiki.nixos.org/wiki/Libvirt>
   virtualisation = {
+    # Enable USB redirection for Spice
     spiceUSBRedirection.enable = true;
 
     # Linux Containers (LXC), which provides tools for creating and managing system
@@ -46,7 +47,13 @@
       qemu = {
         ovmf = {
           enable = true;
-          packages = [pkgs.OVMFFull.fd];
+          packages = [
+            (pkgs.OVMF.override {
+              secureBoot = true;
+              tpmSupport = true;
+            })
+            .fd
+          ];
         };
 
         swtpm = {
