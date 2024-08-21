@@ -45,6 +45,9 @@
       };
 
       qemu = {
+        runAsRoot = true;
+        package = pkgs.qemu_kvm;
+
         ovmf = {
           enable = true;
           packages = [
