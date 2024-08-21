@@ -10,7 +10,7 @@ _: {
   # Check the rules: iptables -L -v -n
   # nftables: nft list ruleset
   networking.firewall = {
-    enable = true;
+    enable = false;
     allowPing = false;
 
     # Warning: Firewall rules may be overwritten by Docker
