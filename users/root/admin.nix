@@ -2,7 +2,7 @@
 {pkgs, ...}: {
   security = {
     sudo = {
-      enable = false;
+      enable = true;
       wheelNeedsPassword = true;
       execWheelOnly = true;
       extraConfig = ''
