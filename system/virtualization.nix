@@ -46,7 +46,9 @@
 
       qemu = {
         runAsRoot = true;
-        package = pkgs.qemu_kvm;
+        # pkgs.qemu can emulate alien architectures (e.g. aarch64 on x86)
+        # pkgs.qemu_kvm saves disk space allowing to emulate only host architectures.
+        package = pkgs.qemu;
 
         ovmf = {
           enable = true;
