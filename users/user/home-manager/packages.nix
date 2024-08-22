@@ -479,7 +479,7 @@ in {
       easyeffects # gui: audio effects for pipewire applications
       */
       pavucontrol # gui: pulseaudio volume control
-      pasystray # tray: PulseAudio system tray
+      # pasystray # tray: PulseAudio system tray
       #- End-of Controllers
       #- Tools
       /*
@@ -718,7 +718,7 @@ in {
       # End-of Ricing tools
 
       # Networking
-      networkmanagerapplet # gui/tray: NetworkManager control applet for GNOME
+      # networkmanagerapplet # gui/tray: NetworkManager control applet for GNOME
       # nm-tray # gui/tray: Simple Network Manager frontend written in Qt
       # End-of Networking
 
