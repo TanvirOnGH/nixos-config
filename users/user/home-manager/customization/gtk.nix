@@ -50,10 +50,7 @@ in {
           "file:///home/user"
           "file:///home/user/downloads"
           "file:///home/user/media/pictures/screenshots"
-          "file:///mnt/radare"
-          "file:///mnt/sonare"
-          "file:///mnt/whispare"
-          "file:///mnt/homare"
+          # "file:///mnt/radare"
         ];
 
         # <https://docs.gtk.org/gtk3/class.Settings.html#properties>
