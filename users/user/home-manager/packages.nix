@@ -17,16 +17,16 @@ in {
     home.packages = with pkgs; [
       # Code editors
       micro # cli: modern and intuitive terminal text editor
-      # nano # cli: small, user-friendly console text editor
-      # kibi # cli: text editor in ≤1024 lines of code, written in rust
       lite-xl # gui: lightweight text editor written in Lua
       vim # cli: The most popular clone of the VI editor
       neovim # cli: vim text editor fork focused on extensibility and agility
       neovide # gui: gui for neovim with additional features (animations, ligatures)
       emacs # cli: the extensible, customizable gnu text editor
       mate.pluma # gui: Powerful text editor for the MATE desktop
-      zed-editor # gui: High-performance, multiplayer code editor from the creators of Atom and Tree-sitter
       /*
+      nano # cli: small, user-friendly console text editor
+      kibi # cli: text editor in ≤1024 lines of code, written in rust
+      zed-editor # gui: High-performance, multiplayer code editor from the creators of Atom and Tree-sitter
       ox # cli: independent rust text editor
       lapce # gui: lightning-fast and Powerful Code Editor written in rust
       helix # cli: post-modern text editor
@@ -39,12 +39,6 @@ in {
       nur.repos.some-pkgs.llama-cpp # cli: Port of Facebook's LLaMA model in C/C++ (master branch)
       llama-cpp # cli: Port of Facebook's LLaMA model in C/C++
       */
-
-      # Shell
-      # oh-my-posh # cli: A prompt theme engine for any shell
-      starship # cli: A minimal, blazing fast, and extremely customizable prompt for any shell
-      # inshellisense # cli: IDE style command line auto complete
-      # End-of Shell
 
       # Development
       shellcheck # cli: Shell script analysis tool
