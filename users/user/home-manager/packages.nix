@@ -949,6 +949,7 @@ in {
       #- End-of Misc
 
       # Essential tools
+      resources # gui: Monitor your system resources and processes
       gnome-usage # gui: A nice way to view information about use of system resources, like memory and disk space
       gnome-disk-utility # gui: A udisks graphical front-end
       wgetpaste # cli: Command-line interface to various pastebins
