@@ -10,21 +10,18 @@ in {
     gtk = {
       enable = true;
 
-      # preferred: flat-remix-gtk, venta, vimix-gtk-themes, plata-theme, nordic, equilux-theme, materia-theme
       theme = {
         package = pkgs.equilux-theme;
         # Easily find the exact names using lxappearance
         name = "Equilux";
       };
 
-      # preferred: bibata-cursors, bibata-extra-cursors
       iconTheme = {
         package = pkgs.tela-icon-theme;
         # Easily find the exact names using lxappearance
         name = "Tela-black-dark";
       };
 
-      # preferred: bibata-cursors, bibata-extra-cursors
       cursorTheme = {
         package = pkgs.bibata-cursors;
         # Easily find the exact names using lxappearance, fc-list
@@ -55,7 +52,7 @@ in {
 
         # <https://docs.gtk.org/gtk3/class.Settings.html#properties>
         extraConfig = {
-          gtk-application-prefer-dark-theme = 1;
+          # gtk-application-prefer-dark-theme = 1;
 
           # Remove the app menu (Minimize / Maximize / Close buttons) from the title bar
           gtk-decoration-layout = "menu:none";
@@ -70,7 +67,7 @@ in {
       gtk4 = {
         # <https://docs.gtk.org/gtk4/class.Settings.html#properties>
         extraConfig = {
-          gtk-application-prefer-dark-theme = 1;
+          # gtk-application-prefer-dark-theme = 1;
 
           # Remove the app menu (Minimize / Maximize / Close buttons) from the title bar
           gtk-decoration-layout = "menu:none";
