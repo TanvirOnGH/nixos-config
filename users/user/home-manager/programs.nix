@@ -76,6 +76,47 @@ in {
         enable = true;
       };
 
+      starship = {
+        enable = true;
+        enableBashIntegration = true;
+        enableZshIntegration = true;
+        enableFishIntegration = true;
+        enableNushellIntegration = true;
+        enableIonIntegration = true;
+
+        settings = {
+          "$schema" = "https://starship.rs/config-schema.json";
+
+          add_newline = true;
+          scan_timeout = 10;
+
+          character = {
+            success_symbol = "[:](bold #CB8B8B)[:](bold #6AFF7F)";
+            error_symbol = "[:](bold #CB8B8B)[:](bold #DF2929)";
+            vimcmd_symbol = "[:](bold #CB8B8B)[:](bold #F46B32)";
+            vimcmd_replace_one_symbol = "[:](bold #CB8B8B)[:](bold #C80853)";
+            vimcmd_replace_symbol = "[:](bold #CB8B8B)[:](bold #823ADB)";
+            vimcmd_visual_symbol = "[:](bold #CB8B8B)[:](bold #4FADB5)";
+          };
+
+          directory = {
+            style = "bold #D77ABC";
+            truncation_length = 5;
+            truncate_to_repo = true;
+          };
+
+          cmd_duration = {
+            format = " took [~$duration]($style) ";
+            style = "bold #BC5237";
+            show_notifications = true;
+          };
+
+          package = {
+            disabled = false;
+          };
+        };
+      };
+
       gpg.enable = true;
       lazygit.enable = true;
       gitui.enable = true;
