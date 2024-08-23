@@ -737,7 +737,8 @@ in {
       # End-of Status bars
 
       # Compositor
-      picom # daemon: A fork of XCompMgr, a sample compositing manager for X servers
+      # picom # daemon: A fork of XCompMgr, a sample compositing manager for X servers
+      picom-pijulius # daemon: Pijulius's picom fork with extensive animation support
       # End-of Compositor
 
       # Notification daemon
