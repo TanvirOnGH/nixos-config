@@ -334,8 +334,8 @@ in {
 
       # Torrent
       qbittorrent # gui: featureful bittorrent client. For plugins: <https://github.com/qbittorrent/search-plugins>
-      tribler # gui: Decentralised P2P filesharing client based on the Bittorrent protocol
       /*
+      tribler # gui: Decentralised P2P filesharing client based on the Bittorrent protocol
       multiplex # gui: Watch torrents with your friends
       btfs # cli: A bittorrent filesystem based on FUSE
       jesec-rtorrent # cli: An ncurses client for libtorrent, ideal for use with screen, tmux, or dtach (jesec's fork)
@@ -351,8 +351,8 @@ in {
 
       # Youtube/Spotify Downloader
       yt-dlp # cli: fork of youtube-dl with additional features
-      tartube-yt-dlp # gui: gui frontend for youtube-dl and yt-dlp
       /*
+      tartube-yt-dlp # gui: gui frontend for youtube-dl and yt-dlp
       youtube-dl # cli: tool to download videos from youtube and other sites (unmaintained)
       yt-dlg # gui: A cross platform front-end GUI of the popular youtube-dl written in wxPython
       ytmdl # cli: cli tool to download music from youtube
@@ -384,10 +384,10 @@ in {
       */
       #- Discord
       #-- Discord clients
-      armcord # gui: lightweight free discord client
       discord # gui: official discord client
       vesktop # gui: An alternate client by Vencord for Discord with Vencord built-in
       /*
+      armcord # gui: lightweight free discord client
       ripcord # gui: proprietary client for discord and slack
       betterdiscordctl # cli: utility for managing betterdiscord
       cordless # tui: Discord terminal client
