@@ -21,7 +21,7 @@ in {
           # "Xft/RGBA" = "rgb";
 
           # Theme
-          "Net/ThemeName" = "Equilux";
+          "Net/ThemeName" = "Colloid-Dark";
           "Net/IconThemeName" = "Tela-black-dark";
           "Gtk/CursorThemeName" = "Bibata-Original-Classic";
 

@@ -11,9 +11,9 @@ in {
       enable = true;
 
       theme = {
-        package = pkgs.equilux-theme;
+        package = pkgs.colloid-gtk-theme;
         # Easily find the exact names using lxappearance
-        name = "Equilux";
+        name = "Colloid-Dark";
       };
 
       iconTheme = {
