@@ -121,8 +121,19 @@
       options = ["subvol=home" "compress=zstd:8" "noatime" "nodiratime" "ssd_spread" "discard=async" "space_cache=v2"];
     };
 
-    /*
     # HDDs
+    "/mnt/media1" = {
+      device = "/dev/disk/by-uuid/2decf340-db87-4575-b46f-46c0bd0d585f";
+      fsType = "btrfs";
+      options = ["compress=zstd:6" "noatime" "nodiratime" "autodefrag" "space_cache=v2"];
+    };
+
+    "/mnt/media2" = {
+      device = "/dev/disk/by-uuid/19555de1-efde-4669-8544-034e2a5dd6d7";
+      fsType = "btrfs";
+      options = ["compress=zstd:6" "noatime" "nodiratime" "autodefrag" "space_cache=v2"];
+    };
+    /*
     "/mnt/radare" = {
       device = "/dev/disk/by-uuid/";
       fsType = "btrfs";
@@ -132,7 +143,7 @@
     "/mnt/sonare" = {
       device = "/dev/disk/by-uuid/";
       fsType = "btrfs";
-      options = ["compress=zstd:6" "noatime" "nodiratime" "autodefrag" "autodefrag" "space_cache=v2"];
+      options = ["compress=zstd:6" "noatime" "nodiratime" "autodefrag" "space_cache=v2"];
     };
 
     "/mnt/whispare" = {
