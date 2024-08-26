@@ -150,6 +150,11 @@
     */
 
     # Game Drives
+    "/mnt/games" = {
+      device = "/dev/disk/by-uuid/00058E105E1128F8";
+      fsType = "ntfs-3g";
+      options = ["rw" "uid=1000"];
+    };
     # ntfs drives - Requires fast boot to be disabled in Windows for write support
     /*
     "/mnt/gamedrive1" = {

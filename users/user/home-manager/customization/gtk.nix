@@ -48,6 +48,7 @@ in {
           "file:///home/user/downloads"
           "file:///home/user/media/pictures/screenshots"
           "file:///mnt/windows"
+          "file:///mnt/games"
         ];
 
         # <https://docs.gtk.org/gtk3/class.Settings.html#properties>
