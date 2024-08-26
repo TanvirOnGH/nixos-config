@@ -450,9 +450,7 @@ in {
       */
       #- End-of Image viewers
       #- Image tools
-      /*
       imagemagickBig # cli: A software suite to create, edit, compose, or convert bitmap images
-      */
       #- End-of Image Tools
       #- Audio Players
       amberol # gui: Small and simple sound and music player
@@ -468,16 +466,16 @@ in {
       */
       #- End-of Audio Players
       #- Controllers
-      /*
       jamesdsp # gui: audio effect processor for pipeWire clients
+      /*
       easyeffects # gui: audio effects for pipewire applications
       */
       pavucontrol # gui: pulseaudio volume control
       # pasystray # tray: PulseAudio system tray
       #- End-of Controllers
       #- Tools
+      ffmpeg_7-full # cli: A complete, cross-platform solution to record, convert and stream audio and video
       /*
-      ffmpeg_6-full # cli: A complete, cross-platform solution to record, convert and stream audio and video
       mediainfo # cli: Supplies technical and tag information about a video or audio file
       exiftool # cli: A tool to read, write and edit EXIF meta information
       sox # cli: Sample Rate Converter for audio
