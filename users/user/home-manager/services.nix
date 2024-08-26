@@ -30,6 +30,13 @@ in {
         };
       };
 
+      easyeffects = {
+        enable = true;
+        package = pkgs.easyeffects;
+        # Community Presets: <https://github.com/wwmm/easyeffects/wiki/PulseEffects-Wiki#community-presets>
+        # preset = "Music";
+      };
+
       screen-locker = {
         enable = false;
         xautolock.enable = true;
