@@ -46,6 +46,14 @@ in {
         enableIonIntegration = true;
       };
 
+      yazi = {
+        enable = true;
+        enableFishIntegration = true;
+        enableZshIntegration = true;
+        enableBashIntegration = true;
+        enableNushellIntegration = true;
+      };
+
       /*
       dconf.settings = {
         "org/virt-manager/virt-manager/connections" = {
