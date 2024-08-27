@@ -230,7 +230,7 @@ in {
       # End-of Browsers
 
       # Email
-      betterbird # gui: Betterbird is a fine-tuned version of Mozilla Thunderbird, Thunderbird on steroids, if you will
+      # betterbird # gui: Betterbird is a fine-tuned version of Mozilla Thunderbird, Thunderbird on steroids, if you will
       thunderbird # gui: A full-featured e-mail client from Mozilla
       electron-mail # gui: electron based protonmail client
       tutanota-desktop # gui: electron based tutanota client
@@ -273,7 +273,7 @@ in {
       # Virtualization
       lazydocker # tui: A simple terminal UI for both docker and docker-compose
       distrobox # cli: Wrapper around podman or docker to create and start containers
-      gnome.gnome-boxes # gui: GNOME application to access remote or virtual systems
+      gnome-boxes # gui: GNOME application to access remote or virtual systems
       # junest # cli: Arch distro that runs on top of another without root
       /*
       virt-manager # gui: graphical tool for managing virtual machines
