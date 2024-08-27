@@ -232,12 +232,14 @@ in {
       # End-of Browsers
 
       # Email
-      # betterbird # gui: Betterbird is a fine-tuned version of Mozilla Thunderbird, Thunderbird on steroids, if you will
+      /*
+      betterbird # gui: Betterbird is a fine-tuned version of Mozilla Thunderbird, Thunderbird on steroids, if you will
       thunderbird # gui: A full-featured e-mail client from Mozilla
       electron-mail # gui: electron based protonmail client
       tutanota-desktop # gui: electron based tutanota client
       claws-mail # gui: The user-friendly, lightweight, and fast email client
       geary # gui: Mail client for GNOME 3
+      */
       # End-of Email
 
       # Reverse Engineering
@@ -326,13 +328,13 @@ in {
       # End of Fetchers
 
       # Download managers
+      /*
       wget # cli: Tool for retrieving files using http, https and ftp
       wget2 # cli: Successor of GNU Wget, a file and recursive website downloader.
       curlFull # cli: A command line tool for transferring files with URL syntax
       aria2 # cli: A lightweight multi-protocol & multi-source command-line download utility v2
       motrix # gui: full featured download manager
       uget # gui: download manager using GTK and libcurl
-      /*
       ariang # web: a modern web frontend making aria2 easier to use
       uget-integrator # plugin: Native messaging host to integrate uGet Download Manager with web browsers
       */
