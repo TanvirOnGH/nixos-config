@@ -271,11 +271,11 @@ in {
       # End-of 3D
 
       # Virtualization
+      /*
       lazydocker # tui: A simple terminal UI for both docker and docker-compose
       distrobox # cli: Wrapper around podman or docker to create and start containers
       gnome-boxes # gui: GNOME application to access remote or virtual systems
-      # junest # cli: Arch distro that runs on top of another without root
-      /*
+      junest # cli: Arch distro that runs on top of another without root
       virt-manager # gui: graphical tool for managing virtual machines
       docker-ls # cli: Tools for browsing and manipulating docker registries
       docker-gc # cli: Docker garbage collection of containers and images
@@ -308,15 +308,19 @@ in {
       # End-of Games
 
       # Eye-candy
+      /*
       cava # cli: console-based audio visualizer for alsa
+      */
       # End-of Eye-candy
 
       # Fetchers
+      /*
       onefetch # cli: Git repository summary on your terminal
       neofetch # cli: fast, highly customizable system info script
       cpufetch # cli: fancy cpu architecture fetching tool
       ramfetch # cli: A tool which displays memory information
-      # nur.repos.vanilla.fastfetch # cli: fork of neofetch, but much faster because written in C
+      nur.repos.vanilla.fastfetch # cli: fork of neofetch, but much faster because written in C
+      */
       # End of Fetchers
 
       # Download managers
@@ -350,8 +354,8 @@ in {
       # End-of Torrent
 
       # Youtube/Spotify Downloader
-      yt-dlp # cli: fork of youtube-dl with additional features
       /*
+      yt-dlp # cli: fork of youtube-dl with additional features
       tartube-yt-dlp # gui: gui frontend for youtube-dl and yt-dlp
       youtube-dl # cli: tool to download videos from youtube and other sites (unmaintained)
       yt-dlg # gui: A cross platform front-end GUI of the popular youtube-dl written in wxPython
@@ -384,9 +388,9 @@ in {
       */
       #- Discord
       #-- Discord clients
-      discord # gui: official discord client
       vesktop # gui: An alternate client by Vencord for Discord with Vencord built-in
       /*
+      discord # gui: official discord client
       armcord # gui: lightweight free discord client
       ripcord # gui: proprietary client for discord and slack
       betterdiscordctl # cli: utility for managing betterdiscord
