@@ -16,14 +16,14 @@ in {
     # TODO: Improve descriptions and categorization of packages
     home.packages = with pkgs; [
       # Code editors
-      micro # cli: modern and intuitive terminal text editor
-      lite-xl # gui: lightweight text editor written in Lua
       vim # cli: The most popular clone of the VI editor
       neovim # cli: vim text editor fork focused on extensibility and agility
       neovide # gui: gui for neovim with additional features (animations, ligatures)
       emacs # cli: the extensible, customizable gnu text editor
-      mate.pluma # gui: Powerful text editor for the MATE desktop
       /*
+      lite-xl # gui: lightweight text editor written in Lua
+      micro # cli: modern and intuitive terminal text editor
+      mate.pluma # gui: Powerful text editor for the MATE desktop
       nano # cli: small, user-friendly console text editor
       kibi # cli: text editor in ≤1024 lines of code, written in rust
       zed-editor # gui: High-performance, multiplayer code editor from the creators of Atom and Tree-sitter
@@ -46,12 +46,12 @@ in {
       wakatime # cli: wakatime cli, used for tracking time spent on projects
       gitkraken # gui: The downright luxurious and most popular Git client
       github-desktop # gui: GUI for managing Git and GitHub
+      just # cli: A handy way to save and run project-specific commands
+      /*
       act # cli: Run your GitHub Actions locally
       meld # gui: Visual diff and merge tool
-      just # cli: A handy way to save and run project-specific commands
       serie # cli: A rich git commit graph in your terminal, like magic
       code2prompt # cli: Convert your codebase into a single LLM prompt with a source tree, prompt templating, and token counting
-      /*
       github-copilot-cli # cli: A CLI experience for letting GitHub Copilot help you on the command line
       shellharden # cli: The corrective bash syntax highlighter
       processing # cli: A language and IDE for electronic arts
@@ -930,9 +930,9 @@ in {
       # End-of VPN
 
       # Misc
-      hydrus # gui: Danbooru-like image tagging and searching system for the desktop
       gallery-dl # cli: Command-line program to download image-galleries and -collections from several image hosting sites
       /*
+      hydrus # gui: Danbooru-like image tagging and searching system for the desktop
       sonic-visualiser # gui: View and analyse contents of music audio files
       qtchan # gui: 4chan browser in qt5
       gnome-podcasts # gui: Listen to your favorite podcasts
