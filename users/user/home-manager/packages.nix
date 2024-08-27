@@ -169,6 +169,7 @@ in {
       # End-of Secrets scanning
 
       # Show-off tools
+      /*
       cmatrix # cli: Simulates the falling characters theme from The Matrix movie
       figlet # cli: Program for making large letters out of ordinary text
       lolcat # cli: A rainbow version of cat
@@ -178,6 +179,7 @@ in {
       pokemonsay # cli: Print pokemon in the CLI! An adaptation of the classic cowsay
       cbonsai # cli: Grow bonsai trees in your terminal
       genact # cli: A nonsense activity generator
+      */
       # End-of-Show-off tools
 
       # Plugins
