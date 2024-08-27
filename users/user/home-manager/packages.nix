@@ -45,9 +45,9 @@ in {
       shfmt # cli: A shell parser and formatter
       wakatime # cli: wakatime cli, used for tracking time spent on projects
       gitkraken # gui: The downright luxurious and most popular Git client
-      github-desktop # gui: GUI for managing Git and GitHub
       just # cli: A handy way to save and run project-specific commands
       /*
+      github-desktop # gui: GUI for managing Git and GitHub
       act # cli: Run your GitHub Actions locally
       meld # gui: Visual diff and merge tool
       serie # cli: A rich git commit graph in your terminal, like magic
@@ -121,22 +121,22 @@ in {
       # exa # cli: Replacement for 'ls' written in Rust
       # eza # cli: A modern, maintained replacement for ls
       grc # cli: A generic text colouriser
-      tealdeer # cli: A very fast implementation of tldr in Rust
-      cheat # cli: Create and view interactive cheatsheets on the command-line
       broot # cli: An interactive tree view, a fuzzy search, a balanced BFS descent and customizable commands
       cod # daemon: Tool for generating Bash/Fish/Zsh autocompletions based on `--help` output
-      progress # cli: Tool that shows the progress of coreutils programs
       mcfly # cli: An upgraded ctrl-r where history results make sense for what you're working on right now
-      gping # cli: Ping, but with a graph
       skim # cli: Command-line fuzzy finder written in Rust
       ripgrep # cli: A utility that combines the usability of The Silver Searcher with the raw speed of grep
       rm-improved # cli: Replacement for rm with focus on safety, ergonomics and performance
       fzf # cli: A command-line fuzzy finder written in Go
       navi # cli: An interactive cheatsheet tool for the command-line and application launchers
-      # atuin # cli: Replacement for a shell history which records additional commands context with optional encrypted synchronization between machines
       zoxide # cli: A fast cd command that learns your habits
-      glow # cli: Render markdown on the CLI, with pizzazz!
       /*
+      progress # cli: Tool that shows the progress of coreutils programs
+      gping # cli: Ping, but with a graph
+      atuin # cli: Replacement for a shell history which records additional commands context with optional encrypted synchronization between machines
+      glow # cli: Render markdown on the CLI, with pizzazz!
+      tealdeer # cli: A very fast implementation of tldr in Rust
+      cheat # cli: Create and view interactive cheatsheets on the command-line
       imgcat # cli: It's like cat, but for images
       noti # cli: Monitor a process and trigger a notification
       du-dust # cli: du + rust = dust. Like du but more intuitive
@@ -164,8 +164,10 @@ in {
       # End-of Cli tools
 
       # Secrets scanning
+      /*
       trufflehog # cli: Find credentials all over the place (Find and verify secrets)
       gitleaks # cli: Scan git repos (or files) for secrets
+      */
       # End-of Secrets scanning
 
       # Show-off tools
