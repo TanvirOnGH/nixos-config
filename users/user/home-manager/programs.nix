@@ -132,7 +132,7 @@ in {
 
         # <https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file#configuration>
         settings = {
-          output = "~/downloads/%(title)s.%(ext)s";
+          output = "~/downloads/yt-dlp/%(title)s.%(ext)s";
           format = ''"bestvideo[height<=1080]+bestaudio/best[height<=1080]"''; # 1080p Max
           audio-format = "best";
           embed-thumbnail = true;
@@ -163,18 +163,18 @@ in {
       };
 
       gallery-dl = {
-          enable = true;
-          package = pkgs.gallery-dl;
-          # <https://github.com/mikf/gallery-dl?tab=readme-ov-file#configuration>
-          settings = {
-            extractor.base-directory = "~/downloads/gallery-dl";
-            extractor.skip = true;
-            extractor.ytdl.enabled = true; # Use yt-dlp as a fallback
-            extractor.ytdl.format = "bestvideo[height<=1080]+bestaudio/best[height<=1080]"; # 1080p Max
-            downloader.enabled = true;
-            downloader.progress = 0;
-          };
+        enable = true;
+        package = pkgs.gallery-dl;
+        # <https://github.com/mikf/gallery-dl?tab=readme-ov-file#configuration>
+        settings = {
+          extractor.base-directory = "~/downloads/gallery-dl";
+          extractor.skip = true;
+          extractor.ytdl.enabled = true; # Use yt-dlp as a fallback
+          extractor.ytdl.format = "bestvideo[height<=1080]+bestaudio/best[height<=1080]"; # 1080p Max
+          downloader.enabled = true;
+          downloader.progress = 0;
         };
+      };
 
       gpg.enable = true;
       lazygit.enable = true;
