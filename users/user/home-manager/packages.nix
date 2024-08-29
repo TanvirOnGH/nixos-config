@@ -953,9 +953,9 @@ in {
 
       # Essential tools
       resources # gui: Monitor your system resources and processes
-      gnome-usage # gui: A nice way to view information about use of system resources, like memory and disk space
-      gnome-disk-utility # gui: A udisks graphical front-end
-      wgetpaste # cli: Command-line interface to various pastebins
+      # gnome-usage # gui: A nice way to view information about use of system resources, like memory and disk space
+      # gnome-disk-utility # gui: A udisks graphical front-end
+      # wgetpaste # cli: Command-line interface to various pastebins
       #- https://github.com/swaywm/sway/wiki/GTK-3-settings-on-Wayland#xsettings
       #- https://wiki.hyprland.org/FAQ/#gtk-settings-no-work--whatever
       # xsettingsd # cli: Provides settings to X11 applications via the XSETTINGS specification
@@ -967,7 +967,7 @@ in {
       # smartmontools # cli: Tools for monitoring the health of hard drives
       # nvme-cli # cli: NVM-Express user space tooling for Linux
       # lm_sensors # cli: Tools for reading hardware sensors
-      linux-wifi-hotspot # gui: Feature-rich wifi hotspot creator for Linux which provides both GUI and command-line interface
+      # linux-wifi-hotspot # gui: Feature-rich wifi hotspot creator for Linux which provides both GUI and command-line interface
       #- <https://wiki.nixos.org/wiki/FAQ/I_installed_a_library_but_my_compiler_is_not_finding_it._Why%3F>
       #- <https://discourse.nixos.org/t/how-to-install-openssl-to-compile-against/1249>
       # openssl # lib+cli: A cryptographic library that implements the SSL and TLS protocols
