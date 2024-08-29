@@ -190,6 +190,13 @@ in {
         packageConfigurable = pkgs.vim-full;
       };
 
+      neovim = {
+        enable = true;
+        package = pkgs.neovim-unwrapped;
+        withNodeJs = true;
+        withPython3 = true;
+      };
+
       gpg.enable = true;
       lazygit.enable = true;
       gitui.enable = true;
