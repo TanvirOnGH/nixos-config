@@ -162,6 +162,20 @@ in {
         '';
       };
 
+      gallery-dl = {
+          enable = true;
+          package = pkgs.gallery-dl;
+          # <https://github.com/mikf/gallery-dl?tab=readme-ov-file#configuration>
+          settings = {
+            extractor.base-directory = "~/downloads/gallery-dl";
+            extractor.skip = true;
+            extractor.ytdl.enabled = true; # Use yt-dlp as a fallback
+            extractor.ytdl.format = "bestvideo[height<=1080]+bestaudio/best[height<=1080]"; # 1080p Max
+            downloader.enabled = true;
+            downloader.progress = 0;
+          };
+        };
+
       gpg.enable = true;
       lazygit.enable = true;
       gitui.enable = true;
