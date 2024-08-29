@@ -176,6 +176,15 @@ in {
         };
       };
 
+      emacs = {
+        enable = true;
+        package = pkgs.emacs;
+        extraPackages = epkgs: [
+          epkgs.magit
+          epkgs.zoxide
+        ];
+      };
+
       gpg.enable = true;
       lazygit.enable = true;
       gitui.enable = true;
