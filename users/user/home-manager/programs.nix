@@ -195,6 +195,37 @@ in {
         package = pkgs.neovim-unwrapped;
         withNodeJs = true;
         withPython3 = true;
+        coc.enable = false;
+
+        /*
+        extraPackages = with pkgs; [
+          neovim-qt # gui: Neovim client library and GUI, in Qt5
+          neovim-gtk # gui: Gtk ui for neovim
+        ];
+        */
+      };
+
+      micro = {
+        enable = true;
+        settings = {
+          colorscheme = "atom-dark";
+          mouse = true;
+          syntax = true;
+          autoclose = true; # Automatically closes brackets, quotes, etc
+          comment = true; # Provides automatic commenting for a number of languages
+          linter = true; # Provides linting support for a number of languages
+          hlsearch = true;
+          cursorline = true;
+          autoindent = true;
+          autosu = false;
+          # Backups are stored in ~/.config/micro/backups (removed when the buffer is closed cleanly)
+          backup = true; # Automatically keep backups of all open buffers
+          autosave = 6; # Warn: Saves the buffer without prompting the user, so data may be overwritten
+          # Information is saved to ~/.config/micro/buffers/history
+          savehistory = true; # Save the history of commands (between closing and re-opening micro)
+          # Information is saved to ~/.config/micro/buffers/
+          saveundo = true; # Save the undo history (even after closing a file)
+        };
       };
 
       gpg.enable = true;
