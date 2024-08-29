@@ -934,8 +934,8 @@ in {
       # End-of VPN
 
       # Misc
-      gallery-dl # cli: Command-line program to download image-galleries and -collections from several image hosting sites
       /*
+      gallery-dl # cli: Command-line program to download image-galleries and -collections from several image hosting sites
       hydrus # gui: Danbooru-like image tagging and searching system for the desktop
       sonic-visualiser # gui: View and analyse contents of music audio files
       qtchan # gui: 4chan browser in qt5
@@ -1059,9 +1059,11 @@ in {
 
       # Gaming/Windows
       #- Controller
+      /*
       antimicrox # gui: GUI for mapping keyboard and mouse controls to a gamepad
       gamepad-tool # gui: Simple GUI tool to create/modify gamepad mappings for games that use SDL2 Game Controller API
-      # xboxdrv # driver: Xbox/Xbox360 (and more) gamepad driver for Linux that works in userspace
+      xboxdrv # driver: Xbox/Xbox360 (and more) gamepad driver for Linux that works in userspace
+      */
       # End-of Controller
       #- Wine
       /*
