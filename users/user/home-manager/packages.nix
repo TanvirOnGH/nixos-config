@@ -979,12 +979,12 @@ in {
       */
       #- End-of jq
       #- FS tools
+      /*
       hdparm # cli: A tool to get/set ATA/SATA drive parameters under Linux
       btrfs-progs # cli: Utilities for the btrfs filesystem
-      # compsize # cli: btrfs: Find compression type/ratio on a file or set of files
+      compsize # cli: btrfs: Find compression type/ratio on a file or set of files
       exfatprogs # cli: exFAT filesystem userspace utilities
       e2fsprogs # cli: Tools for creating and checking ext2/ext3/ext4 filesystems
-      #- End-of FS tools
       duff # cli: Quickly find duplicate files
       dua # cli: A tool to conveniently learn about the disk usage of directories
       /*
