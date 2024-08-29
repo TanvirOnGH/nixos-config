@@ -162,7 +162,7 @@
 
     # Game Drives
     "/mnt/games" = {
-      device = "/dev/disk/by-uuid/00058E105E1128F8";
+      device = "/dev/disk/by-uuid/00A92F5122DAD236";
       fsType = "ntfs-3g";
       options = ["rw" "uid=1000"];
     };

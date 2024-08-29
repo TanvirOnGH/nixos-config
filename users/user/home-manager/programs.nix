@@ -208,6 +208,7 @@ in {
       micro = {
         enable = true;
         settings = {
+          # <https://github.com/zyedidia/micro/blob/master/runtime/help/colors.md>
           colorscheme = "atom-dark";
           mouse = true;
           syntax = true;
