@@ -185,6 +185,11 @@ in {
         ];
       };
 
+      vim = {
+        enable = true;
+        packageConfigurable = pkgs.vim-full;
+      };
+
       gpg.enable = true;
       lazygit.enable = true;
       gitui.enable = true;
