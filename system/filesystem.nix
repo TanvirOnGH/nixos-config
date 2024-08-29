@@ -133,6 +133,13 @@
       fsType = "btrfs";
       options = ["compress=zstd:6" "noatime" "nodiratime" "autodefrag" "space_cache=v2"];
     };
+
+    "/mnt/media3" = {
+      device = "/dev/disk/by-uuid/50324084-8cf5-40ef-b6ee-aad441063567";
+      fsType = "btrfs";
+      options = ["compress=zstd:6" "noatime" "nodiratime" "autodefrag" "space_cache=v2"];
+    };
+
     /*
     "/mnt/radare" = {
       device = "/dev/disk/by-uuid/";
@@ -166,6 +173,7 @@
       fsType = "ntfs-3g";
       options = ["rw" "uid=1000"];
     };
+
     # ntfs drives - Requires fast boot to be disabled in Windows for write support
     /*
     "/mnt/gamedrive1" = {
