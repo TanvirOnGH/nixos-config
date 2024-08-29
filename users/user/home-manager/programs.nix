@@ -126,6 +126,42 @@ in {
         };
       };
 
+      yt-dlp = {
+        enable = true;
+        package = pkgs.yt-dlp;
+
+        # <https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file#configuration>
+        settings = {
+          output = "~/downloads/%(title)s.%(ext)s";
+          format = ''"bestvideo[height<=1080]+bestaudio/best[height<=1080]"''; # 1080p Max
+          audio-format = "best";
+          embed-thumbnail = true;
+          embed-subs = true;
+          sub-langs = "en.\\*";
+          windows-filenames = true;
+          write-auto-sub = true;
+          write-sub = true;
+          embed-chapters = true;
+          embed-info-json = true;
+          embed-metadata = true;
+          compat-options = "no-certifi";
+          # downloader = lib.getExe pkgs.aria2;
+          # downloader-args = "aria2c:'-c -x8 -s8 -k1M'";
+          # sponsorblock-mark = "all";
+        };
+
+        # <https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file#usage-and-options>
+        extraConfig = ''
+          --no-quiet
+          --continue
+          --progress
+          --console-title
+          --no-abort-on-error
+          --yes-playlist
+          --xattrs
+        '';
+      };
+
       gpg.enable = true;
       lazygit.enable = true;
       gitui.enable = true;
