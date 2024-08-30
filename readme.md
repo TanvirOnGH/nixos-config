@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="images/nix-bangladesh-logo.png" alt="Nix icon" widdth="200" height="200">
+  <img src="misc/images/nix-bangladesh-logo.png" alt="Nix icon" widdth="200" height="200">
 </div>
 
 # About
@@ -176,5 +176,5 @@ musnix https://github.com/musnix/musnix/archive/master.tar.gz
 </h2>
 
 <div align="center">
-  <img src="images/nixos-learning-curve.png" alt="NixOS Learning Graph widdth="400" height="400">
+  <img src="misc/images/nixos-learning-curve.png" alt="NixOS Learning Graph widdth="400" height="400">
 </div>
