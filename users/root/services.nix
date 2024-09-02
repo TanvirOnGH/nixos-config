@@ -106,7 +106,7 @@
     flaresolverr = {
       enable = true;
       port = 8191;
-      openFirewall = true;
+      # openFirewall = true;
     };
 
     # USB Automounting

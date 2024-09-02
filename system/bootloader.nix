@@ -25,6 +25,7 @@ _: {
 
       memtest86.enable = false;
     };
+
     efi.canTouchEfiVariables = true;
   };
 }
