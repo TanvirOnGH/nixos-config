@@ -18,14 +18,7 @@
 
   hardware = {
     nvidia = {
-      # As of 28/06/2024
-      # .latest -> stable
-      # .stable -> production
-      # .production -> (550)
-      # .beta -> (555)
-      # .vulkan_beta -> (550, but different)
-      # dc -> datacenter driver (520)
-      package = config.boot.kernelPackages.nvidiaPackages.beta;
+      package = config.boot.kernelPackages.nvidiaPackages.latest;
 
       # Required
       modesetting.enable = true;
@@ -63,6 +56,7 @@
   */
 
   hardware.graphics.extraPackages = with pkgs; [
+    # vaapiVdpau
     nvidia-vaapi-driver
   ];
 }
