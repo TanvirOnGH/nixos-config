@@ -19,6 +19,9 @@
     # <https://docs.brew.sh/Analytics>
     HOMEBREW_NO_ANALYTICS = "1";
 
+    # <https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_telemetry>
+    POWERSHELL_TELEMETRY_OPTOUT = "1";
+
     # <https://docs.evidentlyai.com/support/telemetry#can-i-opt-out>
     EVIDENTLY_DISABLE_TELEMETRY = "1";
 
