@@ -409,8 +409,8 @@ in {
       #-- End-of Discord Misc
       #- Matrix clients
       element-desktop # gui: popular matrix client
-      fluffychat # gui: Chat with your friends (matrix client)
       /*
+      fluffychat # gui: Chat with your friends (matrix client)
       nheko # gui: Desktop client for the Matrix protocol
       cinny-desktop # gui: Yet another matrix client for desktop
       fractal # gui: Matrix group messaging app
