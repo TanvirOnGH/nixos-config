@@ -388,8 +388,8 @@ in {
       slack # gui: Desktop client for Slack
       zulip # gui: Desktop client for Zulip Chat
       keybase-gui # gui: The Keybase official GUI
-      qtox # gui: Qt Tox client
       /*
+      qtox # gui: Qt Tox client
       rocketchat-desktop # gui: Official Desktop client for Rocket.Chat
       wire-desktop # gui: A modern, secure messenger for everyone
       */
