@@ -16,9 +16,8 @@ in {
     # TODO: Improve descriptions and categorization of packages
     home.packages = with pkgs; [
       # Code editors
-      # Todo: Track https://github.com/nix-community/home-manager/pull/5774
-      neovide # gui: gui for neovim with additional features (animations, ligatures)
       /*
+      neovide # gui: gui for neovim with additional features (animations, ligatures)
       emacs # cli: the extensible, customizable gnu text editor
       vim # cli: The most popular clone of the VI editor
       neovim # cli: vim text editor fork focused on extensibility and agility
