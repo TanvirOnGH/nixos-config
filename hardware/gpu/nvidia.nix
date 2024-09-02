@@ -47,16 +47,14 @@
     };
   };
 
-  /*
   environment.sessionVariables = {
     LIBVA_DRIVER_NAME = "nvidia";
     VDPAU_DRIVER = "va_gl";
     __GLX_VENDOR_LIBRARY_NAME = "nvidia";
   };
-  */
 
   hardware.graphics.extraPackages = with pkgs; [
-    # vaapiVdpau
+    vaapiVdpau
     nvidia-vaapi-driver
   ];
 }
