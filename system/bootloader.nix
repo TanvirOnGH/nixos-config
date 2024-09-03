@@ -24,6 +24,8 @@ _: {
       netbootxyz.enable = true;
 
       memtest86.enable = false;
+
+      rebootForBitlocker = false; # Experimental BitLocker support
     };
 
     efi.canTouchEfiVariables = true;
