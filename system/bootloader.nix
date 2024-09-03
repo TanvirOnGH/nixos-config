@@ -6,7 +6,7 @@ _: {
     systemd-boot = {
       enable = true;
       # https://wiki.nixos.org/wiki/Bootloader#Limiting_amount_of_entries_with_grub
-      configurationLimit = 6;
+      configurationLimit = 12;
 
       # Allow editing the kernel command-line before boot
       # enabled by default for backwards compatibility

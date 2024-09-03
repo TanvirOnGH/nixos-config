@@ -30,7 +30,7 @@
       powerManagement.finegrained = false;
       nvidiaSettings = true; # GUI settings application, accessible via `nvidia-settings`
 
-      # NVidia open source kernel module (not to be confused with the
+      # Nvidia open source kernel module (not to be confused with the
       # independent third-party "nouveau" open source driver)
       open = true;
 
