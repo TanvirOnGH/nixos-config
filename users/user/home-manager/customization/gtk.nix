@@ -66,6 +66,16 @@ in {
           gtk-xft-hintstyle = "hintmedium";
           # gtk-xft-rgba = "rgb";
         };
+
+        # Remove the rounded corners from the gtk3 menus
+        extraCss = ''
+          menu,
+          .csd .menu,
+          .csd .dropdown,
+          .csd .context-menu {
+            border-radius: 0px;
+          }
+        '';
       };
 
       gtk4 = {
@@ -81,6 +91,16 @@ in {
           gtk-xft-hintstyle = "hintmedium";
           # gtk-xft-rgba = "rgb";
         };
+
+        # Remove the rounded corners from the gtk4 menus
+        extraCss = ''
+          menu,
+          .csd .menu,
+          .csd .dropdown,
+          .csd .context-menu {
+            border-radius: 0px;
+          }
+        '';
       };
     };
   };
