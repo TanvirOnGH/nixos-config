@@ -36,6 +36,12 @@ in {
       mime.enable = true;
       mimeApps.enable = true;
 
+      portal = {
+        enable = true;
+        # <https://github.com/NixOS/nixpkgs/issues/160923>
+        xdgOpenUsePortal = true;
+      };
+
       userDirs = {
         enable = true;
         createDirectories = true;
