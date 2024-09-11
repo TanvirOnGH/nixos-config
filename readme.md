@@ -171,6 +171,8 @@ musnix https://github.com/musnix/musnix/archive/master.tar.gz
 
 - [NixOS-WSL](https://github.com/nix-community/NixOS-WSL) - Modules for running NixOS on the Windows Subsystem for Linux.
 
+- [xdg-override](https://github.com/koiuo/xdg-override) - Override `xdg-open` behavior.
+
 <h2 align="center">
   Abandon Hope, All Ye Who Enter Here
 </h2>
