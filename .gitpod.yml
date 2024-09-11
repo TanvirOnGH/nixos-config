@@ -1,0 +1,34 @@
+# TODO: Use NixOS template: <https://github.com/gitpod-io/template-nixos>
+image: gitpod/workspace-full:latest
+
+tasks:
+    - name: Setup alejandra
+      before: |
+          wget "https://github.com/kamadorueda/alejandra/releases/download/3.0.0/alejandra-x86_64-unknown-linux-musl" -O alejandra
+      command: |
+          chmod +x alejandra && mv alejandra /usr/local/bin/alejandra
+
+vscode:
+    extensions:
+        - jnoortheen.nix-ide
+        - kamadorueda.alejandra
+        - castrogusttavo.min-theme
+        - castrogusttavo.symbols
+        - antfu.icons-carbon
+        - gruntfuggly.todo-tree
+        - mhutchie.git-graph
+        - donjayamanne.githistory
+        - timonwong.shellcheck
+        - foxundermoon.shell-format
+        - tyriar.sort-lines
+        - yzhang.markdown-all-in-one
+        - davidanson.vscode-markdownlint
+        - naumovs.color-highlight
+        - oderwat.indent-rainbow
+        - tamasfe.even-better-toml
+        - idleberg.icon-fonts
+        - anseki.vscode-color
+        - aaron-bond.better-comments
+        - ibm.output-colorizer
+        - chouzz.vscode-better-align
+        - esbenp.prettier-vscode
