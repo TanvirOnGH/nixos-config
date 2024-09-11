@@ -29,7 +29,11 @@ in {
 
     xdg = {
       enable = true;
-      mimeApps.enable = false;
+      configHome = "~/.config";
+      cacheHome = "~/.cache";
+      dataHome = "~/.local/share";
+
+      mimeApps.enable = true;
 
       userDirs = {
         enable = true;
