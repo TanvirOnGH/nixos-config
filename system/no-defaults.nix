@@ -16,5 +16,7 @@
     icons.enable = true;
     mime.enable = true;
     sounds.enable = true;
+    menus.enable = true;
+    autostart.enable = true;
   };
 }
