@@ -14,6 +14,7 @@
 
     ./home-manager/customization/gtk.nix
     ./home-manager/customization/qt.nix
+    ./home-manager/customization/xdg.nix
     ./home-manager/customization/misc.nix
   ];
 }
