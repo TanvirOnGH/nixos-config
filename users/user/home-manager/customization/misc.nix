@@ -33,6 +33,7 @@ in {
       cacheHome = "~/.cache";
       dataHome = "~/.local/share";
 
+      mime.enable = true;
       mimeApps.enable = true;
 
       userDirs = {
