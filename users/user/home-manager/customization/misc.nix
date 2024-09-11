@@ -38,6 +38,12 @@ in {
 
       mimeApps = {
         defaultApplications = {
+          # folders
+          "inode/directory" = "thunar.desktop";
+          "x-directory/normal" = "thunar.desktop";
+          "x-directory/gnome-default-handler" = "thunar.desktop";
+          "x-directory/normal-gnome-default-handler" = "thunar.desktop";
+
           # web
           "x-scheme-handler/http" = "firefox.desktop";
           "x-scheme-handler/https" = "firefox.desktop";
