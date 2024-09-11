@@ -16,6 +16,7 @@
     #- <https://wiki.hyprland.org/Nix/Hyprland-on-NixOS>
     extraPortals = with pkgs; [
       xdg-desktop-portal-gtk # Need to avoid bugs on GTK apps and for file dialogs
+      # xdg-desktop-portal-kde
       #- Needed to run Hyperland properly. Enabled by default if programs.hyprland.enable is true
       # xdg-desktop-portal-hyprland # Hyperland's fork of xdg-desktop-portal-wlr
     ];

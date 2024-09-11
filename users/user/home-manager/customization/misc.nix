@@ -29,9 +29,9 @@ in {
 
     xdg = {
       enable = true;
-      configHome = "~/.config";
-      cacheHome = "~/.cache";
-      dataHome = "~/.local/share";
+      # configHome = "~/.config";
+      # cacheHome = "~/.cache";
+      # dataHome = "~/.local/share";
 
       mime.enable = true;
       mimeApps.enable = true;
@@ -40,6 +40,11 @@ in {
         enable = true;
         # <https://github.com/NixOS/nixpkgs/issues/160923>
         xdgOpenUsePortal = true;
+        extraPortals = with pkgs; [xdg-desktop-portal-gtk];
+        # <https://github.com/flatpak/xdg-desktop-portal/blob/1.18.1/doc/portals.conf.rst.in>
+        # Keep the behaviour in < 1.17, which uses the first
+        # portal implementation found in lexicographical order
+        config.common.default = "*";
       };
 
       userDirs = {
