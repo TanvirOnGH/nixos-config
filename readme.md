@@ -6,8 +6,6 @@
 
 My [Nix](https://nixos.org/learn.html) and [Home-Manager](https://github.com/nix-community/home-manager) configuration for [NixOS](https://nixos.org) based systems.
 
-[![built with nix](https://builtwithnix.org/badge.svg)](https://builtwithnix.org)
-
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/TanvirOnGH/nixos-config)
 
 > [!NOTE]  
@@ -180,3 +178,7 @@ musnix https://github.com/musnix/musnix/archive/master.tar.gz
 <div align="center">
   <img src="misc/images/nixos-learning-curve.png" alt="NixOS Learning Graph widdth="400" height="400">
 </div>
+
+## Proudly
+
+[![built with nix](https://builtwithnix.org/badge.svg)](https://builtwithnix.org)
