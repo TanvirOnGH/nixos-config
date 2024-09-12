@@ -382,12 +382,12 @@ in {
       # Messengers
       telegram-desktop # gui: Official Telegram Desktop messaging app
       session-desktop # gui: Onion routing based messenger
-      simplex-chat-desktop # gui: Desktop application for SimpleX Chat
       revolt-desktop # gui: An open source user-first chat platform
       slack # gui: Desktop client for Slack
       zulip # gui: Desktop client for Zulip Chat
       keybase-gui # gui: The Keybase official GUI
       /*
+      simplex-chat-desktop # gui: Desktop application for SimpleX Chat
       qtox # gui: Qt Tox client
       rocketchat-desktop # gui: Official Desktop client for Rocket.Chat
       wire-desktop # gui: A modern, secure messenger for everyone
