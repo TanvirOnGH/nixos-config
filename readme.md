@@ -107,6 +107,8 @@ musnix https://github.com/musnix/musnix/archive/master.tar.gz
 
 - [hive](https://github.com/divnix/hive) - A framework that aims to help with organizing personal Nix configuration. Read more about it [here](https://primamateria.github.io/blog/hive/).
 
+- [haumea](https://github.com/nix-community/haumea) - Filesystem-based module system for Nix.
+
 - [nixos-tidy](https://github.com/pipelight/nixos-tidy) - A set of Nix functions/modules to ease the creation of sharable, flexible and standardized Nixos configurations.
 
 - [nix-mineral](https://github.com/cynicsketch/nix-mineral) - NixOS module for convenient system hardening.
