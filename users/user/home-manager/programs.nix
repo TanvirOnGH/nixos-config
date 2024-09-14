@@ -208,6 +208,9 @@ in {
       neovide = {
         enable = true;
         package = pkgs.neovide;
+        settings = {
+          vsync = true;
+        };
       };
 
       micro = {
