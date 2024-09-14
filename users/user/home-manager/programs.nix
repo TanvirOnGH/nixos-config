@@ -205,8 +205,10 @@ in {
         */
       };
 
-      # TODO: neovide home-manager module
-      # Tracking: https://github.com/nix-community/home-manager/issues/5791
+      neovide = {
+        enable = true;
+        package = pkgs.neovide;
+      };
 
       micro = {
         enable = true;
