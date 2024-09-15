@@ -6,13 +6,18 @@
     # # Search for (in nixpkgs): linuxKernel.kernels
     kernelPackages = pkgs.linuxPackages_xanmod_latest;
     # kernelPackages = pkgs.linuxPackages_latest;
+
+    # consoleLogLevel = 4;
+
     kernelParams = [
       "quiet"
       "iommu=pt"
       "mitigations=off"
       "nowatchdog"
       # "splash"
+      "logo.nologo"
       "split_lock_detect=off"
+      # "rd.udev.log_level=4"
     ];
 
     blacklistedKernelModules = [
