@@ -14,6 +14,11 @@
     kernelModules = ["nvidia" "nvidia_modeset" "nvidia_uvm" "nvidia_drm" "i2c-nvidia_gpu"];
     blacklistedKernelModules = ["nouveau"];
     # kernelParams = ["nvidia-drm.fbdev=1"];
+
+    extraModprobeConfig = ''
+      blacklist nouveau
+      options nouveau modeset=0
+    '';
   };
 
   hardware = {
@@ -59,7 +64,7 @@
       # Find IDs using: `sudo lshw -c display`
       # intelBusId = "PCI:0:2:0";
       # nvidiaBusId = "PCI:14:0:0";
-      # amdgpuBusId = "PCI:54:0:0"; For AMD GPU
+      # amdgpuBusId = "PCI:54:0:0";
     };
     */
   };
