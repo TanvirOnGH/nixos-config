@@ -285,6 +285,8 @@
 
     mullvad-vpn.enable = false;
 
+    snowflake-proxy.enable = false;
+
     # TODO: Setup sonarr, radarr, prowlarr, lidarr, readarr, bazarr, whisparr, exportarr, plex, kodi, ombi,
     # jellyseerr, overseerr
     # stash (https://hub.docker.com/r/stashapp/stash)

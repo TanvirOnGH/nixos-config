@@ -1,5 +1,7 @@
 # Settings Configuration
 {pkgs, ...}: {
+  environment.etc."issue".text = "Welcome to NixOS!\n";
+
   # Note: Don't forget to set a password with ‘passwd’
   users.users.root = {
     home = "/root";
