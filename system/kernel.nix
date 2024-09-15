@@ -16,7 +16,7 @@
       "nowatchdog"
       # "splash"
       "logo.nologo"
-      "split_lock_detect=off"
+      # "split_lock_detect=off"
       # "rd.udev.log_level=4"
     ];
 
