@@ -547,12 +547,12 @@ in {
       # librum # GUI: Ebook reader focused on simplicity and enjoyment.
       libsForQt5.okular # GUI: KDE document viewer.
       evince # GUI: GNOME document viewer.
-      qpdfview # GUI: Tabbed PDF viewer.
       llpp # GUI: MuPDF-based PDF pager written in OCaml.
       mate.atril # GUI: Multi-page document viewer for MATE.
       mupdf # GUI: Lightweight PDF, XPS, and ebook viewer.
       zathura # GUI: Highly customizable PDF viewer.
       /*
+      qpdfview # GUI: Tabbed PDF viewer.
       calibre # GUI: Comprehensive ebook management software.
       foliate # GUI: Simple and modern GTK ebook reader.
       koreader # GUI: Ebook reader supporting various formats.
