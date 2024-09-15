@@ -4,6 +4,9 @@
   # <https://wiki.nixos.org/wiki/Polkit>
   security.polkit.enable = true;
 
+  # Disable as it slows down the boot time
+  systemd.services.NetworkManager-wait-online.enable = false;
+
   systemd.user.services = {
     polkit-kde-authentication-agent-1 = {
       description = "polkit-kde-authentication-agent-1";
