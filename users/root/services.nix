@@ -67,6 +67,17 @@
     };
     */
 
+    logind = {
+      powerKey = "poweroff";
+      powerKeyLongPress = "reboot";
+      rebootKey = "reboot";
+      rebootKeyLongPress = "poweroff";
+
+      suspendKey = "suspend";
+      suspendKeyLongPress = "hibernate";
+      lidSwitch = "suspend-then-hibernate";
+    };
+
     teamviewer.enable = false;
     vnstat.enable = true;
     fstrim.enable = false;
@@ -125,6 +136,8 @@
       interval = "monthly";
       fileSystems = ["/"];
     };
+
+    # zfs.autoScrub.enable = true;
 
     # [2024-07-15] xmr-stak has been removed from nixpkgs because it was broken
     # <https://github.com/NixOS/nixpkgs/pull/327288>
