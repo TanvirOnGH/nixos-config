@@ -34,7 +34,8 @@
       # Fira Code for programming with ligatures
       fira-code
 
-      #monaspace
+      # monaspace <https://monaspace.githubnext.com/>
+
       /*
       inconsolata
       mononoki

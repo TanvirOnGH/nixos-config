@@ -7,7 +7,7 @@
     plotinus.enable = true;
 
     # Conflicts `programs.command-not-found.enable` | `programs.nix-index`. Only one among those.
-    command-not-found.enable = false;
+    command-not-found.enable = false; # Doesn't work without channels
     nix-index = {
       enable = true;
       enableBashIntegration = true;
