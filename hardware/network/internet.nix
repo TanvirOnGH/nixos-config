@@ -38,5 +38,10 @@ _: {
 
     # <https://wiki.nixos.org/wiki/WireGuard>
     wireguard.enable = false;
+
+    stevenblack = {
+      enable = true;
+      block = ["fakenews" "gambling"];
+    };
   };
 }

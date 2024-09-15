@@ -13,6 +13,6 @@
 
   boot.tmp.useTmpfs = lib.mkForce false;
 
-  # /tmp should be treated as volatile storage!
+  # /tmp should be treated as volatile storage
   boot.tmp.cleanOnBoot = lib.mkForce (!config.boot.tmp.useTmpfs);
 }
