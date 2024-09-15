@@ -45,6 +45,23 @@
       mount-nvidia-executables = true;
       mount-nvidia-docker-1-directories = true;
     };
+
+    # <https://wiki.nixos.org/wiki/Nvidia#Laptop_configuration:_hybrid_graphics_(Optimus_PRIME)>
+    /*
+    nvidia.prime = {
+      sync.enable = true;
+
+      offload = {
+        enable = true;
+        enableOffloadCmd = true;
+      };
+
+      # Find IDs using: `sudo lshw -c display`
+      # intelBusId = "PCI:0:2:0";
+      # nvidiaBusId = "PCI:14:0:0";
+      # amdgpuBusId = "PCI:54:0:0"; For AMD GPU
+    };
+    */
   };
 
   environment.sessionVariables = {

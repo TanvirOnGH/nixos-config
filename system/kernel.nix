@@ -18,6 +18,11 @@
       "logo.nologo"
       # "split_lock_detect=off"
       # "rd.udev.log_level=4"
+
+      "module_blacklist=i915"
+      # "module_blacklist=nouveau"
+      "module_blacklist=amdgpu"
+      "module_blacklist=radeon"
     ];
 
     blacklistedKernelModules = [
