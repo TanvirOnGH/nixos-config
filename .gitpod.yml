@@ -1,12 +1,15 @@
-# TODO: Use NixOS template: <https://github.com/gitpod-io/template-nixos>
-image: gitpod/workspace-full:latest
+image: gitpod/workspace-nix
 
 tasks:
-    - name: Setup alejandra
-      before: |
-          wget "https://github.com/kamadorueda/alejandra/releases/download/3.0.0/alejandra-x86_64-unknown-linux-musl" -O alejandra
+    - name: Install necessary packages
       command: |
-          chmod +x alejandra && mv alejandra /usr/local/bin/alejandra
+          nix profile install nixpkgs#nixd
+          nix profile install nixpkgs#alejandra
+          nix profile install nixpkgs#statix
+          nix profile install nixpkgs#deadnix
+          nix profile install nixpkgs#just
+          nix profile install nixpkgs#shellcheck
+          nix profile install nixpkgs#shfmt
 
 vscode:
     extensions:
