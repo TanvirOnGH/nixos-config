@@ -139,7 +139,7 @@ in {
           embed-subs = true;
           sub-langs = "en.\\*";
           windows-filenames = true;
-          write-auto-sub = true;
+          # write-auto-sub = true;
           write-sub = true;
           embed-chapters = true;
           embed-info-json = true;
