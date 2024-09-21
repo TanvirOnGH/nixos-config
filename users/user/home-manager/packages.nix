@@ -255,6 +255,16 @@ in {
       */
       # End of Reverse Engineering Tools
 
+      # Password Cracking
+      /*
+      cook-framework # CLI: An overpowered wordlist manager.
+      hashcat # CLI: Advanced password recovery utility.
+      hashcat-utils # CLI: Utilities for hashcat.
+      john # CLI: John the Ripper password cracker.
+      johnny # CLI: GUI for John the Ripper.
+      */
+      # End of Password Cracking
+
       # Debuggers
       /*
       strace # CLI: System call tracer.
@@ -383,10 +393,10 @@ in {
       telegram-desktop # GUI: Official Telegram Desktop app.
       session-desktop # GUI: Onion routing based messenger.
       revolt-desktop # GUI: Open-source chat platform.
-      slack # GUI: Desktop client for Slack.
-      zulip # GUI: Desktop client for Zulip Chat.
       keybase-gui # GUI: Keybase GUI client.
       /*
+      slack # GUI: Desktop client for Slack.
+      zulip # GUI: Desktop client for Zulip Chat.
       simplex-chat-desktop # GUI: Desktop app for SimpleX Chat.
       qtox # GUI: Qt Tox client.
       rocketchat-desktop # GUI: Desktop client for Rocket.Chat.
