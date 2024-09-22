@@ -233,6 +233,11 @@ in {
       */
       # End of Web Browsers
 
+      # P2P File Sharing
+      #- Music
+      nicotine-plus # GUI: Modern and maintained graphical client for the SoulSeek peer-to-peer system.
+      # End of P2P File Sharing
+
       # Email Clients
       /*
       betterbird # GUI: Enhanced version of Mozilla Thunderbird.
