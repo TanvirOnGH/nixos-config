@@ -167,7 +167,7 @@
     # Keybase
     keybase.enable = false;
     kbfs = {
-      enable = true;
+      enable = false;
       enableRedirector = false;
       mountPoint = "%h/keybase";
       extraFlags = [
