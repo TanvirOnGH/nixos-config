@@ -398,8 +398,8 @@ in {
       telegram-desktop # GUI: Official Telegram Desktop app.
       session-desktop # GUI: Onion routing based messenger.
       revolt-desktop # GUI: Open-source chat platform.
-      keybase-gui # GUI: Keybase GUI client.
       /*
+      keybase-gui # GUI: Keybase GUI client.
       slack # GUI: Desktop client for Slack.
       zulip # GUI: Desktop client for Zulip Chat.
       simplex-chat-desktop # GUI: Desktop app for SimpleX Chat.
