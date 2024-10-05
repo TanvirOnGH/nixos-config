@@ -331,6 +331,7 @@ in {
       # Eye Candy
       /*
       cava # CLI: Console-based audio visualizer.
+      cavalcade # GUI: Python wrapper for C.A.V.A. utility with a GUI.
       */
       # End of Eye Candy
 
@@ -491,8 +492,8 @@ in {
       */
       #- End of Audio Players
       #- Audio Controllers
-      jamesdsp # GUI: Audio effect processor for PipeWire clients.
       /*
+      jamesdsp # GUI: Audio effect processor for PipeWire clients.
       easyeffects # GUI: Audio effects for PipeWire applications.
       */
       pavucontrol # GUI: PulseAudio volume control.
@@ -941,9 +942,11 @@ in {
       # End of Tumbler Thumbnailers
 
       # VPN Clients
-      # protonvpn-gui # GUI: ProtonVPN client.
-      # protonvpn-cli_2 # CLI: ProtonVPN command-line client using OpenVPN.
-      # protonvpn-cli # CLI: ProtonVPN command-line client.
+      /*
+      protonvpn-gui # GUI: ProtonVPN client.
+      protonvpn-cli_2 # CLI: ProtonVPN command-line client using OpenVPN.
+      protonvpn-cli # CLI: ProtonVPN command-line client.
+      */
       # End of VPN Clients
 
       # Miscellaneous Tools and Applications
