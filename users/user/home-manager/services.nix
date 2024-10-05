@@ -31,7 +31,7 @@ in {
       };
 
       easyeffects = {
-        enable = true;
+        enable = false;
         package = pkgs.easyeffects;
         # Community Presets: <https://github.com/wwmm/easyeffects/wiki/PulseEffects-Wiki#community-presets>
         # preset = "Music";
