@@ -128,9 +128,9 @@ in {
       ripgrep # CLI: Fast and powerful search tool.
       rm-improved # CLI: Safer and more ergonomic replacement for 'rm'.
       fzf # CLI: Command-line fuzzy finder written in Go.
-      navi # CLI: Interactive cheatsheet tool for the command-line.
       zoxide # CLI: Fast 'cd' command that learns your habits.
       /*
+      navi # CLI: Interactive cheatsheet tool for the command-line.
       progress # CLI: Shows the progress of coreutils programs.
       gping # CLI: Ping with a graphical representation.
       atuin # CLI: Shell history replacement with context recording and optional sync.
@@ -362,6 +362,8 @@ in {
       qbittorrent # GUI: Feature-rich BitTorrent client. For plugins: <https://github.com/qbittorrent/search-plugins>
       /*
       tribler # GUI: Decentralized P2P file sharing client.
+      biglybt # GUI: BitTorrent client based on the Azureus that supports I2P darknet for privacy.
+      bitcomet # GUI: Free BitTorrent download client.
       multiplex # GUI: Watch torrents with friends.
       btfs # CLI: BitTorrent filesystem based on FUSE.
       jesec-rtorrent # CLI: Ncurses client for libtorrent.
