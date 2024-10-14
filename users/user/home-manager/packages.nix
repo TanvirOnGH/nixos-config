@@ -971,6 +971,7 @@ in {
 
       # Essential System Utilities
       resources # GUI: System resource monitor.
+      mission-center # GUI: Monitor your CPU, Memory, Disk, Network and GPU usage
       # gnome-usage # GUI: System resource usage viewer.
       # gnome-disk-utility # GUI: Disk management tool.
       # wgetpaste # CLI: Command-line interface to pastebin services.
