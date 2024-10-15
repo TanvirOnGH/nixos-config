@@ -4,7 +4,7 @@ This repository contains a list of security incidents that have been reported in
 
 ## 1. Universal Local Privilege Escalation ([#3](https://github.com/TanvirOnGH/nixos-config/issues/3))
 
-### CVEs
+### 1. CVEs
 
 - CVE-2024-1086
 
@@ -189,3 +189,40 @@ Note: It makes you vulnerable to a denial of service attack.
 5. [CVE-2024-6387 Check](https://github.com/xaitax/CVE-2024-6387_Check)
 6. [Recorded Future CVE Database](https://www.recordedfuture.com/vulnerability-database/CVE-2024-6387)
 7. [Debian Security Tracker](https://security-tracker.debian.org/tracker/CVE-2024-6387)
+
+## 5. Critical Use-After-Free Vulnerability in Firefox and Thunderbird ([#16](https://github.com/TanvirOnGH/nixos-config/issues/16))
+
+### 5. CVEs
+
+- CVE-2024-9680
+
+### 5. Description
+
+CVE-2024-9680 is a critical vulnerability affecting Firefox and Thunderbird. An attacker can achieve code execution in the content process by exploiting a use-after-free in Animation timelines. Reports indicate this vulnerability has been actively exploited in the wild.
+
+### 5. Info
+
+- **Type:** Use-After-Free
+- **Affected Products:**
+  - Firefox < 131.0.2
+  - Firefox ESR < 128.3.1
+  - Firefox ESR < 115.16.1
+  - Thunderbird < 131.0.1
+  - Thunderbird < 128.3.1
+  - Thunderbird < 115.16.0
+
+### 5. Solution/Mitigation
+
+Upgrade to the following versions to mitigate the vulnerability:
+
+- Firefox >=131.0.2
+- Firefox >=ESR 128.3.1
+- Firefox >=ESR 115.16.1
+
+### 5. References
+
+1. [nvd.nist.gov/vuln/detail/CVE-2024-9680](https://nvd.nist.gov/vuln/detail/CVE-2024-9680)
+2. [Bug 1923344](https://bugzilla.mozilla.org/show_bug.cgi?id=1923344)
+3. [Mozilla Security Advisory MFSA2024-51](https://www.mozilla.org/security/advisories/mfsa2024-51/)
+4. [Mozilla Security Advisory MFSA2024-52](https://www.mozilla.org/security/advisories/mfsa2024-52/)
+5. [Security Vulnerability - CVE-2024-9680, fixed in Firefox 131.0.2, Firefox ESR 128.3.1, Firefox ESR 115.16.1](https://www.mozilla.org/en-US/security/advisories/mfsa2024-51/)
