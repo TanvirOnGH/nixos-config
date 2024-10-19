@@ -38,7 +38,7 @@ in {
 
       eza = {
         enable = true;
-        icons = true;
+        icons = "always";
         git = true;
         enableFishIntegration = true;
         enableZshIntegration = true;
